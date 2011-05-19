@@ -1,4 +1,6 @@
 TvShows::Application.routes.draw do
+  resources :episodes
+
   resources :sources
 
   resources :tv_shows
