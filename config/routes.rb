@@ -1,4 +1,6 @@
 TvShows::Application.routes.draw do
+  resources :sources
+
   resources :tv_shows
 
   # The priority is based upon order of creation:
