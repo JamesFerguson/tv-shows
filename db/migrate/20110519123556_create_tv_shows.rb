@@ -3,6 +3,7 @@ class CreateTvShows < ActiveRecord::Migration
     create_table :tv_shows do |t|
       t.string :name
       t.string :url
+      t.references :source
 
       t.timestamps
     end

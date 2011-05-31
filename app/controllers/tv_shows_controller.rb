@@ -6,7 +6,12 @@ class TvShowsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @tv_shows }
+      format.atom do # index.atom.builder
+        render :layout => false
+      end
+      format.rss do # redirect rss to atom
+        redirect_to tv_shows_path(:format => :atom), :status => :moved_permanently
+      end
     end
   end
 
@@ -17,7 +22,12 @@ class TvShowsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @tv_show }
+      format.atom do # show.atom.builder
+        render :layout => false
+      end
+      format.rss do # redirect rss to atom
+        redirect_to tv_show_path(@tv_show, :format => :atom), :status => :moved_permanently
+      end
     end
   end
 

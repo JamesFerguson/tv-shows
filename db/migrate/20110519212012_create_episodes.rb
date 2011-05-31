@@ -5,6 +5,7 @@ class CreateEpisodes < ActiveRecord::Migration
       t.string :url
       t.integer :season
       t.integer :number
+      t.references :tv_show
 
       t.timestamps
     end
