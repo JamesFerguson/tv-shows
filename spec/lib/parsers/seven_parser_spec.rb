@@ -13,7 +13,7 @@ describe SevenParser do
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_tv_shows.htm')
     )
 
-    SevenParser.extract_shows.should == 
+    SevenParser.extract_shows.map(&:stringify_keys).should == 
         JSON.parse(File.read('spec/fakeweb/results/seven_parser_extract_shows.json'))
   end
   
@@ -28,8 +28,8 @@ describe SevenParser do
       show.url,
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_pages/winners-and-losers_page.htm')
     )
-    
-    SevenParser.extract_show(show).should == 
+
+    SevenParser.extract_show(show).map(&:stringify_keys).should == 
       JSON.parse(
         File.read(
           'spec/fakeweb/results/seven_com_au_results/winners-and-losers_extract_show.json'
