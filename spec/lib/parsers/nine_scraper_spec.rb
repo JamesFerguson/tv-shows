@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'parsers/nine_parser'
+require 'scrapers/nine_scraper'
 
-describe NineParser do
+describe NineScraper do
   before do
     FakeWeb.allow_net_connect = false
   end
@@ -9,11 +9,11 @@ describe NineParser do
   it "parses shows" do
     FakeWeb.register_uri(
       :get, 
-      NineParser::SHOWS_URL, 
+      NineScraper::SHOWS_URL, 
       :response => File.read(Rails.root + 'spec/fakeweb/pages/fixplay_ninemsn_com_au_tv_shows.htm')
     )
-    NineParser.extract_shows.map(&:stringify_keys).should == 
-      JSON.parse(File.read('spec/fakeweb/results/nine_parser_extract_shows.json'))
+    NineScraper.extract_shows.map(&:stringify_keys).should == 
+      JSON.parse(File.read('spec/fakeweb/results/nine_scraper_extract_shows.json'))
   end
   
   it "parses episodes" do
@@ -28,7 +28,7 @@ describe NineParser do
       :response => File.read(Rails.root + 'spec/fakeweb/pages/nine_com_au_pages/.htm')
     )
     
-    NineParser.extract_show(show).map(&:stringify_keys).should == 
+    NineScraper.extract_show(show).map(&:stringify_keys).should == 
       JSON.parse(File.read('spec/fakeweb/results/nine_com_au_results/.json'))
   end
 end

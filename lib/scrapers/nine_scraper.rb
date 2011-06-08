@@ -1,4 +1,4 @@
-class NineParser
+class NineScraper
   SHOWS_URL = URI.parse('http://fixplay.ninemsn.com.au/catalogue')
   
   def self.extract_shows

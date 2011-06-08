@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(:version => 20110522211316) do
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "parser"
+    t.string   "scraper"
   end
 
   create_table "tv_shows", :force => true do |t|

@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'parsers/seven_parser'
+require 'scrapers/seven_scraper'
 
-describe SevenParser do
+describe SevenScraper do
   before do
     FakeWeb.allow_net_connect = false
   end
@@ -9,12 +9,12 @@ describe SevenParser do
   it "parses shows" do
     FakeWeb.register_uri(
       :get, 
-      SevenParser::SHOWS_URL, 
+      SevenScraper::SHOWS_URL, 
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_tv_shows.htm')
     )
 
-    SevenParser.extract_shows.map(&:stringify_keys).should == 
-        JSON.parse(File.read('spec/fakeweb/results/seven_parser_extract_shows.json'))
+    SevenScraper.extract_shows.map(&:stringify_keys).should == 
+        JSON.parse(File.read('spec/fakeweb/results/seven_scraper_extract_shows.json'))
   end
   
   it "parses episodes" do
@@ -29,7 +29,7 @@ describe SevenParser do
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_pages/winners-and-losers_page.htm')
     )
 
-    SevenParser.extract_show(show).map(&:stringify_keys).should == 
+    SevenScraper.extract_show(show).map(&:stringify_keys).should == 
       JSON.parse(
         File.read(
           'spec/fakeweb/results/seven_com_au_results/winners-and-losers_extract_show.json'

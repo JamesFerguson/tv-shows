@@ -1,4 +1,4 @@
-class TenParser
+class TenScraper
   SHOWS_URL = URI.parse('http://ten.com.au/tvshows.htm')
   
   def self.extract_shows

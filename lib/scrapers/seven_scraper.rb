@@ -1,4 +1,4 @@
-class SevenParser
+class SevenScraper
   SHOWS_URL = URI.parse('http://au.tv.yahoo.com/plus7/browse/')
   
   def self.extract_shows
