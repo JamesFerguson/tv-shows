@@ -13,7 +13,7 @@ class SevenParser
   def self.extract_show(show)
     page = Nokogiri::HTML(open(show.url))
     
-    shows = page.css("ul#related-episodes .itemdetails h3 a").map do |node|
+    episodes = page.css("ul#related-episodes .itemdetails h3 a").map do |node|
       {
         :name => node.children[3].text,
         :url => URI.parse(show.url).merge(node.attributes['href'].value).to_s
