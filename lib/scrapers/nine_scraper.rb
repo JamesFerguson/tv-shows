@@ -1,13 +1,11 @@
 class NineScraper
-  SHOWS_URL = URI.parse('http://fixplay.ninemsn.com.au/catalogue')
-  
-  def self.extract_shows
-    page = Nokogiri::HTML(SHOWS_URL.open)
-    # debugger
-    # 0
+  def self.extract_shows(source_url)
+    shows_url = URI.parse(source_url)
+    
+    page = Nokogiri::HTML(shows_url.open)
     
     shows = page.css("a.linkItem").map do |node|
-      {:name => node.text, :url => SHOWS_URL.merge(node.attributes['href'].value).to_s}
+      {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
     end
   end
   
