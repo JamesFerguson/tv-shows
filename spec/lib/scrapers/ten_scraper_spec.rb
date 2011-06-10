@@ -6,7 +6,7 @@ describe TenScraper do
     FakeWeb.allow_net_connect = false
   end
   
-  it "parses shows" do
+  it "scrapes shows" do
     FakeWeb.register_uri(
       :get, 
       TenScraper::SHOWS_URL, 

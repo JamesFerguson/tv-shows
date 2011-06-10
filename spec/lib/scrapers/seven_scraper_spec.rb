@@ -6,18 +6,20 @@ describe SevenScraper do
     FakeWeb.allow_net_connect = false
   end
   
-  it "parses shows" do
+  it "scrapes shows" do
+    load 'db/seeds.rb'
+    source_url = Source.where(:name => "Channel Seven").first.url
     FakeWeb.register_uri(
       :get, 
-      SevenScraper::SHOWS_URL, 
+      source_url,
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_tv_shows.htm')
     )
 
-    SevenScraper.extract_shows.map(&:stringify_keys).should == 
+    SevenScraper.extract_shows(source_url).map(&:stringify_keys).should == 
         JSON.parse(File.read('spec/fakeweb/results/seven_scraper_extract_shows.json'))
   end
   
-  it "parses episodes" do
+  it "scrapes episodes" do
     show = TvShow.new(
       :name => "Winners and Losers",
       :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
