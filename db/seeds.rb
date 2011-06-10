@@ -6,19 +6,21 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
+puts "Seeding sources..."
+
 sources = [
-  [
-    { :name => "Channel Seven" },
-    { :url => 'http://au.tv.yahoo.com/plus7/browse/', :scraper => "SevenScraper" }
-  ],
-  [
-    { :name => "Channel Nine" },
-    { :url => 'http://fixplay.ninemsn.com.au/catalogue', :scraper => "NineScraper" }
-  ]
+  {
+    :name => "Channel Seven",
+    :url => 'http://au.tv.yahoo.com/plus7/browse/',
+    :scraper => "SevenScraper"
+  },
+  {
+    :name => "Channel Nine",
+    :url => 'http://fixplay.ninemsn.com.au/catalogue',
+    :scraper => "NineScraper"
+  }
 ]
 
 sources.each do |source_data|
-  source = Source.where(source_data.first).first || Source.create!(source_data.first)
-  
-  source.update_attributes!(source_data.last)
+  Source.find_or_create(Source, :name, source_data)
 end
