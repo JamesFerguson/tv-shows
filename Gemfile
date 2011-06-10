@@ -12,6 +12,7 @@ gem 'ruby-debug19'
 
 gem 'nokogiri'
 gem 'w3c_validators'
+gem 'whenever'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -19,10 +20,10 @@ gem 'w3c_validators'
 group :development, :test do
   gem "rspec"
   gem "rspec-rails"
-  gem "remarkable_activemodel", '4.0.0.alpha4'
+  gem "remarkable_activemodel"
   gem 'capybara'
-  gem 'forgery', '~> 0.3.7'
-  gem 'fakeweb', '~> 1.3.0'
-  # gem 'launchy', '~> 0.4.0'
+  gem 'forgery'
+  gem 'fakeweb'
+  # gem 'launchy'
   gem "awesome_print", :require => "ap"
 end
