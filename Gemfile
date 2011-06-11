@@ -21,9 +21,14 @@ group :development, :test do
   gem "rspec"
   gem "rspec-rails"
   gem "remarkable_activemodel"
+
   gem 'capybara'
+
+  gem 'machinist'
   gem 'forgery'
+
   gem 'fakeweb'
+
   # gem 'launchy'
   gem "awesome_print", :require => "ap"
 end
