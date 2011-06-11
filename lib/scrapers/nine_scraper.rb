@@ -12,10 +12,13 @@ class NineScraper
   def self.extract_show(show)
     page = Nokogiri::HTML(open(show.url))
     
-    shows = page.css("ul#related-episodes .itemdetails h3 a").map do |node|
+    shows = page.css("#all_articles_index .tr").map do |node|
       {
-        :name => node.children[3].text,
-        :url => URI.parse(show.url).merge(node.attributes['href'].value).to_s
+        :name => "Episode #{node.children[1].text}: #{node.css('.season_title').text}",
+        :url => URI.parse(show.url).
+                  merge(
+                    node.css('.watch_now_normal').first.attributes['href'].value
+                  ).to_s
       }
     end
   end
