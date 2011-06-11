@@ -6,8 +6,6 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
-puts "Seeding sources..."
-
 sources = [
   {
     :name => "Channel Seven",

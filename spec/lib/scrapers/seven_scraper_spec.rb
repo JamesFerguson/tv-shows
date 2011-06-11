@@ -31,7 +31,7 @@ describe SevenScraper do
       :response => File.read(Rails.root + 'spec/fakeweb/pages/seven_com_au_pages/winners-and-losers_page.htm')
     )
 
-    SevenScraper.extract_show(show).map(&:stringify_keys).should == 
+    SevenScraper.extract_episodes(show).map(&:stringify_keys).should == 
       JSON.parse(
         File.read(
           'spec/fakeweb/results/seven_com_au_results/winners-and-losers_extract_show.json'

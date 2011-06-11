@@ -43,7 +43,7 @@ describe NineScraper do
       :response => File.read(Rails.root + 'spec/fakeweb/pages/nine_com_au_pages/afp.htm')
     )
     
-    NineScraper.extract_show(show).map(&:stringify_keys).should == 
+    NineScraper.extract_episodes(show).map(&:stringify_keys).should == 
       JSON.parse(File.read('spec/fakeweb/results/nine_com_au_results/afp_extract_show.json'))
   end
 end

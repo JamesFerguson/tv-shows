@@ -9,7 +9,7 @@ class SevenScraper
     end
   end
 
-  def self.extract_show(show)
+  def self.extract_episodes(show)
     page = Nokogiri::HTML(open(show.url))
     
     episodes = page.css("ul#related-episodes .itemdetails h3 a").map do |node|
