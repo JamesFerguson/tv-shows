@@ -11,9 +11,11 @@ end
 
 TvShow.blueprint do
   name  { Sham.name }
+  url   { "http://#{name.parameterize}" }
 end
 
 Sham.episode_name { |index| "Episode #{index}" }
 Episode.blueprint do
   name  { Sham.episode_name }
+  url   { "http://#{name.parameterize}" }
 end

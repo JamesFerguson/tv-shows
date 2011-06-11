@@ -1,4 +1,4 @@
 class TvShow < ActiveRecord::Base
   belongs_to :source
-  has_many :episodes
+  has_many :episodes, :dependent => :destroy
 end
