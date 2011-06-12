@@ -22,11 +22,13 @@ describe "any scraper" do
       @sources.each do |source|
         require "scrapers/#{source.scraper.underscore}.rb"
         
+        source_url = source.url.gsub(%r{/}, '^')
+        source_url = (source_url !~ /(\.htm|\.xml)$/ ? source_url + '.htm' : source_url)
         FakeWeb.register_uri(
           :get, 
           source.url, 
           :response => File.read(Rails.root + 
-                                  "spec/fakeweb/pages/#{source.url.gsub(%r{/}, '^')}.htm")
+                                  "spec/fakeweb/pages/#{source_url}")
         )
       end
     end
@@ -41,10 +43,12 @@ describe "any scraper" do
     end
 
     it "excludes slideshow, poll, etc when parsing channel nine" do
-      NineScraper.extract_shows(Source.where(:name => "Channel Nine").first.url).map do |show_data|
+      NineScraper.extract_shows(
+                                Source.where(:name => "Channel Nine").first.url
+      ).map do |show_data|
         URI.parse(show_data[:url]).host
       end.
-      uniq.should == ["fixplay.ninemsn.com.au"]
+        uniq.should == ["fixplay.ninemsn.com.au"]
     end
   end
   
