@@ -36,6 +36,11 @@ sources = [
     :name => "iView Originals",
     :url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
     :scraper => "AbcScraper"
+  },
+  {
+    :name => "SMH.tv",
+    :url => "http://www.smh.com.au/tv/type/show", # ??
+    :scraper => "SmhScraper"
   }
 ]
 

@@ -3,12 +3,16 @@ require Rails.root + 'db/seeds.rb'
 
 # Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
 TvShow.destroy_all # rspec not deleting old records for some reason.
-@nine = Source.where(:name => "Channel Nine").first
-@nine.tv_shows.make(:name => "AFP", :url => "http://fixplay.ninemsn.com.au/afp")
-@seven = Source.where(:name => "Channel Seven").first
-@seven.tv_shows.make(
+Source.where(:name => "Channel Nine").first.tv_shows.make(:name => "AFP", :url => "http://fixplay.ninemsn.com.au/afp")
+
+Source.where(:name => "Channel Seven").first.tv_shows.make(
   :name => "Winners and Losers",
   :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
+)
+
+Source.where(:name => "SMH.tv").first.tv_shows.make(
+  :name => "Baby Baby",
+  :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
 )
 
 describe "any scraper" do
@@ -23,7 +27,7 @@ describe "any scraper" do
         require "scrapers/#{source.scraper.underscore}.rb"
         
         source_url = source.url.gsub(%r{/}, '^')
-        source_url = (source_url !~ /(\.htm|\.xml)$/ ? source_url + '.htm' : source_url)
+        source_url = (source_url !~ /(\.html?|\.xml)$/ ? source_url + '.htm' : source_url)
         FakeWeb.register_uri(
           :get, 
           source.url, 
@@ -56,11 +60,14 @@ describe "any scraper" do
     before(:each) do
       TvShow.all.each do |show|
         require "scrapers/#{show.source.scraper.underscore}.rb"
+
+        show_url = show.url.gsub(%r{/}, '^')
+        show_url = (show_url !~ /(\.html?|\.xml)$/ ? show_url + '.htm' : show_url)
         FakeWeb.register_uri(
           :get, 
           show.url, 
           :response => File.read(Rails.root + 
-                                  "spec/fakeweb/pages/#{show.url.gsub(%r{/}, '^')}.htm")
+                                  "spec/fakeweb/pages/#{show_url}")
         )
       end
     end
@@ -74,19 +81,4 @@ describe "any scraper" do
       end
     end
   end
-  # it "scrapes episodes" do
-  #   show = TvShow.new(
-  #     :name => "AFP",
-  #     :url => "http://fixplay.ninemsn.com.au/afp"
-  #   )
-  #   
-  #   FakeWeb.register_uri(
-  #     :get, 
-  #     show.url,
-  #     :response => File.read(Rails.root + 'spec/fakeweb/pages/nine_com_au_pages/afp.htm')
-  #   )
-  #   
-  #   NineScraper.extract_episodes(show).map(&:stringify_keys).should == 
-  #     JSON.parse(File.read('spec/fakeweb/results/nine_com_au_results/afp_extract_show.json'))
-  # end
 end
