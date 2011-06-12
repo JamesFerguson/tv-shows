@@ -10,12 +10,13 @@ class SevenScraper
   end
 
   def self.extract_episodes(show)
-    page = Nokogiri::HTML(open(show.url))
+    show_url = URI.parse(show.url)
+    page = Nokogiri::HTML(show_url.open)
     
     episodes = page.css("ul#related-episodes .itemdetails h3 a").map do |node|
       {
         :name => node.children[3].text,
-        :url => URI.parse(show.url).merge(node.attributes['href'].value).to_s
+        :url => show_url.merge(node.attributes['href'].value).to_s
       }
     end
   end

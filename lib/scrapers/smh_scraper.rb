@@ -10,8 +10,8 @@ class SmhScraper
   end
   
   def self.extract_episodes(show)
-    page = Nokogiri::HTML(open(show.url))
     show_url = URI.parse(show.url)
+    page = Nokogiri::HTML(show_url.open)
     
     episodes = page.css("ul.cN-listStoryTV").first.css('li').map do |node|
       link = node.css('h5 a').first

@@ -19,12 +19,13 @@ class AbcScraper
   
   def self.extract_episodes(show)
     page = Nokogiri::XML(open(show.source.url))
+    show_url = URI.parse(show.url)
     
     episodes = 
       page.xpath("/rss/channel/item[media:thumbnail[@url = '#{show.url}']]").map do |node|
       {
         :name => self.munge_title(node.xpath('title').text, :episode),
-        :url => URI.parse(show.url).merge(node.xpath('link').text).to_s
+        :url => show_url.merge(node.xpath('link').text).to_s
       }
     end
   end
