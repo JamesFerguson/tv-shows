@@ -16,6 +16,26 @@ sources = [
     :name => "Channel Nine",
     :url => 'http://fixplay.ninemsn.com.au/catalogue',
     :scraper => "NineScraper"
+  },
+  {
+    :name => "ABC1",
+    :url => "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
+    :scraper => "AbcScraper"
+  },
+  {
+    :name => "ABC2",
+    :url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
+    :scraper => "AbcScraper"
+  },
+  {
+    :name => "ABC3",
+    :url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
+    :scraper => "AbcScraper"
+  },
+  {
+    :name => "iView Originals",
+    :url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
+    :scraper => "AbcScraper"
   }
 ]
 
