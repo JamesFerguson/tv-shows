@@ -39,6 +39,13 @@ describe "any scraper" do
           ))        
       end
     end
+
+    it "excludes slideshow, poll, etc when parsing channel nine" do
+      NineScraper.extract_shows(Source.where(:name => "Channel Nine").first.url).map do |show_data|
+        URI.parse(show_data[:url]).host
+      end.
+      uniq.should == ["fixplay.ninemsn.com.au"]
+    end
   end
   
   context "after populating tv_shows and faking their urls" do
@@ -53,7 +60,7 @@ describe "any scraper" do
         )
       end
     end
-debugger
+
     TvShow.all.each do |show|
       it "scrapes the episodes for #{show.name} ok" do
         show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should == 
