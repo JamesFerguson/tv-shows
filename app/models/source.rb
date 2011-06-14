@@ -2,20 +2,12 @@ class Source < ActiveRecord::Base
   has_many :tv_shows, :dependent => :destroy
   
   def scrape
-    scraper_class.extract_shows(url).each do |show_data|
-      Source.find_or_create(tv_shows, :name, show_data)
-    end
-    save!
+    mark_all(tv_shows)
+    scrape_shows
     cleanup(tv_shows)
     self.reload
 
-    tv_shows.each do |show|
-      scraper_class.extract_episodes(show).each do |ep_data|
-        Source.find_or_create(show.episodes, :name, ep_data)
-      end
-      show.save!
-      cleanup(show.episodes)
-    end
+    scrape_episodes
   end
 
   def scraper_class
