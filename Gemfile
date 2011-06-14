@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git' # edge rails
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql2', '~> 0.2.1'
 gem 'unicorn'
 gem 'bundler'
 gem 'ruby-debug19'
