@@ -43,6 +43,7 @@ GEM
     childprocess (0.1.6)
       ffi (~> 0.6.3)
     columnize (0.3.2)
+    configuration (1.2.0)
     culerity (0.2.14)
     diff-lcs (1.1.2)
     erubis (2.6.6)
@@ -52,9 +53,16 @@ GEM
       rake (>= 0.8.7)
     forgery (0.3.8)
       nokogiri (~> 1.4)
+    heroku (2.2.8)
+      launchy (>= 0.3.2)
+      rest-client (~> 1.6.1)
+      term-ansicolor (~> 1.0.5)
     i18n (0.5.0)
     json_pure (1.5.1)
     kgio (2.1.1)
+    launchy (0.4.0)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
     linecache19 (0.5.11)
       ruby_core_source (>= 0.1.4)
     machinist (1.0.6)
@@ -91,6 +99,8 @@ GEM
     remarkable_activemodel (4.0.0.alpha4)
       remarkable (~> 4.0.0.alpha4)
       rspec (>= 2.0.0.alpha11)
+    rest-client (1.6.3)
+      mime-types (>= 1.16)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -120,6 +130,7 @@ GEM
       ffi (~> 0.6.3)
       json_pure
       rubyzip
+    term-ansicolor (1.0.5)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -142,6 +153,7 @@ DEPENDENCIES
   capybara
   fakeweb
   forgery
+  heroku
   machinist
   mysql2 (~> 0.2.1)
   nokogiri

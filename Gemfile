@@ -13,6 +13,7 @@ gem 'ruby-debug19'
 gem 'nokogiri'
 gem 'w3c_validators'
 gem 'whenever'
+gem 'heroku'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
