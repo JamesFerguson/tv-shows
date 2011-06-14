@@ -3,9 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git' # edge rails
 gem 'mysql2', '~> 0.2.1'
-gem 'unicorn'
 gem 'bundler'
-gem 'ruby-debug19'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -19,6 +17,9 @@ gem 'heroku'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
+  gem 'unicorn'
+  gem 'ruby-debug19'
+
   gem "rspec"
   gem "rspec-rails"
   gem "remarkable_activemodel"
