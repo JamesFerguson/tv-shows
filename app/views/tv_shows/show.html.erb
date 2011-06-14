@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @tv_show.name %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @tv_show.url %>
+</p>
+
+
+<%= link_to 'Edit', edit_tv_show_path(@tv_show) %> |
+<%= link_to 'Back', tv_shows_path %>

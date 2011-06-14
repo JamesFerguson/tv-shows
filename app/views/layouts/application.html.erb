@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TvShows</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+  <%= auto_discovery_link_tag(:atom, tv_shows_url(:format => :atom)) %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
