@@ -1,5 +1,6 @@
 class Source < ActiveRecord::Base
   has_many :tv_shows, :dependent => :destroy
+  has_many :episodes, :through => :tv_shows
   
   def scrape
     mark_all(tv_shows)
@@ -7,7 +8,9 @@ class Source < ActiveRecord::Base
     cleanup(tv_shows)
     self.reload
 
+    mark_all(episodes)
     scrape_episodes
+    cleanup(episodes)
   end
 
   def scraper_class
@@ -21,11 +24,40 @@ class Source < ActiveRecord::Base
     item ||= collection.create!(create_or_update_data)
   end
 
+
   private
+
+  def scrape_shows
+    scraper_class.extract_shows(self.url).each do |show_data|
+      Source.find_or_create(tv_shows, :name, show_data.merge(:deactivated_at => nil))
+    end
+    
+    save!
+  end
+  
+  def scrape_episodes
+    tv_shows.active.each do |show|
+      scrape_show_episodes(show)
+    end
+  end
+  
+  def scrape_show_episodes(show)
+    scraper_class.extract_episodes(show).each do |ep_data|
+      Source.find_or_create(show.episodes, :name, ep_data)
+    end
+
+    show.save!
+  end
+  
+  def mark_all(collection)
+    collection.where(:deactivated_at => nil).each do |item|
+      item.update_attribute(:deactivated_at, DateTime.now)
+    end
+  end
 
   def cleanup(collection)
     collection.where(
-      collection.arel_table[:updated_at].lt(DateTime.now - 2.hours)
+      collection.arel_table[:deactivated_at].lt(DateTime.now - 1.month)
     ).destroy_all
   end
 end
