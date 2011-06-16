@@ -5,12 +5,12 @@ class Source < ActiveRecord::Base
   def scrape
     mark_all(tv_shows)
     scrape_shows
-    cleanup(tv_shows)
+    cleanup(tv_shows, DateTime.now - 4.months)
     self.reload
 
     mark_all(episodes)
     scrape_episodes
-    cleanup(episodes)
+    cleanup(episodes, DateTime.now - 2.weeks)
   end
 
   def scraper_class
@@ -55,9 +55,9 @@ class Source < ActiveRecord::Base
     end
   end
 
-  def cleanup(collection)
+  def cleanup(collection, threshold)
     collection.where(
-      collection.arel_table[:deactivated_at].lt(DateTime.now - 1.month)
+      collection.arel_table[:deactivated_at].lt(threshold)
     ).destroy_all
   end
 end

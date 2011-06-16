@@ -33,11 +33,11 @@ describe Source do
       Episode.active.first.should be_nil
     end
 
-    it "removes shows/episodes not in the feed and more than 1 month old" do
+    it "removes shows/episodes not in the feed and of a certain age" do
       @b = @source.tv_shows.make
-      @b.update_attributes!(:deactivated_at => DateTime.now - 1.month - 1.day)
+      @b.update_attributes!(:deactivated_at => DateTime.now - 4.months - 1.day)
       @b1 = @b.episodes.make
-      @b1.update_attributes!(:deactivated_at => DateTime.now - 1.month - 1.day)
+      @b1.update_attributes!(:deactivated_at => DateTime.now - 4.months - 1.day)
       @source.scraper_class.stub(:extract_shows).and_return([])
 
       @source.scrape
@@ -80,9 +80,15 @@ describe Source do
     source.tv_shows << TvShow.make
     source.tv_shows.last.update_attributes!(:deactivated_at => DateTime.now - 1.month - 1.day)
 
-    source.send(:cleanup, source.tv_shows)
+    source.send(:cleanup, source.tv_shows, DateTime.now - 1.month)
 
     source.tv_shows.count.should == 2
+    source.tv_shows.active.count.should == 1
+    source.tv_shows.active.last.name.should == "Number 1"
+
+    source.send(:cleanup, source.tv_shows, DateTime.now - 2.hours)
+
+    source.tv_shows.count.should == 1
     source.tv_shows.active.count.should == 1
     source.tv_shows.active.last.name.should == "Number 1"
   end
