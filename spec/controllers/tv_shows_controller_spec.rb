@@ -11,7 +11,7 @@ describe TvShowsController do
 
   it "renders a show index to atom" do
     @show = mock_model("TvShow")
-    TvShow.stub(:all).and_return([@show])
+    TvShow.stub(:active).and_return([@show])
 
     get :index, :format => "atom"
 
