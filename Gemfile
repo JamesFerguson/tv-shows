@@ -11,6 +11,7 @@ gem 'bundler'
 gem 'nokogiri'
 gem 'w3c_validators'
 gem 'heroku'
+gem 'taps'
 gem 'friendly_id'
 
 # Bundle gems for the local environment. Make sure to
