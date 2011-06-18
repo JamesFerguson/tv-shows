@@ -47,6 +47,14 @@ describe Source do
     end
   end
   
+  context "slugs" do
+    it "has a slug" do
+      @source = Source.make :name => "Channel 9"
+      
+      @source.friendly_id.should == "channel-9"
+    end
+  end
+  
   context "Source.find_or_create" do
     before do
       Source.find_or_create(Source, :name, :name => "Channel Z", :url => "http://abc")
