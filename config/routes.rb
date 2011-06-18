@@ -1,7 +1,9 @@
 TvShows::Application.routes.draw do
   resources :episodes
 
-  resources :sources
+  resources :sources, :only => :show do
+    resources :tv_shows, :only => :show
+  end
 
   resources :tv_shows
 

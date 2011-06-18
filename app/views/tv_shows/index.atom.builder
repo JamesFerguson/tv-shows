@@ -8,7 +8,7 @@ atom_feed do |feed|
   @tv_shows.each do |tv_show|
     next if tv_show.updated_at.blank?
     
-    feed.entry(tv_show, :url => tv_show_url(tv_show, :format => :atom)) do |entry|
+    feed.entry(tv_show, :url => source_tv_show_url(tv_show.source, tv_show, :format => :atom)) do |entry|
       entry.title(tv_show.name)
       entry.content("#{tv_show.name} (#{tv_show.episodes.count} episodes)", :type => 'html')
       entry.author do |author|

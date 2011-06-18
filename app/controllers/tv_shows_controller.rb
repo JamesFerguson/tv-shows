@@ -2,7 +2,7 @@ class TvShowsController < ApplicationController
   # GET /tv_shows
   # GET /tv_shows.xml
   def index
-    @tv_shows = TvShow.all
+    @tv_shows = TvShow.active
 
     respond_to do |format|
       format.html # index.html.erb
@@ -19,6 +19,7 @@ class TvShowsController < ApplicationController
   # GET /tv_shows/1.xml
   def show
     @tv_show = TvShow.find(params[:id])
+    @episodes = @tv_show.episodes.active
 
     respond_to do |format|
       format.html # show.html.erb
