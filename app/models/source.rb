@@ -2,6 +2,8 @@ class Source < ActiveRecord::Base
   has_many :tv_shows, :dependent => :destroy
   has_many :episodes, :through => :tv_shows
   
+  has_friendly_id :name, :use_slug => true
+  
   def scrape
     mark_all(tv_shows)
     scrape_shows

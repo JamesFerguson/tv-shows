@@ -2,6 +2,16 @@ require 'spec_helper'
 
 describe TvShowsController do
   
+  context "slugs" do
+    it "uses slugs in atom feed urls" do
+      @source = Source.make :name => "Source Name"
+      @tv_show = @source.tv_shows.make :name => "Tv Show Name"
+      
+      source_tv_show_url(@tv_show.source, @tv_show, :format => :atom).should =~ %r{sources/source-name/tv_shows/tv-show-name.atom$}
+    end
+
+  end
+  
   it "redirects rss to atom" do
     get :index, :format => :rss
     
