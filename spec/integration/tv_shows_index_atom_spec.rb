@@ -4,6 +4,7 @@ describe "get :index, :format => :atom" do
   
   before do
     @source = Source.create!(
+      :name => "Channel Twenty Seven",
       :url => "Source URL goes here"
     )
     @show = TvShow.create!(
@@ -18,7 +19,7 @@ describe "get :index, :format => :atom" do
     page.should have_xpath('//feed/title', :text => 'TV Shows')
 
     page.should have_content("Name goes here (0 episodes)")
-    page.should have_xpath("//link[@href='http://www.example.com/tv_shows/#{@show.id}.atom']")
+    page.should have_xpath("//link[@href='http://www.example.com/sources/#{@source.friendly_id}/tv_shows/#{@show.friendly_id}.atom']")
     page.should have_content("Source URL goes here")
   end
   
