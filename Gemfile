@@ -10,8 +10,8 @@ gem 'bundler'
 
 gem 'nokogiri'
 gem 'w3c_validators'
-gem 'whenever'
 gem 'heroku'
+gem 'friendly_id'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
