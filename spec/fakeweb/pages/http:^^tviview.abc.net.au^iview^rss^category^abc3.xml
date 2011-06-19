@@ -1,13 +1,4 @@
-HTTP/1.1 200 OK
-Server: nginx/0.8.54
-Date: Thu, 09 Jun 2011 13:16:09 GMT
-Content-Type: text/html; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-X-Powered-By: PHP/5.3.3-7+squeeze1
-Expires: Thu, 09 Jun 2011 13:51:17 GMT
-
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"> 
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel> 
 	<title><![CDATA[ABC iview - abc3]]></title> 
 	<link>http://www.abc.net.au/iview/#/abc3</link> 
