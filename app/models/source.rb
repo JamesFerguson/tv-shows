@@ -22,7 +22,10 @@ class Source < ActiveRecord::Base
   
   def self.find_or_create(collection, find_key, create_or_update_data)
     item = collection.where(find_key => create_or_update_data[find_key]).first
-    item.try(:update_attributes!, create_or_update_data)
+    if item
+      create_or_update_data.merge!(:deactivated_at => nil) if item.attributes.keys.include?('deactivated_at')
+      item.update_attributes!( create_or_update_data)
+    end
     item ||= collection.create!(create_or_update_data)
   end
 
@@ -31,7 +34,7 @@ class Source < ActiveRecord::Base
 
   def scrape_shows
     scraper_class.extract_shows(self.url).each do |show_data|
-      Source.find_or_create(tv_shows, :name, show_data.merge(:deactivated_at => nil))
+      Source.find_or_create(tv_shows, :name, show_data)
     end
     
     save!
