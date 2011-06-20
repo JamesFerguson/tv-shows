@@ -5,10 +5,20 @@ class SmhScraper < BaseScraper
     shows_url = URI.parse(source_url)
     
     page = Nokogiri::HTML(read_url(shows_url))
-    
-    shows = page.css("ul.cN-listStoryTV h5 a").map do |node|
-      {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+
+    subpage_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
+
+    shows = []
+    subpage_urls.each do |subpage_url|
+      debugger
+      page = Nokogiri::HTML(read_url(subpage_url))
+
+      shows << page.css("ul.cN-listStoryTV h5 a").map do |node|
+        {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+      end
     end
+
+    shows.flatten!
   end
   
   def self.extract_episodes(show)
