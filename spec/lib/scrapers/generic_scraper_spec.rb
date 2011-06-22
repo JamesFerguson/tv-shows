@@ -1,5 +1,8 @@
 require 'spec_helper'
 require Rails.root + 'db/seeds.rb'
+Source.all.each do |source|
+  require "scrapers/#{source.scraper.underscore}.rb"
+end
 
 TvShow.destroy_all # rspec not deleting old records for some reason.
 seed_tv_shows # Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
@@ -10,12 +13,6 @@ describe "any scraper" do
   end
   
   context "after faking scrapers' source urls" do
-    before do
-      Source.all.each do |source|
-        require "scrapers/#{source.scraper.underscore}.rb"
-      end
-    end
-
     Source.all.each do |source|
       it "scrapes the index for #{source.name} ok" do
         source_url = source.url.gsub(%r{/}, '^')
