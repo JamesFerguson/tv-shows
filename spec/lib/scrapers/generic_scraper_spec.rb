@@ -1,19 +1,8 @@
 require 'spec_helper'
 require Rails.root + 'db/seeds.rb'
 
-# Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
 TvShow.destroy_all # rspec not deleting old records for some reason.
-Source.where(:name => "Channel Nine").first.tv_shows.make(:name => "AFP", :url => "http://fixplay.ninemsn.com.au/afp")
-
-Source.where(:name => "Channel Seven").first.tv_shows.make(
-  :name => "Winners and Losers",
-  :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
-)
-
-Source.where(:name => "SMH.tv").first.tv_shows.make(
-  :name => "Baby Baby",
-  :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
-)
+seed_tv_shows # Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
 
 describe "any scraper" do
   before do
