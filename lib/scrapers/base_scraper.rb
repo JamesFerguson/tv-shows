@@ -1,5 +1,9 @@
 class BaseScraper
-  def self.extract_shows(source_url)
+  def self.extract_show_urls(source_url)
+    [source_url]
+  end
+
+  def self.extract_shows(source_urls)
     raise "BaseScraper method called. Method should be implemented by #{self.class.name}"
   end
 
