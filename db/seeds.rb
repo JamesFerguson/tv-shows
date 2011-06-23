@@ -48,18 +48,3 @@ sources.each do |source_data|
   Source.find_or_create(Source, :name, source_data)
 end
 
-if %w{development test}.include? Rails.env
-  def seed_tv_shows
-    Source.where(:name => "Channel Nine").first.tv_shows.make(:name => "AFP", :url => "http://fixplay.ninemsn.com.au/afp")
-
-    Source.where(:name => "Channel Seven").first.tv_shows.make(
-      :name => "Winners and Losers",
-      :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
-    )
-
-    Source.where(:name => "SMH.tv").first.tv_shows.make(
-      :name => "Baby Baby",
-      :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
-    )
-  end
-end
