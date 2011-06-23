@@ -59,8 +59,10 @@ describe "the scraper in question" do
 
       it "scrapes the episodes for #{source.tv_shows.first.name} ok" do
         show = source.tv_shows.first
+        url = source.scraper_class == AbcScraper ? source.url : show.url
+
         show.source.scraper_class.should_receive(:read_url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(show.url)}")
+            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
         )
 
         show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should ==
