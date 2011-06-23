@@ -41,7 +41,7 @@ describe "the scraper in question" do
       )
 
       NineScraper.extract_shows(
-        NineScraper.extract_show_urls(source.url)
+        NineScraper.extract_show_urls(source.url).first
       ).map do |show_data|
         URI.parse(show_data[:url]).host
       end.
