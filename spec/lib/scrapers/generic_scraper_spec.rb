@@ -52,7 +52,7 @@ describe "the scraper in question" do
   context "tv_shows scrape ok" do
     Source.all.each do |source|
       it "has a tv_show seeded" do
-        source.tv_shows.count.should >= 0
+        source.tv_shows.count.should > 0
       end
 
       next unless source.tv_shows.first
