@@ -7,19 +7,13 @@ class SmhScraper < BaseScraper
     show_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
   end
   
-  def self.extract_shows(source_urls)
-    shows = []
+  def self.extract_shows(source_url)
+    source_url = URI.parse(source_url)
+    page = Nokogiri::HTML(read_url(source_url))
 
-    source_urls.each do |source_url|
-      source_url = URI.parse(source_url)
-      page = Nokogiri::HTML(read_url(source_url))
-
-      shows << page.css("ul.cN-listStoryTV h5 a").map do |node|
-        {:name => node.text, :url => source_url.merge(node.attributes['href'].value).to_s}
-      end
+    shows = page.css("ul.cN-listStoryTV h5 a").map do |node|
+      {:name => node.text, :url => source_url.merge(node.attributes['href'].value).to_s}
     end
-
-    shows.flatten!
   end
   
   def self.extract_episodes(show)
