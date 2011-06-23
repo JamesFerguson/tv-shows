@@ -20,15 +20,17 @@ describe "the scraper in question" do
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each do |url|
-          source.scraper.constantize.should_receive(:read_url).with(URI.parse(url)).and_return(
+          source.scraper_class.should_receive(:read_url).with(URI.parse(url)).and_return(
               File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
           )
         end
 
-        source.scraper_class.extract_shows(show_urls).map(&:stringify_keys).should ==
-          JSON.parse(File.read(
-            "spec/fakeweb/results/#{fakewebize(source.url)}.json"
-          ))        
+        shows = []
+        show_urls.each do |url|
+          shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
+        end
+        shows.flatten.should ==
+          JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
     end
 
