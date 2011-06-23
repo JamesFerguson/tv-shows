@@ -4,7 +4,6 @@ namespace :web do
   task :scrape => :environment do
     puts "Scraping teh interwebs."
     
-#    Source.all.map(&:scrape)
     Rake::Task[:scrape_shows]
 #    Rake::Task[:scrape_episodes]
 

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require Rails.root + 'db/seeds.rb'
+
 Source.all.each do |source|
   require "scrapers/#{source.scraper.underscore}.rb"
 end
