@@ -1,20 +1,21 @@
 require Rails.root + 'lib/scrapers/base_scraper'
 
 class SmhScraper < BaseScraper
-  def self.extract_shows(source_url)
-    shows_url = URI.parse(source_url)
-    
-    page = Nokogiri::HTML(read_url(shows_url))
+  def self.extract_show_urls(source_url)
+    page = Nokogiri::HTML(read_url(URI.parse(source_url)))
 
-    subpage_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
-
+    show_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
+  end
+  
+  def self.extract_shows(source_urls)
     shows = []
-    subpage_urls.each do |subpage_url|
-      debugger
-      page = Nokogiri::HTML(read_url(subpage_url))
+
+    source_urls.each do |source_url|
+      source_url = URI.parse(source_url)
+      page = Nokogiri::HTML(read_url(source_url))
 
       shows << page.css("ul.cN-listStoryTV h5 a").map do |node|
-        {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+        {:name => node.text, :url => source_url.merge(node.attributes['href'].value).to_s}
       end
     end
 
