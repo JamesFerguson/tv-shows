@@ -2,6 +2,8 @@ require Rails.root + 'lib/scrapers/base_scraper'
 
 class SevenScraper < BaseScraper
   def self.extract_shows(source_url)
+    source_url = source_url.first
+
     shows_url = URI.parse(source_url)
     
     page = Nokogiri::HTML(read_url(shows_url))
