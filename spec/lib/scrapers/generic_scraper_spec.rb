@@ -15,11 +15,15 @@ describe "the scraper in question" do
   context "after faking scrapers' source urls" do
     Source.all.each do |source|
       it "scrapes the index for #{source.name} ok" do
-        source.scraper.constantize.should_receive(:read_url).with(URI.parse(source.url)).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
-        )
+        show_urls = source.scraper_class.extract_show_urls(source.url)
 
-        source.scraper_class.extract_shows(source.url).map(&:stringify_keys).should ==
+        show_urls.each do |url|
+          source.scraper.constantize.should_receive(:read_url).with(URI.parse(url)).and_return(
+              File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+          )
+        end
+
+        source.scraper_class.extract_shows(show_urls).map(&:stringify_keys).should ==
           JSON.parse(File.read(
             "spec/fakeweb/results/#{fakewebize(source.url)}.json"
           ))        
@@ -33,7 +37,7 @@ describe "the scraper in question" do
       )
 
       NineScraper.extract_shows(
-        source.url
+        NineScraper.extract_show_urls(source.url)
       ).map do |show_data|
         URI.parse(show_data[:url]).host
       end.
@@ -41,9 +45,16 @@ describe "the scraper in question" do
     end
   end
   
-  context "after populating tv_shows and faking their urls" do
-    TvShow.all.each do |show|
-      it "scrapes the episodes for #{show.name} ok" do
+  context "tv_shows scrape ok" do
+    Source.all.each do |source|
+      it "has a tv_show seeded" do
+        source.tv_shows.count.should >= 0
+      end
+
+      next unless source.tv_shows.first
+
+      it "scrapes the episodes for #{source.tv_shows.first.name} ok" do
+        show = source.tv_shows.first
         show.source.scraper_class.should_receive(:read_url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(show.url)}")
         )
