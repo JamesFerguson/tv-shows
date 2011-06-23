@@ -8,6 +8,8 @@ TvShow.destroy_all # rspec not deleting old records for some reason.
 seed_tv_shows # Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
 
 describe "the scraper in question" do
+  include FakewebHelper
+
   before do
     FakeWeb.allow_net_connect = false
   end
@@ -65,10 +67,5 @@ describe "the scraper in question" do
           ))
       end
     end
-  end
-
-  def fakewebize(url)
-    url = url.gsub(%r{/}, '^')
-    url = (url !~ /(\.html?|\.xml)$/ ? url + '.htm' : url)
   end
 end
