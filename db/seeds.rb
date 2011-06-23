@@ -18,17 +18,17 @@ sources = [
     :scraper => "NineScraper"
   },
   {
-    :name => "ABC1",
+    :name => "ABC 1",
     :url => "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
     :scraper => "AbcScraper"
   },
   {
-    :name => "ABC2",
+    :name => "ABC 2",
     :url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
     :scraper => "AbcScraper"
   },
   {
-    :name => "ABC3",
+    :name => "ABC 3",
     :url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
     :scraper => "AbcScraper"
   },
