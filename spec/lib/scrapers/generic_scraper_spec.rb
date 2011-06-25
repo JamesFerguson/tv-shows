@@ -1,17 +1,17 @@
 require 'spec_helper'
 
-puts "gen: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
-
-describe "the scraper in question" do
+describe "each scraper" do
   include FakewebHelper
 
-  before(:each) do
+  before(:all) do
     FakeWeb.allow_net_connect = false
+    seed_sources
+    seed_tv_shows
   end
-  
+
   context "after faking scrapers' source urls" do
-    Source.all.each do |source|
-      it "scrapes the index for #{source.name} ok" do
+    it "scrapes the index for each source ok" do
+      Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each do |url|
@@ -24,7 +24,7 @@ describe "the scraper in question" do
         show_urls.each do |url|
           shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
         end
-        debugger if shows.flatten.count > 100
+
         shows.flatten.should ==
           JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
@@ -45,15 +45,15 @@ describe "the scraper in question" do
     end
   end
   
-  context "tv_shows scrape ok" do
-    Source.all.each do |source|
-      it "has a tv_show seeded" do
+  context "scrapes tv_shows ok" do
+    it "has a tv_show seeded" do
+      Source.all.each do |source|
         source.tv_shows.count.should > 0
       end
+    end
 
-      next unless source.tv_shows.first
-
-      it "scrapes the episodes for #{source.tv_shows.first.name} ok" do
+    it "scrapes the episodes for each show ok" do
+      Source.all.each do |source|
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.url
 
