@@ -7,6 +7,8 @@ describe "rake web:scrape" do
     FakeWeb.allow_net_connect = false
 
     @rake = Rake.application
+
+    seed_sources
   end
 
   context "after faking pages for all source urls" do
@@ -38,6 +40,7 @@ describe "rake web:scrape" do
       Source.where(:name => "SMH.tv").first.tv_shows.count.should == 174
 
       Source.count.should == 7
+      TvShow.count.should == 407
     end
   end
 end
