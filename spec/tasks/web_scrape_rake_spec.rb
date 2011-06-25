@@ -1,11 +1,6 @@
 require 'spec_helper'
-require 'rake'
 
-Source.all.each do |source|
-  require "scrapers/#{source.scraper.underscore}.rb"
-end
-
-TvShow.destroy_all # rspec not deleting old records for some reason.
+puts "web: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
 
 describe "rake web:scrape" do
   include FakewebHelper
@@ -36,7 +31,6 @@ describe "rake web:scrape" do
     end
 
     it "should create some shows" do
-      puts "invoking scrape_shows"
       @rake["web:scrape_shows"].invoke
 
       Source.where(:name => "Channel Nine").first.tv_shows.count.should == 38

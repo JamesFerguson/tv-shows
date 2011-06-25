@@ -1,16 +1,11 @@
 require 'spec_helper'
 
-Source.all.each do |source|
-  require "scrapers/#{source.scraper.underscore}.rb"
-end
-
-TvShow.destroy_all # rspec not deleting old records for some reason.
-seed_tv_shows # Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
+puts "gen: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
 
 describe "the scraper in question" do
   include FakewebHelper
 
-  before do
+  before(:each) do
     FakeWeb.allow_net_connect = false
   end
   
@@ -29,6 +24,7 @@ describe "the scraper in question" do
         show_urls.each do |url|
           shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
         end
+        debugger if shows.flatten.count > 100
         shows.flatten.should ==
           JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
