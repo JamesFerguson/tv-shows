@@ -12,8 +12,6 @@ namespace :web do
 
   desc "Scrape show from all sources"
   task :scrape_shows => :environment do
-    puts caller.join("\n")
-
     puts "Scraping teh shows."
 
     Source.all.each(&:scrape_shows)
