@@ -5,13 +5,20 @@ class Source < ActiveRecord::Base
   has_friendly_id :name, :use_slug => true
   
   def scrape
-    mark_all(tv_shows)
     scrape_shows
+    scrape_episodes
+  end
+
+  def scrape_shows
+    mark_all(tv_shows)
+    scrape_show_data
     cleanup(tv_shows, DateTime.now - 4.months)
     self.reload
+  end
 
+  def scrape_episodes
     mark_all(episodes)
-    scrape_episodes
+    scrape_episode_data
     cleanup(episodes, DateTime.now - 2.weeks)
   end
 
@@ -32,15 +39,17 @@ class Source < ActiveRecord::Base
 
   private
 
-  def scrape_shows
-    scraper_class.extract_shows(self.url).each do |show_data|
-      Source.find_or_create(tv_shows, :name, show_data)
+  def scrape_show_data
+    scraper_class.extract_show_urls(self.url).each do |url|
+      scraper_class.extract_shows(url).each do |show_data|
+        Source.find_or_create(tv_shows, :name, show_data)
+      end
     end
-    
+
     save!
   end
   
-  def scrape_episodes
+  def scrape_episode_data
     tv_shows.active.each do |show|
       scrape_show_episodes(show)
     end
