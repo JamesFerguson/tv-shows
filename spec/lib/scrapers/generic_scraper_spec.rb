@@ -9,6 +9,11 @@ describe "each scraper" do
     seed_tv_shows
   end
 
+  after(:all) do
+    Source.destroy_all
+    TvShow.destroy_all
+  end
+  
   context "after faking scrapers' source urls" do
     it "scrapes the index for each source ok" do
       Source.all.each do |source|

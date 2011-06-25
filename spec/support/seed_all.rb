@@ -49,10 +49,3 @@ end
 def seed_sources
   load Rails.root.join('db/seeds.rb')
 end
-
-RSpec::configure do |config|
-  config.after(:all) do
-    Source.destroy_all
-    TvShow.destroy_all
-  end
-end

@@ -11,6 +11,10 @@ describe "rake web:scrape" do
     seed_sources
   end
 
+  after(:all) do
+    Source.destroy_all
+  end
+  
   context "after faking pages for all source urls" do
     before(:each) do
       Source.all.each do |source|
