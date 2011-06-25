@@ -1,16 +1,12 @@
 require 'spec_helper'
 
-puts "web: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
-
 describe "rake web:scrape" do
   include FakewebHelper
 
-  before do
+  before(:all) do
     FakeWeb.allow_net_connect = false
 
     @rake = Rake.application
-    @rake.init
-    @rake.load_rakefile
   end
 
   context "after faking pages for all source urls" do
