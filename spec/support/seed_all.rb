@@ -1,6 +1,3 @@
-# seed Sources once and for all
-require Rails.root.join('db/seeds.rb')
-
 def seed_tv_shows
   tv_shows = [
     {
@@ -49,19 +46,13 @@ def seed_tv_shows
   end
 end
 
-seed_tv_shows
+def seed_sources
+  load Rails.root.join('db/seeds.rb')
+end
 
 RSpec::configure do |config|
-  config.before(:all) do
-    puts "requiring source seeds and calling seed_tv_shows"
-
-    puts "bef all: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
-  end
-
   config.after(:all) do
-    puts "Deleting sources and shows"
+    Source.destroy_all
     TvShow.destroy_all
-    puts "aft all: #{Source.count} sources, #{TvShow.count} shows, #{Episode.count} episodes"
-
   end
 end
