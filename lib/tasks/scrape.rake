@@ -4,8 +4,8 @@ namespace :web do
   task :scrape => :environment do
     puts "Scraping teh interwebs."
     
-    Rake::Task[:scrape_shows]
-#    Rake::Task[:scrape_episodes]
+    Rake::Task['web:scrape_shows'].invoke
+    Rake::Task['web:scrape_episodes'].invoke
 
     puts "Interwebs scraped."
   end
@@ -17,6 +17,15 @@ namespace :web do
     Source.all.each(&:scrape_shows)
 
     puts "Shows scraped."
+  end
+
+  desc "Scrape episodes for all shows"
+  task :scrape_episodes => :environment do
+    puts "Scraping teh episodes."
+
+    Source.all.each(&:scrape_episodes)
+
+    puts "Episodes scraped."
   end
 
 end
