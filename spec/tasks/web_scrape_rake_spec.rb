@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "rake web:scrape" do
+describe "rake web:scrape_*" do
   include FakewebHelper
 
   before(:all) do
@@ -33,16 +33,25 @@ describe "rake web:scrape" do
     end
 
     it "should create some shows" do
+      expectations = {
+        "Channel Nine" => 38,
+        "Channel Seven" => 60,
+        "ABC 1" => 55,
+        "ABC 2" => 36,
+        "ABC 3" => 36,
+        "iView Originals" => 8,
+        "SMH.tv" => 174
+      }
+
       @rake["web:scrape_shows"].invoke
 
-      Source.where(:name => "Channel Nine").first.tv_shows.count.should == 38
-      Source.where(:name => "Channel Seven").first.tv_shows.count.should == 60
-      Source.where(:name => "ABC 1").first.tv_shows.count.should == 55
-      Source.where(:name => "ABC 2").first.tv_shows.count.should == 36
-      Source.where(:name => "ABC 3").first.tv_shows.count.should == 36
-      Source.where(:name => "iView Originals").first.tv_shows.count.should == 8
-      Source.where(:name => "SMH.tv").first.tv_shows.count.should == 174
+      Source.all.each do |source|
+        expectations[source.name].should_not be_nil
 
+        source.tv_shows.count.should == expectations[source.name]
+      end
+      TvShow.count.should == expectations.values.sum
+    end
       Source.count.should == 7
       TvShow.count.should == 407
     end
