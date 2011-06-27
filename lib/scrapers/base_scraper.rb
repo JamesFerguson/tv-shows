@@ -14,6 +14,6 @@ class BaseScraper
   protected
 
   def self.read_url(url)
-    `curl --silent #{url.to_s}`
+    `curl --silent #{url}`
   end
 end

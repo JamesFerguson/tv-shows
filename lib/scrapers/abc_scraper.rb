@@ -2,9 +2,7 @@ require Rails.root + 'lib/scrapers/base_scraper'
 
 class AbcScraper < BaseScraper
   def self.extract_shows(source_url)
-    shows_url = URI.parse(source_url)
-    
-    page = Nokogiri::XML(read_url(shows_url))
+    page = Nokogiri::XML(read_url(source_url))
 
     shows = {}
     page.xpath('/rss/channel/item').map do |node|
