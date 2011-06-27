@@ -34,12 +34,12 @@ describe "rake web:scrape_*" do
 
     it "should create some shows" do
       expectations = {
-        "Channel Nine" => 38,
-        "Channel Seven" => 60,
+        "Channel Seven" => 71,
+        "Channel Nine" => 33,
         "ABC 1" => 55,
-        "ABC 2" => 36,
-        "ABC 3" => 36,
-        "iView Originals" => 8,
+        "ABC 2" => 35,
+        "ABC 3" => 41,
+        "iView Originals" => 7,
         "SMH.tv" => 174
       }
 
@@ -50,31 +50,42 @@ describe "rake web:scrape_*" do
 
         source.tv_shows.count.should == expectations[source.name]
       end
+
       TvShow.count.should == expectations.values.sum
+      Source.count.should == expectations.count
     end
 
     it "creates episodes" do
       @rake["web:scrape_shows"].invoke
 
-      TvShow.active.each do |show|
+      TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
-        source.scraper_class.should_receive(:read_url).with(URI.parse(url)).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+
+        show.source.scraper_class.should_receive(:read_url).with(URI.parse(url)).and_return(
+            File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
       end
 
       @rake["web:scrape_episodes"].invoke
 
-      Source.where(:name => "Channel Nine").first.episodes.count.should == 38
-      Source.where(:name => "Channel Seven").first.episodes.count.should == 60
-      Source.where(:name => "ABC 1").first.episodes.count.should == 55
-      Source.where(:name => "ABC 2").first.episodes.count.should == 36
-      Source.where(:name => "ABC 3").first.episodes.count.should == 36
-      Source.where(:name => "iView Originals").first.episodes.count.should == 8
-      Source.where(:name => "SMH.tv").first.episodes.count.should == 174
+      expectations = {
+        "Channel Nine" => 38,
+        "Channel Seven" => 60,
+        "ABC 1" => 55,
+        "ABC 2" => 36,
+        "ABC 3" => 36,
+        "iView Originals" => 8,
+        "SMH.tv" => 174
+      }
+      puts Source.all.map {|s| "\"#{s.name}\" => #{s.episodes.count}," }
 
-      Source.count.should == 7
-      TvShow.count.should == 407
+      Source.all.each do |source|
+        expectations[source.name].should_not be_nil
+
+        source.episodes.count.should == expectations[source.name]
+      end
+      Episode.count.should == expectations.values.sum
+      Source.count.should == expectations.count
     end
   end
 end
