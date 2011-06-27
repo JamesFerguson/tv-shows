@@ -62,7 +62,7 @@ describe "each scraper" do
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.url
 
-        show.source.scraper_class.should_receive(:read_url).and_return(
+        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
         )
 
