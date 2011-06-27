@@ -27,8 +27,8 @@ def seed_tv_shows
     },
     {
       :source => "iView Originals",
-      :name => "TNT Jackson ",
-      :url => "http://www.abc.net.au/reslib/201105/r764592_6456606.jpg"
+      :name => "Doctor Who: Adventures In The Human Race ",
+      :url => "http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"
     },
     {
       :source => "SMH.tv",
