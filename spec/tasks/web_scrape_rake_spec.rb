@@ -62,7 +62,7 @@ describe "rake web:scrape_*" do
     end
 
     it "creates episodes" do
-      @rake["web:scrape_shows"].invoke
+      @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
 
       TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
