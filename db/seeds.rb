@@ -39,7 +39,7 @@ sources = [
   },
   {
     :name => "SMH.tv",
-    :url => "http://www.smh.com.au/tv/type/show", # ??
+    :url => "http://www.smh.com.au/tv/type/show",
     :scraper => "SmhScraper"
   }
 ]
@@ -47,4 +47,3 @@ sources = [
 sources.each do |source_data|
   Source.find_or_create(Source, :name, source_data)
 end
-

@@ -17,6 +17,12 @@ describe "rake web:scrape_*" do
   
   context "after faking pages for all source urls" do
     before(:each) do
+      # SMH.tv is the only source that calls read_url for extract_show_urls
+      smh_url = Source.where(:name => "SMH.tv").first.url
+      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
+      )
+
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
