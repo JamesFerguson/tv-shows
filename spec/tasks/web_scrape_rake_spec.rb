@@ -27,7 +27,7 @@ describe "rake web:scrape_*" do
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each.with_index do |url, index|
-          expectation = source.scraper_class.should_receive(:read_url).with(URI.parse(url))
+          expectation = source.scraper_class.should_receive(:read_url).with(url)
 
           expectation.twice if index == 0 && show_urls.count > 1 # pagination double scrapes first page
 
@@ -39,6 +39,8 @@ describe "rake web:scrape_*" do
     end
 
     it "should create some shows" do
+      @rake["web:scrape_shows"].invoke
+
       expectations = {
         "Channel Seven" => 71,
         "Channel Nine" => 33,
@@ -48,8 +50,6 @@ describe "rake web:scrape_*" do
         "iView Originals" => 7,
         "SMH.tv" => 174
       }
-
-      @rake["web:scrape_shows"].invoke
 
       Source.all.each do |source|
         expectations[source.name].should_not be_nil
