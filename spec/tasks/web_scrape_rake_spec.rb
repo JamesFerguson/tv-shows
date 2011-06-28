@@ -75,15 +75,14 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Channel Nine" => 38,
-        "Channel Seven" => 60,
-        "ABC 1" => 55,
-        "ABC 2" => 36,
-        "ABC 3" => 36,
-        "iView Originals" => 8,
-        "SMH.tv" => 174
+        "Channel Seven" => 521,
+        "Channel Nine" => 227,
+        "ABC 1" => 130,
+        "ABC 2" => 66,
+        "ABC 3" => 271,
+        "iView Originals" => 25,
+        "SMH.tv" => 655
       }
-      puts Source.all.map {|s| "\"#{s.name}\" => #{s.episodes.count}," }
 
       Source.all.each do |source|
         expectations[source.name].should_not be_nil
