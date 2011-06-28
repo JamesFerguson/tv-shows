@@ -67,7 +67,7 @@ describe "rake web:scrape_*" do
       TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
 
-        show.source.scraper_class.should_receive(:read_url).with(URI.parse(url)).and_return(
+        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
       end
