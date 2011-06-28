@@ -16,11 +16,17 @@ describe "each scraper" do
   
   context "after faking scrapers' source urls" do
     it "scrapes the index for each source ok" do
+      # SMH.tv is the only source that calls read_url for extract_show_urls
+      smh_url = Source.where(:name => "SMH.tv").first.url
+      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
+      )
+
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each do |url|
-          source.scraper_class.should_receive(:read_url).with(URI.parse(url)).and_return(
+          source.scraper_class.should_receive(:read_url).with(url).and_return(
               File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
           )
         end
@@ -37,7 +43,7 @@ describe "each scraper" do
 
     it "excludes slideshow, poll, etc when parsing channel nine" do
       source = Source.where(:name => "Channel Nine").first
-      NineScraper.should_receive(:read_url).with(URI.parse(source.url)).and_return(
+      NineScraper.should_receive(:read_url).with(source.url).and_return(
           File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
       )
 
@@ -62,7 +68,7 @@ describe "each scraper" do
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.url
 
-        show.source.scraper_class.should_receive(:read_url).and_return(
+        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
         )
 

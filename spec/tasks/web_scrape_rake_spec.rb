@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "rake web:scrape" do
+describe "rake web:scrape_*" do
   include FakewebHelper
 
   before(:all) do
@@ -17,11 +17,17 @@ describe "rake web:scrape" do
   
   context "after faking pages for all source urls" do
     before(:each) do
+      # SMH.tv is the only source that calls read_url for extract_show_urls
+      smh_url = Source.where(:name => "SMH.tv").first.url
+      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
+      )
+
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each.with_index do |url, index|
-          expectation = source.scraper_class.should_receive(:read_url).with(URI.parse(url))
+          expectation = source.scraper_class.should_receive(:read_url).with(url)
 
           expectation.twice if index == 0 && show_urls.count > 1 # pagination double scrapes first page
 
@@ -35,16 +41,56 @@ describe "rake web:scrape" do
     it "should create some shows" do
       @rake["web:scrape_shows"].invoke
 
-      Source.where(:name => "Channel Nine").first.tv_shows.count.should == 38
-      Source.where(:name => "Channel Seven").first.tv_shows.count.should == 60
-      Source.where(:name => "ABC 1").first.tv_shows.count.should == 55
-      Source.where(:name => "ABC 2").first.tv_shows.count.should == 36
-      Source.where(:name => "ABC 3").first.tv_shows.count.should == 36
-      Source.where(:name => "iView Originals").first.tv_shows.count.should == 8
-      Source.where(:name => "SMH.tv").first.tv_shows.count.should == 174
+      expectations = {
+        "Channel Seven" => 71,
+        "Channel Nine" => 33,
+        "ABC 1" => 55,
+        "ABC 2" => 35,
+        "ABC 3" => 41,
+        "iView Originals" => 7,
+        "SMH.tv" => 174
+      }
 
-      Source.count.should == 7
-      TvShow.count.should == 407
+      Source.all.each do |source|
+        expectations[source.name].should_not be_nil
+
+        source.tv_shows.count.should == expectations[source.name]
+      end
+
+      TvShow.count.should == expectations.values.sum
+      Source.count.should == expectations.count
+    end
+
+    it "creates episodes" do
+      @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
+
+      TvShow.all.each do |show|
+        url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
+
+        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
+            File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
+        )
+      end
+
+      @rake["web:scrape_episodes"].invoke
+
+      expectations = {
+        "Channel Seven" => 521,
+        "Channel Nine" => 227,
+        "ABC 1" => 130,
+        "ABC 2" => 66,
+        "ABC 3" => 271,
+        "iView Originals" => 25,
+        "SMH.tv" => 655
+      }
+
+      Source.all.each do |source|
+        expectations[source.name].should_not be_nil
+
+        source.episodes.count.should == expectations[source.name]
+      end
+      Episode.count.should == expectations.values.sum
+      Source.count.should == expectations.count
     end
   end
 end
