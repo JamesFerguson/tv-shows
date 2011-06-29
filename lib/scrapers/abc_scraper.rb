@@ -1,9 +1,9 @@
-class AbcScraper
+require Rails.root + 'lib/scrapers/base_scraper'
+
+class AbcScraper < BaseScraper
   def self.extract_shows(source_url)
-    shows_url = URI.parse(source_url)
-    
-    page = Nokogiri::XML(shows_url.open)
-    
+    page = Nokogiri::XML(read_url(source_url))
+
     shows = {}
     page.xpath('/rss/channel/item').map do |node|
       next if shows[node.xpath('media:thumbnail[@url]/@url').first.value]
@@ -18,7 +18,7 @@ class AbcScraper
   end
   
   def self.extract_episodes(show)
-    page = Nokogiri::XML(open(show.source.url))
+    page = Nokogiri::XML(read_url(show.source.url))
     show_url = URI.parse(show.url)
     
     episodes = 
@@ -30,11 +30,11 @@ class AbcScraper
     end
   end
   
-  private
+  protected
   
   SUBS = {
     :series => [%r{ (\d\d/\d\d/\d\d|Episode \d+|2011).*}, ''],
-    :episode => [%r{.*(\d\d/\d\d/\d\d.*|Episode \d+.*|2011)}, '\1']
+    :episode => [%r{.*(\d\d/\d\d/\d\d|Episode \d+|2011)}, '\1']
   }
   def self.munge_title(title, type)
     title.gsub(SUBS[type].first, SUBS[type].last)

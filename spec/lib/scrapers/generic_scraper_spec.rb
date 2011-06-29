@@ -1,54 +1,54 @@
 require 'spec_helper'
-require Rails.root + 'db/seeds.rb'
 
-# Done here so we can do TvShow.all.each { |show| it "does something" do ... end }
-TvShow.destroy_all # rspec not deleting old records for some reason.
-Source.where(:name => "Channel Nine").first.tv_shows.make(:name => "AFP", :url => "http://fixplay.ninemsn.com.au/afp")
+describe "each scraper" do
+  include FakewebHelper
 
-Source.where(:name => "Channel Seven").first.tv_shows.make(
-  :name => "Winners and Losers",
-  :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
-)
-
-Source.where(:name => "SMH.tv").first.tv_shows.make(
-  :name => "Baby Baby",
-  :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
-)
-
-describe "any scraper" do
-  before do
+  before(:all) do
     FakeWeb.allow_net_connect = false
-    @sources = Source.all
+    seed_sources
+    seed_tv_shows
+  end
+
+  after(:all) do
+    Source.destroy_all
+    TvShow.destroy_all
   end
   
   context "after faking scrapers' source urls" do
-    before do
-      @sources.each do |source|
-        require "scrapers/#{source.scraper.underscore}.rb"
-        
-        source_url = source.url.gsub(%r{/}, '^')
-        source_url = (source_url !~ /(\.html?|\.xml)$/ ? source_url + '.htm' : source_url)
-        FakeWeb.register_uri(
-          :get, 
-          source.url, 
-          :response => File.read(Rails.root + 
-                                  "spec/fakeweb/pages/#{source_url}")
-        )
-      end
-    end
+    it "scrapes the index for each source ok" do
+      # SMH.tv is the only source that calls read_url for extract_show_urls
+      smh_url = Source.where(:name => "SMH.tv").first.url
+      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
+      )
 
-    Source.all.each do |source|
-      it "scrapes the index for #{source.name} ok" do
-        source.scraper_class.extract_shows(source.url).map(&:stringify_keys).should == 
-          JSON.parse(File.read(
-            "spec/fakeweb/results/#{source.url.gsub(%r{/}, '^')}.json"
-          ))        
+      Source.all.each do |source|
+        show_urls = source.scraper_class.extract_show_urls(source.url)
+
+        show_urls.each do |url|
+          source.scraper_class.should_receive(:read_url).with(url).and_return(
+              File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+          )
+        end
+
+        shows = []
+        show_urls.each do |url|
+          shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
+        end
+
+        shows.flatten.should ==
+          JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
     end
 
     it "excludes slideshow, poll, etc when parsing channel nine" do
+      source = Source.where(:name => "Channel Nine").first
+      NineScraper.should_receive(:read_url).with(source.url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
+      )
+
       NineScraper.extract_shows(
-                                Source.where(:name => "Channel Nine").first.url
+        NineScraper.extract_show_urls(source.url).first
       ).map do |show_data|
         URI.parse(show_data[:url]).host
       end.
@@ -56,27 +56,25 @@ describe "any scraper" do
     end
   end
   
-  context "after populating tv_shows and faking their urls" do
-    before(:each) do
-      TvShow.all.each do |show|
-        require "scrapers/#{show.source.scraper.underscore}.rb"
-
-        show_url = show.url.gsub(%r{/}, '^')
-        show_url = (show_url !~ /(\.html?|\.xml)$/ ? show_url + '.htm' : show_url)
-        FakeWeb.register_uri(
-          :get, 
-          show.url, 
-          :response => File.read(Rails.root + 
-                                  "spec/fakeweb/pages/#{show_url}")
-        )
+  context "scrapes tv_shows ok" do
+    it "has a tv_show seeded" do
+      Source.all.each do |source|
+        source.tv_shows.count.should > 0
       end
     end
 
-    TvShow.all.each do |show|
-      it "scrapes the episodes for #{show.name} ok" do
-        show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should == 
+    it "scrapes the episodes for each show ok" do
+      Source.all.each do |source|
+        show = source.tv_shows.first
+        url = source.scraper_class == AbcScraper ? source.url : show.url
+
+        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
+            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+        )
+
+        show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should ==
           JSON.parse(File.read(
-            "spec/fakeweb/results/#{show.url.gsub(%r{/}, '^')}.json"
+            "spec/fakeweb/results/#{fakewebize(show.url)}.json"
           ))
       end
     end

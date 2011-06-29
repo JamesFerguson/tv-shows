@@ -1,4 +1,4 @@
 desc "Runs cron maintenance tasks."
-task :cron => :scrape do
+task :cron => 'web:scrape' do
   puts "Running cron at #{Time.now.strftime('%Y/%m/%d %H:%M:%S')}..."
 end
