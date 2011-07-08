@@ -15,8 +15,14 @@ describe "get :index, :format => :atom" do
   end
   
   it "has some content you'd expect to see" do
-    page.should have_content("tag:www.example.com,2005:/tv_shows")
-    page.should have_xpath('//feed/title', :text => 'TV Shows')
+    feed = AtomFeedMapping::Feed.parse(page.body)
+    feed.id.should == "tag:www.example.com,2005:/tv_shows"
+    feed.title.should == 'TV Shows'
+    feed.updated.should >= 1.minute.ago
+
+    URI.parse(feed.link.first.href).path.should == ''
+    URI.parse(feed.link.last.href).path.should == '/tv_shows.atom'
+
 
     page.should have_content("Name goes here (0 episodes)")
     page.should have_xpath("//link[@href='http://www.example.com/sources/#{@source.friendly_id}/tv_shows/#{@show.friendly_id}.atom']")
