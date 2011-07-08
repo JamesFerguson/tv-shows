@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/JamesFerguson/happymapper.git
+  revision: fff8d92a50b1998a9a445cce3b63457870a34cdb
+  branch: master
+  specs:
+    nokogiri-happymapper (0.3.6)
+      nokogiri (~> 1.4.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -127,6 +135,8 @@ GEM
     ruby_core_source (0.1.4)
       archive-tar-minitar (>= 0.5.2)
     rubyzip (0.9.4)
+    scrapi (2.0.0)
+      tidy_ffi (>= 0.1.2)
     selenium-webdriver (0.1.2)
       childprocess (~> 0.1.5)
       ffi (~> 0.6.3)
@@ -146,14 +156,14 @@ GEM
       sqlite3-ruby (~> 1.2)
     term-ansicolor (1.0.5)
     thor (0.14.6)
+    tidy_ffi (0.1.3)
+      ffi (>= 0.3.5)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
     unicorn (3.3.1)
       kgio (~> 2.1)
       rack
-    w3c_validators (1.1.1)
-      nokogiri
 
 PLATFORMS
   ruby
@@ -169,11 +179,12 @@ DEPENDENCIES
   machinist
   mysql2 (~> 0.2.1)
   nokogiri
+  nokogiri-happymapper!
   rails (= 3.0.3)
   remarkable_activemodel
   rspec
   rspec-rails
   ruby-debug19
+  scrapi
   taps
   unicorn
-  w3c_validators
