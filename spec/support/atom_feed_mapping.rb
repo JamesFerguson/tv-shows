@@ -26,15 +26,12 @@ module AtomFeedMapping
     tag 'feed'
 
     attribute :xmlns, String, :single => true
+
     element :id, String, :single => true
     element :title, String, :single => true
     element :updated, DateTime, :single => true
-#    has_many :links, Link, :deep => false
-    element :link, XmlContent, :single => false, :deep => false, :attributes => {
-        :rel => String,
-        :type => String,
-        :href => String
-      }
+
+    has_many :links, Link, :tag => 'link', :xpath => '.'
     has_many :entries, Entry
   end
 end
