@@ -5,12 +5,29 @@ describe "get :index, :format => :atom" do
   before do
     @source = Source.create!(
       :name => "Channel Twenty Seven",
-      :url => "Source URL goes here"
+      :url => "http://www.channeltwentyseven.com"
     )
-    @show = TvShow.create!(
-      :name => "Name goes here",
-      :source => @source
+    @show1 = @source.tv_shows.create!(
+      :name => "Show 1",
+      :url => 'http://www.channeltwentyseven.com/show-1'
     )
+    @episode1 = @show1.episodes.create!(
+      :name => "Episode 1",
+      :url => 'http://www.channeltwentyseven.com/show-1/episode-1'
+    )
+    @episode2 = @show1.episodes.create!(
+      :name => "Episode 2",
+      :url => 'http://www.channeltwentyseven.com/show-1/episode-2'
+    )
+    @show2 = @source.tv_shows.create!(
+      :name => "Show 2",
+      :url => 'http://www.channeltwentyseven.com/show-2'
+    )
+    @episode15 = @show2.episodes.create!(
+      :name => "Episode 15",
+      :url => 'http://www.channeltwentyseven.com/show-2/episode-15'
+    )
+
     visit tv_shows_url(:format => :atom)
   end
   
@@ -20,13 +37,39 @@ describe "get :index, :format => :atom" do
     feed.title.should == 'TV Shows'
     feed.updated.should >= 1.minute.ago
 
-    URI.parse(feed.link.first.href).path.should == ''
-    URI.parse(feed.link.last.href).path.should == '/tv_shows.atom'
+    alt_link = feed.links.first
+    alt_link.rel.should == 'alternate'
+    alt_link.type.should == 'text/html'
+    alt_link.href.should == 'http://www.example.com'
+
+    self_link = feed.links.last
+    self_link.rel.should == 'self'
+    self_link.type.should == 'application/atom+xml'
+    self_link.href.should == 'http://www.example.com/tv_shows.atom'
+
+    
+    show1 = feed.entries.first
+    show1.id.should == "tag:www.example.com,2005:TvShow/#{@show1.id}"
+    show1.title.should == 'Show 1'
+    show1.content.should == 'Show 1 (2 episodes)'
+    show1.author_name.should == 'http://www.channeltwentyseven.com'
+
+    show1_link = show1.link
+    show1_link.rel.should == 'alternate'
+    show1_link.type.should == 'text/html'
+    show1_link.href.should == 'http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom'
 
 
-    page.should have_content("Name goes here (0 episodes)")
-    page.should have_xpath("//link[@href='http://www.example.com/sources/#{@source.friendly_id}/tv_shows/#{@show.friendly_id}.atom']")
-    page.should have_content("Source URL goes here")
+    show2 = feed.entries.last
+    show2.id.should == "tag:www.example.com,2005:TvShow/#{@show2.id}"
+    show2.title.should == 'Show 2'
+    show2.content.should == 'Show 2 (1 episodes)'
+    show2.author_name.should == 'http://www.channeltwentyseven.com'
+
+    show2_link = show2.link
+    show2_link.rel.should == 'alternate'
+    show2_link.type.should == 'text/html'
+    show2_link.href.should == 'http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom'
   end
   
 end
