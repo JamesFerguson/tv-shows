@@ -50,9 +50,9 @@ describe "get :index, :format => :atom" do
     
     show1 = feed.entries.first
     show1.id.should == "tag:www.example.com,2005:TvShow/#{@show1.id}"
-    show1.title.should == 'Show 1'
     show1.content.should == 'Show 1 (2 episodes)'
     show1.author_name.should == 'http://www.channeltwentyseven.com'
+    show1.title.should == '[Channel Twenty Seven] Show 1'
 
     show1_link = show1.link
     show1_link.rel.should == 'alternate'
@@ -62,9 +62,9 @@ describe "get :index, :format => :atom" do
 
     show2 = feed.entries.last
     show2.id.should == "tag:www.example.com,2005:TvShow/#{@show2.id}"
-    show2.title.should == 'Show 2'
     show2.content.should == 'Show 2 (1 episodes)'
     show2.author_name.should == 'http://www.channeltwentyseven.com'
+    show2.title.should == '[Channel Twenty Seven] Show 2'
 
     show2_link = show2.link
     show2_link.rel.should == 'alternate'
