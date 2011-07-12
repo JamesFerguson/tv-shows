@@ -9,7 +9,11 @@ gem 'bundler'
 # gem 'capistrano'
 
 gem 'nokogiri'
-gem 'w3c_validators'
+gem 'nokogiri-happymapper',
+  :git => "git://github.com/JamesFerguson/happymapper.git",
+  :branch => 'master',
+  :require => 'happymapper'
+gem 'scrapi'
 gem 'heroku'
 gem 'taps'
 gem 'friendly_id'
