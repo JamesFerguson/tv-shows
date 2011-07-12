@@ -50,8 +50,19 @@ describe "get :index, :format => :atom" do
     
     show1 = feed.entries.first
     show1.id.should == "tag:www.example.com,2005:TvShow/#{@show1.id}"
-    show1.content.should == 'Show 1 (2 episodes)'
     show1.title.should == '[Channel Twenty Seven] Show 1'
+    show1.content.should == <<-HTML
+<h2>Show 1 (2 episodes)</h2>
+<p><a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom">Subscribe</a> to the Show 1 <a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom">episodes feed</a>.</p>
+<p>See the <a href="http://www.channeltwentyseven.com/show-1">Show 1 homepage</a>.</p>
+<p>Jump to an episode:
+  <ul>
+    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
+    <li><a href="http://www.channeltwentyseven.com/show-1/episode-2">Episode 2</a></li>
+  </ul>
+</p>
+    HTML
+    show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 
     show1_link = show1.link
     show1_link.rel.should == 'alternate'
@@ -61,8 +72,18 @@ describe "get :index, :format => :atom" do
 
     show2 = feed.entries.last
     show2.id.should == "tag:www.example.com,2005:TvShow/#{@show2.id}"
-    show2.content.should == 'Show 2 (1 episodes)'
     show2.title.should == '[Channel Twenty Seven] Show 2'
+    show2.content.should == <<-HTML
+<h2>Show 2 (1 episodes)</h2>
+<p><a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom">Subscribe</a> to the Show 2 <a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom">episodes feed</a>.</p>
+<p>See the <a href="http://www.channeltwentyseven.com/show-2">Show 2 homepage</a>.</p>
+<p>Jump to an episode:
+  <ul>
+    <li><a href="http://www.channeltwentyseven.com/show-2/episode-15">Episode 15</a></li>
+  </ul>
+</p>
+    HTML
+    show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 
     show2_link = show2.link
     show2_link.rel.should == 'alternate'
