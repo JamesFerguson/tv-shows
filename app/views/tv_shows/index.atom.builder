@@ -12,7 +12,7 @@ atom_feed do |feed|
       entry.content("#{tv_show.name} (#{tv_show.episodes.count} episodes)", :type => 'html')
       entry.title("[#{tv_show.source.name}] #{tv_show.name}")
       entry.author do |author|
-        author.name(tv_show.source.url)
+        author.name("<a href=\"#{tv_show.source.url}\">#{tv_show.source.name}</a>", :type => 'html')
       end
     end
   end
