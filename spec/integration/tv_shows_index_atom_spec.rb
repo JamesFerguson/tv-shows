@@ -57,8 +57,8 @@ describe "get :index, :format => :atom" do
 <p>See the <a href="http://www.channeltwentyseven.com/show-1">Show 1 homepage</a>.</p>
 <p>Jump to an episode:
   <ul>
-    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
     <li><a href="http://www.channeltwentyseven.com/show-1/episode-2">Episode 2</a></li>
+    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
   </ul>
 </p>
     HTML
