@@ -15,13 +15,14 @@ class NineScraper < BaseScraper
     show_url = URI.parse(show.url)
     page = Nokogiri::HTML(read_url(show.url))
     
-    episodes = page.css("#all_articles_index .tr").map do |node|
+    episodes = page.css("#all_articles_index .tr").map.with_index do |node, index|
       {
         :name => "Episode #{node.children[1].text}: #{node.css('.season_title').text}",
         :url => show_url.
                   merge(
                     node.css('.watch_now_normal').first.attributes['href'].value
-                  ).to_s
+                  ).to_s,
+        :ordering => 100 - index
       }
     end
   end
