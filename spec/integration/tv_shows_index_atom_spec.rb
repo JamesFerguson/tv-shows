@@ -13,11 +13,13 @@ describe "get :index, :format => :atom" do
     )
     @episode1 = @show1.episodes.create!(
       :name => "Episode 1",
-      :url => 'http://www.channeltwentyseven.com/show-1/episode-1'
+      :url => 'http://www.channeltwentyseven.com/show-1/episode-1',
+      :ordering => 1
     )
     @episode2 = @show1.episodes.create!(
       :name => "Episode 2",
-      :url => 'http://www.channeltwentyseven.com/show-1/episode-2'
+      :url => 'http://www.channeltwentyseven.com/show-1/episode-2',
+      :ordering => 0
     )
     @show2 = @source.tv_shows.create!(
       :name => "Show 2",
@@ -25,7 +27,8 @@ describe "get :index, :format => :atom" do
     )
     @episode15 = @show2.episodes.create!(
       :name => "Episode 15",
-      :url => 'http://www.channeltwentyseven.com/show-2/episode-15'
+      :url => 'http://www.channeltwentyseven.com/show-2/episode-15',
+      :ordering => 0
     )
 
     visit tv_shows_url(:format => :atom)
@@ -57,8 +60,8 @@ describe "get :index, :format => :atom" do
 <p>See the <a href="http://www.channeltwentyseven.com/show-1">Show 1 homepage</a>.</p>
 <p>Jump to an episode:
   <ul>
-    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
     <li><a href="http://www.channeltwentyseven.com/show-1/episode-2">Episode 2</a></li>
+    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
   </ul>
 </p>
     HTML

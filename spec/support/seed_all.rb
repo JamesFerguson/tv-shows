@@ -7,8 +7,8 @@ def seed_tv_shows
     },
     {
       :source => "Channel Seven",
-      :name => "Winners and Losers",
-      :url => "http://au.tv.yahoo.com/plus7/winners-and-losers/"
+      :name => "Jeeves and Wooster",
+      :url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
     },
     {
       :source => "ABC 1",

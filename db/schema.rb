@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110616222952) do
+ActiveRecord::Schema.define(:version => 20110713215004) do
 
   create_table "episodes", :force => true do |t|
     t.string   "name"
@@ -21,7 +21,10 @@ ActiveRecord::Schema.define(:version => 20110616222952) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "deactivated_at"
+    t.integer  "ordering"
   end
+
+  add_index "episodes", ["tv_show_id", "ordering"], :name => "index_episodes_on_tv_show_id_and_ordering", :unique => true
 
   create_table "slugs", :force => true do |t|
     t.string   "name"
