@@ -11,7 +11,7 @@ describe Source do
       @source.scraper_class.stub(:extract_shows).
         and_return([{:name => "A", :url => "http://A"}])
       @source.scraper_class.stub(:extract_episodes).
-        and_return([{:name => "A1", :url => "http://A1"}])
+        and_return([{:name => "A1", :url => "http://A1", :ordering => 0}])
 
       @source.scrape
 

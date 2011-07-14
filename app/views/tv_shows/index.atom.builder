@@ -11,7 +11,7 @@ atom_feed do |feed|
     feed.entry(tv_show, :url => source_tv_show_url(tv_show.source, tv_show, :format => :atom)) do |entry|
       entry.title("[#{tv_show.source.name}] #{tv_show.name}")
 
-      episode_lis = tv_show.episodes.reduce('') do |items, episode|
+      episode_lis = tv_show.episodes.order(:ordering).reduce('') do |items, episode|
         items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a></li>\n"
       end.chomp
       tv_show_url = tv_show.source.scraper == 'AbcScraper' ? tv_show.episodes.first.url : tv_show.url

@@ -15,7 +15,9 @@ TvShow.blueprint do
 end
 
 Sham.episode_name { |index| "Episode #{index}" }
+Sham.ordering { |index| index }
 Episode.blueprint do
-  name  { Sham.episode_name }
-  url   { "http://#{name.parameterize}" }
+  name      { Sham.episode_name }
+  url       { "http://#{name.parameterize}" }
+  ordering  { Sham.ordering }
 end
