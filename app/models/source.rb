@@ -17,9 +17,10 @@ class Source < ActiveRecord::Base
   end
 
   def scrape_episodes
-    mark_all(episodes)
+    # mark_all(episodes)
+    Episode.delete_all
     scrape_episode_data
-    cleanup(episodes, DateTime.now - 2.weeks)
+    # cleanup(episodes, DateTime.now - 2.weeks)
   end
 
   def scraper_class
