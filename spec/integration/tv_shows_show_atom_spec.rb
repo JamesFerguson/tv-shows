@@ -10,19 +10,29 @@ describe "TvShowController#show, :format => :atom" do
     @show = @source.tv_shows.create!(
       :name => "Name goes here"
     )
+    @show2 = @source.tv_shows.create!(
+      :name => "Name2 goes here"
+    )
     @episode = @show.episodes.make
-
-    visit tv_shows_url(:format => :atom)
-
-    visit source_tv_show_url(@source, @show, :format => :atom)
   end
 
   it "has some content you'd expect to see" do
-    page.should have_content("tag:www.example.com,2005:/sources/channel-twenty-seven/tv_shows/name-goes-here")
-    page.should have_xpath('//feed/title', :text => 'Name goes here')
+    visit source_tv_show_url(@source, @show, :format => :atom)
+    feed = AtomFeedMapping::Feed.parse(page.body)
 
-    page.should have_content("#{@episode.name}")
-    page.should have_xpath("//link[@href='#{@episode.url}']")
+    feed.id.should == "tag:www.example.com,2005:/sources/channel-twenty-seven/tv_shows/name-goes-here"
+    feed.title.should == 'Name goes here'
+
+    episode = feed.entries.first
+    episode.title.should == "001 #{@episode.name}"
+    episode.link.href.should == @episode.url
   end
 
+  it "handles shows with no episodes" do
+    visit source_tv_show_url(@source, @show2, :format => :atom)
+    feed = AtomFeedMapping::Feed.parse(page.body)
+
+    feed.id.should == "tag:www.example.com,2005:/sources/channel-twenty-seven/tv_shows/name2-goes-here"
+    feed.title.should == 'Name2 goes here'
+  end
 end
