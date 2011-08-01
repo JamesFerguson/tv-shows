@@ -87,9 +87,9 @@ describe "rake web:scrape_*" do
       Source.all.each do |source|
         expectations[source.name].should_not be_nil
 
-        source.episodes.count.should == expectations[source.name]
+        source.episodes.active.count.should == expectations[source.name]
       end
-      Episode.count.should == expectations.values.sum
+      Episode.active.count.should == expectations.values.sum
       Source.count.should == expectations.count
     end
   end
