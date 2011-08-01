@@ -1,1 +1,7 @@
-spec/tasks is somehow interacting with and breaking spec/lib, even though both pass in isolation
+- ten scraper
+  - how to get the xml
+  - test
+  - implement
+- nine scraper to get episode names as well as numbers
+- outnumbered show numbering backwards
+- sbs scraper
