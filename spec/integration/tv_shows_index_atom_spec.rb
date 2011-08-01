@@ -30,6 +30,10 @@ describe "get :index, :format => :atom" do
       :url => 'http://www.channeltwentyseven.com/show-2/episode-15',
       :ordering => 0
     )
+    @show3 = @source.tv_shows.create!(
+      :name => "Show 3",
+      :url => 'http://www.channeltwentyseven.com/show-3'
+    )
 
     visit tv_shows_url(:format => :atom)
   end
@@ -73,7 +77,7 @@ describe "get :index, :format => :atom" do
     show1_link.href.should == 'http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom'
 
 
-    show2 = feed.entries.last
+    show2 = feed.entries[1]
     show2.id.should == "tag:www.example.com,2005:TvShow/#{@show2.id}"
     show2.title.should == '[Channel Twenty Seven] Show 2'
     show2.content.should == <<-HTML
@@ -92,6 +96,9 @@ describe "get :index, :format => :atom" do
     show2_link.rel.should == 'alternate'
     show2_link.type.should == 'text/html'
     show2_link.href.should == 'http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom'
+
+    show3 = feed.entries.last
+    show3.id.should == "tag:www.example.com,2005:TvShow/#{@show3.id}"
   end
   
 end
