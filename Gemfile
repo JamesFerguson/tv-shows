@@ -29,6 +29,10 @@ group :development, :test do
   gem "rspec-rails"
   gem "remarkable_activemodel"
 
+  gem "guard-rspec"
+  gem "rb-fsevent"
+  gem "growl"
+
   gem 'capybara'
 
   gem 'machinist'
