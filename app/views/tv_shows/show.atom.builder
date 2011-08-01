@@ -1,6 +1,6 @@
 atom_feed do |feed|
   feed.title(@tv_show.name)
-  feed.updated(@episodes.first.updated_at)
+  feed.updated(@episodes.first.try(:updated_at))
   
   @episodes.order(:ordering).each do |episode|
     next if episode.updated_at.blank?
