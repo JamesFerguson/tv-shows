@@ -8,12 +8,12 @@
 
 sources = [
   {
-    :name => "Channel Seven",
+    :name => "Yahoo Plus7",
     :url => 'http://au.tv.yahoo.com/plus7/browse/',
     :scraper => "SevenScraper"
   },
   {
-    :name => "Channel Nine",
+    :name => "NineMSN Fixplay",
     :url => 'http://fixplay.ninemsn.com.au/catalogue',
     :scraper => "NineScraper"
   },

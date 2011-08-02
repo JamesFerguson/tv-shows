@@ -1,12 +1,12 @@
 def seed_tv_shows
   tv_shows = [
     {
-      :source => "Channel Nine",
+      :source => "NineMSN Fixplay",
       :name => "AFP",
       :url => "http://fixplay.ninemsn.com.au/afp"
     },
     {
-      :source => "Channel Seven",
+      :source => "Yahoo Plus7",
       :name => "Jeeves and Wooster",
       :url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
     },
