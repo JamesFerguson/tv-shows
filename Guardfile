@@ -17,4 +17,8 @@ guard 'rspec', :version => 2 do
   watch('app/controllers/application_controller.rb')  { "spec/controllers" }
   # Capybara request specs
   watch(%r{^app/views/(.+)/.*\.(erb|haml)$})          { |m| "spec/requests/#{m[1]}_spec.rb" }
+
+  # app specific
+  watch(%r{^lib/scrapers/.+\.rb$})                    { |m| "spec/lib/scrapers" }
+  watch(%r{^spec/fakeweb/.+})                         { |m| ["spec/lib/scrapers", "spec/tasks"] }
 end
