@@ -20,12 +20,12 @@ class SmhScraper < BaseScraper
     show_url = URI.parse(show.url)
     page = Nokogiri::HTML(read_url(show.url))
 
-    episodes = page.css("ul.cN-listStoryTV").first.css('li').map.with_index do |node, index|
+    episodes = page.css("ul.cN-listStoryTV").first.css('li').reverse.map.with_index do |node, index|
       link = node.css('h5 a').first
       {
         :name => "#{node.xpath('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
         :url => show_url.merge(link['href']).to_s,
-        :ordering => index
+        :ordering => index + 1
       }
     end
   end

@@ -15,11 +15,11 @@ class SevenScraper < BaseScraper
     show_url = URI.parse(show.url)
     page = Nokogiri::HTML(read_url(show.url))
     
-    episodes = page.css("ul#related-episodes .itemdetails h3 a").map.with_index do |node, index|
+    episodes = page.css("ul#related-episodes .itemdetails h3 a").reverse.map.with_index do |node, index|
       {
         :name => node.children[3].text,
         :url => show_url.merge(node.attributes['href'].value).to_s,
-        :ordering => index
+        :ordering => index + 1
       }
     end
   end
