@@ -22,7 +22,7 @@ class NineScraper < BaseScraper
                   merge(
                     node.css('.watch_now_normal').first.attributes['href'].value
                   ).to_s,
-        :ordering => 1000 - index
+        :ordering => index + 1
       }
     end
   end

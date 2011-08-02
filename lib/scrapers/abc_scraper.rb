@@ -22,11 +22,11 @@ class AbcScraper < BaseScraper
     show_url = URI.parse(show.url)
     
     episodes = 
-      page.xpath("/rss/channel/item[media:thumbnail[@url = '#{show.url}']]").map.with_index do |node, index|
+      page.xpath("/rss/channel/item[media:thumbnail[@url = '#{show.url}']]").reverse.map.with_index do |node, index|
       {
         :name => self.munge_title(node.xpath('title').text, :episode),
         :url => show_url.merge(node.xpath('link').text).to_s,
-        :ordering => index
+        :ordering => index + 1
       }
     end
   end
