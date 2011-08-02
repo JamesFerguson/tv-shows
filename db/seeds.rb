@@ -41,6 +41,11 @@ sources = [
     :name => "SMH.tv",
     :url => "http://www.smh.com.au/tv/type/show",
     :scraper => "SmhScraper"
+  },
+  {
+    :name => "Ten",
+    :url => "http://ten.com.au/api/rest/session?key=movideoNetwork10&applicationalias=main-player",
+    :scraper => "TenScraper"
   }
 ]
 

@@ -34,6 +34,11 @@ def seed_tv_shows
       :source => "SMH.tv",
       :name => "Baby Baby",
       :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
+    },
+    {
+      :source => "Ten",
+      :name => "Lie To Me",
+      :url => "???"
     }
   ]
 
