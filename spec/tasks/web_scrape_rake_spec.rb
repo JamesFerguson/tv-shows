@@ -42,13 +42,14 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].invoke
 
       expectations = {
-        "Channel Seven" => 71,
-        "Channel Nine" => 33,
+        "Yahoo Plus7" => 71,
+        "NineMSN Fixplay" => 33,
         "ABC 1" => 55,
         "ABC 2" => 35,
         "ABC 3" => 41,
         "iView Originals" => 7,
-        "SMH.tv" => 174
+        "SMH.tv" => 174,
+        "Ten" => 1
       }
 
       Source.all.each do |source|
@@ -75,13 +76,14 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Channel Seven" => 521,
-        "Channel Nine" => 227,
+        "Yahoo Plus7" => 521,
+        "NineMSN Fixplay" => 227,
         "ABC 1" => 130,
         "ABC 2" => 66,
         "ABC 3" => 271,
         "iView Originals" => 25,
-        "SMH.tv" => 655
+        "SMH.tv" => 655,
+        "Ten" => 1
       }
 
       Source.all.each do |source|
