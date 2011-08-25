@@ -52,7 +52,7 @@ describe "rake web:scrape_*" do
         "ABC 3" => 41,
         "iView Originals" => 7,
         "SMH.tv" => 174,
-        "Ten" => 1
+        "Ten" => 37
       }
 
       Source.all.each do |source|
