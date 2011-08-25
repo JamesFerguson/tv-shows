@@ -42,7 +42,7 @@ describe "each scraper" do
     end
 
     it "excludes slideshow, poll, etc when parsing channel nine" do
-      source = Source.where(:name => "Channel Nine").first
+      source = Source.where(:name => "NineMSN Fixplay").first
       NineScraper.should_receive(:read_url).with(source.url).and_return(
           File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
       )
