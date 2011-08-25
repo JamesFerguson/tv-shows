@@ -37,8 +37,8 @@ def seed_tv_shows
     },
     {
       :source => "Ten",
-      :name => "Lie To Me",
-      :url => "???"
+      :name => "Totally Wild",
+      :url => "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"
     }
   ]
 
