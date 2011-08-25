@@ -34,11 +34,7 @@ describe "rake web:scrape_*" do
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each.with_index do |url, index|
-          expectation = source.scraper_class.should_receive(:read_url).with(url)
-
-          expectation.twice if index == 0 && show_urls.count > 1 # pagination double scrapes first page
-
-          expectation.and_return(
+          source.scraper_class.should_receive(:read_url).with(url).and_return(
               File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
           )
         end
