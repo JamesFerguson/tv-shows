@@ -18,6 +18,32 @@ class TenScraper < BaseScraper
       }
     end
   end
+
+  def self.extract_episodes(show)
+    page = TenXmlParser::MediaList.parse(read_url(show.url)).first
+
+    show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
+
+    page.media.map.with_index do |item, index|
+      next unless lead_clip?(item.title)
+
+      {
+        :name => munge_item_title(item.title),
+        :url => "http://ten.com.au/watch-tv-episodes-online.htm?movideo_p=#{show_id}&movideo_m=#{item.id}",
+        :ordering => index + 1
+      }
+    end.compact
+  end
+
+  def self.lead_clip?(title)
+    part_num = title.gsub(/\s/, '').scan(/\((\d+)\/\d+\)/).flatten.first
+    part_num.nil? || part_num == '1'
+  end
+
+  def self.munge_item_title(title)
+    title.sub(/\s+\([\d\s\/]+\)/, '')
+  end
+
   def self.munge_title(title)
     title.sub(/\s*\|.*/, '')
   end
