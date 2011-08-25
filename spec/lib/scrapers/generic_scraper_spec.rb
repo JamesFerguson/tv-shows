@@ -16,11 +16,18 @@ describe "each scraper" do
   
   context "after faking scrapers' source urls" do
     it "scrapes the index for each source ok" do
-      # SMH.tv is the only source that calls read_url for extract_show_urls
-      smh_url = Source.where(:name => "SMH.tv").first.url
-      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
-          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
-      )
+      # Only some sources call read_url for extract_show_urls
+      read_urlers = {
+        "SMH.tv" => SmhScraper,
+        "Ten" => TenScraper
+      }
+
+      read_urlers.each do |source_name, scraper|
+        source = Source.where(:name => source_name).first
+        scraper.should_receive(:read_url).with(source.url).and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
+        )
+      end
 
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
