@@ -1,4 +1,5 @@
 require Rails.root + 'lib/scrapers/base_scraper'
+require Rails.root + 'lib/scrapers/ten_xml_parser'
 
 class TenScraper < BaseScraper
   def self.extract_show_urls(source_url)
@@ -8,10 +9,16 @@ class TenScraper < BaseScraper
   end
 
   def self.extract_shows(source_url)
-    page = Nokogiri::HTML(source_url)
-    
-    shows = page.css("li.item a").map do |node|
-      [node.text, SHOWS_URL.merge(node.attributes['href'].value).to_s]
+    page = TenXmlParser::ChildPlaylist.parse(read_url(source_url)).first
+
+    page.playlists.map do |playlist|
+      {
+        :name => munge_title(playlist.title),
+        :url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"
+      }
     end
   end
-end
+  def self.munge_title(title)
+    title.sub(/\s*\|.*/, '')
+  end
+end 
