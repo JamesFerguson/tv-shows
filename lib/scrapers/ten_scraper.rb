@@ -60,6 +60,6 @@ class TenScraper < BaseScraper
   end
 
   def self.munge_title(title)
-    title.sub(/\s*\|.*/, '')
+    title.sub(/ONE\s*\|\s*/, '').sub(/^((.*)\s*\|\s*\2)$/, '\2')
   end
 end 
