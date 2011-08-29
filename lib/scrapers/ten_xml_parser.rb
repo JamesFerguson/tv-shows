@@ -1,19 +1,4 @@
 module TenXmlParser
-  class Playlist
-    include HappyMapper
-    tag 'playlist'
-
-    element :title, String
-    element :id, Integer
-  end
-
-  class ChildPlaylist
-    include HappyMapper
-    tag 'childPlaylists'
-
-    has_many :playlists, Playlist
-  end
-
   class Media
     include HappyMapper
     tag 'media'
@@ -28,5 +13,28 @@ module TenXmlParser
     tag 'mediaList'
 
     has_many :media, Media
+  end
+
+  # forward declaration to work around circular dependency
+  class ChildPlaylist
+
+  end
+
+  class Playlist
+    include HappyMapper
+    tag 'playlist'
+
+    element :title, String
+    element :id, Integer
+
+    has_one :media_list, MediaList, :xpath => '.'
+    has_one :child_playlists, ChildPlaylist, :xpath => '.'
+  end
+
+  class ChildPlaylist
+    include HappyMapper
+    tag 'childPlaylists'
+
+    has_many :playlists, Playlist
   end
 end
