@@ -16,9 +16,11 @@ class TenScraper < BaseScraper
   end
 
   def self.extract_shows(source_url)
-    page = TenXmlParser::ChildPlaylist.parse(read_url(source_url)).first
+    playlist = TenXmlParser::Playlist.parse(read_url(source_url))
 
-    page.playlists.map do |playlist|
+    playlists = playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
+
+    playlists.map do |playlist|
       {
         :name => munge_title(playlist.title),
         :url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"
