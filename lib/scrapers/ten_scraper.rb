@@ -2,10 +2,17 @@ require Rails.root + 'lib/scrapers/base_scraper'
 require Rails.root + 'lib/scrapers/ten_xml_parser'
 
 class TenScraper < BaseScraper
+  PLAYLIST_IDS = {
+    "Network10" => "41398",
+    "OneHd" => "44571",
+    "Eleven" => "43712"
+  }
   def self.extract_show_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
 
-    ["http://api.v2.movideo.com/rest/playlist/41398?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"]
+    playlist_id = PLAYLIST_IDS[source_url.scan(/key=movideo([^&]+)/).flatten.first]
+
+    ["http://api.v2.movideo.com/rest/playlist/#{playlist_id}?depth=4&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"]
   end
 
   def self.extract_shows(source_url)
@@ -19,9 +26,15 @@ class TenScraper < BaseScraper
     end
   end
 
+  PLAY_URLS = {
+    "Ten" => "http://ten.com.au/watch-tv-episodes-online.htm",
+    "OneHd" => "http://one.com.au/video.htm",
+    "Eleven" => "http://eleven.com.au/catch-up-and-videos.htm"
+  }
   def self.extract_episodes(show)
     page = TenXmlParser::MediaList.parse(read_url(show.url)).first
 
+    play_url = PLAY_URLS[show.source.name]
     show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
 
     page.media.map.with_index do |item, index|
@@ -29,7 +42,7 @@ class TenScraper < BaseScraper
 
       {
         :name => munge_item_title(item.title),
-        :url => "http://ten.com.au/watch-tv-episodes-online.htm?movideo_p=#{show_id}&movideo_m=#{item.id}",
+        :url => "#{play_url}?movideo_p=#{show_id}&movideo_m=#{item.id}",
         :ordering => index + 1
       }
     end.compact
