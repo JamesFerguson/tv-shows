@@ -15,7 +15,7 @@ atom_feed do |feed|
       episode_lis = episodes.reduce('') do |items, episode|
         items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a></li>\n"
       end.chomp
-      tv_show_url = tv_show.source.scraper == 'AbcScraper' ? episodes.first.url : tv_show.url
+      tv_show_url = %w{AbcScraper TenScraper}.include? tv_show.source.scraper ? episodes.first.url : tv_show.url
       body = <<-HTML
 <h1>#{tv_show.name} (#{episodes.count} episodes)</h1>
 <p><strong>Subscribe</strong>: #{tv_show.name} <a href="#{source_tv_show_url(tv_show.source, tv_show, :format => :atom)}">episodes feed</a></p>
