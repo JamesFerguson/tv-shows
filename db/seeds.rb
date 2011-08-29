@@ -46,6 +46,16 @@ sources = [
     :name => "Ten",
     :url => "http://ten.com.au/api/rest/session?key=movideoNetwork10&applicationalias=main-player",
     :scraper => "TenScraper"
+  },
+  {
+    :name => "OneHd",
+    :url => "http://api.v2.movideo.com/rest/session?key=movideoOneHd&applicationalias=onehd-cutv-universal-flash",
+    :scraper => "TenScraper"
+  },
+  {
+    :name => "Eleven",
+    :url => "http://api.movideo.com/rest/session?key=movideoEleven&applicationalias=eleven-twix-flash&includeApplication=true",
+    :scraper => "TenScraper"
   }
 ]
 
