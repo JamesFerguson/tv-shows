@@ -20,7 +20,9 @@ describe "rake web:scrape_*" do
       # Only some sources call read_url for extract_show_urls
       read_urlers = {
         "SMH.tv" => SmhScraper,
-        "Ten" => TenScraper
+        "Ten" => TenScraper,
+        "OneHd" => TenScraper,
+        "Eleven" => TenScraper
       }
 
       read_urlers.each do |source_name, scraper|
@@ -33,7 +35,7 @@ describe "rake web:scrape_*" do
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
-        show_urls.each.with_index do |url, index|
+        show_urls.each do |url|
           source.scraper_class.should_receive(:read_url).with(url).and_return(
               File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
           )
@@ -52,7 +54,9 @@ describe "rake web:scrape_*" do
         "ABC 3" => 41,
         "iView Originals" => 7,
         "SMH.tv" => 174,
-        "Ten" => 37
+        "Ten" => 21,
+        "OneHd" => 36,
+        "Eleven" => 17
       }
 
       Source.all.each do |source|
@@ -86,7 +90,9 @@ describe "rake web:scrape_*" do
         "ABC 3" => 271,
         "iView Originals" => 25,
         "SMH.tv" => 655,
-        "Ten" => 1
+        "Ten" => 1,
+        "OneHd" => 1,
+        "Eleven" => 1
       }
 
       Source.all.each do |source|
