@@ -52,6 +52,7 @@ class TenScraper < BaseScraper
 
   def self.lead_clip?(title)
     part_num = title.gsub(/\s/, '').scan(/\((\d+)\/\d+\)/).flatten.first
+    part_num ||= title.scan(/ p(\d+)$/).flatten.first
     part_num.nil? || part_num == '1'
   end
 
