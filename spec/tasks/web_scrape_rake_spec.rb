@@ -17,16 +17,10 @@ describe "rake web:scrape_*" do
   
   context "after faking pages for all source urls" do
     before(:each) do
-      # Only some sources call read_url for extract_show_urls
-      read_urlers = {
-        "SMH.tv" => SmhScraper,
-        "Ten" => TenScraper,
-        "OneHd" => TenScraper,
-        "Eleven" => TenScraper
-      }
+      # Some scrapers call read_url for extract_show_urls
+      Source.where("sources.scraper IN ('SmhScraper', 'TenScraper')").each do |source|
 
-      read_urlers.each do |source_name, scraper|
-        source = Source.where(:name => source_name).first
+        scraper = source.scraper.constantize
         scraper.should_receive(:read_url).with(source.url).exactly(2).times.and_return(
           File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
         )
