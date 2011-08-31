@@ -30,9 +30,11 @@ describe "rake web:scrape_*" do
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
         show_urls.each do |url|
-          source.scraper_class.should_receive(:read_url).with(url).and_return(
+          unless source.name == "Neighbours"
+            source.scraper_class.should_receive(:read_url).with(url).and_return(
               File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
-          )
+            )
+          end
         end
       end
     end
