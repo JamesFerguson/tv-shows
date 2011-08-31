@@ -17,6 +17,15 @@ class TenScraper < BaseScraper
   end
 
   def self.extract_shows(source_url)
+    if source_url =~ /playlist\/41267/
+      return [
+        {
+          :name => "Neighbours",
+          :url => source_url
+        }
+      ]
+    end
+
     playlist = TenXmlParser::Playlist.parse(read_url(source_url))
 
     playlists = playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
