@@ -5,7 +5,8 @@ class TenScraper < BaseScraper
   PLAYLIST_IDS = {
     "Network10" => "41398",
     "OneHd" => "44571",
-    "Eleven" => "43712"
+    "Eleven" => "43712",
+    "Neighbours" => "41267"
   }
   def self.extract_show_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
@@ -31,7 +32,8 @@ class TenScraper < BaseScraper
   PLAY_URLS = {
     "Ten" => "http://ten.com.au/watch-tv-episodes-online.htm",
     "OneHd" => "http://one.com.au/video.htm",
-    "Eleven" => "http://eleven.com.au/catch-up-and-videos.htm"
+    "Eleven" => "http://eleven.com.au/catch-up-and-videos.htm",
+    "Neighbours" => "http://neighbours.com.au/video.htm?movideo_p=41267"
   }
   def self.extract_episodes(show)
     page = TenXmlParser::MediaList.parse(read_url(show.url)).first
