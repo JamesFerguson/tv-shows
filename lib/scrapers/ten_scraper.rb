@@ -17,14 +17,14 @@ class TenScraper < BaseScraper
   end
 
   def self.extract_shows(source_url)
-    if source_url =~ /playlist\/41267/
-      return [
-        {
-          :name => "Neighbours",
-          :url => source_url
-        }
-      ]
-    end
+    # if source_url =~ /playlist\/41267/
+    #   return [
+    #     {
+    #       :name => "Neighbours",
+    #       :url => source_url
+    #     }
+    #   ]
+    # end
 
     playlist = TenXmlParser::Playlist.parse(read_url(source_url))
 
