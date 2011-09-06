@@ -28,7 +28,7 @@ class TenScraper < BaseScraper
 
     playlist = TenXmlParser::Playlist.parse(read_url(source_url))
 
-    playlists = playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
+    playlists = filter_playlists(playlist)
 
     playlists.map do |playlist|
       {
@@ -59,6 +59,12 @@ class TenScraper < BaseScraper
         :ordering => index + 1
       }
     end.compact
+  end
+
+  protected
+
+  def self.filter_playlists(playlist)
+    playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
   end
 
   def self.lead_clip?(title)
