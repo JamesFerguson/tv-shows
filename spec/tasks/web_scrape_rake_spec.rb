@@ -77,7 +77,7 @@ describe "rake web:scrape_*" do
       TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
 
-        if (first_scrapes & [source.scraper, source.name]).any?
+        if (first_scrapes & [show.source.scraper, show.source.name]).any?
           `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
         end
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
@@ -113,5 +113,5 @@ describe "rake web:scrape_*" do
 end
 
 def first_scrapes
-  ENV['FIRST_SCRAPE'].split(',')
+  (ENV['FIRST_SCRAPE'] || '').split(',')
 end
