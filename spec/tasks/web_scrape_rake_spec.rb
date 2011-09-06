@@ -37,11 +37,9 @@ describe "rake web:scrape_*" do
             `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
           end
 
-          unless source.name == "Neighbours"
-            source.scraper_class.should_receive(:read_url).with(url).and_return(
-              File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
-            )
-          end
+          source.scraper_class.should_receive(:read_url).with(url).and_return(
+            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+          )
         end
       end
     end
