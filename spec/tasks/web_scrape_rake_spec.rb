@@ -18,7 +18,7 @@ describe "rake web:scrape_*" do
   context "after faking pages for all source urls" do
     before(:each) do
       # Some scrapers call read_url for extract_show_urls
-      Source.where("sources.scraper IN ('SmhScraper', 'TenScraper')").each do |source|
+      Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
         if (first_scrapes & [source.scraper, source.name]).any?
           `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
         end
