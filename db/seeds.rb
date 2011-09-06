@@ -60,7 +60,7 @@ sources = [
   {
     :name => "Neighbours",
     :url => "http://api.movideo.com/rest/session?key=movideoNeighbours&applicationalias=neighbours-universal-flash",
-    :scraper => "TenScraper"
+    :scraper => "TenMicroSiteScraper"
   }
 ]
 
