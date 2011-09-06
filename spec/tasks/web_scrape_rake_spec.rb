@@ -55,15 +55,14 @@ describe "rake web:scrape_*" do
         "ABC 3" => 41,
         "iView Originals" => 7,
         "SMH.tv" => 174,
-        "Ten" => 21,
-        "OneHd" => 36,
+        "Ten" => 20,
+        "OneHd" => 33,
         "Eleven" => 17,
         "Neighbours" => 1
       }
 
       Source.all.each do |source|
         expectations[source.name].should_not be_nil
-
         source.tv_shows.count.should == expectations[source.name]
       end
 
@@ -98,7 +97,7 @@ describe "rake web:scrape_*" do
         "Ten" => 216,
         "OneHd" => 500,
         "Eleven" => 195,
-        "Neighbours" => 4
+        "Neighbours" => 5
       }
 
       Source.all.each do |source|
