@@ -50,14 +50,16 @@ class TenScraper < BaseScraper
     play_url = PLAY_URLS[show.source.name]
     show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
 
-      next unless lead_clip?(item.title)
     index = 0
     page.media.map do |item|
+      title = show.source.name == 'Neighbours' ? item.description : item.title
+
+      next unless lead_clip?(title)
 
       index += 1
 
       {
-        :name => munge_item_title(item.title),
+        :name => munge_item_title(title),
         :url => "#{play_url}?movideo_p=#{show_id}&movideo_m=#{item.id}",
         :ordering => index
       }
@@ -73,11 +75,12 @@ class TenScraper < BaseScraper
   def self.lead_clip?(title)
     part_num = title.gsub(/\s/, '').scan(/\((\d+)\/\d+\)/).flatten.first
     part_num ||= title.scan(/ p(\d+)$/).flatten.first
+    part_num ||= title.scan(/- Part (\d+) -/).flatten.first
     part_num.nil? || part_num == '1'
   end
 
   def self.munge_item_title(title)
-    title.sub(/\s+\([\d\s\/]+\)/, '')
+    title.sub(/\s+\([\d\s\/]+\)/, '').sub(/- Part (\d+) -/, '-')
   end
 
   def self.munge_title(title)
