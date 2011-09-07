@@ -41,6 +41,8 @@ describe "each scraper" do
           shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
         end
 
+        # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(source.url)}.json"), 'w') { |f| f.puts shows.flatten.to_json }
+
         shows.flatten.should ==
           JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
@@ -73,6 +75,19 @@ describe "each scraper" do
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.url
 
+        # if (first_scrapes & [source.scraper, source.name]).any?
+        #   # we need to set up the token or the show curl won't work.
+        #   if ['TenScraper', 'TenMicroSiteScraper'].include?(source.scraper)
+        #     `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
+
+        #     source.scraper.constantize.should_receive(:read_url).with(source.url).and_return(File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}"))
+
+        #     source.scraper_class.extract_show_urls(source.url)
+        #   end
+
+        #   `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
+        # end
+
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
         )
@@ -84,4 +99,8 @@ describe "each scraper" do
       end
     end
   end
+end
+
+def first_scrapes
+  (ENV['FIRST_SCRAPE'] || '').split(',')
 end
