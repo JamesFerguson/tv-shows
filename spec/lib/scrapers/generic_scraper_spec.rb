@@ -89,7 +89,7 @@ describe "each scraper" do
         # end
 
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+            File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
 
         show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should ==
