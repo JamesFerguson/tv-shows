@@ -50,13 +50,16 @@ class TenScraper < BaseScraper
     play_url = PLAY_URLS[show.source.name]
     show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
 
-    page.media.map.with_index do |item, index|
       next unless lead_clip?(item.title)
+    index = 0
+    page.media.map do |item|
+
+      index += 1
 
       {
         :name => munge_item_title(item.title),
         :url => "#{play_url}?movideo_p=#{show_id}&movideo_m=#{item.id}",
-        :ordering => index + 1
+        :ordering => index
       }
     end.compact
   end
