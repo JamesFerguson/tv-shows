@@ -23,8 +23,7 @@ describe "rake web:scrape_*" do
           `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
         end
 
-        scraper = source.scraper.constantize
-        scraper.should_receive(:read_url).with(source.url).exactly(2).times.and_return(
+        source.scraper.constantize.should_receive(:read_url).with(source.url).exactly(2).times.and_return(
           File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
         )
       end
