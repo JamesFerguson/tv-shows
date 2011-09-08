@@ -1,9 +1,9 @@
 class Source < ActiveRecord::Base
   has_many :tv_shows, :dependent => :destroy
   has_many :episodes, :through => :tv_shows
-  
+
   has_friendly_id :name, :use_slug => true
-  
+
   def scrape
     scrape_shows
     scrape_episodes
@@ -19,9 +19,9 @@ class Source < ActiveRecord::Base
   def scrape_episodes
     mark_all(episodes)
     episodes.each { |e| e.update_attributes!(:ordering => nil) }
-    
+
     scrape_episode_data
-    
+
     cleanup(episodes, DateTime.now - 2.weeks)
   end
 
@@ -29,7 +29,7 @@ class Source < ActiveRecord::Base
     require "scrapers/#{scraper.underscore}"
     @scraper ||= scraper.constantize
   end
-  
+
   def self.find_or_create(collection, find_key, create_or_update_data)
     item = collection.where(find_key => create_or_update_data[find_key]).first
     if item
@@ -51,13 +51,13 @@ class Source < ActiveRecord::Base
 
     save!
   end
-  
+
   def scrape_episode_data
     tv_shows.active.each do |show|
       scrape_show_episodes(show)
     end
   end
-  
+
   def scrape_show_episodes(show)
     scraper_class.extract_episodes(show).each do |ep_data|
       Source.find_or_create(show.episodes, :name, ep_data)
@@ -65,7 +65,7 @@ class Source < ActiveRecord::Base
 
     show.save!
   end
-  
+
   def mark_all(collection)
     collection.where(:deactivated_at => nil).each do |item|
       item.update_attribute(:deactivated_at, DateTime.now)

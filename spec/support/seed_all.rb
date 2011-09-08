@@ -1,12 +1,12 @@
 def seed_tv_shows
   tv_shows = [
     {
-      :source => "Channel Nine",
+      :source => "NineMSN Fixplay",
       :name => "AFP",
       :url => "http://fixplay.ninemsn.com.au/afp"
     },
     {
-      :source => "Channel Seven",
+      :source => "Yahoo Plus7",
       :name => "Jeeves and Wooster",
       :url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
     },
@@ -34,6 +34,26 @@ def seed_tv_shows
       :source => "SMH.tv",
       :name => "Baby Baby",
       :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
+    },
+    {
+      :source => "Ten",
+      :name => "Totally Wild",
+      :url => "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate"
+    },
+    {
+      :source => "OneHd",
+      :name => "America's Port",
+      :url => "http://api.v2.movideo.com/rest/playlist/45405?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,defaultImage,imagePath"
+    },
+    {
+      :source => "Eleven",
+      :name => "Being Human | Full Episodes",
+      :url => "http://api.v2.movideo.com/rest/playlist/45050?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,defaultImage,imagePath"
+    },
+    {
+      :source => "Neighbours",
+      :name => "Neighbours",
+      :url => "http://api.v2.movideo.com/rest/playlist/41267?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,defaultImage,imagePath"
     }
   ]
 
