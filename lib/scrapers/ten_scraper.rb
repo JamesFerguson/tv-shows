@@ -1,5 +1,5 @@
-require Rails.root + 'lib/scrapers/base_scraper'
-require Rails.root + 'lib/scrapers/ten_xml_parser'
+require Rails.root.join 'lib/scrapers/base_scraper'
+require Rails.root.join 'lib/scrapers/ten_xml_parser'
 
 class TenScraper < BaseScraper
   PLAYLIST_IDS = {
