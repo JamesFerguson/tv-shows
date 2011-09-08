@@ -17,22 +17,27 @@ describe "rake web:scrape_*" do
   
   context "after faking pages for all source urls" do
     before(:each) do
-      # SMH.tv is the only source that calls read_url for extract_show_urls
-      smh_url = Source.where(:name => "SMH.tv").first.url
-      SmhScraper.should_receive(:read_url).with(smh_url).and_return(
-          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(smh_url)}")
-      )
+      # Some scrapers call read_url for extract_show_urls
+      Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
+        if (first_scrapes & [source.scraper, source.name]).any?
+          `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
+        end
+
+        source.scraper.constantize.should_receive(:read_url).with(source.url).exactly(2).times.and_return(
+          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
+        )
+      end
 
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_show_urls(source.url)
 
-        show_urls.each.with_index do |url, index|
-          expectation = source.scraper_class.should_receive(:read_url).with(url)
+        show_urls.each do |url|
+          if (first_scrapes & [source.scraper, source.name]).any?
+            `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
+          end
 
-          expectation.twice if index == 0 && show_urls.count > 1 # pagination double scrapes first page
-
-          expectation.and_return(
-              File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
+          source.scraper_class.should_receive(:read_url).with(url).and_return(
+            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
           )
         end
       end
@@ -42,18 +47,21 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].invoke
 
       expectations = {
-        "Channel Seven" => 71,
-        "Channel Nine" => 33,
+        "Yahoo Plus7" => 71,
+        "NineMSN Fixplay" => 33,
         "ABC 1" => 55,
         "ABC 2" => 35,
         "ABC 3" => 41,
         "iView Originals" => 7,
-        "SMH.tv" => 174
+        "SMH.tv" => 174,
+        "Ten" => 20,
+        "OneHd" => 33,
+        "Eleven" => 17,
+        "Neighbours" => 1
       }
 
       Source.all.each do |source|
         expectations[source.name].should_not be_nil
-
         source.tv_shows.count.should == expectations[source.name]
       end
 
@@ -67,6 +75,9 @@ describe "rake web:scrape_*" do
       TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
 
+        if (first_scrapes & [show.source.scraper, show.source.name]).any?
+          `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
+        end
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
@@ -75,13 +86,17 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Channel Seven" => 521,
-        "Channel Nine" => 227,
+        "Yahoo Plus7" => 521,
+        "NineMSN Fixplay" => 227,
         "ABC 1" => 130,
         "ABC 2" => 66,
         "ABC 3" => 271,
         "iView Originals" => 25,
-        "SMH.tv" => 655
+        "SMH.tv" => 655,
+        "Ten" => 216,
+        "OneHd" => 500,
+        "Eleven" => 195,
+        "Neighbours" => 5
       }
 
       Source.all.each do |source|
@@ -93,4 +108,8 @@ describe "rake web:scrape_*" do
       Source.count.should == expectations.count
     end
   end
+end
+
+def first_scrapes
+  (ENV['FIRST_SCRAPE'] || '').split(',')
 end

@@ -16,6 +16,6 @@ class BaseScraper
   def self.read_url(url)
     raise "Attempted to read_url('#{url}')" if Rails.env == 'test' # since fakeweb won't catch curl
 
-    `curl --silent -L #{url}`
+    `curl --silent -L #{Shellwords.shellescape(url)}`
   end
 end
