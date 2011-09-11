@@ -1,7 +1,19 @@
 - ten scraper
-  - how to get the xml
-  - test
-  - implement
+  - detect missing externals and output during scrape
+  - implement all satellites
+  - fix show homepage (just cut off episode parameter from first episode url)
 - nine scraper to get episode names as well as numbers
-- outnumbered show numbering backwards
 - sbs scraper
+- split up generic spec, push logic into helper
+- homepage
+  - basic explanation, links
+  - screencast
+- per source feeds of shows
+- per genre feeds of shows
+  - per source per genre
+- descriptions
+  - shows
+  - episodes
+- image links
+  - shows
+  - episodes

@@ -42,6 +42,8 @@ describe "each scraper" do
         end
 
         # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(source.url)}.json"), 'w') { |f| f.puts shows.flatten.to_json }
+        # puts shows.flatten.to_json
+        # puts "spec/fakeweb/results/#{fakewebize(source.url)}.json"
 
         shows.flatten.should ==
           JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
