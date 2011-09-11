@@ -18,7 +18,9 @@ class TenScraper < BaseScraper
 
   def self.extract_shows(source_url)
     playlist = TenXmlParser::Playlist.parse(read_url(source_url))
-
+puts "url: #{source_url}"
+puts "source: #{read_url(source_url)}"
+puts "playlist: #{playlist.inspect}"
     unknown_external_links = filter_links(playlist.external_links)
     if unknown_external_links.any? && !ENV['IGNORE_EXT_LINKS']
       Rails.logger.info "Unknown external links found:\n#{unknown_external_links.inspect}"
@@ -72,7 +74,6 @@ class TenScraper < BaseScraper
   end
 
   def self.filter_playlists(playlist)
-    p playlist
     playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
   end
 
