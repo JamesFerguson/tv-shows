@@ -1,4 +1,13 @@
 module TenXmlParser
+  # class Tag
+  #   include HappyMapper
+  #   tag "tag[ns='external' and predicate='link']"
+
+  #   element :ns, String
+  #   element :predicate, String
+  #   element :value, String
+  # end
+
   class Media
     include HappyMapper
     tag 'media'
@@ -26,9 +35,11 @@ module TenXmlParser
 
     element :title, String
     element :id, Integer
+    element :external_links, String, :single => false, :deep => true, :tag => 'value', :xpath => "//playlist/tags/tag[ns='external' and predicate='link']/value"
 
     has_one :media_list, MediaList, :xpath => '.'
     has_one :child_playlists, ChildPlaylist, :xpath => '.'
+    # has_many :tags, Tag, :xpath => './tags'
   end
 
   class ChildPlaylist

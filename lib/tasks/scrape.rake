@@ -14,7 +14,10 @@ namespace :web do
   task :scrape_shows => :environment do
     puts "Scraping teh shows."
 
-    Source.all.each(&:scrape_shows)
+    Source.all.each do |source|
+      puts "Scraping shows from #{source.name}"
+      source.scrape_shows
+    end
 
     puts "Shows scraped."
   end
@@ -23,7 +26,10 @@ namespace :web do
   task :scrape_episodes => :environment do
     puts "Scraping teh episodes."
 
-    Source.all.each(&:scrape_episodes)
+    Source.all.each do |source|
+      puts "Scraping episodes from #{source.name}"
+      source.scrape_episodes
+    end
 
     puts "Episodes scraped."
   end
