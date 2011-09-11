@@ -72,6 +72,7 @@ class TenScraper < BaseScraper
   end
 
   def self.filter_playlists(playlist)
+    p playlist
     playlist.child_playlists.playlists.reject { |playlist| playlist.media_list.media.empty? || playlist.media_list.media.first.title == "DUMMY MEDIA - IGNORE" }
   end
 
