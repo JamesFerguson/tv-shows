@@ -1,5 +1,5 @@
 - ten scraper
-  - detect missing externals and output during scrape
+  - implement local tunnel for heroku
   - implement all satellites
   - fix show homepage (just cut off episode parameter from first episode url)
 - nine scraper to get episode names as well as numbers
