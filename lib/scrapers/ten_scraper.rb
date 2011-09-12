@@ -6,7 +6,14 @@ class TenScraper < BaseScraper
     "Network10" => "41398",
     "OneHd" => "44571",
     "Eleven" => "43712",
-    "Neighbours" => "41267"
+    "Neighbours" => "41267",
+    "Stargate" => "43967",
+    "Masterchef" => "40328",
+    "7PM Project" => "39688",
+    "Ready Steady Cook" => "38735",
+    "The Biggest Loser" => "?",
+    "The Circle" => "?",
+    "The Renovators" => "44821"
   }
   def self.extract_show_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
@@ -41,7 +48,14 @@ puts "playlist: #{playlist.inspect}"
     "Ten" => "http://ten.com.au/watch-tv-episodes-online.htm",
     "OneHd" => "http://one.com.au/video.htm",
     "Eleven" => "http://eleven.com.au/catch-up-and-videos.htm",
-    "Neighbours" => "http://neighbours.com.au/video.htm?movideo_p=41267"
+    "Neighbours" => "http://neighbours.com.au/video.htm?movideo_p=41267" #,
+    # "Masterchef" => "http://www.masterchef.com.au/video.htm" #,
+    # "Ready Steady Cook" => "http://readysteadycook.ten.com.au/video.htm" #,
+    # "Stargate Universe" => "http://www.stargate-universe.com.au/full-episodes/" #,
+    # "The Biggest Loser" => "http://thebiggestloser.com.au/video.htm?" #,
+    # "The Circle" => "http://ten.com.au/the-circle-video.htm?" #,
+    # "The Renovators" => "http://therenovatorstv.com.au/video.htm?" #,
+    # "The 7PM Project" => "http://7pmproject.com.au/video.htm"
   }
   def self.extract_episodes(show)
     page = TenXmlParser::MediaList.parse(read_url(show.url)).first
