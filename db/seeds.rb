@@ -107,5 +107,6 @@ sources = [
 ]
 
 sources.each do |source_data|
+  source_data[:url] = "http://www.users.on.net/~jamesferguson/index.php?link=#{CGI::escape(source_data[:url])}" if ["TenMicroSiteScraper", "TenScraper"].include?(source_data[:scraper])
   Source.find_or_create(Source, :name, source_data)
 end
