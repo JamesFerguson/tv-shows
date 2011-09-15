@@ -54,8 +54,8 @@ describe "rake web:scrape_*" do
         "ABC 3" => 41,
         "iView Originals" => 7,
         "SMH.tv" => 174,
-        "Ten" => 20,
-        "OneHd" => 33,
+        "Ten" => 23,
+        "OneHd" => 36,
         "Eleven" => 17,
         "Neighbours" => 1
       }
@@ -93,9 +93,9 @@ describe "rake web:scrape_*" do
         "ABC 3" => 271,
         "iView Originals" => 25,
         "SMH.tv" => 655,
-        "Ten" => 216,
-        "OneHd" => 500,
-        "Eleven" => 195,
+        "Ten" => 227,
+        "OneHd" => 583,
+        "Eleven" => 198,
         "Neighbours" => 5
       }
 
