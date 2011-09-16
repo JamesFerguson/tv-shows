@@ -2,7 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git' # edge rails
-gem 'mysql2', '~> 0.2.1'
+# gem 'mysql2', '~> 0.2.1'
+gem 'pg'
 gem 'bundler'
 
 # Deploy with Capistrano

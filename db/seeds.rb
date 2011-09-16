@@ -64,7 +64,7 @@ sources = [
   }
   # },
   # {
-  #   :name => "Stargate",
+  #   :name => "Stargate Universe",
   #   :url => "http://api.v2.movideo.com/rest/session?key=movideoEleven&applicationalias=eleven-stargate",
   #   :scraper => "TenMicroSiteScraper"
   # }
@@ -76,7 +76,7 @@ sources = [
   # }
   # },
   # {
-  #   :name => "7PM Project",
+  #   :name => "The 7PM Project",
   #   :url => "http://api.v2.movideo.com/rest/session?key=movideo7pmProject&applicationalias=7pmproject-universal-flash",
   #   :scraper => "TenMicroSiteScraper"
   # }
@@ -106,16 +106,7 @@ sources = [
   # }
 ]
 
-# Additional ten satellite sites: 
-# Neighbours, http://api.movideo.com/rest/session?key=movideoNeighbours&applicationalias=neighbours-universal-flash 41267 http://neighbours.com.au/video.htm?movideo_p=41267
-# Stargate, http://api.v2.movideo.com/rest/session?key=movideoEleven&applicationalias=eleven-stargate 43967 http://www.stargate-universe.com.au/full-episodes/
-# Masterchef, http://api.v2.movideo.com/rest/session?key=movideoMasterChef&applicationalias=masterchef-2011 40328 http://www.masterchef.com.au/video.htm
-# 7PM Project, http://api.v2.movideo.com/rest/session?key=movideo7pmProject&applicationalias=7pmproject-universal-flash 39688 http://7pmproject.com.au/video.htm
-# Ready Steady Cook, http://api.v2.movideo.com/rest/session?key=movideo10&applicationalias=ready-steady-cook 38735 http://readysteadycook.ten.com.au/video.htm
-# The Biggest Loser, ? ? http://thebiggestloser.com.au/video.htm?
-# The Circle, ? ? http://ten.com.au/the-circle-video.htm?
-# The Renovators http://api.v2.movideo.com/rest/session\?key\=movideoRenovators\&applicationalias\=renovators-universal-flash 44821 http://therenovatorstv.com.au/video.htm?
-
 sources.each do |source_data|
+  source_data[:url] = "http://www.users.on.net/~jamesferguson/index.php?link=#{CGI::escape(source_data[:url])}" if ["TenMicroSiteScraper", "TenScraper"].include?(source_data[:scraper])
   Source.find_or_create(Source, :name, source_data)
 end

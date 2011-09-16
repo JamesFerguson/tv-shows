@@ -1,11 +1,10 @@
 defaults: &DEFAULTS
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  reconnect: false
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  username: tv_shows
+  password: dddd
+  min_messages: warning
 
 development:
   database: tv_shows_development
