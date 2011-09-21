@@ -76,5 +76,13 @@ SEEDED_SHOW_ATTRS = {
     "description" => "Comedy drama series following the insane shenanigans of Bertram Wooster (Hugh Laurie) and his faithful butler Jeeves (Stephen Fry). Each episode sees Wooster unwittingly caught up in some kind of scrape, and each time it's down to his trusty aide Jeeves to come up with a cunning masterplan to get him off the hook.", 
     "classification" => "PG", 
     "genre" => "Comedy", 
-    "image" => "http://l.yimg.com/ao/i/tv/portal/promos/autv-plus7-jeeves-and-wooster.jpg"}
+    "image" => "http://l.yimg.com/ao/i/tv/portal/promos/autv-plus7-jeeves-and-wooster.jpg"
+  },
+  "AFP" => {
+    "name" => "AFP",
+    "description" => "More than 6500 men and women - across thirty countries and in forty cities - on guard against crime in Australia and around the world. \nAFP will take you behind the scenes with the men and women of the Australian Federal Police. Never before has an Australian audience been given such unprecedented access to the work of Australia's national and international policing agency. \n\n",
+    "classification" => nil,
+    "genre" => "Reality",
+    "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/afp.jpg"
+  }
 }
