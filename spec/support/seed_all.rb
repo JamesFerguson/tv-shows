@@ -69,3 +69,12 @@ end
 def seed_sources
   load Rails.root.join('db/seeds.rb')
 end
+
+SEEDED_SHOW_ATTRS = {
+  "Jeeves and Wooster" => {
+    "name"=>"Jeeves and Wooster",
+    "description" => "Comedy drama series following the insane shenanigans of Bertram Wooster (Hugh Laurie) and his faithful butler Jeeves (Stephen Fry). Each episode sees Wooster unwittingly caught up in some kind of scrape, and each time it's down to his trusty aide Jeeves to come up with a cunning masterplan to get him off the hook.", 
+    "classification" => "PG", 
+    "genre" => "Comedy", 
+    "image" => "http://l.yimg.com/ao/i/tv/portal/promos/autv-plus7-jeeves-and-wooster.jpg"}
+}

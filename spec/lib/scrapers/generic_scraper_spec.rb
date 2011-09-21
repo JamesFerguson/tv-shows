@@ -101,6 +101,8 @@ describe "each scraper" do
           JSON.parse(File.read(
             "spec/fakeweb/results/#{fakewebize(show.url)}.json"
           ))
+
+        show.attributes.slice(*%w{name description classification genre image}).should == SEEDED_SHOW_ATTRS[show.name]
       end
     end
   end
