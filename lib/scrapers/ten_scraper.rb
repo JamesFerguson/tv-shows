@@ -61,6 +61,7 @@ class TenScraper < BaseScraper
     playlist = TenXmlParser::Playlist.parse(read_url(show.url))
 
     show.update_attributes!(
+      :url => "#{play_url}?movideo_p=#{show_id}",
       :image => playlist.image
     )
 
