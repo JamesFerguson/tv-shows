@@ -19,14 +19,12 @@ class TenScraper < BaseScraper
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
 
     playlist_id = PLAYLIST_IDS[source_url.scan(/key(?:=|%3D)movideo([^&%]+)/).flatten.first]
-    ["http://api.v2.movideo.com/rest/playlist/#{playlist_id}?depth=4&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,defaultImage,imagePath"]
+    ["http://api.v2.movideo.com/rest/playlist/#{playlist_id}?depth=4&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath"]
   end
 
   def self.extract_shows(source_url)
     playlist = TenXmlParser::Playlist.parse(read_url(source_url))
-# puts "url: #{source_url}"
-# puts "source: #{read_url(source_url)}"
-# puts "playlist: #{playlist.inspect}"
+
     unknown_external_links = filter_links(playlist.external_links)
     if unknown_external_links.any? && !ENV['IGNORE_EXT_LINKS']
       Rails.logger.info "Unknown external links found:\n#{unknown_external_links.inspect}"
@@ -34,11 +32,11 @@ class TenScraper < BaseScraper
     end
 
     playlists = filter_playlists(playlist)
-
     playlists.map do |playlist|
       {
         :name => munge_title(playlist.title),
-        :url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,defaultImage,imagePath"
+        :url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+        :genre => playlist.genre
       }
     end
   end
@@ -57,13 +55,18 @@ class TenScraper < BaseScraper
     "The 7PM Project"   => "http://7pmproject.com.au/video.htm"
   }
   def self.extract_episodes(show)
-    page = TenXmlParser::MediaList.parse(read_url(show.url)).first
-
     play_url = PLAY_URLS[show.source.name]
     show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
 
+    playlist = TenXmlParser::Playlist.parse(read_url(show.url))
+
+    show.update_attributes!(
+      :url => "#{play_url}?movideo_p=#{show_id}",
+      :image => playlist.image
+    )
+
     index = 0
-    page.media.map do |item|
+    playlist.media_list.media.map do |item|
       title = show.source.name == 'Neighbours' ? item.description : item.title
 
       next unless lead_clip?(title)

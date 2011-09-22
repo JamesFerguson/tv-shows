@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110915213013) do
+ActiveRecord::Schema.define(:version => 20110919082148) do
 
   create_table "episodes", :force => true do |t|
     t.string   "name"
@@ -57,6 +57,10 @@ ActiveRecord::Schema.define(:version => 20110915213013) do
     t.datetime "updated_at"
     t.datetime "deactivated_at"
     t.string   "cached_slug"
+    t.text     "description"
+    t.text     "image"
+    t.string   "classification"
+    t.string   "genre"
   end
 
   add_index "tv_shows", ["source_id", "cached_slug"], :name => "index_tv_shows_on_source_id_and_cached_slug", :unique => true
