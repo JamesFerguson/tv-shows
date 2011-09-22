@@ -19,9 +19,10 @@ class AbcScraper < BaseScraper
      {
         :name => self.munge_title(episode.name, :episode),
         :url => episode.link,
+        :description => episode.description,
+        :duration => episode.duration,
+        :image => episode.thumbnail_url,
         :ordering => index + 1
-        #, :description => episode.description
-        #, :duration => episode.duration
       }
     end
   end

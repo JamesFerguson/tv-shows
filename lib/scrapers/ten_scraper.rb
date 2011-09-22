@@ -76,6 +76,9 @@ class TenScraper < BaseScraper
       {
         :name => munge_item_title(title),
         :url => "#{play_url}?movideo_p=#{show_id}&movideo_m=#{item.id}",
+        :description => item.description,
+        :image => item.image,
+        :duration => item.duration,
         :ordering => index
       }
     end.compact
