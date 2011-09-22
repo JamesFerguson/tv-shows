@@ -1,38 +1,33 @@
-require Rails.root + 'lib/scrapers/base_scraper'
+require Rails.root.join('lib/scrapers/base_scraper')
+require Rails.root.join('lib/scrapers/abc_xml_parser')
 
 class AbcScraper < BaseScraper
   def self.extract_shows(source_url)
-    page = Nokogiri::XML(read_url(source_url))
-
-    shows = {}
-    page.xpath('/rss/channel/item').map do |node|
-      next if shows[node.xpath('media:thumbnail[@url]/@url').first.value]
-      
-      shows[node.xpath('media:thumbnail[@url]/@url').first.value] = {
-        :name => self.munge_title(node.xpath('title').text, :series),
-        :url => node.xpath('media:thumbnail[@url]/@url').first.value
-      }
-    end
-
-    shows.values
-  end
-  
-  def self.extract_episodes(show)
-    page = Nokogiri::XML(read_url(show.source.url))
-    show_url = URI.parse(show.url)
-    
-    episodes = 
-      page.xpath("/rss/channel/item[media:thumbnail[@url = '#{show.url}']]").reverse.map.with_index do |node, index|
+   items = AbcXmlParser::Item.parse(read_url(source_url)).group_by(&:thumbnail_url).values.map do |series|
+      episode = series.first
       {
-        :name => self.munge_title(node.xpath('title').text, :episode),
-        :url => show_url.merge(node.xpath('link').text).to_s,
-        :ordering => index + 1
+        :name => self.munge_title(episode.name, :series),
+        :url => episode.link,
+        :image => episode.thumbnail_url,
+        :genre => episode.genre.titlecase
       }
     end
   end
-  
+
+  def self.extract_episodes(show)
+    items = AbcXmlParser::Item.parse(read_url(show.source.url)).group_by(&:thumbnail_url)[show.image].reverse.map.with_index do |episode, index|
+     {
+        :name => self.munge_title(episode.name, :episode),
+        :url => episode.link,
+        :ordering => index + 1
+        #, :description => episode.description
+        #, :duration => episode.duration
+      }
+    end
+  end
+
   protected
-  
+
   SUBS = {
     :series => [%r{ (\d\d/\d\d/\d\d|Episode \d+|2011).*}, ''],
     :episode => [%r{.*(\d\d/\d\d/\d\d|Episode \d+|2011)}, '\1']
