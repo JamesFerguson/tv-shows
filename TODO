@@ -1,20 +1,18 @@
-- descriptions
-  - shows
-  - episodes
-- per source feeds of shows
-- per genre feeds of shows
-  - per source per genre
-- feed for one episode shows (exclude shows that have had more than one in the past)
-- ten scraper
-  - fix show homepage (just cut off episode parameter from first episode url)
-  - implement all satellites
-  - cleaner tunnel - check urls against heroku
-- nine scraper to get episode names as well as numbers
+
 - homepage
   - basic explanation, links
   - screencast
+- nine scraper to get episode names as well as numbers
+- ten scraper
+  - implement all satellites
+  - cleaner tunnel - check urls against heroku
 - sbs scraper
 - split up generic spec, push logic into helper
 - image links
-  - shows
   - episodes
+- descriptions
+  - episodes
+- feed for one episode shows (exclude shows that have had more than one in the past)
+- per source feeds of shows
+- per genre feeds of shows
+  - per source per genre
