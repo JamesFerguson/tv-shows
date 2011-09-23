@@ -35,7 +35,7 @@ class TenScraper < BaseScraper
     playlists.map do |playlist|
       {
         :name => munge_title(playlist.title),
-        :url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+        :data_url => "http://api.v2.movideo.com/rest/playlist/#{playlist.id}?depth=1&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
         :genre => playlist.genre
       }
     end
@@ -56,12 +56,12 @@ class TenScraper < BaseScraper
   }
   def self.extract_episodes(show)
     play_url = PLAY_URLS[show.source.name]
-    show_id = show.url.scan(/playlist\/(\d+)/).flatten.first
+    show_id = show.data_url.scan(/playlist\/(\d+)/).flatten.first
 
-    playlist = TenXmlParser::Playlist.parse(read_url(show.url))
+    playlist = TenXmlParser::Playlist.parse(read_url(show.data_url))
 
     show.update_attributes!(
-      :url => "#{play_url}?movideo_p=#{show_id}",
+      :homepage_url =>  "#{play_url}?movideo_p=#{show_id}",
       :image => playlist.image
     )
 

@@ -7,13 +7,17 @@ class SevenScraper < BaseScraper
     page = Nokogiri::HTML(read_url(source_url))
 
     shows = page.css("#atoz h3 a").map do |node|
-      {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+      {
+        :name => node.text,
+        :data_url => shows_url.merge(node.attributes['href'].value).to_s,
+        :homepage_url => shows_url.merge(node.attributes['href'].value).to_s
+      }
     end
   end
 
   def self.extract_episodes(show)
-    show_url = URI.parse(show.url)
-    page = Nokogiri::HTML(read_url(show.url))
+    show_url = URI.parse(show.data_url)
+    page = Nokogiri::HTML(read_url(show.data_url))
 
     show_deets = page.css("div.mod.tv-plus7-info p")
     show.update_attributes!(

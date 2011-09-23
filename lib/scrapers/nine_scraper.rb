@@ -7,18 +7,22 @@ class NineScraper < BaseScraper
     page = Nokogiri::HTML(read_url(source_url))
 
     shows = page.css("#main a.linkItem").map do |node|
-      {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+      {
+        :name => node.text,
+        :data_url => shows_url.merge(node.attributes['href'].value).to_s,
+        :homepage_url => shows_url.merge(node.attributes['href'].value).to_s
+      }
     end
   end
 
   def self.extract_episodes(show)
-    show_url = URI.parse(show.url)
-    page = Nokogiri::HTML(read_url(show.url))
+    show_url = URI.parse(show.data_url)
+    page = Nokogiri::HTML(read_url(show.data_url))
 
     show_deets = page.css("div#feature_header")
     show.update_attributes!(
       :description => show_deets.css('span.text').text,
-      :image => URI.parse(show.url).merge(show_deets.css('span.image img').first['src']).to_s,
+      :image => show_url.merge(show_deets.css('span.image img').first['src']).to_s,
       :classification => nil,
       :genre => show_deets.css('div.headertitle span').first.text.gsub(/[\w :-]+ \| /, ''),
     )
@@ -26,10 +30,7 @@ class NineScraper < BaseScraper
     episodes = page.css("#all_articles_index .tr").map.with_index do |node, index|
       {
         :name => "Episode #{node.children[1].text}: #{node.css('.season_title').text}",
-        :url => show_url.
-                  merge(
-                    node.css('.watch_now_normal').first.attributes['href'].value
-                  ).to_s,
+        :url => show_url.merge(node.css('.watch_now_normal').first.attributes['href'].value).to_s,
         :ordering => index + 1
       }
     end

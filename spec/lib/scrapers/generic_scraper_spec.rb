@@ -59,7 +59,7 @@ describe "each scraper" do
       NineScraper.extract_shows(
         NineScraper.extract_show_urls(source.url).first
       ).map do |show_data|
-        URI.parse(show_data[:url]).host
+        URI.parse(show_data[:data_url]).host
       end.
         uniq.should == ["fixplay.ninemsn.com.au"]
     end
@@ -75,7 +75,7 @@ describe "each scraper" do
     it "scrapes the episodes for each show ok" do
       Source.all.each do |source|
         show = source.tv_shows.first
-        url = source.scraper_class == AbcScraper ? source.url : show.url
+        url = source.scraper_class == AbcScraper ? source.url : show.data_url
 
         # if (first_scrapes & [source.scraper, source.name]).any?
         #   # we need to set up the token or the show curl won't work.
@@ -94,12 +94,12 @@ describe "each scraper" do
             File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
 
-        # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(show.url)}.json"), 'w') { |f| f.puts show.source.scraper_class.extract_episodes(show).to_json }
+        # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(url)}.json"), 'w') { |f| f.puts show.source.scraper_class.extract_episodes(show).to_json }
         # puts show.source.scraper_class.extract_episodes(show).to_json
 
         show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should ==
           JSON.parse(File.read(
-            "spec/fakeweb/results/#{fakewebize(show.url)}.json"
+            "spec/fakeweb/results/#{fakewebize(url)}.json"
           ))
 
         show.attributes.slice(*%w{name description classification genre image}).should == SEEDED_SHOW_ATTRS[show.name]

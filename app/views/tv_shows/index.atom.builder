@@ -25,7 +25,7 @@ atom_feed do |feed|
 #{image}
 <p>#{genre}#{episodes.count} episodes#{description}#{classification}</p>
 <p><strong>Subscribe</strong>: #{tv_show.name} <a href="#{source_tv_show_url(tv_show.source, tv_show, :format => :atom)}">episodes feed</a></p>
-<p><strong>Homepage</strong>: <a href="#{tv_show.url}">#{tv_show.name} homepage</a></p>
+<p><strong>Homepage</strong>: <a href="#{tv_show.homepage_url}">#{tv_show.name} homepage</a></p>
 <p><strong>Jump to an episode</strong>:
   <ul>
 #{episode_lis}

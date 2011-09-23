@@ -14,14 +14,15 @@ class SmhScraper < BaseScraper
     shows = page.css("ul.cN-listStoryTV h5 a").map do |node|
       {
         :name => node.text,
-        :url => source_url.merge(node.attributes['href'].value).to_s
+        :data_url => source_url.merge(node.attributes['href'].value).to_s,
+        :homepage_url => source_url.merge(node.attributes['href'].value).to_s
       }
     end
   end
 
   def self.extract_episodes(show)
-    show_url = URI.parse(show.url)
-    page = Nokogiri::HTML(read_url(show.url))
+    show_url = URI.parse(show.data_url)
+    page = Nokogiri::HTML(read_url(show.data_url))
 
     show.update_attributes!(
       :image => page.css('div.wrapShow img').first['src'],
