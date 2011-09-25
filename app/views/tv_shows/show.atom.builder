@@ -9,7 +9,7 @@ atom_feed do |feed|
       entry.title("#{episode.ordering.to_s.rjust(3, '0')} #{episode.name}")
       entry.content("#{episode.name}", :type => 'html')
       entry.author do |author|
-        author.name("<a href=\"#{tv_show.source.url}\">#{tv_show.source.name}</a>", :type => 'html')
+        author.name("<a href=\"#{@tv_show.source.url}\">#{@tv_show.source.name}</a>", :type => 'html')
       end
     end
   end
