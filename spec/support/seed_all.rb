@@ -12,29 +12,33 @@ def seed_tv_shows
     },
     {
       :source => "ABC 1",
-      :name => "Angry Boys",
-      :data_url => "http://www.abc.net.au/iview/#/view/784101",
-      :image => "http://www.abc.net.au/reslib/201105/r763726_6441373.jpg",
-      :genre => "Comedy"
+      :name => "Lateline",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/829820",
+      :image => "http://www.abc.net.au/reslib/201006/r581475_3661101.jpg",
+      :genre => "News"
     },
     {
       :source => "ABC 2",
       :name => "The Catherine Tate Show",
-      :data_url => "http://www.abc.net.au/iview/#/view/659856",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/659856",
       :image => "http://www.abc.net.au/reslib/201007/r600879_3911401.jpg",
       :genre => "Comedy"
     },
     {
       :source => "ABC 3",
       :name => "Pat And Stan",
-      :data_url => "http://www.abc.net.au/iview/#/view/788445",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/788445",
       :image => "http://www.abc.net.au/reslib/200907/r392871_1838133.jpg",
       :genre => "Abc3"
     },
     {
       :source => "iView Originals",
       :name => "Doctor Who: Adventures In The Human Race ",
-      :data_url => "http://www.abc.net.au/iview/#/view/784107",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/784107",
       :image => "http://www.abc.net.au/reslib/201105/r776210_6644927.jpg",
       :genre => "Drama"
     },

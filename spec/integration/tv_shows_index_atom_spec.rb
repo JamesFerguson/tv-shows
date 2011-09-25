@@ -9,7 +9,7 @@ describe "get :index, :format => :atom" do
     )
     @show1 = @source.tv_shows.create!(
       :name => "Show 1",
-      :url => 'http://www.channeltwentyseven.com/show-1'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-1'
     )
     @episode1 = @show1.episodes.create!(
       :name => "Episode 1",
@@ -23,7 +23,7 @@ describe "get :index, :format => :atom" do
     )
     @show2 = @source.tv_shows.create!(
       :name => "Show 2",
-      :url => 'http://www.channeltwentyseven.com/show-2'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-2'
     )
     @episode15 = @show2.episodes.create!(
       :name => "Episode 15",
@@ -32,7 +32,7 @@ describe "get :index, :format => :atom" do
     )
     @show3 = @source.tv_shows.create!(
       :name => "Show 3",
-      :url => 'http://www.channeltwentyseven.com/show-3'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-3'
     )
 
     visit tv_shows_url(:format => :atom)

@@ -9,31 +9,31 @@ describe Source do
     
     it "adds new shows and their episodes when found in the feed" do
       @source.scraper_class.stub(:extract_shows).
-        and_return([{:name => "A", :url => "http://A"}])
+        and_return([{:name => "A", :data_url => "http://A"}])
       @source.scraper_class.stub(:extract_episodes).
         and_return([{:name => "A1", :url => "http://A1", :ordering => 0}])
 
       @source.scrape
 
-      @source.tv_shows.active.first.url.should == "http://A"
+      @source.tv_shows.active.first.data_url.should == "http://A"
       @source.tv_shows.active.count == 1
       @source.tv_shows.active.first.episodes.active.first.url.should == "http://A1"
       @source.tv_shows.active.first.episodes.active.count == 1
     end
 
     it "reups existing shows and their episodes when found in the feed" do
-      @show = @source.tv_shows.make :name => "A", :url => "http://A"
+      @show = @source.tv_shows.make :name => "A", :data_url => "http://A"
       @show.episodes.make :name => "A1", :url => "http://A1"
 
       @source.scraper_class.stub(:extract_shows).
-        and_return([{:name => "A", :url => "http://A"}])
+        and_return([{:name => "A", :data_url => "http://A"}])
       @source.scraper_class.stub(:extract_episodes).
         and_return([{:name => "A1", :url => "http://A1", :ordering => 0}])
 
       @source.scrape
 
-      @source.tv_shows.first.url.should == "http://A"
-      @source.tv_shows.active.first.url.should == "http://A"
+      @source.tv_shows.first.data_url.should == "http://A"
+      @source.tv_shows.active.first.data_url.should == "http://A"
       @source.tv_shows.active.count == 1
       @source.tv_shows.active.first.episodes.first.url.should == "http://A1"
       @source.tv_shows.active.first.episodes.active.first.url.should == "http://A1"

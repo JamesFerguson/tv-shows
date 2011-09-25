@@ -73,7 +73,7 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
 
       TvShow.all.each do |show|
-        url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
+        url = show.source.scraper_class == AbcScraper ? show.source.url : show.data_url
 
         if (first_scrapes & [show.source.scraper, show.source.name]).any?
           `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
