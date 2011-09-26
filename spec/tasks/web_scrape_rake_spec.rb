@@ -60,10 +60,7 @@ describe "rake web:scrape_*" do
         "Neighbours" => 1
       }
 
-      Source.all.each do |source|
-        expectations[source.name].should_not be_nil
-        source.tv_shows.count.should == expectations[source.name]
-      end
+      Source.all.reduce({}) { |results, source| results[source.name] = source.tv_shows.count; results }.should == expectations
 
       TvShow.count.should == expectations.values.sum
       Source.count.should == expectations.count
@@ -99,11 +96,8 @@ describe "rake web:scrape_*" do
         "Neighbours" => 5
       }
 
-      Source.all.each do |source|
-        expectations[source.name].should_not be_nil
+      Source.all.reduce({}) { |results, source| results[source.name] = source.episodes.active.count; results }.should == expectations
 
-        source.episodes.active.count.should == expectations[source.name]
-      end
       Episode.active.count.should == expectations.values.sum
       Source.count.should == expectations.count
     end
