@@ -38,7 +38,7 @@ class SmhScraper < BaseScraper
       {
         :name => "#{node.css('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
         :url => show_url.merge(link['href']).to_s,
-        :duration => duration_node.nil? ? nil : (duration_match[:mins].to_i * 60) + duration_match[:secs].to_i,
+        :duration => duration_match.nil? ? nil : (duration_match[:mins].to_i * 60) + duration_match[:secs].to_i,
         :ordering => index + 1
       }
     end
