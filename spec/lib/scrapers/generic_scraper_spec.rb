@@ -94,12 +94,13 @@ describe "each scraper" do
             File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
         )
 
-        # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(url)}.json"), 'w') { |f| f.puts show.source.scraper_class.extract_episodes(show).to_json }
+        ext = "#{show.data_url == source.url ? '.ep' : ''}.json"
+        # File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(url)}#{ext}"), 'w') { |f| f.puts show.source.scraper_class.extract_episodes(show).to_json }
         # puts show.source.scraper_class.extract_episodes(show).to_json
 
         show.source.scraper_class.extract_episodes(show).map(&:stringify_keys).should ==
           JSON.parse(File.read(
-            "spec/fakeweb/results/#{fakewebize(url)}.json"
+            "spec/fakeweb/results/#{fakewebize(url)}#{ext}"
           ))
 
         show.attributes.slice(*%w{name description classification genre image}).should == SEEDED_SHOW_ATTRS[show.name]
