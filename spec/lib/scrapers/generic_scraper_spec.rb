@@ -77,18 +77,18 @@ describe "each scraper" do
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.data_url
 
-        # if (first_scrapes & [source.scraper, source.name]).any?
-        #   # we need to set up the token or the show curl won't work.
-        #   if ['TenScraper', 'TenMicroSiteScraper'].include?(source.scraper)
-        #     `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
+        if (first_scrapes & [source.scraper, source.name]).any?
+          # we need to set up the token or the show curl won't work.
+          if ['TenScraper', 'TenMicroSiteScraper'].include?(source.scraper)
+            `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
 
-        #     source.scraper.constantize.should_receive(:read_url).with(source.url).and_return(File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}"))
+            source.scraper.constantize.should_receive(:read_url).with(source.url).and_return(File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}"))
 
-        #     source.scraper_class.extract_show_urls(source.url)
-        #   end
+            source.scraper_class.extract_show_urls(source.url)
+          end
 
-        #   `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
-        # end
+          `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
+        end
 
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
             File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
