@@ -17,8 +17,9 @@ class AbcScraper < BaseScraper
   end
 
   def self.extract_episodes(show)
-    items = AbcXmlParser::Item.parse(read_url(show.data_url)).group_by(&:thumbnail_url)[show.image].reverse.map.with_index do |episode, index|
-     {
+    items = AbcXmlParser::Item.parse(read_url(show.data_url)).group_by(&:thumbnail_url)[show.image]
+    items = items.reverse.map.with_index do |episode, index|
+      {
         :name => self.munge_title(episode.name, :episode),
         :url => episode.link,
         :description => episode.description,
