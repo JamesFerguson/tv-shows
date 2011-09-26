@@ -49,7 +49,7 @@ describe "rake web:scrape_*" do
       expectations = {
         "Yahoo Plus7" => 71,
         "NineMSN Fixplay" => 33,
-        "ABC 1" => 55,
+        "ABC 1" => 67,
         "ABC 2" => 35,
         "ABC 3" => 41,
         "iView Originals" => 7,
@@ -88,7 +88,7 @@ describe "rake web:scrape_*" do
       expectations = {
         "Yahoo Plus7" => 521,
         "NineMSN Fixplay" => 227,
-        "ABC 1" => 130,
+        "ABC 1" => 147,
         "ABC 2" => 66,
         "ABC 3" => 271,
         "iView Originals" => 25,
