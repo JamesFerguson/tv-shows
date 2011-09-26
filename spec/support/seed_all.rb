@@ -101,12 +101,12 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "Reality",
     "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/afp.jpg"
   },
-  "Angry Boys" => {
-    "name" => "Angry Boys",
+  "Lateline" => {
+    "name" => "Lateline",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Comedy",
-    "image" => "http://www.abc.net.au/reslib/201105/r763726_6441373.jpg"
+    "genre" => "News",
+    "image"=>"http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"
   },
   "The Catherine Tate Show" => {
     "name" => "The Catherine Tate Show",
