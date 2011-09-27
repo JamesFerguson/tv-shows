@@ -18,7 +18,7 @@ describe "each scraper" do
     it "scrapes the index for each source ok" do
       # Some scrapers call read_url for extract_show_urls
       Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
-        if (first_scrapes & [source.scraper, source.name]).any?
+        if first_scrape?(source)
           `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
         end
 
@@ -41,7 +41,7 @@ describe "each scraper" do
           shows << source.scraper_class.extract_shows(url).map(&:stringify_keys)
         end
 
-        if first_results(source)
+        if first_results?(source)
           puts "Writing the following json to spec/fakeweb/results/#{fakewebize(source.url)}.json for #{source.name}:"
           ap shows.flatten
           File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(source.url)}.json"), 'w') { |f| f.puts shows.flatten.to_json }
@@ -79,7 +79,7 @@ describe "each scraper" do
         show = source.tv_shows.first
         url = source.scraper_class == AbcScraper ? source.url : show.data_url
 
-        if first_scrape(source)
+        if first_scrape?(source)
           # we need to set up the token or the show curl won't work.
           if ['TenScraper', 'TenMicroSiteScraper'].include?(source.scraper)
             `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
@@ -96,7 +96,7 @@ describe "each scraper" do
 
         ext = "#{show.data_url == source.url ? '.ep' : ''}.json"
 
-        if first_results(source)
+        if first_results?(source)
           puts "Writing the following json to spec/fakeweb/results/#{fakewebize(url)}#{ext} for #{source.name}:"
           ap show.source.scraper_class.extract_episodes(show)
           File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(url)}#{ext}"), 'w') { |f| f.puts show.source.scraper_class.extract_episodes(show).to_json }
@@ -113,10 +113,10 @@ describe "each scraper" do
   end
 end
 
-def first_scrape(source)
+def first_scrape?(source)
   ((ENV['FIRST_SCRAPE'] || '').split(',') & [source.name, source.scraper]).any?
 end
 
-def first_results(source)
+def first_results?(source)
   ((ENV['FIRST_RESULTS'] || '').split(',') & [source.name, source.scraper]).any?
 end

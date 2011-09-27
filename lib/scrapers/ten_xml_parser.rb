@@ -16,7 +16,7 @@ module TenXmlParser
     element :id, Integer
     element :description, String
     element :image, String, :xpath => './defaultImage/url'
-    element :duration, String
+    element :duration, Integer
   end
 
   class MediaList
