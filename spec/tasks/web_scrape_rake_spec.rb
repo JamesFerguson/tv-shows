@@ -49,7 +49,7 @@ describe "rake web:scrape_*" do
       expectations = {
         "Yahoo Plus7" => 71,
         "NineMSN Fixplay" => 33,
-        "ABC 1" => 55,
+        "ABC 1" => 67,
         "ABC 2" => 35,
         "ABC 3" => 41,
         "iView Originals" => 7,
@@ -60,10 +60,7 @@ describe "rake web:scrape_*" do
         "Neighbours" => 1
       }
 
-      Source.all.each do |source|
-        expectations[source.name].should_not be_nil
-        source.tv_shows.count.should == expectations[source.name]
-      end
+      Source.all.reduce({}) { |results, source| results[source.name] = source.tv_shows.count; results }.should == expectations
 
       TvShow.count.should == expectations.values.sum
       Source.count.should == expectations.count
@@ -73,7 +70,7 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
 
       TvShow.all.each do |show|
-        url = show.source.scraper_class == AbcScraper ? show.source.url : show.url
+        url = show.source.scraper_class == AbcScraper ? show.source.url : show.data_url
 
         if (first_scrapes & [show.source.scraper, show.source.name]).any?
           `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
@@ -88,7 +85,7 @@ describe "rake web:scrape_*" do
       expectations = {
         "Yahoo Plus7" => 521,
         "NineMSN Fixplay" => 227,
-        "ABC 1" => 130,
+        "ABC 1" => 147,
         "ABC 2" => 66,
         "ABC 3" => 271,
         "iView Originals" => 25,
@@ -99,11 +96,8 @@ describe "rake web:scrape_*" do
         "Neighbours" => 5
       }
 
-      Source.all.each do |source|
-        expectations[source.name].should_not be_nil
+      Source.all.reduce({}) { |results, source| results[source.name] = source.episodes.active.count; results }.should == expectations
 
-        source.episodes.active.count.should == expectations[source.name]
-      end
       Episode.active.count.should == expectations.values.sum
       Source.count.should == expectations.count
     end

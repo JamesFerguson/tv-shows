@@ -3,68 +3,72 @@ def seed_tv_shows
     {
       :source => "NineMSN Fixplay",
       :name => "AFP",
-      :url => "http://fixplay.ninemsn.com.au/afp"
+      :data_url => "http://fixplay.ninemsn.com.au/afp"
     },
     {
       :source => "Yahoo Plus7",
       :name => "Jeeves and Wooster",
-      :url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
+      :data_url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
     },
     {
       :source => "ABC 1",
-      :name => "Angry Boys",
-      :url => "http://www.abc.net.au/iview/#/view/784101",
-      :image => "http://www.abc.net.au/reslib/201105/r763726_6441373.jpg",
-      :genre => "Comedy"
+      :name => "Lateline",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/829820",
+      :image => "http://www.abc.net.au/reslib/201006/r581475_3661101.jpg",
+      :genre => "News"
     },
     {
       :source => "ABC 2",
       :name => "The Catherine Tate Show",
-      :url => "http://www.abc.net.au/iview/#/view/659856",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/659856",
       :image => "http://www.abc.net.au/reslib/201007/r600879_3911401.jpg",
       :genre => "Comedy"
     },
     {
       :source => "ABC 3",
       :name => "Pat And Stan",
-      :url => "http://www.abc.net.au/iview/#/view/788445",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/788445",
       :image => "http://www.abc.net.au/reslib/200907/r392871_1838133.jpg",
       :genre => "Abc3"
     },
     {
       :source => "iView Originals",
       :name => "Doctor Who: Adventures In The Human Race ",
-      :url => "http://www.abc.net.au/iview/#/view/784107",
+      :data_url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/784107",
       :image => "http://www.abc.net.au/reslib/201105/r776210_6644927.jpg",
       :genre => "Drama"
     },
     {
       :source => "SMH.tv",
       :name => "Baby Baby",
-      :url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
+      :data_url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
     },
     {
       :source => "Ten",
       :name => "Totally Wild",
-      :url => "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => "Children's TV"
     },
     {
       :source => "OneHd",
       :name => "America's Port",
-      :url => "http://api.v2.movideo.com/rest/playlist/45405?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/45405?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => "Documentary"
     },
     {
       :source => "Eleven",
       :name => "Being Human | Full Episodes",
-      :url => "http://api.v2.movideo.com/rest/playlist/45050?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/45050?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => ''
     },
     {
       :source => "Neighbours",
       :name => "Neighbours",
-      :url => "http://api.v2.movideo.com/rest/playlist/41267?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/41267?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => "Drama"
     }
   ]
@@ -74,7 +78,7 @@ def seed_tv_shows
 
     collection = Source.where(:name => source_name).first.tv_shows
 
-    Source.find_or_create(collection, :url, show_data)
+    Source.find_or_create(collection, :name, show_data)
   end
 end
 
@@ -97,12 +101,12 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "Reality",
     "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/afp.jpg"
   },
-  "Angry Boys" => {
-    "name" => "Angry Boys",
+  "Lateline" => {
+    "name" => "Lateline",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Comedy",
-    "image" => "http://www.abc.net.au/reslib/201105/r763726_6441373.jpg"
+    "genre" => "News",
+    "image"=>"http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"
   },
   "The Catherine Tate Show" => {
     "name" => "The Catherine Tate Show",

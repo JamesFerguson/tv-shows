@@ -14,14 +14,15 @@ class SmhScraper < BaseScraper
     shows = page.css("ul.cN-listStoryTV h5 a").map do |node|
       {
         :name => node.text,
-        :url => source_url.merge(node.attributes['href'].value).to_s
+        :data_url => source_url.merge(node.attributes['href'].value).to_s,
+        :homepage_url => source_url.merge(node.attributes['href'].value).to_s
       }
     end
   end
 
   def self.extract_episodes(show)
-    show_url = URI.parse(show.url)
-    page = Nokogiri::HTML(read_url(show.url))
+    show_url = URI.parse(show.data_url)
+    page = Nokogiri::HTML(read_url(show.data_url))
 
     show.update_attributes!(
       :image => page.css('div.wrapShow img').first['src'],
@@ -31,9 +32,13 @@ class SmhScraper < BaseScraper
 
     episodes = page.css("ul.cN-listStoryTV").first.css('li').reverse.map.with_index do |node, index|
       link = node.css('h5 a').first
+      duration_node = node.css('p').first.text
+      duration_match = duration_node.present? ? duration_node.match(/\((?<mins>\d+):(?<secs>\d+)\)/) : nil
+
       {
-        :name => "#{node.xpath('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
+        :name => "#{node.css('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
         :url => show_url.merge(link['href']).to_s,
+        :duration => duration_match.nil? ? nil : (duration_match[:mins].to_i * 60) + duration_match[:secs].to_i,
         :ordering => index + 1
       }
     end

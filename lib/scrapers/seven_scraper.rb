@@ -7,13 +7,17 @@ class SevenScraper < BaseScraper
     page = Nokogiri::HTML(read_url(source_url))
 
     shows = page.css("#atoz h3 a").map do |node|
-      {:name => node.text, :url => shows_url.merge(node.attributes['href'].value).to_s}
+      {
+        :name => node.text,
+        :data_url => shows_url.merge(node.attributes['href'].value).to_s,
+        :homepage_url => shows_url.merge(node.attributes['href'].value).to_s
+      }
     end
   end
 
   def self.extract_episodes(show)
-    show_url = URI.parse(show.url)
-    page = Nokogiri::HTML(read_url(show.url))
+    show_url = URI.parse(show.data_url)
+    page = Nokogiri::HTML(read_url(show.data_url))
 
     show_deets = page.css("div.mod.tv-plus7-info p")
     show.update_attributes!(
@@ -23,10 +27,12 @@ class SevenScraper < BaseScraper
       :genre => show_deets.css('strong').last.text,
     )
 
-    episodes = page.css("ul#related-episodes .itemdetails h3 a").reverse.map.with_index do |node, index|
+    episodes = page.css("ul#related-episodes .itemdetails").reverse.map.with_index do |node, index|
+      title = node.css('h3 a').first
       {
-        :name => node.children[3].text,
-        :url => show_url.merge(node.attributes['href'].value).to_s,
+        :name => title.children[3].text.squish,
+        :url => show_url.merge(title.attributes['href'].value).to_s,
+        :description => node.css('p').first.text,
         :ordering => index + 1
       }
     end

@@ -9,7 +9,7 @@ describe "get :index, :format => :atom" do
     )
     @show1 = @source.tv_shows.create!(
       :name => "Show 1",
-      :url => 'http://www.channeltwentyseven.com/show-1'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-1'
     )
     @episode1 = @show1.episodes.create!(
       :name => "Episode 1",
@@ -23,7 +23,7 @@ describe "get :index, :format => :atom" do
     )
     @show2 = @source.tv_shows.create!(
       :name => "Show 2",
-      :url => 'http://www.channeltwentyseven.com/show-2'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-2'
     )
     @episode15 = @show2.episodes.create!(
       :name => "Episode 15",
@@ -32,7 +32,7 @@ describe "get :index, :format => :atom" do
     )
     @show3 = @source.tv_shows.create!(
       :name => "Show 3",
-      :url => 'http://www.channeltwentyseven.com/show-3'
+      :homepage_url => 'http://www.channeltwentyseven.com/show-3'
     )
 
     visit tv_shows_url(:format => :atom)
@@ -59,15 +59,18 @@ describe "get :index, :format => :atom" do
     show1.id.should == "tag:www.example.com,2005:TvShow/#{@show1.id}"
     show1.title.should == '[Channel Twenty Seven] Show 1'
     show1.content.should == <<-HTML
-<h2>Show 1 (2 episodes)</h2>
-<p><a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom">Subscribe</a> to the Show 1 <a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom">episodes feed</a>.</p>
-<p>See the <a href="http://www.channeltwentyseven.com/show-1">Show 1 homepage</a>.</p>
-<p>Jump to an episode:
+<h1>Show 1</h1>
+
+<p>2 episodes</p>
+<p><strong>Subscribe</strong>: Show 1 <a href=\"http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom\">episodes feed</a></p>
+<p><strong>Homepage</strong>: <a href=\"http://www.channeltwentyseven.com/show-1\">Show 1 homepage</a></p>
+<p><strong>Jump to an episode</strong>:
   <ul>
-    <li><a href="http://www.channeltwentyseven.com/show-1/episode-2">Episode 2</a></li>
-    <li><a href="http://www.channeltwentyseven.com/show-1/episode-1">Episode 1</a></li>
+    <li><a href=\"http://www.channeltwentyseven.com/show-1/episode-2\">Episode 2</a></li>
+    <li><a href=\"http://www.channeltwentyseven.com/show-1/episode-1\">Episode 1</a></li>
   </ul>
 </p>
+
     HTML
     show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 
@@ -81,14 +84,17 @@ describe "get :index, :format => :atom" do
     show2.id.should == "tag:www.example.com,2005:TvShow/#{@show2.id}"
     show2.title.should == '[Channel Twenty Seven] Show 2'
     show2.content.should == <<-HTML
-<h2>Show 2 (1 episodes)</h2>
-<p><a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom">Subscribe</a> to the Show 2 <a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom">episodes feed</a>.</p>
-<p>See the <a href="http://www.channeltwentyseven.com/show-2">Show 2 homepage</a>.</p>
-<p>Jump to an episode:
+<h1>Show 2</h1>
+
+<p>1 episodes</p>
+<p><strong>Subscribe</strong>: Show 2 <a href=\"http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom\">episodes feed</a></p>
+<p><strong>Homepage</strong>: <a href=\"http://www.channeltwentyseven.com/show-2\">Show 2 homepage</a></p>
+<p><strong>Jump to an episode</strong>:
   <ul>
-    <li><a href="http://www.channeltwentyseven.com/show-2/episode-15">Episode 15</a></li>
+    <li><a href=\"http://www.channeltwentyseven.com/show-2/episode-15\">Episode 15</a></li>
   </ul>
 </p>
+
     HTML
     show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 

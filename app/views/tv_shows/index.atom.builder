@@ -18,20 +18,21 @@ atom_feed do |feed|
       genre = tv_show.genre.present? ? "#{tv_show.genre}, " : ''
       classification = tv_show.classification.present? ? " (#{tv_show.classification})" : ''
       episode_lis = episodes.reduce('') do |items, episode|
-        items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a></li>\n"
+        ep_desc = episode.description.present? ? ": #{episode.description}" : ''
+
+        items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a>#{episode.duration_desc}#{ep_desc}</li>\n"
       end.chomp
       body = <<-HTML
 <h1>#{tv_show.name}</h1>
 #{image}
-<p>#{genre}#{episodes.count} episodes#{description}#{classification}</p>
+<p style='float: left;'>#{genre}#{episodes.count} episodes#{description}#{classification}</p>
 <p><strong>Subscribe</strong>: #{tv_show.name} <a href="#{source_tv_show_url(tv_show.source, tv_show, :format => :atom)}">episodes feed</a></p>
-<p><strong>Homepage</strong>: <a href="#{tv_show.url}">#{tv_show.name} homepage</a></p>
+<p><strong>Homepage</strong>: <a href="#{tv_show.homepage_url}">#{tv_show.name} homepage</a></p>
 <p><strong>Jump to an episode</strong>:
   <ul>
 #{episode_lis}
   </ul>
 </p>
-#{classification}
       HTML
       entry.content(body, :type => 'html')
       entry.author do |author|

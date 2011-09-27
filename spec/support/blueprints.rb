@@ -11,7 +11,7 @@ end
 
 TvShow.blueprint do
   name  { Sham.name }
-  url   { "http://#{name.parameterize}" }
+  data_url   { "http://#{name.parameterize}" }
 end
 
 Sham.episode_name { |index| "Episode #{index}" }
