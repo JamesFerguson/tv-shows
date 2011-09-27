@@ -9,4 +9,8 @@ class Episode < ActiveRecord::Base
   def active?
     !deactivated_at
   end
+
+  def duration_desc
+    duration.present? ? " (#{(duration / 60.0).ceil} mins)" : ''
+  end
 end

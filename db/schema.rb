@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110919082148) do
+ActiveRecord::Schema.define(:version => 20110922215119) do
 
   create_table "episodes", :force => true do |t|
     t.string   "name"
@@ -22,6 +22,9 @@ ActiveRecord::Schema.define(:version => 20110919082148) do
     t.datetime "updated_at"
     t.datetime "deactivated_at"
     t.integer  "ordering"
+    t.text     "description"
+    t.integer  "duration"
+    t.text     "image"
   end
 
   add_index "episodes", ["tv_show_id", "ordering"], :name => "index_episodes_on_tv_show_id_and_ordering", :unique => true
@@ -51,7 +54,7 @@ ActiveRecord::Schema.define(:version => 20110919082148) do
 
   create_table "tv_shows", :force => true do |t|
     t.string   "name"
-    t.text     "url"
+    t.text     "data_url"
     t.integer  "source_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -61,6 +64,7 @@ ActiveRecord::Schema.define(:version => 20110919082148) do
     t.text     "image"
     t.string   "classification"
     t.string   "genre"
+    t.string   "homepage_url"
   end
 
   add_index "tv_shows", ["source_id", "cached_slug"], :name => "index_tv_shows_on_source_id_and_cached_slug", :unique => true
