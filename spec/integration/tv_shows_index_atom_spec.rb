@@ -61,16 +61,15 @@ describe "get :index, :format => :atom" do
     show1.content.should == <<-HTML
 <h1>Show 1</h1>
 
-<p>2 episodes</p>
-<p><strong>Subscribe</strong>: Show 1 <a href=\"http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom\">episodes feed</a></p>
-<p><strong>Homepage</strong>: <a href=\"http://www.channeltwentyseven.com/show-1\">Show 1 homepage</a></p>
+<p style='float: left;'>2 episodes</p>
+<p><strong>Subscribe</strong>: Show 1 <a href="http://www.example.com/sources/channel-twenty-seven/tv_shows/show-1.atom">episodes feed</a></p>
+<p><strong>Homepage</strong>: <a href="http://www.channeltwentyseven.com/show-1">Show 1 homepage</a></p>
 <p><strong>Jump to an episode</strong>:
   <ul>
-    <li><a href=\"http://www.channeltwentyseven.com/show-1/episode-2\">Episode 2</a></li>
+    <li><a href="http://www.channeltwentyseven.com/show-1/episode-2\">Episode 2</a></li>
     <li><a href=\"http://www.channeltwentyseven.com/show-1/episode-1\">Episode 1</a></li>
   </ul>
 </p>
-
     HTML
     show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 
@@ -86,7 +85,7 @@ describe "get :index, :format => :atom" do
     show2.content.should == <<-HTML
 <h1>Show 2</h1>
 
-<p>1 episodes</p>
+<p style='float: left;'>1 episodes</p>
 <p><strong>Subscribe</strong>: Show 2 <a href=\"http://www.example.com/sources/channel-twenty-seven/tv_shows/show-2.atom\">episodes feed</a></p>
 <p><strong>Homepage</strong>: <a href=\"http://www.channeltwentyseven.com/show-2\">Show 2 homepage</a></p>
 <p><strong>Jump to an episode</strong>:
@@ -94,7 +93,6 @@ describe "get :index, :format => :atom" do
     <li><a href=\"http://www.channeltwentyseven.com/show-2/episode-15\">Episode 15</a></li>
   </ul>
 </p>
-
     HTML
     show1.author_name.should == '<a href="http://www.channeltwentyseven.com">Channel Twenty Seven</a>'
 
