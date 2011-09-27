@@ -27,10 +27,12 @@ class SevenScraper < BaseScraper
       :genre => show_deets.css('strong').last.text,
     )
 
-    episodes = page.css("ul#related-episodes .itemdetails h3 a").reverse.map.with_index do |node, index|
+    episodes = page.css("ul#related-episodes .itemdetails").reverse.map.with_index do |node, index|
+      title = node.css('h3 a').first
       {
-        :name => node.children[3].text,
-        :url => show_url.merge(node.attributes['href'].value).to_s,
+        :name => title.children[3].text.squish,
+        :url => show_url.merge(title.attributes['href'].value).to_s,
+        :description => node.css('p').first.text,
         :ordering => index + 1
       }
     end
