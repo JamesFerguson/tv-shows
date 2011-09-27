@@ -32,8 +32,7 @@ class SmhScraper < BaseScraper
 
     episodes = page.css("ul.cN-listStoryTV").first.css('li').reverse.map.with_index do |node, index|
       link = node.css('h5 a').first
-      duration_node = node.css('p').first.text
-      duration_match = duration_node.present? ? duration_node.match(/\((?<mins>\d+):(?<secs>\d+)\)/) : nil
+      duration_match = node.css('p').first.text.try(:match, /\((?<mins>\d+):(?<secs>\d+)\)/)
 
       {
         :name => "#{node.css('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
