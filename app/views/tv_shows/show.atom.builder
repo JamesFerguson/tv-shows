@@ -8,7 +8,7 @@ atom_feed do |feed|
     image = episode.image.present? ? "<div style='float: right;'><img src='#{episode.image}' /></div>" : ''
     ep_body = <<-HTML
 #{image}
-<p><strong><a href="#{episode.url}">#{episode.name}</a></strong>#{episode.duration_desc}: #{episode.description}</p>
+<p style='float: left;'><strong><a href="#{episode.url}">#{episode.name}</a></strong>#{episode.duration_desc}: #{episode.description}</p>
     HTML
 
     feed.entry(episode, :url => episode.url) do |entry|
