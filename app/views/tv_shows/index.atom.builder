@@ -18,7 +18,9 @@ atom_feed do |feed|
       genre = tv_show.genre.present? ? "#{tv_show.genre}, " : ''
       classification = tv_show.classification.present? ? " (#{tv_show.classification})" : ''
       episode_lis = episodes.reduce('') do |items, episode|
-        items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a></li>\n"
+        ep_desc = episode.description.present? ? ": #{episode.description}" : ''
+
+        items += "    <li><a href=\"#{episode.url}\">#{episode.name}</a>#{episode.duration_desc}#{ep_desc}</li>\n"
       end.chomp
       body = <<-HTML
 <h1>#{tv_show.name}</h1>
@@ -31,7 +33,6 @@ atom_feed do |feed|
 #{episode_lis}
   </ul>
 </p>
-#{classification}
       HTML
       entry.content(body, :type => 'html')
       entry.author do |author|
