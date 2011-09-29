@@ -14,12 +14,12 @@ describe "rake web:scrape_*" do
   after(:all) do
     Source.destroy_all
   end
-  
+
   context "after faking pages for all source urls" do
     before(:each) do
       # Some scrapers call read_url for extract_show_urls
       Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
-        if (first_scrapes & [source.scraper, source.name]).any?
+        if first_scrape?(source)
           `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
         end
 
@@ -72,7 +72,7 @@ describe "rake web:scrape_*" do
       TvShow.all.each do |show|
         url = show.source.scraper_class == AbcScraper ? show.source.url : show.data_url
 
-        if (first_scrapes & [show.source.scraper, show.source.name]).any?
+        if first_scrape?(show.source)
           `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
         end
         show.source.scraper_class.should_receive(:read_url).with(url).and_return(
@@ -102,8 +102,4 @@ describe "rake web:scrape_*" do
       Source.count.should == expectations.count
     end
   end
-end
-
-def first_scrapes
-  (ENV['FIRST_SCRAPE'] || '').split(',')
 end

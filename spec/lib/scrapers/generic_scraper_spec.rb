@@ -112,11 +112,3 @@ describe "each scraper" do
     end
   end
 end
-
-def first_scrape?(source)
-  ((ENV['FIRST_SCRAPE'] || '').split(',') & [source.name, source.scraper]).any?
-end
-
-def first_results?(source)
-  ((ENV['FIRST_RESULTS'] || '').split(',') & [source.name, source.scraper]).any?
-end
