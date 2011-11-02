@@ -12,14 +12,9 @@
 <% @tv_shows.each do |tv_show| %>
   <tr>
     <td><%= tv_show.name %></td>
-    <td><%= tv_show.url %></td>
+    <td><%= tv_show.homepage_url %></td>
     <td><%= link_to 'Show', tv_show %></td>
-    <td><%= link_to 'Edit', edit_tv_show_path(tv_show) %></td>
-    <td><%= link_to 'Destroy', tv_show, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Tv show', new_tv_show_path %>
