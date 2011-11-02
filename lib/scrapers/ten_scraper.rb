@@ -13,7 +13,8 @@ class TenScraper < BaseScraper
     "Ready Steady Cook" => "38735",
     "The Biggest Loser" => "?",
     "The Circle" => "?",
-    "The Renovators" => "44821"
+    "The Renovators" => "44821",
+    "The Project TV" => "?"
   }
   def self.extract_show_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
@@ -52,7 +53,8 @@ class TenScraper < BaseScraper
     "The Biggest Loser" => "http://thebiggestloser.com.au/video.htm?",
     "The Circle"        => "http://ten.com.au/the-circle-video.htm?",
     "The Renovators"    => "http://therenovatorstv.com.au/video.htm?",
-    "The 7PM Project"   => "http://7pmproject.com.au/video.htm"
+    "The 7PM Project"   => "http://7pmproject.com.au/video.htm",
+    "The Project TV"    => "http://theprojecttv.com.au/video.htm"
   }
   def self.extract_episodes(show)
     play_url = PLAY_URLS[show.source.name]
