@@ -15,7 +15,7 @@
 
 # Learn more: http://github.com/javan/whenever
 
-set :output, "/var/log/cron_log.log"
+set :output, "~/log/cron_log.log"
 
 every :day, :at => ['9am', '12pm', '3:30pm', '8pm'] do
   command "/usr/local/bin/heroku rake cron"
