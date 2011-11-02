@@ -3,6 +3,8 @@ class Episode < ActiveRecord::Base
 
   validates_presence_of :ordering, :if => :active?
   validates_uniqueness_of :ordering, :scope => :tv_show_id, :if => :active?
+  validates_numericality_of :ordering, :if => :active?
+  validates_numericality_of :duration, :allow_nil => true
 
   scope :active, where(:deactivated_at => nil)
 

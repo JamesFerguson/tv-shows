@@ -6,7 +6,7 @@ describe Source do
       @source = Source.make(:scraper => "NineScraper")
       @source.tv_shows.destroy_all
     end
-    
+
     it "adds new shows and their episodes when found in the feed" do
       @source.scraper_class.stub(:extract_shows).
         and_return([{:name => "A", :data_url => "http://A"}])
@@ -65,15 +65,15 @@ describe Source do
       Episode.all.first.should be_nil
     end
   end
-  
+
   context "slugs" do
     it "has a slug" do
       @source = Source.make :name => "Channel 9"
-      
+
       @source.friendly_id.should == "channel-9"
     end
   end
-  
+
   context "Source.find_or_create" do
     before do
       Source.find_or_create(Source, :name, :name => "Channel Z", :url => "http://abc")

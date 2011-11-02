@@ -9,6 +9,7 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    aaronh-chronic (0.3.9)
     abstract (1.0.0)
     actionmailer (3.0.3)
       actionpack (= 3.0.3)
@@ -170,6 +171,9 @@ GEM
     unicorn (3.3.1)
       kgio (~> 2.1)
       rack
+    whenever (0.6.8)
+      aaronh-chronic (>= 0.3.9)
+      activesupport (>= 2.3.4)
 
 PLATFORMS
   ruby
@@ -197,3 +201,4 @@ DEPENDENCIES
   scrapi
   taps
   unicorn
+  whenever
