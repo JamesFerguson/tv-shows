@@ -1,7 +1,7 @@
 require Rails.root + 'lib/scrapers/base_scraper'
 
 class SmhScraper < BaseScraper
-  def self.extract_show_urls(source_url)
+  def self.extract_all_source_urls(source_url)
     page = Nokogiri::HTML(read_url(source_url))
 
     show_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)

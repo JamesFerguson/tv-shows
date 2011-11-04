@@ -43,7 +43,7 @@ class Source < ActiveRecord::Base
   private
 
   def scrape_show_data
-    scraper_class.extract_show_urls(self.url).each do |url|
+    scraper_class.extract_all_source_urls(self.url).each do |url|
       scraper_class.extract_shows(url).each do |show_data|
         Source.find_or_create(tv_shows, :name, show_data)
       end

@@ -16,7 +16,7 @@ class TenScraper < BaseScraper
     "The Renovators" => "44821",
     "The Project TV" => "?"
   }
-  def self.extract_show_urls(source_url)
+  def self.extract_all_source_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
 
     playlist_id = PLAYLIST_IDS[source_url.scan(/key(?:=|%3D)movideo([^&%]+)/).flatten.first]

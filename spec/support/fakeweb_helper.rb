@@ -35,8 +35,8 @@ module FakewebHelper
   end
 
 
-  def fake_extract_show_urls_pages
-    # Some scrapers call read_url for extract_show_urls
+  def fake_extract_all_source_urls_pages(instances = 1)
+    # Some scrapers call read_url for extract_all_source_urls
     Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
       download_page_if_new(source, source.url)
 

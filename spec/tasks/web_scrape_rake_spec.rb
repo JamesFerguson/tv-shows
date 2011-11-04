@@ -29,7 +29,7 @@ describe "rake web:scrape_*" do
       end
 
       Source.all.each do |source|
-        show_urls = source.scraper_class.extract_show_urls(source.url)
+        show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
         show_urls.each do |url|
           if (first_scrapes & [source.scraper, source.name]).any?

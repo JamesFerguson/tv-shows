@@ -16,10 +16,10 @@ describe "each scraper" do
 
   context "after faking scrapers' source urls" do
     it "scrapes the index for each source ok" do
-      fake_extract_show_urls_pages
+      fake_extract_all_source_urls_pages
 
       Source.all.each do |source|
-        show_urls = source.scraper_class.extract_show_urls(source.url)
+        show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
         shows = show_urls.map do |url|
           download_page_if_new(source, source.url)
@@ -38,7 +38,7 @@ describe "each scraper" do
       source = Source.where(:name => "NineMSN Fixplay").first
       fake_page(NineScraper, source.url)
 
-      NineScraper.extract_shows(NineScraper.extract_show_urls(source.url).first).
+      NineScraper.extract_shows(NineScraper.extract_all_source_urls(source.url).first).
         map do |show_data|
           URI.parse(show_data[:data_url]).host
         end.
@@ -57,7 +57,7 @@ describe "each scraper" do
       fake_extract_show_urls_pages
 
       Source.all.each do |source|
-        source.scraper_class.extract_show_urls(source.url) # sets up values for some scrapers (e.g. token for Ten)
+        source.scraper_class.extract_all_source_urls(source.url) # sets up values for some scrapers (e.g. token for Ten)
 
         show = source.tv_shows.first
         puts show.name
