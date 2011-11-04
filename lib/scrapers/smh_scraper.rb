@@ -5,6 +5,10 @@ class SmhScraper < BaseScraper
     page = Nokogiri::HTML(read_url(source_url))
 
     show_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
+    interval = show_urls[1].scan(/offset=(\d+)$/)[0][0].to_i
+    last_num = show_urls[-1].scan(/offset=(\d+)$/)[0][0].to_i
+
+    ([20] * ((last_num / interval) + 1)).map.with_index { |offset, index| show_urls[1].sub(/=\d+$/, "=#{offset * index}") }
   end
 
   def self.extract_shows(source_url)
