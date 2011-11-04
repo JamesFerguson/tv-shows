@@ -14,10 +14,18 @@ describe "each scraper" do
     TvShow.destroy_all
   end
 
-  context "after faking scrapers' source urls" do
-    it "scrapes the index for each source ok" do
-      fake_extract_all_source_urls_pages
+  it "has a tv_show seeded" do
+    Source.all.each do |source|
+      source.tv_shows.count.should > 0
+    end
+  end
 
+  context "after faking scrapers' source urls" do
+    before(:each) do
+      fake_extract_all_source_urls_pages
+    end
+
+    it "scrapes the index for each source ok" do
       Source.all.each do |source|
         show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
@@ -44,18 +52,8 @@ describe "each scraper" do
         end.
           uniq.should == ["fixplay.ninemsn.com.au"]
     end
-  end
-
-  context "scrapes tv_shows ok" do
-    it "has a tv_show)seeded" do
-      Source.all.each do |source|
-        source.tv_shows.count.should > 0
-      end
-    end
 
     it "scrapes the episodes for each show ok" do
-      fake_extract_show_urls_pages
-
       Source.all.each do |source|
         source.scraper_class.extract_all_source_urls(source.url) # sets up values for some scrapers (e.g. token for Ten)
 
