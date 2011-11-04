@@ -12,3 +12,4 @@
   - per source per genre
 - NineScraper: capture all seasons, not just the newest
 - rename seed_all spec_seeds
+- rename FakeWeb Helper, or subdivide
