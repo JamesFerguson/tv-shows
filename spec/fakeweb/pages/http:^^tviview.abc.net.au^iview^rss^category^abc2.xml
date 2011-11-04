@@ -5,814 +5,718 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Mon, 27 Jun 2011 06:56:32 +1000</pubDate> 
+	<pubDate>Fri, 04 Nov 2011 13:53:16 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - abc2]]></title> 
 		<link>http://www.abc.net.au/iview/#/abc2</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/644837</guid>
-		<link>http://www.abc.net.au/iview/#/view/644837</link>
-		<title><![CDATA[Gimme Gimme Gimme Episode 4 Do They Take Sugar?]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Tom and Linda are best friends and worst enemies with the same taste in men. Linda's famous sister camps out in the flat to avoid the press and Tom benefits greatly from the ensuing chaos. CAST: Kathy Burke, James Dreyfuss]]></description>
-		<pubDate>Mon, 27 Jun 2011 01:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r632647_4322011.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/644837"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/640807</guid>
-		<link>http://www.abc.net.au/iview/#/view/640807</link>
-		<title><![CDATA[Gimme Gimme Gimme Episode 3 Legs And Co]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Chaos ensues when Tom's home help discovers Linda's hunky new date is the guy who bullied him at school... CAST: Kathy Burke, James Dreyfuss]]></description>
-		<pubDate>Tue, 21 Jun 2011 01:45:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r632647_4322011.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/640807"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/636786</guid>
-		<link>http://www.abc.net.au/iview/#/view/636786</link>
-		<title><![CDATA[Gimme Gimme Gimme Episode 2 The Big Break]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Tom thinks he has a big break with a new role as a vicious hooligan and finds he can research the part close to home. CAST: Kathy Burke, James Dreyfuss]]></description>
-		<pubDate>Tue, 14 Jun 2011 01:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r632647_4322011.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/636786"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/433720</guid>
-		<link>http://www.abc.net.au/iview/#/view/433720</link>
-		<title><![CDATA[Hornblower Episode 5 Mutiny]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Horatio Hornblower, languishing in a prison cell in Jamaica, charged with mutiny, recounts the events on HMS Renown that led to his incarceration. CAST: Ioan Gruffudd, Robert Lindsay, Anthony Sher]]></description>
-		<pubDate>Mon, 27 Jun 2011 00:05:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5788"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200908/r419932_1994638.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/433720"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/431645</guid>
-		<link>http://www.abc.net.au/iview/#/view/431645</link>
-		<title><![CDATA[Hornblower Episode 4 The Frogs And The Lobsters]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Horatio Hornblower takes to the high seas to aid an attempted coup against the Republican Government by French Royalist counter-revolutionaries. CAST: Ioan Gruffudd, Robert Lindsay, Anthony Sher]]></description>
-		<pubDate>Mon, 20 Jun 2011 00:35:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="6000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200908/r419932_1994638.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/431645"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/576587</guid>
-		<link>http://www.abc.net.au/iview/#/view/576587</link>
-		<title><![CDATA[Gavin And Stacey Episode 1 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Gavin starts his new job in Cardiff and Stacey is thrilled to be at home again. Smithy comes to terms with life in Essex without his best mate, whilst Nessa is adjusting to life in Dave's caravan in Sully. CAST: Ruth Jones]]></description>
-		<pubDate>Sun, 26 Jun 2011 22:50:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r576583_3596236.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/576587"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/577327</guid>
-		<link>http://www.abc.net.au/iview/#/view/577327</link>
-		<title><![CDATA[Design For Life Episode 4 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848754</guid>
+		<link>http://www.abc.net.au/iview/#/view/848754</link>
+		<title><![CDATA[London Live Series 3 Episode 8 Maroon 5, The Enemy, KT Tunstall]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Philippe Starck gives the students the same brief as last week, but under the strict condition that they must all work alone. With only a week to prove themselves the students waste no time getting on with things.]]></description>
-		<pubDate>Sun, 26 Jun 2011 21:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r577345_3606897.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/577327"/>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Maroon 5, The Enemy, Editors and KT Tunstall.]]></description>
+		<pubDate>Fri, 04 Nov 2011 02:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1650"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848754"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/577326</guid>
-		<link>http://www.abc.net.au/iview/#/view/577326</link>
-		<title><![CDATA[Design For Life Episode 3 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848745</guid>
+		<link>http://www.abc.net.au/iview/#/view/848745</link>
+		<title><![CDATA[London Live Series 3 Episode 7 Hard-Fi, Klaxons, Amy McDonald, Kanye West]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[With only eight students left in the competition, the pressure is growing. But after a disastrous presentation of projects, Philippe Starck is unimpressed and is ready to pull the plug on the whole project.]]></description>
-		<pubDate>Sun, 19 Jun 2011 21:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r577345_3606897.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/577326"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/783965</guid>
-		<link>http://www.abc.net.au/iview/#/view/783965</link>
-		<title><![CDATA[Art Race Episode 10 ]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Having arrived in North Carolina, Ben is collaborating with championship surfer Pat McManus on a surf art project. Kenny has reached Moab, Utah and his trades are becoming ever more ambitious.]]></description>
-		<pubDate>Sun, 26 Jun 2011 19:29:00 +1000</pubDate>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Hard-Fi, Klaxons, Amy McDonald, and Kanye West.]]></description>
+		<pubDate>Thu, 03 Nov 2011 02:30:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r754664_6288391.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/783965"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848745"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/783964</guid>
-		<link>http://www.abc.net.au/iview/#/view/783964</link>
-		<title><![CDATA[Art Race Episode 9 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848743</guid>
+		<link>http://www.abc.net.au/iview/#/view/848743</link>
+		<title><![CDATA[London Live Series 3 Episode 6 Kate Nash, The View, Newton Faulkner, Calvin Harris]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Ben sets up a studio in a local factory in Georgia and constructs his masterpiece and then attempts to auction it off to the assembled metalworkers. Kenny is in Aspen and has lined up a balloon ride over the Rockies.]]></description>
-		<pubDate>Sun, 19 Jun 2011 20:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r754664_6288391.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/783964"/>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Kate Nash, The View, Newton Faulkner, and Calvin Harris.]]></description>
+		<pubDate>Wed, 02 Nov 2011 02:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1710"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848743"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/715832</guid>
-		<link>http://www.abc.net.au/iview/#/view/715832</link>
-		<title><![CDATA[Durham County Episode 5 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Ivan turns the tables on Miro by planting evidence in his car and Sadie must cover her tracks when she loses her balance on the job. CAST: Hugh Dillon]]></description>
-		<pubDate>Sun, 26 Jun 2011 01:05:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3060"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r703567_5425864.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/715832"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/712384</guid>
-		<link>http://www.abc.net.au/iview/#/view/712384</link>
-		<title><![CDATA[Durham County Episode 4 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Mike struggles to keep it together for his family as he sets up a plan to take down the Chinese using Ivan's connections. CAST: Hugh Dillon]]></description>
-		<pubDate>Sun, 19 Jun 2011 00:10:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r703567_5425864.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/712384"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/788130</guid>
-		<link>http://www.abc.net.au/iview/#/view/788130</link>
-		<title><![CDATA[The Great Food Truck Race Episode 3 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Chef Tyler Florence greets the five remaining teams in Forth Worth, Texas where the competition heats up making this elimination the most intense yet.]]></description>
-		<pubDate>Sat, 25 Jun 2011 20:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2520"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201106/r780501_6713792.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/788130"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780680</guid>
-		<link>http://www.abc.net.au/iview/#/view/780680</link>
-		<title><![CDATA[The Great Food Truck Race Episode 2 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Sante Fe, New Mexico welcomes the remaining six trucks with a snow storm. But the chilly reception heats up when the teams are thrown a curveball 'truck stop' challenge.]]></description>
-		<pubDate>Sat, 18 Jun 2011 20:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2520"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201106/r780501_6713792.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780680"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/788886</guid>
-		<link>http://www.abc.net.au/iview/#/view/788886</link>
-		<title><![CDATA[Dog Whisperer With Cesar Millan Episode 25 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Mexican-American Cesar Milan, the self-taught professional dog trainer shows how almost any dog with mild or serious behaviour problems, can be cured, using calm assertive energy and establishing and enforcing proper rules.]]></description>
-		<pubDate>Sat, 25 Jun 2011 20:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r699166_5340560.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/788886"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/781064</guid>
-		<link>http://www.abc.net.au/iview/#/view/781064</link>
-		<title><![CDATA[Dog Whisperer With Cesar Millan Episode 24 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Mexican-American Cesar Milan, the self-taught professional dog trainer shows how almost any dog with mild or serious behaviour problems, can be cured, using calm assertive energy and establishing and enforcing proper rules.]]></description>
-		<pubDate>Sat, 18 Jun 2011 20:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r699166_5340560.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/781064"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/350960</guid>
-		<link>http://www.abc.net.au/iview/#/view/350960</link>
-		<title><![CDATA[Code Geass Episode 11 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[An anime series featuring Lelouch, a dethroned prince of Britannia who gains a super power that enables him to control humans.]]></description>
-		<pubDate>Sat, 25 Jun 2011 00:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200905/r367099_1701215.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/350960"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/348047</guid>
-		<link>http://www.abc.net.au/iview/#/view/348047</link>
-		<title><![CDATA[Code Geass Episode 10 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[An anime series featuring Lelouch, a dethroned prince of Britannia who gains a super power that enables him to control humans.]]></description>
-		<pubDate>Sat, 18 Jun 2011 01:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1422"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200905/r367099_1701215.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/348047"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/590598</guid>
-		<link>http://www.abc.net.au/iview/#/view/590598</link>
-		<title><![CDATA[The Wire Episode 11 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[After flexing his muscles around the city, Carcetti faces his first dilemma when a group of ministers protests Herc's mistreatment of one of their own. CAST: Domenick Lombardozzi]]></description>
-		<pubDate>Sat, 25 Jun 2011 00:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r559650_3374287.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/590598"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/590596</guid>
-		<link>http://www.abc.net.au/iview/#/view/590596</link>
-		<title><![CDATA[The Wire Episode 10 World Goin' One Way, People Another - Poot]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Acting on Clay Davis's advice, Burrell seeks to burnish his reputation by ordering the department to double the number of street arrests. CAST: Frankie R. Faison]]></description>
-		<pubDate>Fri, 24 Jun 2011 23:20:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r559650_3374287.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/590596"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/590594</guid>
-		<link>http://www.abc.net.au/iview/#/view/590594</link>
-		<title><![CDATA[The Wire Episode 9 Might As Well Dump Em, Get Another Proposition Joe]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Poot returns to the corner after a stint in prison - and is welcomed back By Herc and Dozerman, and Carcetti engages in a testy budget ballet with city council president Campbell. CAST: Aidan Gillen]]></description>
-		<pubDate>Sat, 18 Jun 2011 00:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r559650_3374287.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/590594"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/578516</guid>
-		<link>http://www.abc.net.au/iview/#/view/578516</link>
-		<title><![CDATA[The Wire Episode 8 We Got Our Thing, But It's Just Part Of The Big Thing - Zenobia]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[To monitor the pulse on the street, Carcetti makes the rounds with members of the force. CAST: Aidan Gillen]]></description>
-		<pubDate>Fri, 17 Jun 2011 23:20:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r559650_3374287.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/578516"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/532476</guid>
-		<link>http://www.abc.net.au/iview/#/view/532476</link>
-		<title><![CDATA[Home Time Episode 5 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[While Gaynor summons up the courage to run off again, Kelly turns 30. Rather than leave her pal in her time of need, Gaynor mucks in with a budget luxury spa day and a night on the town. CAST: Emma Fryer]]></description>
-		<pubDate>Fri, 24 Jun 2011 23:55:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r525116_2945012.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/532476"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/532468</guid>
-		<link>http://www.abc.net.au/iview/#/view/532468</link>
-		<title><![CDATA[Home Time Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Just when Gaynor is settling back in, her dad decides to spruce up her room 'now she's having boys over'. Meanwhile, Becky finds out about an age-old insult from Mel which blows the group apart. CAST: Emma Fryer]]></description>
-		<pubDate>Fri, 17 Jun 2011 23:55:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r525116_2945012.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/532468"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/785408</guid>
-		<link>http://www.abc.net.au/iview/#/view/785408</link>
-		<title><![CDATA[The Tudors Episode 4 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Brandon reluctantly travels north to put down a rebellion; Aske and Darcy are executed; and after a long labour, Jane gives birth to Henry's first male heir. CAST: Jonathan Rhys Meyers, Henry Cavill]]></description>
-		<pubDate>Fri, 24 Jun 2011 22:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775018_6625049.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/785408"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780654</guid>
-		<link>http://www.abc.net.au/iview/#/view/780654</link>
-		<title><![CDATA[The Tudors Episode 3 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[After promising to listen to their grievances Henry double-crosses the rebellion leaders by sending most of them to their death; while Jane informs the king that she is pregnant. CAST: Jonathan Rhys Meyers; Annabelle Wallis]]></description>
-		<pubDate>Fri, 17 Jun 2011 22:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775018_6625049.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780654"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/785379</guid>
-		<link>http://www.abc.net.au/iview/#/view/785379</link>
-		<title><![CDATA[David Mitchell's Soapbox Unusually Smart]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[David Mitchell presents a series of short comedy rants.]]></description>
-		<pubDate>Fri, 24 Jun 2011 22:25:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r766533_6490079.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/785379"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780681</guid>
-		<link>http://www.abc.net.au/iview/#/view/780681</link>
-		<title><![CDATA[David Mitchell's Soapbox Beer]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[David Mitchell presents a series of short comedy rants.]]></description>
-		<pubDate>Fri, 17 Jun 2011 22:25:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r766533_6490079.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780681"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784885</guid>
-		<link>http://www.abc.net.au/iview/#/view/784885</link>
-		<title><![CDATA[Riese Episode 6 Beast]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Riese and Fenrir head to Vidar, where according to the stolen ledger, scores of children have been sent. Once inside the town, they sense a presence, unlike any they've felt before.]]></description>
-		<pubDate>Fri, 24 Jun 2011 22:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="360"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r767357_6502201.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784885"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780647</guid>
-		<link>http://www.abc.net.au/iview/#/view/780647</link>
-		<title><![CDATA[Riese Episode 5 Dawn]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Riese slips out of Helmkin seeking refuge from Herrick's thugs. She finds a mother who tells her the Sect forced them to give up their children and anyone who resisted would be killed.]]></description>
-		<pubDate>Fri, 17 Jun 2011 22:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="420"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r767357_6502201.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780647"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784199</guid>
-		<link>http://www.abc.net.au/iview/#/view/784199</link>
-		<title><![CDATA[Sanctuary Episode 6 Animus]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Will and Henry travel to the UK to follow up on a werewolf sighting and end up uncovering a dark connection to Henry's past... and future. CAST: Robin Dunne, Ryan Robbins]]></description>
-		<pubDate>Fri, 24 Jun 2011 21:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r767139_6499018.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784199"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780642</guid>
-		<link>http://www.abc.net.au/iview/#/view/780642</link>
-		<title><![CDATA[Sanctuary Episode 5 Hero 2: Broken Arrow]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Kate gains super-hero-like abilities when an Abnormal attaches itself to her for safe-keeping. CAST: Agam Darshi, Amanda Tapping, Robin Dunne, Emilie Ullerup]]></description>
-		<pubDate>Fri, 17 Jun 2011 21:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r767139_6499018.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780642"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784148</guid>
-		<link>http://www.abc.net.au/iview/#/view/784148</link>
-		<title><![CDATA[Later... With Jools Holland Episode 9 Tinie Tempah, Midlake and more...]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848737</guid>
+		<link>http://www.abc.net.au/iview/#/view/848737</link>
+		<title><![CDATA[London Live Series 3 Episode 5 Maroon 5, The Magic Numbers, Akon and More...]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Tinie Tempah, Midlake, Ruby Turner And Louise Marshall and Two Door Cinema.]]></description>
-		<pubDate>Thu, 23 Jun 2011 23:45:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3660"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r449243_2183321.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784148"/>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Maroon 5, The Magic Numbers, Akon and Kaiser Chiefs.]]></description>
+		<pubDate>Tue, 01 Nov 2011 02:45:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848737"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780622</guid>
-		<link>http://www.abc.net.au/iview/#/view/780622</link>
-		<title><![CDATA[Later... With Jools Holland Episode 8 Kings Of Leon, The Vaccines and more...]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844661</guid>
+		<link>http://www.abc.net.au/iview/#/view/844661</link>
+		<title><![CDATA[London Live Series 3 Episode 4 Manic Street Preachers, Charlotte Gainsbourg and more...]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Kings Of Leon, The Vaccines, M.I.A. Bellowhead and Jonathan Jeremiah.]]></description>
-		<pubDate>Thu, 16 Jun 2011 23:45:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3780"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r449243_2183321.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780622"/>
+		<description><![CDATA[Recorded in London's flamboyant and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Manic Street Preachers, Charlotte Gainsbourg, The Coral and Dizzee Rascal.]]></description>
+		<pubDate>Sat, 29 Oct 2011 02:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844661"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/483387</guid>
-		<link>http://www.abc.net.au/iview/#/view/483387</link>
-		<title><![CDATA[Lead Balloon Episode 1 Giraffe]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Rick appears as a 'celebrity oracle' on a day-time quiz show. Meanwhile, back at home, trouble is brewing as Magda, his surly Eastern European help, has finally handed in her notice. CAST: Jack Dee]]></description>
-		<pubDate>Thu, 23 Jun 2011 14:25:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1744"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200912/r484107_2480457.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/483387"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/788028</guid>
-		<link>http://www.abc.net.au/iview/#/view/788028</link>
-		<title><![CDATA[The Kitchen Job Episode 7 Wakelin]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Restaurateur John Palino sets about transforming under-performing kitchens in just five days.]]></description>
-		<pubDate>Thu, 23 Jun 2011 01:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r765682_6474101.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/788028"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/781051</guid>
-		<link>http://www.abc.net.au/iview/#/view/781051</link>
-		<title><![CDATA[The Kitchen Job Episode 6 Chocolate Cafe]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Restaurateur John Palino sets about transforming under-performing kitchens in just five days.]]></description>
-		<pubDate>Thu, 16 Jun 2011 01:15:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2460"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r765682_6474101.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/781051"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/563135</guid>
-		<link>http://www.abc.net.au/iview/#/view/563135</link>
-		<title><![CDATA[Blood, Sweat And Takeaways Episode 2 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[The Brits arrive in Kalimantan, Indonesia to live and work alongside the workers in the prawn industry. Instead of fishing for prawns in the ocean, the Brits find themselves waist deep in mud working on a prawn farm.]]></description>
-		<pubDate>Wed, 22 Jun 2011 23:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3436"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r560126_3380627.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/563135"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/559709</guid>
-		<link>http://www.abc.net.au/iview/#/view/559709</link>
-		<title><![CDATA[Blood, Sweat And Takeaways Episode 1 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Six young fast food junkies travel to South East Asia to see just what's involved in producing the food they take for granted. They must catch, harvest and process food products that are eaten every day in the UK.]]></description>
-		<pubDate>Wed, 15 Jun 2011 23:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3417"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r560126_3380627.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/559709"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784121</guid>
-		<link>http://www.abc.net.au/iview/#/view/784121</link>
-		<title><![CDATA[Am I Normal? Episode 4 Sexuality (Final)]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Clinical psychologist Dr Tanya Byron looks at sexual expression and what is normal. What is eccentric to some is normal to others and why do we condemn others as repugnant or dangerous?]]></description>
-		<pubDate>Wed, 22 Jun 2011 22:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776184_6644481.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784121"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780663</guid>
-		<link>http://www.abc.net.au/iview/#/view/780663</link>
-		<title><![CDATA[Am I Normal? Episode 3 Spirituality]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Dr Tanya Byron explores the fine line between religious devotion and psychiatric disorder.]]></description>
-		<pubDate>Wed, 15 Jun 2011 22:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776184_6644481.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780663"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784096</guid>
-		<link>http://www.abc.net.au/iview/#/view/784096</link>
-		<title><![CDATA[World's Toughest Driving Tests Episode 4 Canada]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Will and Kirsten head for Canada where they attempt to master the 47-tonne go-anywhere Arktos. The Arktos is unlike anything they have driven before as they grapple with the controls on land, river and sea.]]></description>
-		<pubDate>Wed, 22 Jun 2011 20:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776182_6644480.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784096"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780655</guid>
-		<link>http://www.abc.net.au/iview/#/view/780655</link>
-		<title><![CDATA[World's Toughest Driving Tests Episode 3 Scotland]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Will and Kirsten go head-to-head in Broken Cross, Scotland, in one of the world's biggest vehicles, the Terex TR100, a dumper truck the size of a house. It is a mentally and physically demanding training regime.]]></description>
-		<pubDate>Wed, 15 Jun 2011 20:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776182_6644480.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780655"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/461510</guid>
-		<link>http://www.abc.net.au/iview/#/view/461510</link>
-		<title><![CDATA[Billable Hours Episode 3 15 Minutes Of Shame]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Sam is chosen as the new legal correspondent for a right wing business show; and Robin's scream queen past catches up to her when Clark discovers that she was in a low budget zombie movie. CAST: Fabrizio Filippo]]></description>
-		<pubDate>Wed, 22 Jun 2011 13:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1349"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r453683_2213383.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/461510"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/456263</guid>
-		<link>http://www.abc.net.au/iview/#/view/456263</link>
-		<title><![CDATA[Billable Hours Episode 2 Cancer Baby]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Upon hearing a false pregnancy rumour, Robin is delighted when she discovers Fagen And Harrison's cushy maternity package. Eager to cash-in on fake pregnancy perks, Clark pretends to be the 'daddy'. CAST: Fabrizio Filippo]]></description>
-		<pubDate>Wed, 15 Jun 2011 01:35:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1350"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r453683_2213383.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/456263"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/636782</guid>
-		<link>http://www.abc.net.au/iview/#/view/636782</link>
-		<title><![CDATA[The Office Episode 2 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Donna arrives at the office on work experience. After the obligatory innuendo of the introductions, her first day is dominated by a dirty picture of her boss that's been emailed around the office. CAST: Ricky Gervais, Lucy Davies]]></description>
-		<pubDate>Wed, 22 Jun 2011 00:40:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r632054_4314223.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/636782"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/632010</guid>
-		<link>http://www.abc.net.au/iview/#/view/632010</link>
-		<title><![CDATA[The Office Episode 1 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Working life as most of us know it - underpaid dead-end jobs, irritating colleagues and a smug, sexist boss. The office is a place where trivial things take on a ridiculous importance.]]></description>
-		<pubDate>Wed, 15 Jun 2011 00:40:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r632054_4314223.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/632010"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/461493</guid>
-		<link>http://www.abc.net.au/iview/#/view/461493</link>
-		<title><![CDATA[Superhuman Episode 2 Genius]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Five especially talented people talk about their special gifts in this captivating second part of the series. It includes three child prodigies in art, music and science and two men with astounding memory powers.]]></description>
-		<pubDate>Wed, 22 Jun 2011 00:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2743"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r457408_2239062.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/461493"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/456201</guid>
-		<link>http://www.abc.net.au/iview/#/view/456201</link>
-		<title><![CDATA[Superhuman Episode 1 World's Smallest People]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[A moving and fascinating look at how the world's smallest people cope with a society that treats them as freaks and how they find work, love and happiness.]]></description>
-		<pubDate>Thu, 16 Jun 2011 00:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2820"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200910/r457408_2239062.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/456201"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/483374</guid>
-		<link>http://www.abc.net.au/iview/#/view/483374</link>
-		<title><![CDATA[Ideal Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Moz's flat is invaded, firstly by Cartoon Head's triad, and then by a TV camera crew who shoot some compromising footage. Next door, Fist discovers something strange living in the wall between the flats. CAST: Johnny Vegas]]></description>
-		<pubDate>Wed, 22 Jun 2011 00:05:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200911/r473269_2377156.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/483374"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/476267</guid>
-		<link>http://www.abc.net.au/iview/#/view/476267</link>
-		<title><![CDATA[Ideal Episode 3 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Moz has promised to get a proper job and girlfriend Jenny is determined that he keep his word. Cartoon Head has found out about Judith's affair, whilst Keith and Carol have a dead body to dispose of. CAST: Johnny Vegas]]></description>
-		<pubDate>Wed, 15 Jun 2011 00:05:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1704"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200911/r473269_2377156.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/476267"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784056</guid>
-		<link>http://www.abc.net.au/iview/#/view/784056</link>
-		<title><![CDATA[Leigh Hart's Mysterious Planet Episode 2 El Dorado (Peru)]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Risking his own life and the lives of his crew the self-proclaimed expert, Leigh Hart, ventures into the unknown, trekking the mountains and jungles of Peru in search of the lost city of gold - El Dorado.]]></description>
-		<pubDate>Tue, 21 Jun 2011 22:00:00 +1000</pubDate>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/692135</guid>
+		<link>http://www.abc.net.au/iview/#/view/692135</link>
+		<title><![CDATA[London Live Series 3 Episode 3 Mark Ronson, Biffy Clyro and more...]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Mark Ronson, Biffy Clyro, Feist and Groove Armada.]]></description>
+		<pubDate>Thu, 27 Oct 2011 02:25:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201106/r781233_6725256.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784056"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/692135"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/781230</guid>
-		<link>http://www.abc.net.au/iview/#/view/781230</link>
-		<title><![CDATA[Leigh Hart's Mysterious Planet Episode 1 Bigfoot]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Armed only with his internet-based knowledge, his Kiwi back-up team, and a credit card, Leigh Hart attempts to solve once and for all the world's top six greatest mysteries, in as many weeks.]]></description>
-		<pubDate>Tue, 14 Jun 2011 22:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201106/r781233_6725256.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/781230"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844414</guid>
+		<link>http://www.abc.net.au/iview/#/view/844414</link>
+		<title><![CDATA[London Live Series 3 Episode 1 Air, Robin Thicke, Klaxons, Editors and more...]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Recorded in London's flamboyant, stylish and historic music venue KOKO, London Live showcases the biggest and best album releases. This episode features Air, Robin Thicke, Klaxons and Editors.]]></description>
+		<pubDate>Wed, 26 Oct 2011 02:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r688040_5152662.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844414"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784082</guid>
-		<link>http://www.abc.net.au/iview/#/view/784082</link>
-		<title><![CDATA[Good Game Episode 20 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Join Bajo and Hex as they bring you all the latest news and events, reviews, animations and interviews from the wonderful world of gaming.]]></description>
-		<pubDate>Tue, 21 Jun 2011 21:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1860"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r749673_6204464.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784082"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848815</guid>
+		<link>http://www.abc.net.au/iview/#/view/848815</link>
+		<title><![CDATA[Inside The Actors Studio Judd Apatow]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[An interview series in a class of its own. James Lipton's studious research and curiosity inspire his guests to open up and confess their deepest thoughts about their craft.]]></description>
+		<pubDate>Fri, 04 Nov 2011 01:10:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r844410_7910750.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848815"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780575</guid>
-		<link>http://www.abc.net.au/iview/#/view/780575</link>
-		<title><![CDATA[Good Game Episode 19 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Join Bajo and Hex as they bring you all the latest news and events, reviews, animations and interviews from the wonderful world of gaming.]]></description>
-		<pubDate>Tue, 14 Jun 2011 21:29:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r749673_6204464.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780575"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/506198</guid>
+		<link>http://www.abc.net.au/iview/#/view/506198</link>
+		<title><![CDATA[Inside The Actors Studio Josh Brolin]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[An interview series in a class of its own. James Lipton's studious research and curiosity inspire his guests to open up and confess their deepest thoughts about their craft. This episode features Josh Brolin.]]></description>
+		<pubDate>Thu, 27 Oct 2011 01:10:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2650"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r844410_7910750.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/506198"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/698308</guid>
-		<link>http://www.abc.net.au/iview/#/view/698308</link>
-		<title><![CDATA[Ashes To Ashes Episode 1 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[It's time to get your shoulder pads out of storage, start crimping your hair and get into the Eighties mood for the very last time as this multi-award-winning drama returns for its highly anticipated finale. CAST: Keeley Hawes]]></description>
-		<pubDate>Mon, 20 Jun 2011 23:20:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r698311_5326361.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/698308"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784034</guid>
-		<link>http://www.abc.net.au/iview/#/view/784034</link>
-		<title><![CDATA[Swingtown Episode 9 Swingus Swingus Interruptus]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Bruce and Susan's 'after party' with Brad and Sylvia is interrupted by Laurie and her new boyfriend. CAST: Shanna Collins, Jack Davenport]]></description>
-		<pubDate>Mon, 20 Jun 2011 21:35:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2340"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r754690_6288976.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784034"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780572</guid>
-		<link>http://www.abc.net.au/iview/#/view/780572</link>
-		<title><![CDATA[Swingtown Episode 8 Puzzlerama]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Trina throws her annual puzzlerama party where mismatched couples race to find clues based on neighbourhood secrets. CAST: Lana Parrilla, Molly Parker]]></description>
-		<pubDate>Mon, 13 Jun 2011 21:34:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2340"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r754690_6288976.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780572"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/531879</guid>
-		<link>http://www.abc.net.au/iview/#/view/531879</link>
-		<title><![CDATA[Miranda Episode 3 Job]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Miranda's mother Penny is disappointed that Miranda runs a joke shop rather than having a 'proper job'. Annoyed, Miranda decides to prove everyone wrong and get herself a new job. CAST: Tom Ellis, Patricia Hodge]]></description>
-		<pubDate>Mon, 20 Jun 2011 21:00:00 +1000</pubDate>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847524</guid>
+		<link>http://www.abc.net.au/iview/#/view/847524</link>
+		<title><![CDATA[The Bazura Project Episode 6 (Final) : Fame]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Shannon and Lee explore fame throughout film history, from the earliest movie stars to the most recent celebrity-seekers, and how they've affected what's on screen. CAST: Lee Zachariah, Shannon Marinko]]></description>
+		<pubDate>Thu, 03 Nov 2011 22:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r531906_3030246.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/531879"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847524"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/531877</guid>
-		<link>http://www.abc.net.au/iview/#/view/531877</link>
-		<title><![CDATA[Miranda Episode 2 Teachers]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Miranda is rather British when it comes to 'sex' or 'shenanigans'. To overcome her hang-ups she decides the way forward with Gary is to try and create a 'romantic moment', but things don't quite go to plan. CAST: Tom Ellis]]></description>
-		<pubDate>Mon, 13 Jun 2011 21:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r531906_3030246.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/531877"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/553048</guid>
-		<link>http://www.abc.net.au/iview/#/view/553048</link>
-		<title><![CDATA[The Urban Chef Episode 7 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Chef Oliver Rowe set himself a challenge - to run a restaurant, having sourced all his ingredients within access of the London Underground. Follow Ollie on his mad dash around London as he searches for local produce to serve.]]></description>
-		<pubDate>Mon, 20 Jun 2011 20:30:00 +1000</pubDate>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844676</guid>
+		<link>http://www.abc.net.au/iview/#/view/844676</link>
+		<title><![CDATA[The Bazura Project Episode 5 Drugs]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Shannon and Lee look at drugs in film through the ages, from historical depictions of heroin addicts to cigarettes in the age of political correctness. CAST: Lee Zachariah, Shannon Marinko]]></description>
+		<pubDate>Thu, 27 Oct 2011 22:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r532007_3031852.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/553048"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844676"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/550212</guid>
-		<link>http://www.abc.net.au/iview/#/view/550212</link>
-		<title><![CDATA[The Urban Chef Episode 6 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841531</guid>
+		<link>http://www.abc.net.au/iview/#/view/841531</link>
+		<title><![CDATA[The Bazura Project Episode 4 Language]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Guide To Sinema. Shannon and Lee look at how profanity has been expressed in movies, from made-up swears to the worst of all blasphemy, and instruct you on how best to use profanity in a film.]]></description>
+		<pubDate>Thu, 20 Oct 2011 22:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841531"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/839103</guid>
+		<link>http://www.abc.net.au/iview/#/view/839103</link>
+		<title><![CDATA[The Bazura Project Episode 3 Money]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Guide To Sinema. Shannon and Lee look at how money influences artistic expression, and teach you how best to create your own successful blockbuster.]]></description>
+		<pubDate>Thu, 13 Oct 2011 22:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/839103"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/837393</guid>
+		<link>http://www.abc.net.au/iview/#/view/837393</link>
+		<title><![CDATA[The Bazura Project Episode 2 Sex]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Guide To Sinema. Shannon and Lee delve into how sex has been explored on the big screen, looking at censorship, metaphor, and how to create your very own sex scene.]]></description>
+		<pubDate>Thu, 06 Oct 2011 22:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/837393"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834408</guid>
+		<link>http://www.abc.net.au/iview/#/view/834408</link>
+		<title><![CDATA[The Bazura Project Episode 1 Violence]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Guide To Sinema. Join Shannon and Lee as they unearth the obscure, travel to the future, delve into their subconscious, award the un-awardable, and give a comprehensive DIY guide on all things sinful in cinema.]]></description>
+		<pubDate>Thu, 29 Sep 2011 22:00:00 +1000</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834410_7722260.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/834408"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844219</guid>
+		<link>http://www.abc.net.au/iview/#/view/844219</link>
+		<title><![CDATA[Bad Guys Dead Ahead Episode 4 High Wind And Savage Seas]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[The Caribbean mission changes dramatically for HMS Manchester when the hurricane season hits. The warship follows a huge storm to reassure all the vulnerable islands she will be on hand if the worst comes to the worst.]]></description>
+		<pubDate>Thu, 03 Nov 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r840546_7839630.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844219"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842491</guid>
+		<link>http://www.abc.net.au/iview/#/view/842491</link>
+		<title><![CDATA[Bad Guys Dead Ahead Episode 3 In the Dead of Night]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[The ageing British warship HMS Manchester has not had much luck tracking down drug smugglers in the Caribbean Sea, but then a fishing vessel is seen behaving suspiciously and they swoop on it in the dead of night.]]></description>
+		<pubDate>Thu, 27 Oct 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r840546_7839630.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842491"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/605035</guid>
+		<link>http://www.abc.net.au/iview/#/view/605035</link>
+		<title><![CDATA[The Undercover Princes Episode 1 ]]></title>
 		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Chef Oliver Rowe set himself a challenge - to run a restaurant, having sourced all his ingredients within access of the London Underground. Follow Ollie on his mad dash around London as he searches for local produce to serve.]]></description>
-		<pubDate>Mon, 13 Jun 2011 20:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r532007_3031852.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/550212"/>
+		<description><![CDATA[Three bona fide bachelor Princes travel from far-away lands in search of true love against a ticking clock. However, to ensure that the people they meet will love them for themselves and not just their wealth and status they are going undercover, living and working as ordinary people for the first time in their lives!]]></description>
+		<pubDate>Thu, 03 Nov 2011 00:10:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3400"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r605081_3962722.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/605035"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/573257</guid>
-		<link>http://www.abc.net.au/iview/#/view/573257</link>
-		<title><![CDATA[Gavin And Stacey Christmas Special 2008 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[It's Christmas time and the Welsh contingent have been invited to celebrate the festive season with the Shipmans. But will the season still be jolly when Gavin delivers a truly unexpected surprise to everyone? CAST: Ruth Jones]]></description>
-		<pubDate>Sun, 19 Jun 2011 23:00:00 +1000</pubDate>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843506</guid>
+		<link>http://www.abc.net.au/iview/#/view/843506</link>
+		<title><![CDATA[Kill It, Cut It, Use It Episode 2 ]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Julia and the young consumers take a closer look at sheep, and discover how everything from a sheep's skin to its placenta can be turned into comfy boots, cosmetics and even condoms.]]></description>
+		<pubDate>Wed, 02 Nov 2011 23:30:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="3600"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r573247_3554147.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/573257"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846685_7956749.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/843506"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/444322</guid>
-		<link>http://www.abc.net.au/iview/#/view/444322</link>
-		<title><![CDATA[The Dark Side Of Fame Episode 2 Pamela Anderson]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842475</guid>
+		<link>http://www.abc.net.au/iview/#/view/842475</link>
+		<title><![CDATA[Kill It, Cut It, Use It Episode 1 ]]></title>
 		<category><![CDATA[docs]]></category>
-		<description><![CDATA[In the final of this two-part series, Piers Morgan interviews Canadian blonde bombshell Pamela Anderson about her life and loves, and the ups and downs of fame.]]></description>
-		<pubDate>Sun, 19 Jun 2011 01:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2903"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200909/r441489_2131279.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/444322"/>
+		<description><![CDATA[UK presenter Julia Bradbury is joined by young consumers to uncover the surprising animal origins of many of our favourite things, as they follow the transformation of each body part from abattoir to shop floor.]]></description>
+		<pubDate>Wed, 26 Oct 2011 22:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration=""/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846685_7956749.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842475"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780678</guid>
-		<link>http://www.abc.net.au/iview/#/view/780678</link>
-		<title><![CDATA[Wild Rides Episode 6 Crashing Kathmandu (Final)]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843481</guid>
+		<link>http://www.abc.net.au/iview/#/view/843481</link>
+		<title><![CDATA[Is Breast Best? Cherry Healey Investigates ]]></title>
 		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Travelling hell-for-leather towards Kathmandu and the finish line, Buddy gets his moustache and rickshaw pimped, borrows a cycle-rickshaw, and experiences bandits, engine trouble and more.]]></description>
-		<pubDate>Fri, 17 Jun 2011 21:00:00 +1000</pubDate>
+		<description><![CDATA[Join the refreshingly honest Cherry Healey as she explores the world of boobs, bottles, babies and breast milk while tackling 'is breast best?']]></description>
+		<pubDate>Wed, 02 Nov 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3600"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r849559_8018351.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/843481"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848375</guid>
+		<link>http://www.abc.net.au/iview/#/view/848375</link>
+		<title><![CDATA[triple j tv presents 2011 Jezabels]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[We launch in to AusMusic Month with THE JEZABELS - an epic show filmed at the triple j One Night Stand in Tumby Bay earlier this year. They're selling out shows all around the country right now but tonight they're playing at your place.]]></description>
+		<pubDate>Tue, 01 Nov 2011 23:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r395611_1852181.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848375"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844380</guid>
+		<link>http://www.abc.net.au/iview/#/view/844380</link>
+		<title><![CDATA[triple j tv presents 2011 Art Vs Science]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Squeeze your way to the front row and get ready to sweat as your favourite electro-nerds set the crowd on fire at the triple j One Night Stand in Tumby Bay.]]></description>
+		<pubDate>Tue, 25 Oct 2011 23:20:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="390"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r395611_1852181.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844380"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847505</guid>
+		<link>http://www.abc.net.au/iview/#/view/847505</link>
+		<title><![CDATA[Sanctuary Series Three: Part 2 Episode 17 Normandy]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[In a look back to World War II, we find Magnus, Watson and Griffin on the eve of D-Day... and discover Magnus's role in one of the most important events that shaped our world. CAST: Amanda Tapping, Peter Wingfield]]></description>
+		<pubDate>Tue, 01 Nov 2011 22:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827645_7582690.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847505"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842301</guid>
+		<link>http://www.abc.net.au/iview/#/view/842301</link>
+		<title><![CDATA[Sanctuary Series Three: Part 2 Episode 16 Awakening]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Magnus and Tesla investigate a former Praxian stronghold and realise they may have unintentionally stumbled upon secrets to the Vampiris race. CAST: Amanda Tapping Jonathon Young]]></description>
+		<pubDate>Tue, 25 Oct 2011 22:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827645_7582690.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842301"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847430</guid>
+		<link>http://www.abc.net.au/iview/#/view/847430</link>
+		<title><![CDATA[Pete Versus Life Episode 3 Older Woman]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Pete meets Ros, an attractive older lady at an art auction and they hit it off. But Pete soon realises being a 'toy boy' has its complications. CAST: Rafe Spall, Caroline Langrishe]]></description>
+		<pubDate>Tue, 01 Nov 2011 22:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r766745_6493635.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780678"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841867_7863369.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847430"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/346131</guid>
-		<link>http://www.abc.net.au/iview/#/view/346131</link>
-		<title><![CDATA[Lead Balloon Episode 6 Fatty]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844352</guid>
+		<link>http://www.abc.net.au/iview/#/view/844352</link>
+		<title><![CDATA[Pete Versus Life Episode 2 Frankoo]]></title>
 		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Final Episode. Rick says something truly appalling to an acquaintance at the gym, after he is told he's put on weight.]]></description>
-		<pubDate>Thu, 16 Jun 2011 14:25:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1714"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200911/r468612_2335060.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/346131"/>
+		<description><![CDATA[Pete goes to a party where Jake, a friend but also a rival, reveals an intimate detail about his sex life. Pete promises to keep it a secret and then proceeds to tell everyone. CAST: Rafe Spall, Daniel Ings]]></description>
+		<pubDate>Tue, 25 Oct 2011 22:05:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1530"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841867_7863369.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844352"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659856</guid>
-		<link>http://www.abc.net.au/iview/#/view/659856</link>
-		<title><![CDATA[The Catherine Tate Show 13/06/2011]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846379</guid>
+		<link>http://www.abc.net.au/iview/#/view/846379</link>
+		<title><![CDATA[Good Game Series 7 Episode 39 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Join Bajo and Hex as they bring you all the latest news and events, reviews, animations and interviews from the wonderful world of gaming.]]></description>
+		<pubDate>Tue, 01 Nov 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r749673_6204464.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846379"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844343</guid>
+		<link>http://www.abc.net.au/iview/#/view/844343</link>
+		<title><![CDATA[Good Game Series 7 Episode 38 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Join Bajo and Hex as they bring you all the latest news and events, reviews, animations and interviews from the wonderful world of gaming.]]></description>
+		<pubDate>Tue, 25 Oct 2011 21:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r749673_6204464.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844343"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/456197</guid>
+		<link>http://www.abc.net.au/iview/#/view/456197</link>
+		<title><![CDATA[Dangerous Jobs For Girls Episode 4 (Final) : Hunters]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Trainee solicitor Nasreen Hussain, Royal Navy officer Angie Pearce and PC Geri Savage travel to South Africa to work as game hunters, attempting to prove they can do the job just as well as their male counterparts.]]></description>
+		<pubDate>Tue, 01 Nov 2011 13:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2858"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200909/r441494_2131298.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/456197"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/451931</guid>
+		<link>http://www.abc.net.au/iview/#/view/451931</link>
+		<title><![CDATA[Dangerous Jobs For Girls Episode 3 Fishing]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Three high-flying British career women travel to South Australia, where they are challenged to take on one of the world's most treacherous occupations - working on a trawler hundreds of miles out into the Southern Ocean.]]></description>
+		<pubDate>Tue, 25 Oct 2011 13:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2806"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200909/r441494_2131298.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/451931"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729943</guid>
+		<link>http://www.abc.net.au/iview/#/view/729943</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 10 Rock Pools]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Peppa and George are at the seaside. Peppa and George like sandy beaches, but this is a different kind of beach, with lots of rocks and little rock pools to explore.]]></description>
+		<pubDate>Tue, 01 Nov 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729943"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729942</guid>
+		<link>http://www.abc.net.au/iview/#/view/729942</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 9 The Time Capsule]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Madame Gazelle shows Peppa and her school friends how to make a time capsule. The children discover that their parents made a time capsule with Madame Gazelle many, many years ago. And now it is time to open it up.]]></description>
+		<pubDate>Mon, 31 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729942"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/728834</guid>
+		<link>http://www.abc.net.au/iview/#/view/728834</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 8 Windy Autumn Day]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[It is a cold &amp; windy day. Peppa, George, Mummy &amp; Daddy wear their hats, scarves and coats. At the park, it is so windy that Peppa's ball blows into the pond and George's hat blows into a tree.]]></description>
+		<pubDate>Tue, 25 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/728834"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/728831</guid>
+		<link>http://www.abc.net.au/iview/#/view/728831</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 7 Mr Scarecrow]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Grandpa is planting seeds for a garden, but the birds keep eating them. Peppa &amp; George help Grandpa to make a scarecrow to stop the birds eating the seeds. Peppa worries that the birds will be hungry.]]></description>
+		<pubDate>Mon, 24 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/728831"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845475</guid>
+		<link>http://www.abc.net.au/iview/#/view/845475</link>
+		<title><![CDATA[Breaking Bad Series 3 Episode 7 One Minute]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Upset that his case has fallen apart as a result of the destruction of the mobile drug lab, Hank risks his career by attacking Jesse; worried that Jesse will talk. CAST: Dean Norris]]></description>
+		<pubDate>Mon, 31 Oct 2011 22:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827230_7572110.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/845475"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842131</guid>
+		<link>http://www.abc.net.au/iview/#/view/842131</link>
+		<title><![CDATA[Breaking Bad Series 3 Episode 6 Sunset]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Skyler warns Walt against using his drug proceeds to support her and the kids but he dismisses her concerns, buys himself a new condo, and arrives for his first day of work at Gus's state-of-the-art lab: CAST: Bryan Cranston]]></description>
+		<pubDate>Mon, 24 Oct 2011 22:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827230_7572110.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842131"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/663103</guid>
+		<link>http://www.abc.net.au/iview/#/view/663103</link>
+		<title><![CDATA[Jimmy's Food Factory Episode 2 What's In My Sandwich?]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Jimmy examines why supermarket bread stays fresher than home-baked bread and also wonders why processed cheese slices are so popular. So he sets his own machines in the barn factory using a metal rubbish bin and a tin bucket.]]></description>
+		<pubDate>Mon, 31 Oct 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r659936_4717410.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/663103"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659914</guid>
+		<link>http://www.abc.net.au/iview/#/view/659914</link>
+		<title><![CDATA[Jimmy's Food Factory Episode 1 Breakfast]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Jimmy Doherty unpacks the science behind the food items we buy. Working from a makeshift science lab inside a barn, he carries out experiments to uncover the secrets of food technology.]]></description>
+		<pubDate>Mon, 24 Oct 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r659936_4717410.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/659914"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/660597</guid>
+		<link>http://www.abc.net.au/iview/#/view/660597</link>
+		<title><![CDATA[A Poet's Guide To Britain Episode 3 Sylvia Plath]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Sylvia Plath is one of the most popular and influential poets of recent history but her poetry is often overshadowed by her life. Owen explores a rich seam of her poetry.]]></description>
+		<pubDate>Mon, 31 Oct 2011 14:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652517_4614539.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/660597"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/656450</guid>
+		<link>http://www.abc.net.au/iview/#/view/656450</link>
+		<title><![CDATA[A Poet's Guide To Britain Episode 2 George Mackay]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Program writer Owen Sheers travels to the Orkney town of Stromness, the home of George Mackay Brown, the great poetic voice of the Orkneys and one of the foremost Scottish poets of the twentieth century.]]></description>
+		<pubDate>Mon, 24 Oct 2011 14:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652517_4614539.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/656450"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/831796</guid>
+		<link>http://www.abc.net.au/iview/#/view/831796</link>
+		<title><![CDATA[Prostitutes of God ]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[In Prostitutes of God, VBS travels to the Indian city of Sangli to meet a group of sex workers selling their bodies in the name of the Hindu Goddess Yellamma. Local sex worker Anitha invites us for lunch in her brothel; shows us her homemade sex rooms, and tells us what its like to be a religious prostitute in modern India.]]></description>
+		<pubDate>Mon, 31 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846115_7944437.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/831796"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/619369</guid>
+		<link>http://www.abc.net.au/iview/#/view/619369</link>
+		<title><![CDATA[Mandela Day ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[The 2009 '46664' concert celebrating Nelson Mandela's 91st birthday, recorded at Radio City Music Hall, NYC. Featuring a number of top music acts including Stevie Wonder, Aretha Franklin and Alicia Keyes.]]></description>
+		<pubDate>Mon, 31 Oct 2011 00:45:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5400"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r620396_4159653.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/619369"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843020</guid>
+		<link>http://www.abc.net.au/iview/#/view/843020</link>
+		<title><![CDATA[Sunday Best Born Into Brothels]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[In the dark underworld of Calcutta's overcrowded red light district appear a group of unforgettable children. Feisty, courageous, and wickedly funny - they are children of prostitutes. They embark on a transformational journey with New York based photographer Zana Briski, who teaches them photography.]]></description>
+		<pubDate>Sun, 30 Oct 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5100"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834346_7799874.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/843020"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841957</guid>
+		<link>http://www.abc.net.au/iview/#/view/841957</link>
+		<title><![CDATA[Sunday Best Teenage Paparazzo]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[The true story of a relationship between Alex, a 14-year-old paparazzo, and Adrian Grenier, the star of the HBO series Entourage.]]></description>
+		<pubDate>Sun, 23 Oct 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5700"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r834346_7799874.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841957"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/664377</guid>
+		<link>http://www.abc.net.au/iview/#/view/664377</link>
+		<title><![CDATA[Entanglement Theory ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Abstract modern dance piece where two male dancers, one in the real world and an animated one in the cyberworld of Second Life, gradually start to cross over into each other's performance space.]]></description>
+		<pubDate>Sun, 30 Oct 2011 16:50:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="600"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r664771_4788017.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/664377"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659795</guid>
+		<link>http://www.abc.net.au/iview/#/view/659795</link>
+		<title><![CDATA[Kids In The Hall: Death Comes To Town Episode 5 ]]></title>
 		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[It's Lauren's wedding day. The ultra-snobby Aga Saga Woman has a disaster with yoghurt. Derek goes for a massage and is offered more than a back rub. CAST: Catherine Tate]]></description>
-		<pubDate>Tue, 14 Jun 2011 00:45:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r600879_3911401.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/659856"/>
+		<description><![CDATA[With the trial underway another Shucktonite is found murdered. CAST: Dave Foley, Mark McKinney]]></description>
+		<pubDate>Sun, 30 Oct 2011 02:20:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1260"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r651373_4582218.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/659795"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659794</guid>
+		<link>http://www.abc.net.au/iview/#/view/659794</link>
+		<title><![CDATA[Kids In The Hall: Death Comes To Town Episode 4 Big City Smack Down]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[A big city prosecutor arrives in town for the start of the trial. CAST: Dave Foley, Mark McKinney]]></description>
+		<pubDate>Sat, 22 Oct 2011 02:20:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1260"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r651373_4582218.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/659794"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842608</guid>
+		<link>http://www.abc.net.au/iview/#/view/842608</link>
+		<title><![CDATA[Monkey Thieves Series 2 Episode 4 Urban Exile]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[As Bipin and his splinter troop struggle to cope with rural life on the edge of the city, Galta Gang arch enemy Zamir revels in his new country lifestyle.]]></description>
+		<pubDate>Sat, 29 Oct 2011 20:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r836932_7769018.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842608"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/840688</guid>
+		<link>http://www.abc.net.au/iview/#/view/840688</link>
+		<title><![CDATA[Monkey Thieves Series 2 Episode 3 ]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Rani and the Galta Gang hierarchy continue to capitalise on temple handout but it's back to school for Bipin and the splinter group exiles as they head for the safety of the suburbs.]]></description>
+		<pubDate>Sat, 22 Oct 2011 20:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r836932_7769018.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/840688"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/636842</guid>
+		<link>http://www.abc.net.au/iview/#/view/636842</link>
+		<title><![CDATA[Blade Of The Immortal Episode 4 Genius]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Rin tries in vain to hire Sori, an artist, meanwhile, his house is attacked by minions of the Itto-ryu, which makes him reveal his true colors.]]></description>
+		<pubDate>Sat, 29 Oct 2011 02:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r624797_4217893.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/636842"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/623299</guid>
+		<link>http://www.abc.net.au/iview/#/view/623299</link>
+		<title><![CDATA[Blade Of The Immortal Episode 3 Love Song]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Manji and Rin fatefully encounter the horrific assassin Sabato Kuroi, a student of Anotsu, leader of the Itto-Ryu assassins. Meanwhile members of the rival assassin sect Mugai-Ryu close in.]]></description>
+		<pubDate>Sat, 22 Oct 2011 01:50:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r624797_4217893.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/623299"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/529710</guid>
+		<link>http://www.abc.net.au/iview/#/view/529710</link>
+		<title><![CDATA[Cold Feet Series 3 Episode 2 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Rachel and Adam decide to see a specialist after Rachel's pregnancy false alarm; Jenny kicks Pete out of their house; David takes on a new community project; and Robert pursues Jenny relentlessly. CAST: Fay Ripley]]></description>
+		<pubDate>Sat, 29 Oct 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r531268_3022122.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/529710"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/529706</guid>
+		<link>http://www.abc.net.au/iview/#/view/529706</link>
+		<title><![CDATA[Cold Feet Series 3 Episode 1 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Jenny and Pete are now living apart and Jenny starts looking for a job; Karen's mother arrives apparently to help out with the twins; and Rachel and Adam realise that they are both ready to have children. CAST: Fay Ripley]]></description>
+		<pubDate>Sat, 22 Oct 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r531268_3022122.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/529706"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/765271</guid>
+		<link>http://www.abc.net.au/iview/#/view/765271</link>
+		<title><![CDATA[River Monsters Series 2 Episode 6 Congo Killer]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Jeremy Wade travels to one of the few rivers left on earth that will still test a fisherman. The Congo, a river steeped in legends. Jeremy discovers that the truth is every bit as frightening as the myth.]]></description>
+		<pubDate>Fri, 28 Oct 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2940"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r742355_6085664.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/765271"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/759137</guid>
+		<link>http://www.abc.net.au/iview/#/view/759137</link>
+		<title><![CDATA[River Monsters Series 2 Episode 5 Rift Valley Killers]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Jeremy Wade is on a quest to Africa's Rift Valley to explore the roots of fishing and the monsters these first fishermen faced. It's a dangerous place, but at its heart is a worthy prize, the Nile Perch.]]></description>
+		<pubDate>Fri, 21 Oct 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2913"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r742355_6085664.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/759137"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/700963</guid>
+		<link>http://www.abc.net.au/iview/#/view/700963</link>
+		<title><![CDATA[Fat and Fatter Episode 4 Kuwait]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Final Episode. Brits Carley Brookes and Darran Mansfield experience the ultra-lazy lifestyle of Kuwait's wealthy and gain an understanding of how new wealth has impacted on obesity. They are shocked after a visit to the diabetes clinic.]]></description>
+		<pubDate>Thu, 27 Oct 2011 00:20:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3116"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r698027_5321844.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/700963"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842353</guid>
+		<link>http://www.abc.net.au/iview/#/view/842353</link>
+		<title><![CDATA[Louis Theroux Louis and the Brothel]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Intrepid TV host Louis Theroux reveals the inside story of day-to-day life in one of America's largest legal brothels.]]></description>
+		<pubDate>Wed, 26 Oct 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3600"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r830231_7638011.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842353"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/692733</guid>
+		<link>http://www.abc.net.au/iview/#/view/692733</link>
+		<title><![CDATA[Gimme Gimme Gimme Series 3 Episode 2 Lollipop Man]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Tom lands a role in 'The Life Cycle Of The Salmon' and hopes the play could finally be his big break. As nerves start to get the better of him, he asks Linda to join him in the dressing room on the big night. CAST: James Dreyfus]]></description>
+		<pubDate>Tue, 25 Oct 2011 00:50:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r693252_5243765.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/692733"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 </channel> 
