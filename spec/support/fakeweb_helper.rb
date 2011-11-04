@@ -40,12 +40,12 @@ module FakewebHelper
     Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
       download_page_if_new(source, source.url)
 
-      fake_page(source.scraper.constantize, source.url)
+      fake_page(source.scraper.constantize, source.url, instances)
     end
   end
 
-  def fake_page(scraper, url)
-    scraper.should_receive(:read_url).with(url).and_return(File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}"))
+  def fake_page(scraper, url, instances = 1)
+    scraper.should_receive(:read_url).with(url).exactly(instances).times.and_return(File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}"))
   end
 
 
