@@ -30,7 +30,7 @@ describe "each scraper" do
         show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
         shows = show_urls.map do |url|
-          download_page_if_new(source, source.url)
+          download_page_if_new(source, url)
           fake_page(source.scraper_class, url)
 
           source.scraper_class.extract_shows(url).map(&:stringify_keys)
