@@ -4,7 +4,7 @@ require Rails.root.join 'lib/scrapers/ten_xml_parser'
 class TenScraper < BaseScraper
   PLAYLIST_IDS = {
     "Network10" => "41398",
-    "OneHd" => "44571",
+    "OneHd" => "45290",
     "Eleven" => "43712",
     "Neighbours" => "41267",
     "Stargate" => "43967",
