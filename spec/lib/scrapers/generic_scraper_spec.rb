@@ -58,9 +58,14 @@ describe "each scraper" do
         source.scraper_class.extract_all_source_urls(source.url) # sets up values for some scrapers (e.g. token for Ten)
 
         show = source.tv_shows.first
+        if Source.where(scraper: ['TenScraper', 'TenMicroSiteScraper']).include? source
+          token = source.scraper_class.class_variable_get(:@@token)
+          show.data_url = show.data_url.sub(/token=[^&]+&/, "token=#{token}&")
+        end
+
         puts show.name
         url = show.data_url
-        ext = "#{show.data_url == source.url ? '.ep' : ''}.json"
+        ext = "#{url == source.url ? '.ep' : ''}.json"
 
         download_page_if_new(source, url)
         fake_page(show.source.scraper_class, url)
