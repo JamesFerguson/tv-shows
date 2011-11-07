@@ -20,6 +20,17 @@ describe "each scraper" do
     end
   end
 
+  it "excludes slideshow, poll, etc when parsing channel nine" do
+    source = Source.where(:name => "NineMSN Fixplay").first
+    fake_page(NineScraper, source.url)
+
+    NineScraper.extract_shows(NineScraper.extract_all_source_urls(source.url).first).
+      map do |show_data|
+        URI.parse(show_data[:data_url]).host
+      end.
+        uniq.should == ["fixplay.ninemsn.com.au"]
+  end
+
   context "after faking scrapers' source urls" do
     before(:each) do
       fake_extract_all_source_urls_pages
@@ -40,17 +51,6 @@ describe "each scraper" do
 
         shows.should == JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
       end
-    end
-
-    it "excludes slideshow, poll, etc when parsing channel nine" do
-      source = Source.where(:name => "NineMSN Fixplay").first
-      fake_page(NineScraper, source.url)
-
-      NineScraper.extract_shows(NineScraper.extract_all_source_urls(source.url).first).
-        map do |show_data|
-          URI.parse(show_data[:data_url]).host
-        end.
-          uniq.should == ["fixplay.ninemsn.com.au"]
     end
 
     it "scrapes the episodes for each show ok" do
