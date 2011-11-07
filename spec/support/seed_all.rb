@@ -55,14 +55,14 @@ def seed_tv_shows
     },
     {
       :source => "OneHd",
-      :name => "America's Port",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/45405?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => "Documentary"
+      :name => "RPM | Full Episodes",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/44315?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :genre => "Sports Shows"
     },
     {
       :source => "Eleven",
-      :name => "Being Human | Full Episodes",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/45050?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :name => "CouchTime | Full Episodes",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/44060?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => ''
     },
     {
@@ -143,19 +143,19 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "Children's TV",
     "image" => "http://media.movideo.com/images/53/playlist/41457/96x128.png"
   },
-  "America's Port" => {
-    "name" => "America's Port",
+  "RPM | Full Episodes" => {
+    "name" => "RPM | Full Episodes",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Documentary",
-    "image" => "http://media.movideo.com/images/246/playlist/45405/96x128.png"
+    "genre" => "Sports Shows",
+    "image" => "http://media.movideo.com/images/161/playlist/44315/96x128.png"
   },
-  "Being Human | Full Episodes" => {
-    "name" => "Being Human | Full Episodes",
+  "CouchTime | Full Episodes" => {
+    "name" => "CouchTime | Full Episodes",
     "description" => nil,
     "classification" => nil,
     "genre" => '',
-    "image" => "http://media.movideo.com/images/220/playlist/45050/96x128.png"
+    "image" => "http://media.movideo.com/images/147/playlist/44060/96x128.png"
   },
   "Neighbours" => {
     "name" => "Neighbours",
