@@ -5,13 +5,61 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Fri, 04 Nov 2011 13:33:32 +1100</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 07:51:59 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - original]]></title> 
 		<link>http://www.abc.net.au/iview/#/original</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849924</guid>
+		<link>http://www.abc.net.au/iview/#/view/849924</link>
+		<title><![CDATA[Rage Highlights Episode 15 ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
+		<pubDate>Sun, 06 Nov 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849924"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844703</guid>
+		<link>http://www.abc.net.au/iview/#/view/844703</link>
+		<title><![CDATA[Rage Highlights Episode 14 ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
+		<pubDate>Sat, 29 Oct 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844703"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850140</guid>
+		<link>http://www.abc.net.au/iview/#/view/850140</link>
+		<title><![CDATA[triple j Like A Version 2011 Lykke Li]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Swedish starlet Lykke Li and her band drop by the play 'Wounded Rhymes' tune 'I Follow Rivers' and a stunning, spine-tingling cover of 'Unchained Melody'.]]></description>
+		<pubDate>Sat, 05 Nov 2011 17:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r533216_3481611.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850140"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850146</guid>
+		<link>http://www.abc.net.au/iview/#/view/850146</link>
+		<title><![CDATA[triple j Like A Version 2011 Cosmo Jarvis]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Cosmo Jarvis stopped by to play a stripped back version of 'Gay Pirates' while in the country to play some shows (with two Harry's no less), as well as an amazing rendition of Kylie Minogue's 'Spinning Around'.]]></description>
+		<pubDate>Fri, 04 Nov 2011 17:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r533216_3481611.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850146"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627180</guid>
 		<link>http://www.abc.net.au/iview/#/view/627180</link>
 		<title><![CDATA[The Vice Guide To Film Russia]]></title>
@@ -57,30 +105,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846115_7944437.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/831796"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844703</guid>
-		<link>http://www.abc.net.au/iview/#/view/844703</link>
-		<title><![CDATA[Rage Highlights Episode 14 ]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
-		<pubDate>Sat, 29 Oct 2011 01:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844703"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841842</guid>
-		<link>http://www.abc.net.au/iview/#/view/841842</link>
-		<title><![CDATA[Rage Highlights Episode 13 ]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
-		<pubDate>Sat, 22 Oct 2011 01:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841842"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>

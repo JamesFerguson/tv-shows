@@ -5,46 +5,46 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Fri, 04 Nov 2011 14:04:20 +1100</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 08:19:17 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - abc1]]></title> 
 		<link>http://www.abc.net.au/iview/#/abc1</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/385559</guid>
-		<link>http://www.abc.net.au/iview/#/view/385559</link>
-		<title><![CDATA[Agatha Christie's Miss Marple Series 4 Episode 1 A Pocket Full Of Rye]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[When Miss Marple learns of the deaths of businessman Rex Fortescue, his young wife Adele and their housemaid Gladys she has a very personal reason to investigate. CAST: Julia McKenzie, Matthew MacFadyen]]></description>
-		<pubDate>Fri, 04 Nov 2011 13:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5580"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200906/r386154_1802694.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/385559"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659942</guid>
+		<link>http://www.abc.net.au/iview/#/view/659942</link>
+		<title><![CDATA[Driver Dan's Story Train Episode 1 I Can Do, You Can Do]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Sweetie tries doing lots of different things until she finds something that she is definitely the best at!]]></description>
+		<pubDate>Tue, 08 Nov 2011 08:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="660"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r661899_4746221.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/659942"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/629331</guid>
-		<link>http://www.abc.net.au/iview/#/view/629331</link>
-		<title><![CDATA[Visions Of The Future Epsiode 2 : The Biotech Revolution]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Physicist Michio Kaku believes that humankind is witnessing a bio-molecular revolution that promises the almost godlike ability to manipulate life at the most fundamental level.]]></description>
-		<pubDate>Fri, 04 Nov 2011 03:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3518"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627266_4250607.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/629331"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851231</guid>
+		<link>http://www.abc.net.au/iview/#/view/851231</link>
+		<title><![CDATA[Lateline 07/11/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Lateline is a unique nightly news analysis program bringing you up-to-the-minute coverage of Australian and international news and events.]]></description>
+		<pubDate>Tue, 08 Nov 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2100"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851231"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627248</guid>
-		<link>http://www.abc.net.au/iview/#/view/627248</link>
-		<title><![CDATA[Visions Of The Future Episode 1 Intelligence Revolution]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[What will life in the future be like? American theoretical physicist Michio Kaku believes humankind is on the brink of a radically new scientific era. In this 3-part series, he shares his vision for the future.]]></description>
-		<pubDate>Fri, 28 Oct 2011 03:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3513"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627266_4250607.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/627248"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847784</guid>
+		<link>http://www.abc.net.au/iview/#/view/847784</link>
+		<title><![CDATA[Lateline 04/11/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Lateline is a unique nightly news analysis program bringing you up-to-the-minute coverage of Australian and international news and events.]]></description>
+		<pubDate>Sat, 05 Nov 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2400"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847784"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -145,27 +145,39 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844543</guid>
-		<link>http://www.abc.net.au/iview/#/view/844543</link>
-		<title><![CDATA[Lateline 24/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Ali Moore presents this edition which features stories about war crimes charges against the Sri Lankan president; an earthquake in Turkey; the liberation of Libya; a free election in Tunisia; and China looking at the lack of compassion in its society after the death of a toddler, including an interview with Geremie Barme.]]></description>
-		<pubDate>Tue, 25 Oct 2011 01:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2100"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844543"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848327</guid>
+		<link>http://www.abc.net.au/iview/#/view/848327</link>
+		<title><![CDATA[The Darling Buds Of May Episode 5 A Breath Of French Air: Part One]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Despite Pop's reservations about foreign food, the Larkins set off for Brittany having agreed that they definitely need a holiday. CAST: David Jason, Catherine Zeta Jones, Pam Ferris]]></description>
+		<pubDate>Tue, 08 Nov 2011 00:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3060"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839075_7810002.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848327"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841604</guid>
-		<link>http://www.abc.net.au/iview/#/view/841604</link>
-		<title><![CDATA[Lateline 21/10/11]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847487</guid>
+		<link>http://www.abc.net.au/iview/#/view/847487</link>
+		<title><![CDATA[The Darling Buds Of May Episode 4 When The Green Woods Laugh : Part Two]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Mariette prepares for her marriage to Charlie, the reformed Tax Inspector. Meanwhile, Pop turns his hand to property developing. CAST: David Jason, Catherine Zeta Jones, Pam Ferris]]></description>
+		<pubDate>Tue, 01 Nov 2011 00:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3060"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839075_7810002.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847487"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849023</guid>
+		<link>http://www.abc.net.au/iview/#/view/849023</link>
+		<title><![CDATA[Lateline Business 07/11/2011]]></title>
 		<category><![CDATA[news]]></category>
-		<description><![CDATA[Ali Moore hosts this edition which features stories on the death of Muammar Gaddafi, including an interview with Libyan ambassador to the US, Ali Aujali; &quot;Occupy Melbourne&quot; protests; new rules for live exports; and News Corps AGM, including an interview with Tom Watson.]]></description>
-		<pubDate>Sat, 22 Oct 2011 01:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2400"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841604"/>
+		<description><![CDATA[Lateline Business is a comprehensive look at the financial and economic news of the day. The program has feature interviews with business leaders, as well as updates on stockmarkets here and abroad.]]></description>
+		<pubDate>Tue, 08 Nov 2011 00:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402595_1892766.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849023"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -253,15 +265,927 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842966</guid>
-		<link>http://www.abc.net.au/iview/#/view/842966</link>
-		<title><![CDATA[Lateline Business 24/10/2011]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851259</guid>
+		<link>http://www.abc.net.au/iview/#/view/851259</link>
+		<title><![CDATA[Four Corners 07/11/11 : Great Barrier Grief]]></title>
 		<category><![CDATA[news]]></category>
-		<description><![CDATA[Lateline Business is a comprehensive look at the financial and economic news of the day. The program has feature interviews with business leaders, as well as updates on stockmarkets here and abroad.]]></description>
-		<pubDate>Tue, 25 Oct 2011 00:15:00 +1100</pubDate>
+		<description><![CDATA[Great Barrier Grief: An investigation that asks if the Great Barrier Reef is in danger from massive coastal development brought on by the resources boom in Queensland.]]></description>
+		<pubDate>Mon, 07 Nov 2011 23:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2745"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851259"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847719</guid>
+		<link>http://www.abc.net.au/iview/#/view/847719</link>
+		<title><![CDATA[Four Corners 31/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Trial and Error? - An investigation that delves into one of Australia's longest running and most controversial murder cases.]]></description>
+		<pubDate>Mon, 31 Oct 2011 23:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2738"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847719"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844394</guid>
+		<link>http://www.abc.net.au/iview/#/view/844394</link>
+		<title><![CDATA[Four Corners 24/10/11 : Asylum]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Asylum: A story that reveals what's really going on inside Australia's immigration detention centres and how the treatment of detainees has the potential to create a generation of people with major mental health problems.]]></description>
+		<pubDate>Tue, 25 Oct 2011 10:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2742"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844394"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838596</guid>
+		<link>http://www.abc.net.au/iview/#/view/838596</link>
+		<title><![CDATA[Four Corners 10/10/11 : Sex Slavery]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Sex Slavery: A story that goes inside the world of human trafficking, debt bondage and sexual servitude; a world where women are bought and sold, traded like commodities and literally enslaved.]]></description>
+		<pubDate>Mon, 10 Oct 2011 23:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/838596"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851252</guid>
+		<link>http://www.abc.net.au/iview/#/view/851252</link>
+		<title><![CDATA[Q&amp;A Series 4 Episode 39 (final)]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[For the final show of 2011, host Tony Jones is joined by Liberal MP, Malcolm Turnbull; Jessica Rudd; Ray Martin; Labor MP, Kate Ellis; and Former Howard Government Minister, Peter Reith.]]></description>
+		<pubDate>Mon, 07 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714550_5621232.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851252"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847775</guid>
+		<link>http://www.abc.net.au/iview/#/view/847775</link>
+		<title><![CDATA[Q&amp;A Series 4 Episode 38 ]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Host Tony Jones is joined by: Outgoing Ombudsman, Allan Asher; Conductor, Richard Gill; Author, Anne Summers; Psychiatrist and Commentator, Tanveer Ahmed; and The Australian's, Rebecca Weisser.]]></description>
+		<pubDate>Mon, 31 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714550_5621232.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847775"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851236</guid>
+		<link>http://www.abc.net.au/iview/#/view/851236</link>
+		<title><![CDATA[7.30 07/11/2011]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Mon, 07 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851236"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848853</guid>
+		<link>http://www.abc.net.au/iview/#/view/848853</link>
+		<title><![CDATA[7.30 02/11/2011]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Wed, 02 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848853"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848294</guid>
+		<link>http://www.abc.net.au/iview/#/view/848294</link>
+		<title><![CDATA[7.30 01/11/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Tue, 01 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848294"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847398</guid>
+		<link>http://www.abc.net.au/iview/#/view/847398</link>
+		<title><![CDATA[7.30 31/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Mon, 31 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847398"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847401</guid>
+		<link>http://www.abc.net.au/iview/#/view/847401</link>
+		<title><![CDATA[7.30 30/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Sun, 30 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847401"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845682</guid>
+		<link>http://www.abc.net.au/iview/#/view/845682</link>
+		<title><![CDATA[7.30 27/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Thu, 27 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/845682"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845678</guid>
+		<link>http://www.abc.net.au/iview/#/view/845678</link>
+		<title><![CDATA[7.30 26/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
+		<pubDate>Wed, 26 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/845678"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851181</guid>
+		<link>http://www.abc.net.au/iview/#/view/851181</link>
+		<title><![CDATA[Media Watch 2011 Episode 39 (Final)]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Australia's leading forum for media analysis and comment, presented by Jonathan Holmes.]]></description>
+		<pubDate>Mon, 07 Nov 2011 22:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="900"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714553_5621307.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851181"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847773</guid>
+		<link>http://www.abc.net.au/iview/#/view/847773</link>
+		<title><![CDATA[Media Watch 2011 Episode 38 ]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Australia's leading forum for media analysis and comment, presented by Jonathan Holmes.]]></description>
+		<pubDate>Mon, 31 Oct 2011 22:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="900"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714553_5621307.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847773"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/606319</guid>
+		<link>http://www.abc.net.au/iview/#/view/606319</link>
+		<title><![CDATA[Outnumbered Series 2 Episode 5 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Mum and Dad try to have a bit of time together and enjoy a meal out. But first they must escape the house. CAST: Claire Skinner]]></description>
+		<pubDate>Mon, 07 Nov 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r566267_3460915.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/606319"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/602146</guid>
+		<link>http://www.abc.net.au/iview/#/view/602146</link>
+		<title><![CDATA[Outnumbered Series 2 Episode 4 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Pete and Sue find themselves in every parent's nightmare - trapped in a foreign airport with three bored young children. CAST: Claire Skinner]]></description>
+		<pubDate>Mon, 31 Oct 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r566267_3460915.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/602146"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850101</guid>
+		<link>http://www.abc.net.au/iview/#/view/850101</link>
+		<title><![CDATA[Breathing Fire: Secret Weapon of the Somme Episode 1 ]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Historian Peter Barton and archeologist Tony Pollard travel to northern France to find secret tunnels and a giant flamethrower lost for almost a century.]]></description>
+		<pubDate>Mon, 07 Nov 2011 19:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2692"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r850155_8030910.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850101"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849041</guid>
+		<link>http://www.abc.net.au/iview/#/view/849041</link>
+		<title><![CDATA[Backyard Science Episode 8 ]]></title>
+		<category><![CDATA[education]]></category>
+		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
+		<pubDate>Mon, 07 Nov 2011 11:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402595_1892766.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842966"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849041"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844156</guid>
+		<link>http://www.abc.net.au/iview/#/view/844156</link>
+		<title><![CDATA[Backyard Science Episode 7 ]]></title>
+		<category><![CDATA[education]]></category>
+		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
+		<pubDate>Mon, 31 Oct 2011 11:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844156"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844148</guid>
+		<link>http://www.abc.net.au/iview/#/view/844148</link>
+		<title><![CDATA[Backyard Science Episode 6 ]]></title>
+		<category><![CDATA[education]]></category>
+		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
+		<pubDate>Mon, 24 Oct 2011 11:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844148"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842754</guid>
+		<link>http://www.abc.net.au/iview/#/view/842754</link>
+		<title><![CDATA[Backyard Science Episode 5 ]]></title>
+		<category><![CDATA[education]]></category>
+		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
+		<pubDate>Mon, 17 Oct 2011 11:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842754"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/835011</guid>
+		<link>http://www.abc.net.au/iview/#/view/835011</link>
+		<title><![CDATA[Backyard Science Episode 4 ]]></title>
+		<category><![CDATA[education]]></category>
+		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
+		<pubDate>Mon, 10 Oct 2011 11:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/835011"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/467929</guid>
+		<link>http://www.abc.net.au/iview/#/view/467929</link>
+		<title><![CDATA[Lilies Episode 1 The Chit Behind King Billy]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Share the loves and losses of the Moss family in depression-era Liverpool as they recover from WW1, survive on the breadline and live in the love of the common people. CAST: Brian McCardie, Scot Williams, Leanne Rowe]]></description>
+		<pubDate>Mon, 07 Nov 2011 03:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200911/r470514_2351851.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/467929"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/553016</guid>
+		<link>http://www.abc.net.au/iview/#/view/553016</link>
+		<title><![CDATA[Ladies Of Letters Episode 5 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Vera is deeply shocked to hear that Irene was both injured and arrested a at demonstration, and is now in hospital suffering from amnesia, loss of sex drive and a compulsion to use bad language. CAST: Anne Reid, Maureen Lipman]]></description>
+		<pubDate>Mon, 07 Nov 2011 00:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r538425_3113214.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/553016"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/553014</guid>
+		<link>http://www.abc.net.au/iview/#/view/553014</link>
+		<title><![CDATA[Ladies Of Letters Episode 4 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Vera discovers her unmarried daughter Karen is pregnant! Irene pays Vera a visit and finds that she gets on very well with Karen, who decides to spend a few days with her mum's pen pal.]]></description>
+		<pubDate>Mon, 31 Oct 2011 00:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r538425_3113214.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/553014"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/479795</guid>
+		<link>http://www.abc.net.au/iview/#/view/479795</link>
+		<title><![CDATA[Pride And Prejudice Series 2 Episode 2 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Mr Collins' wooing of Lizzie becomes an unwelcome complication, particularly when she has fallen for Mr Wickham. Darcy begins to fall seriously in love with Lizzie at the ball at Netherfield Hall. CAST: Colin Firth]]></description>
+		<pubDate>Sun, 06 Nov 2011 23:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3180"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200912/r481279_2452157.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/479795"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/479793</guid>
+		<link>http://www.abc.net.au/iview/#/view/479793</link>
+		<title><![CDATA[Pride And Prejudice Series 2 Episode 1 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[News reaches the Bennet household of the arrival of the financially well-off Mr. Bingley. There's less enthusiasm for his friend Mr. Darcy who comes to regret his slighting of Lizzie's 'country' ways. CAST: Colin Firth]]></description>
+		<pubDate>Sun, 30 Oct 2011 23:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3180"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200912/r481279_2452157.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/479793"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850152</guid>
+		<link>http://www.abc.net.au/iview/#/view/850152</link>
+		<title><![CDATA[Compass Series 25 Episode 39 Life's Big Questions: Di Fingleton]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Di Fingleton became Australia's first and only serving Chief Magistrate to be sent to prison. Wrongly, as it turned out. Di talks to Scott Stephens about faith, resilience and forgiveness.]]></description>
+		<pubDate>Sun, 06 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r721014_5728044.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850152"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846974</guid>
+		<link>http://www.abc.net.au/iview/#/view/846974</link>
+		<title><![CDATA[Compass Series 25 Episode 38 Life's Big Questions: Lincoln Hall]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Scott Stephens meets Mt Everest conqueror and survivor, Lincoln Hall and talks to him about his beliefs, life, death and miracles.]]></description>
+		<pubDate>Sun, 30 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r721014_5728044.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846974"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/707564</guid>
+		<link>http://www.abc.net.au/iview/#/view/707564</link>
+		<title><![CDATA[Grumpy Guide To... Series 2 Episode 6 Politics]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[The mission at Grumpy HQ is to lift the lid on some of the nonsense we have to put up with in life. This series our Grumpies are hot under the collar about class, work, teenagers, money, romance and politics.]]></description>
+		<pubDate>Sun, 06 Nov 2011 22:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r696549_5296897.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/707564"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/707562</guid>
+		<link>http://www.abc.net.au/iview/#/view/707562</link>
+		<title><![CDATA[Grumpy Guide To... Series 2 Episode 5 Romance (Final)]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[For grumpy people things that are supposed to make us universally, unreservedly happy have a habit of making us very grumpy indeed - just like the topic 'romance'.]]></description>
+		<pubDate>Sun, 30 Oct 2011 22:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r696549_5296897.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/707562"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848254</guid>
+		<link>http://www.abc.net.au/iview/#/view/848254</link>
+		<title><![CDATA[The No.1 Ladies' Detective Agency Episode 7 A Real Botswana Diamond (Final)]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[The detective agency is hit by a string of break-ins and someone from Precious's past threatens to jeopardise her future plans. CAST: Jill Scott]]></description>
+		<pubDate>Sun, 06 Nov 2011 21:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r830533_7644279.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848254"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845265</guid>
+		<link>http://www.abc.net.au/iview/#/view/845265</link>
+		<title><![CDATA[The No.1 Ladies' Detective Agency Episode 6 Beauty And Integrity]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[A rival detective agency sets up in competition to the No 1 Ladies and a beauty pageant promoter asks Precious to vet the contestants in his 'Beauty and Integrity' contest. CAST: Jill Scott]]></description>
+		<pubDate>Sun, 30 Oct 2011 21:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3240"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r830533_7644279.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/845265"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/828100</guid>
+		<link>http://www.abc.net.au/iview/#/view/828100</link>
+		<title><![CDATA[Fake or Fortune? Episode 4 (Final) : Rembrandt]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Art expert Philip Mould believes he may have spotted a 'sleeper', an important picture that has been miscatalogued and offered for a very low price.]]></description>
+		<pubDate>Sun, 06 Nov 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201108/r816128_7344806.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/828100"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/821731</guid>
+		<link>http://www.abc.net.au/iview/#/view/821731</link>
+		<title><![CDATA[Fake or Fortune? Episode 3 Van Meergeren]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Journalist Fiona Bruce teams up with art expert Philip Mould to investigate mysteries behind paintings. The duo investigates a painting by the world's most famous forgers - Han Van Meegeren.]]></description>
+		<pubDate>Sun, 30 Oct 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201108/r816128_7344806.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/821731"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850081</guid>
+		<link>http://www.abc.net.au/iview/#/view/850081</link>
+		<title><![CDATA[Restoration Home Episode 1 Thomas A Beckett Church]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[St. Thomas  Beckett church (in Somerset) is on the heritage critical list and badly in need of rescue. Paul and Laura purchased the listed church with plans to renovate. As the church is transformed, its past emerges.]]></description>
+		<pubDate>Sun, 06 Nov 2011 20:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2790"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r850106_8029827.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850081"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/632042</guid>
+		<link>http://www.abc.net.au/iview/#/view/632042</link>
+		<title><![CDATA[Life Episode 7 Hunters And Hunted]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Every day, in the jungles, grasslands, deserts and frozen wastelands, battles are won, fought and lost between carnivores and their prey. See cheetahs, stoats, killer whales and more as they hunt their prey.]]></description>
+		<pubDate>Sun, 06 Nov 2011 19:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2939"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r606506_3979872.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/632042"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627740</guid>
+		<link>http://www.abc.net.au/iview/#/view/627740</link>
+		<title><![CDATA[Life Episode 6 Insects]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Take to the skies with millions of monarch butterflies; see a beetle spray boiling chemicals at its enemies; witness giant bees fight to the death over females; join the marching columns of grass cutter ants; and more.]]></description>
+		<pubDate>Sun, 30 Oct 2011 19:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2935"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r606506_3979872.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/627740"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849972</guid>
+		<link>http://www.abc.net.au/iview/#/view/849972</link>
+		<title><![CDATA[Art Nation Series 2 Episode 37 ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Photographer and skin illustrator Emma Hack reveals how she incorporates Florence Broadhurst wallpapers into her works with stunning results.]]></description>
+		<pubDate>Sun, 06 Nov 2011 16:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1560"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715647_5640031.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849972"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846104</guid>
+		<link>http://www.abc.net.au/iview/#/view/846104</link>
+		<title><![CDATA[Art Nation Series 2 Episode 36 ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[With a nod to 80s music, fashion and art, Aviary is a new ballet that compares the movements of birds with those of the flamboyant, human dandy.]]></description>
+		<pubDate>Sun, 30 Oct 2011 18:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715647_5640031.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846104"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850048</guid>
+		<link>http://www.abc.net.au/iview/#/view/850048</link>
+		<title><![CDATA[Wagner And Me ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Actor and writer Stephen Fry explores his passion for the world's most controversial composer - Richard Wagner.]]></description>
+		<pubDate>Sun, 06 Nov 2011 16:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5400"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r850131_8030333.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850048"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/808920</guid>
+		<link>http://www.abc.net.au/iview/#/view/808920</link>
+		<title><![CDATA[Message Stick Series 13 Episode 21 In The Frame: The Wenitongs]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[The Wentiongs: they're proud, and if necessary, they can be loud. Mark Wenitong and his children are determined to make the world a better place whether it's through medicine or the healing power of music.]]></description>
+		<pubDate>Sun, 06 Nov 2011 14:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r771734_6570875.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/808920"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/806101</guid>
+		<link>http://www.abc.net.au/iview/#/view/806101</link>
+		<title><![CDATA[Message Stick Series 13 Episode 20 In The Frame: Rebecca Richards]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Rebecca Richards is a shy and unassuming Adnyamathanha and Barngarl woman from the Flinders Ranges, SA. But don't be fooled! At just twenty-four years of age, this remarkable woman has already carved her name into history.]]></description>
+		<pubDate>Sun, 30 Oct 2011 14:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r771734_6570875.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/806101"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848924</guid>
+		<link>http://www.abc.net.au/iview/#/view/848924</link>
+		<title><![CDATA[Insiders 06/11/11]]></title>
+		<category><![CDATA[abc4]]></category>
+		<description><![CDATA[Insiders, presented by Barrie Cassidy, is a fast-moving treatment of national affairs with interviews, discussion, and analysis. Each week the program brings together the experience and insights of leading political commentators and other contributors representing a wide range of opinions.]]></description>
+		<pubDate>Sun, 06 Nov 2011 14:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r796463_6972746.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848924"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842398</guid>
+		<link>http://www.abc.net.au/iview/#/view/842398</link>
+		<title><![CDATA[Insiders 30/10/11]]></title>
+		<category><![CDATA[abc4]]></category>
+		<description><![CDATA[Insiders, presented by Barrie Cassidy, is a fast-moving treatment of national affairs with interviews, discussion, and analysis. Each week the program brings together the experience and insights of leading political commentators and other contributors representing a wide range of opinions.]]></description>
+		<pubDate>Sun, 30 Oct 2011 14:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r796463_6972746.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842398"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849610</guid>
+		<link>http://www.abc.net.au/iview/#/view/849610</link>
+		<title><![CDATA[Landline 06/11/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[On Landline this week we take a look at efforts to improve the efficiency and cost effectiveness of fertiliser. A word-of-mouth employment scheme that's delivering skilled Irish workers to the remotest parts of the Outback and the Indigenous kids keen to have a crack at working cattle in the Top End, just like their grandparents did.]]></description>
+		<pubDate>Sun, 06 Nov 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849610"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845743</guid>
+		<link>http://www.abc.net.au/iview/#/view/845743</link>
+		<title><![CDATA[Landline 30/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[On Landline this week the Australian kangaroo industry has renewed hopes that the Russians are coming. We meet one of the pioneers of our home-grown organic movement and we look at cider the fastest growing tipple on the Australian beverage market.]]></description>
+		<pubDate>Sun, 30 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/845743"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842831</guid>
+		<link>http://www.abc.net.au/iview/#/view/842831</link>
+		<title><![CDATA[Landline 23/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[On Landline today with the whole future of live exports under consideration we look at the pros and cons of the sheep trade to the Middle East. The public benefit of private conservation, Bush Heritage Australia takes stock on its 20th anniversary and we're in the thick of the action at another titanic trans-Tasman sporting contest.]]></description>
+		<pubDate>Sun, 23 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842831"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/840094</guid>
+		<link>http://www.abc.net.au/iview/#/view/840094</link>
+		<title><![CDATA[Landline 16/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[On Landline this week the world market for rice is in for an upheaval after Thailand decides to double the price of this food staple. We examine the origins of Australia's natural advantage in wool and join Chinese fashion designers in Tasmania as they get up close and personal with some our finest fleece.]]></description>
+		<pubDate>Sun, 16 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="59"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/840094"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/837139</guid>
+		<link>http://www.abc.net.au/iview/#/view/837139</link>
+		<title><![CDATA[Landline 09/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[On Landline this week the grain growers fighting a rearguard action against mice, trying to pick winners among all the crops that have been tried in the Top End and the meat chicken industry is challenged about just how much room its chooks have to roam free.]]></description>
+		<pubDate>Sun, 09 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/837139"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/596310</guid>
+		<link>http://www.abc.net.au/iview/#/view/596310</link>
+		<title><![CDATA[Trial And Retribution Siren]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[An apparent case of road rage leaves three of the occupants of an ambulance dead, but the patient has been shot in the head. DCI Connor and DCS Walker must find out what happened. CAST: Victoria Smurfit, David Hayman]]></description>
+		<pubDate>Sat, 05 Nov 2011 23:45:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5340"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r596319_3850353.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/596310"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/596307</guid>
+		<link>http://www.abc.net.au/iview/#/view/596307</link>
+		<title><![CDATA[Trial And Retribution Tracks]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[The body of a young woman is found in a chalk pit, and CCTV evidence points to two local young men. Can DCS Mike Walker and DCI Roisin Connor solve the crime? CAST: David Hayman, Victoria Smurfit]]></description>
+		<pubDate>Sat, 29 Oct 2011 23:45:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5220"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r596319_3850353.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/596307"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849955</guid>
+		<link>http://www.abc.net.au/iview/#/view/849955</link>
+		<title><![CDATA[Penn And Teller: Fool Us Episode 5 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[The acts performing for Penn and Teller are: Cubic Act - French illusionists; Nick Einhorn - British mentalist; Michael Vincent - British street magician; and Morgan and West - British street magicians.]]></description>
+		<pubDate>Sat, 05 Nov 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833571_7701831.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849955"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844710</guid>
+		<link>http://www.abc.net.au/iview/#/view/844710</link>
+		<title><![CDATA[Penn And Teller: Fool Us Episode 4 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[World-famous magicians Penn and Teller get to test a British card magician, a burlesque dancer and magician, and two British illusionists. Can any of them trick our famous duo?]]></description>
+		<pubDate>Sat, 29 Oct 2011 23:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2520"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833571_7701831.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844710"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/668174</guid>
+		<link>http://www.abc.net.au/iview/#/view/668174</link>
+		<title><![CDATA[Poirot Evil Under The Sun]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[When a beautiful and vain married woman is murdered Poirot must unravel one of the most complex cases of his career. CAST: David Suchet]]></description>
+		<pubDate>Sat, 05 Nov 2011 21:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5940"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652563_4601108.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/668174"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/660563</guid>
+		<link>http://www.abc.net.au/iview/#/view/660563</link>
+		<title><![CDATA[Poirot Murder In Mesopotamia]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[When Poirot is on holiday in Iraq, the wife of an American archaeologist is murdered. Poirot must do his own digging to find the killer. CAST: David Suchet]]></description>
+		<pubDate>Sat, 29 Oct 2011 21:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5940"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652563_4601108.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/660563"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847576</guid>
+		<link>http://www.abc.net.au/iview/#/view/847576</link>
+		<title><![CDATA[Doc Martin Series 5 Episode 4 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[It's Portwenn Fun Day and the village is buzzing with excitement about this major fund raising event; Louisa's mother arrives unexpectedly with neither Louisa nor Martin happy about her arrival. CAST: Martin Clunes]]></description>
+		<pubDate>Sat, 05 Nov 2011 20:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2760"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839784_7825721.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847576"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842535</guid>
+		<link>http://www.abc.net.au/iview/#/view/842535</link>
+		<title><![CDATA[Doc Martin Series 5 Episode 3 ]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Sleepless nights take their toll on Martin and Louise, with their constantly wailing baby. Aunt Ruth has problems with a neighbour stealing hubcaps from her car and the new receptionist gets off to a bad start. CAST: Martin Clunes]]></description>
+		<pubDate>Sat, 29 Oct 2011 20:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2760"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839784_7825721.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842535"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849940</guid>
+		<link>http://www.abc.net.au/iview/#/view/849940</link>
+		<title><![CDATA[Gardening Australia Series 22 Episode 39 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Tino Carnevale demonstrates some simple ways to protect ripening crops.; Jane Edmanson visits a tulip farm in Melbourne's Dandenong Ranges; Josh Byrne prepares for the summer heat; and more!]]></description>
+		<pubDate>Sat, 05 Nov 2011 19:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r717307_5668537.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849940"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844705</guid>
+		<link>http://www.abc.net.au/iview/#/view/844705</link>
+		<title><![CDATA[Gardening Australia Series 22 Episode 38 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Clarence Slockee visits the Towra Team, a group of indigenous trainees working with NSW Parks to restore, protect and connect with their country; Sophie Thomson explores The Adelaide Botanic Gardens; and more!]]></description>
+		<pubDate>Sat, 29 Oct 2011 19:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r717307_5668537.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844705"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849056</guid>
+		<link>http://www.abc.net.au/iview/#/view/849056</link>
+		<title><![CDATA[Bowls: Australia v RSA 2011 Bowls: Australia Vs RSA 2011 : Men's Singles (1st Test)]]></title>
+		<category><![CDATA[sport]]></category>
+		<description><![CDATA[Coverage of all the action when Australia take on South Africa at the Moonta Bowls Club on South Australia's copper coast.]]></description>
+		<pubDate>Sat, 05 Nov 2011 18:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="7200"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841869_7863370.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849056"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844871</guid>
+		<link>http://www.abc.net.au/iview/#/view/844871</link>
+		<title><![CDATA[Bowls: Australia v RSA 2011 Bowls: Australia Vs RSA 2011 Women's Triples (1st Test)]]></title>
+		<category><![CDATA[sport]]></category>
+		<description><![CDATA[Coverage of all the action when Australia take on South Africa at the Moonta Bowls Club on South Australia's copper coast.]]></description>
+		<pubDate>Sat, 29 Oct 2011 18:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3600"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841869_7863370.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844871"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849054</guid>
+		<link>http://www.abc.net.au/iview/#/view/849054</link>
+		<title><![CDATA[Basketball: WNBL 2011 Round 5 : West Coast Vs Townsville]]></title>
+		<category><![CDATA[sport]]></category>
+		<description><![CDATA[Catch all the live (AEDT) action from the Women's National Basketball League as the West Coast Waves take on the Townsville Fire.]]></description>
+		<pubDate>Sat, 05 Nov 2011 14:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="7200"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r655235_4643936.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849054"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844864</guid>
+		<link>http://www.abc.net.au/iview/#/view/844864</link>
+		<title><![CDATA[Basketball: WNBL 2011 Round 4 : Dandenong Vs Bulleen]]></title>
+		<category><![CDATA[sport]]></category>
+		<description><![CDATA[Catch all the live (AEDT) action from the Women's National Basketball League as the Dandenong Rangers take on the Bulleen Boomers.]]></description>
+		<pubDate>Sat, 29 Oct 2011 14:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="7200"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r655235_4643936.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844864"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847560</guid>
+		<link>http://www.abc.net.au/iview/#/view/847560</link>
+		<title><![CDATA[Midsomer Murders Series 11 Episode 1 Blood Wedding]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[Barnaby becomes an unwelcome guest at a society wedding when the maid of honour is stabbed to death. Will he get to his own daughter's wedding in time to walk her down the aisle? CAST: John Nettles]]></description>
+		<pubDate>Fri, 04 Nov 2011 21:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r850114_8030027.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847560"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847728</guid>
+		<link>http://www.abc.net.au/iview/#/view/847728</link>
+		<title><![CDATA[My Family Series 10 Episode 6 Slammertime]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[The Harpers face a robbery and a simple case of mistaken identity, and are amazed at how quickly Ben can make new friends. CAST: Zo Wanamaker, Robert Linsay]]></description>
+		<pubDate>Fri, 04 Nov 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833543_7701078.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847728"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841836</guid>
+		<link>http://www.abc.net.au/iview/#/view/841836</link>
+		<title><![CDATA[My Family Series 10 Episode 4 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[A young Australian backpacker catches Janey's eye, but is Ben's chip just on his shoulder or off the old block? CAST: Zo Wanamaker, Robert Linsay]]></description>
+		<pubDate>Fri, 28 Oct 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833543_7701078.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841836"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844698</guid>
+		<link>http://www.abc.net.au/iview/#/view/844698</link>
+		<title><![CDATA[My Family Series 10 Episode 5 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Ben goes clubbing with his recently 'out' son Michael, but soon finds himself more than slightly out of his depth. CAST: Zo Wanamaker, Robert Linsay]]></description>
+		<pubDate>Fri, 28 Oct 2011 21:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833543_7701078.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844698"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847717</guid>
+		<link>http://www.abc.net.au/iview/#/view/847717</link>
+		<title><![CDATA[Simon Hopkinson: The Good Cook Episode 4 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[Simon demonstrates how to make his mother's cheese and onion pie, delicious Tuscan tomato and bread salad, Rockefeller style mussels, tender breast of lamb with onions and the perfect orange caramel custard/crme caramel.]]></description>
+		<pubDate>Fri, 04 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839272_7813934.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847717"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844692</guid>
+		<link>http://www.abc.net.au/iview/#/view/844692</link>
+		<title><![CDATA[Simon Hopkinson: The Good Cook Episode 3 ]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[With useful tips and tricks of the trade Simon Hopkinson demonstrates how to make stuffed roasted peppers, the perfect steak and chips, roasted aubergines with feta, a smoked haddock pilaf and a scrumptious rhubarb crumble.]]></description>
+		<pubDate>Fri, 28 Oct 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1770"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839272_7813934.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844692"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847544</guid>
+		<link>http://www.abc.net.au/iview/#/view/847544</link>
+		<title><![CDATA[Choccywoccydoodah Episode 4 It's Showtime!]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[The teams focus on two outlandish 4ft high cakes. The first is for The Classic Rock Awards and the second cake has an arduous journey, all the way to the Pyrenees, to a 70th birthday party of an ex drag Queen.]]></description>
+		<pubDate>Fri, 04 Nov 2011 19:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839258_7813886.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847544"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844686</guid>
+		<link>http://www.abc.net.au/iview/#/view/844686</link>
+		<title><![CDATA[Choccywoccydoodah Episode 3 I Put a Spell on You]]></title>
+		<category><![CDATA[lifestyle]]></category>
+		<description><![CDATA[It is Halloween and the time when the chocolate geniuses unleash their eccentricity and create wondrous and terrifying masterpieces, including an extravagant gothic horror cake to be delivered to rock god Alice Cooper.]]></description>
+		<pubDate>Fri, 28 Oct 2011 19:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839258_7813886.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844686"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/642579</guid>
+		<link>http://www.abc.net.au/iview/#/view/642579</link>
+		<title><![CDATA[The Genius Of Design Episode 1 Ghosts In The Machine]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[This series tells the story of design from the Industrial Revolution to the present day. Narrated by Denis Lawson, it features interviews with some of the world's leading designers.]]></description>
+		<pubDate>Fri, 04 Nov 2011 15:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r642584_4459565.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/642579"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/385559</guid>
+		<link>http://www.abc.net.au/iview/#/view/385559</link>
+		<title><![CDATA[Agatha Christie's Miss Marple Series 4 Episode 1 A Pocket Full Of Rye]]></title>
+		<category><![CDATA[drama]]></category>
+		<description><![CDATA[When Miss Marple learns of the deaths of businessman Rex Fortescue, his young wife Adele and their housemaid Gladys she has a very personal reason to investigate. CAST: Julia McKenzie, Matthew MacFadyen]]></description>
+		<pubDate>Fri, 04 Nov 2011 13:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="5580"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200906/r386154_1802694.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/385559"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/629331</guid>
+		<link>http://www.abc.net.au/iview/#/view/629331</link>
+		<title><![CDATA[Visions Of The Future Epsiode 2 : The Biotech Revolution]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Physicist Michio Kaku believes that humankind is witnessing a bio-molecular revolution that promises the almost godlike ability to manipulate life at the most fundamental level.]]></description>
+		<pubDate>Fri, 04 Nov 2011 03:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3518"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627266_4250607.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/629331"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627248</guid>
+		<link>http://www.abc.net.au/iview/#/view/627248</link>
+		<title><![CDATA[Visions Of The Future Episode 1 Intelligence Revolution]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[What will life in the future be like? American theoretical physicist Michio Kaku believes humankind is on the brink of a radically new scientific era. In this 3-part series, he shares his vision for the future.]]></description>
+		<pubDate>Fri, 28 Oct 2011 03:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3513"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627266_4250607.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/627248"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -469,102 +1393,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848853</guid>
-		<link>http://www.abc.net.au/iview/#/view/848853</link>
-		<title><![CDATA[7.30 02/11/2011]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Wed, 02 Nov 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/848853"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848294</guid>
-		<link>http://www.abc.net.au/iview/#/view/848294</link>
-		<title><![CDATA[7.30 01/11/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Tue, 01 Nov 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/848294"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847398</guid>
-		<link>http://www.abc.net.au/iview/#/view/847398</link>
-		<title><![CDATA[7.30 31/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Mon, 31 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847398"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847401</guid>
-		<link>http://www.abc.net.au/iview/#/view/847401</link>
-		<title><![CDATA[7.30 30/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Sun, 30 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847401"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845682</guid>
-		<link>http://www.abc.net.au/iview/#/view/845682</link>
-		<title><![CDATA[7.30 27/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Thu, 27 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845682"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845678</guid>
-		<link>http://www.abc.net.au/iview/#/view/845678</link>
-		<title><![CDATA[7.30 26/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Wed, 26 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845678"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845675</guid>
-		<link>http://www.abc.net.au/iview/#/view/845675</link>
-		<title><![CDATA[7.30 25/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Tue, 25 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845675"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844652</guid>
-		<link>http://www.abc.net.au/iview/#/view/844652</link>
-		<title><![CDATA[7.30 24/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[7.30 is the ABC's national flagship current affairs program, led by two of Australia's most respected journalists - Leigh Sales and Chris Uhlmann.]]></description>
-		<pubDate>Mon, 24 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201103/r726764_5823508.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844652"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847490</guid>
 		<link>http://www.abc.net.au/iview/#/view/847490</link>
 		<title><![CDATA[The Hamster Wheel Episode 5 ]]></title>
@@ -745,18 +1573,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844094</guid>
-		<link>http://www.abc.net.au/iview/#/view/844094</link>
-		<title><![CDATA[Big Ideas Series 4 The Andrew Olle Lecture 2011]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Laurie Oakes draws on some 47 years of media experience when presenting this year's Andrew Olle Media Lecture, established in 1996 in memory of ABC Radio broadcaster Andrew Olle.]]></description>
-		<pubDate>Mon, 24 Oct 2011 23:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3240"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844094"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847453</guid>
 		<link>http://www.abc.net.au/iview/#/view/847453</link>
 		<title><![CDATA[First Tuesday Book Club Series 5 Episode 9 ]]></title>
@@ -901,18 +1717,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836774</guid>
-		<link>http://www.abc.net.au/iview/#/view/836774</link>
-		<title><![CDATA[Australian Story 03/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[For the Holy Grail: This week we revisit the story of two Australian scientists and their quest for one of medicine's holy grails finding a way to treat cancer without the dreaded side effects.]]></description>
-		<pubDate>Tue, 04 Oct 2011 00:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836774"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/666846</guid>
 		<link>http://www.abc.net.au/iview/#/view/666846</link>
 		<title><![CDATA[Meerkat Manor Series 3 Episode 12 The Graduate]]></title>
@@ -961,78 +1765,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/619086</guid>
-		<link>http://www.abc.net.au/iview/#/view/619086</link>
-		<title><![CDATA[The Prisoner Episode 5 Schizoid]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Six's memory from his 'real life' is becoming clearer as his treacherous relationship with Two becomes even more strained. CAST: Ruth Wilson, Sir Ian McKellen]]></description>
-		<pubDate>Tue, 25 Oct 2011 00:05:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2820"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r609535_4018562.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/619086"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847487</guid>
-		<link>http://www.abc.net.au/iview/#/view/847487</link>
-		<title><![CDATA[The Darling Buds Of May Episode 4 When The Green Woods Laugh : Part Two]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Mariette prepares for her marriage to Charlie, the reformed Tax Inspector. Meanwhile, Pop turns his hand to property developing. CAST: David Jason, Catherine Zeta Jones, Pam Ferris]]></description>
-		<pubDate>Tue, 01 Nov 2011 00:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3060"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839075_7810002.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847487"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842140</guid>
-		<link>http://www.abc.net.au/iview/#/view/842140</link>
-		<title><![CDATA[The Darling Buds Of May Episode 3 When The Green Woods Laugh : Part One]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Mariette prepares for her marriage to Charlie, the reformed Tax Inspector. Meanwhile, Pop turns his hand to property developing. CAST: David Jason, Catherine Zeta Jones, Pam Ferris]]></description>
-		<pubDate>Tue, 25 Oct 2011 00:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839075_7810002.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842140"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847719</guid>
-		<link>http://www.abc.net.au/iview/#/view/847719</link>
-		<title><![CDATA[Four Corners 31/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Trial and Error? - An investigation that delves into one of Australia's longest running and most controversial murder cases.]]></description>
-		<pubDate>Mon, 31 Oct 2011 23:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2738"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847719"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844394</guid>
-		<link>http://www.abc.net.au/iview/#/view/844394</link>
-		<title><![CDATA[Four Corners 24/10/11 : Asylum]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Asylum: A story that reveals what's really going on inside Australia's immigration detention centres and how the treatment of detainees has the potential to create a generation of people with major mental health problems.]]></description>
-		<pubDate>Tue, 25 Oct 2011 10:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2742"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844394"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838596</guid>
-		<link>http://www.abc.net.au/iview/#/view/838596</link>
-		<title><![CDATA[Four Corners 10/10/11 : Sex Slavery]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Sex Slavery: A story that goes inside the world of human trafficking, debt bondage and sexual servitude; a world where women are bought and sold, traded like commodities and literally enslaved.]]></description>
-		<pubDate>Mon, 10 Oct 2011 23:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402605_1892822.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/838596"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846371</guid>
 		<link>http://www.abc.net.au/iview/#/view/846371</link>
 		<title><![CDATA[Psychoville Halloween Special]]></title>
@@ -1042,78 +1774,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="2880"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r560265_3382778.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/846371"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847775</guid>
-		<link>http://www.abc.net.au/iview/#/view/847775</link>
-		<title><![CDATA[Q&amp;A Series 4 Episode 38 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Host Tony Jones is joined by: Outgoing Ombudsman, Allan Asher; Conductor, Richard Gill; Author, Anne Summers; Psychiatrist and Commentator, Tanveer Ahmed; and The Australian's, Rebecca Weisser.]]></description>
-		<pubDate>Mon, 31 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714550_5621232.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847775"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844116</guid>
-		<link>http://www.abc.net.au/iview/#/view/844116</link>
-		<title><![CDATA[Q&amp;A Series 4 Episode 37 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Host Tony Jones is joined by: MP, Christopher Pyne; Former MP, Graham Richardson; Economist, Judith Sloan; Singer, Kate Miller-Heidke; MP, Tanya Plibersek; and Filmmaker John Waters]]></description>
-		<pubDate>Mon, 24 Oct 2011 22:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714550_5621232.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844116"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847773</guid>
-		<link>http://www.abc.net.au/iview/#/view/847773</link>
-		<title><![CDATA[Media Watch 2011 Episode 38 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Australia's leading forum for media analysis and comment, presented by Jonathan Holmes.]]></description>
-		<pubDate>Mon, 31 Oct 2011 22:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="900"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714553_5621307.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847773"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844100</guid>
-		<link>http://www.abc.net.au/iview/#/view/844100</link>
-		<title><![CDATA[Media Watch 2011 Episode 37 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Australia's leading forum for media analysis and comment, presented by Jonathan Holmes.]]></description>
-		<pubDate>Mon, 24 Oct 2011 22:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="780"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r714553_5621307.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844100"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/602146</guid>
-		<link>http://www.abc.net.au/iview/#/view/602146</link>
-		<title><![CDATA[Outnumbered Series 2 Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Pete and Sue find themselves in every parent's nightmare - trapped in a foreign airport with three bored young children. CAST: Claire Skinner]]></description>
-		<pubDate>Mon, 31 Oct 2011 21:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r566267_3460915.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/602146"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/597699</guid>
-		<link>http://www.abc.net.au/iview/#/view/597699</link>
-		<title><![CDATA[Outnumbered Series 2 Episode 3 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Mum and Dad attempt to ban TV and try to spend a Sunday playing good old fashioned parlour games instead. CAST: Claire Skinner]]></description>
-		<pubDate>Mon, 24 Oct 2011 21:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201005/r566267_3460915.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/597699"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1153,198 +1813,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844156</guid>
-		<link>http://www.abc.net.au/iview/#/view/844156</link>
-		<title><![CDATA[Backyard Science Episode 7 ]]></title>
-		<category><![CDATA[education]]></category>
-		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
-		<pubDate>Mon, 31 Oct 2011 11:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844156"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844148</guid>
-		<link>http://www.abc.net.au/iview/#/view/844148</link>
-		<title><![CDATA[Backyard Science Episode 6 ]]></title>
-		<category><![CDATA[education]]></category>
-		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
-		<pubDate>Mon, 24 Oct 2011 11:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844148"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842754</guid>
-		<link>http://www.abc.net.au/iview/#/view/842754</link>
-		<title><![CDATA[Backyard Science Episode 5 ]]></title>
-		<category><![CDATA[education]]></category>
-		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
-		<pubDate>Mon, 17 Oct 2011 11:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842754"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/835011</guid>
-		<link>http://www.abc.net.au/iview/#/view/835011</link>
-		<title><![CDATA[Backyard Science Episode 4 ]]></title>
-		<category><![CDATA[education]]></category>
-		<description><![CDATA[No Bunsen burners or laboratories here, this is science for everybody, anywhere. Wherever the kids want to take it; in the garden, in the kitchen or in the shed, this is science BY kids FOR kids!]]></description>
-		<pubDate>Mon, 10 Oct 2011 11:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r803850_7105247.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/835011"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/553014</guid>
-		<link>http://www.abc.net.au/iview/#/view/553014</link>
-		<title><![CDATA[Ladies Of Letters Episode 4 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Vera discovers her unmarried daughter Karen is pregnant! Irene pays Vera a visit and finds that she gets on very well with Karen, who decides to spend a few days with her mum's pen pal.]]></description>
-		<pubDate>Mon, 31 Oct 2011 00:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r538425_3113214.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/553014"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/538413</guid>
-		<link>http://www.abc.net.au/iview/#/view/538413</link>
-		<title><![CDATA[Ladies Of Letters Episode 3 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Irene invites Vera to stay for a few days. They attend the annual cricket club dance, where Irene has been given the honour of presenting a special prize, but Irene is shocked and disgusted when Vera 'hogs the limelight'.]]></description>
-		<pubDate>Mon, 24 Oct 2011 00:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1333"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r538425_3113214.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/538413"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/479793</guid>
-		<link>http://www.abc.net.au/iview/#/view/479793</link>
-		<title><![CDATA[Pride And Prejudice Series 2 Episode 1 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[News reaches the Bennet household of the arrival of the financially well-off Mr. Bingley. There's less enthusiasm for his friend Mr. Darcy who comes to regret his slighting of Lizzie's 'country' ways. CAST: Colin Firth]]></description>
-		<pubDate>Sun, 30 Oct 2011 23:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200912/r481279_2452157.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/479793"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846974</guid>
-		<link>http://www.abc.net.au/iview/#/view/846974</link>
-		<title><![CDATA[Compass Series 25 Episode 38 Life's Big Questions: Lincoln Hall]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Scott Stephens meets Mt Everest conqueror and survivor, Lincoln Hall and talks to him about his beliefs, life, death and miracles.]]></description>
-		<pubDate>Sun, 30 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r721014_5728044.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846974"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842877</guid>
-		<link>http://www.abc.net.au/iview/#/view/842877</link>
-		<title><![CDATA[Compass Series 25 Episode 37 Life's Big Questions: Cheryl Kernot]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Scott Stephens's guest was briefly Australia's most popular political leader before her downfall. Cheryl Kernot talks to Scott about Christian values, hypocrisy, betrayal and love.]]></description>
-		<pubDate>Sun, 23 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r721014_5728044.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842877"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841013</guid>
-		<link>http://www.abc.net.au/iview/#/view/841013</link>
-		<title><![CDATA[Compass Series 25 Episode 36 Life's Big Questions: Peter Cundall]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Scott Stephens returns to continue the search for meaning. First up is Peter Cundall, the irrepressible face of gardening in Australia. He's packed many lives into his 84 years. So, does he believe in God?]]></description>
-		<pubDate>Sun, 16 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r721014_5728044.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841013"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/707562</guid>
-		<link>http://www.abc.net.au/iview/#/view/707562</link>
-		<title><![CDATA[Grumpy Guide To... Series 2 Episode 5 Romance (Final)]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[For grumpy people things that are supposed to make us universally, unreservedly happy have a habit of making us very grumpy indeed - just like the topic 'romance'.]]></description>
-		<pubDate>Sun, 30 Oct 2011 22:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r696549_5296897.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/707562"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/703557</guid>
-		<link>http://www.abc.net.au/iview/#/view/703557</link>
-		<title><![CDATA[Grumpy Guide To... Series 2 Episode 4 Money]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Our Grumpies are hot under the collar about money. They can't stand all those people in diamonds and silly fast cars showing off and the lid is lifted on the baffling world of finance.]]></description>
-		<pubDate>Sun, 23 Oct 2011 22:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r696549_5296897.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/703557"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845265</guid>
-		<link>http://www.abc.net.au/iview/#/view/845265</link>
-		<title><![CDATA[The No.1 Ladies' Detective Agency Episode 6 Beauty And Integrity]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[A rival detective agency sets up in competition to the No 1 Ladies and a beauty pageant promoter asks Precious to vet the contestants in his 'Beauty and Integrity' contest. CAST: Jill Scott]]></description>
-		<pubDate>Sun, 30 Oct 2011 21:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3240"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r830533_7644279.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845265"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842126</guid>
-		<link>http://www.abc.net.au/iview/#/view/842126</link>
-		<title><![CDATA[The No.1 Ladies' Detective Agency Episode 5 Problems In Moral Philosophy]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Precious is asked to help in the case of a woman who suspects her husband has bought a stolen car and she wants to return it so she can be &quot;right with the Lord&quot;. CAST: Jill Scott]]></description>
-		<pubDate>Sun, 23 Oct 2011 21:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r830533_7644279.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842126"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/821731</guid>
-		<link>http://www.abc.net.au/iview/#/view/821731</link>
-		<title><![CDATA[Fake or Fortune? Episode 3 Van Meergeren]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Journalist Fiona Bruce teams up with art expert Philip Mould to investigate mysteries behind paintings. The duo investigates a painting by the world's most famous forgers - Han Van Meegeren.]]></description>
-		<pubDate>Sun, 30 Oct 2011 20:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201108/r816128_7344806.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/821731"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/818231</guid>
-		<link>http://www.abc.net.au/iview/#/view/818231</link>
-		<title><![CDATA[Fake or Fortune? Episode 2 Homer]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Journalist Fiona Bruce teams up with art expert Philip Mould to investigate mysteries behind paintings. The duo investigates a painting, by the famous American artist Homer, that was found near a rubbish tip.]]></description>
-		<pubDate>Sun, 23 Oct 2011 21:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3510"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201108/r816128_7344806.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/818231"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842986</guid>
 		<link>http://www.abc.net.au/iview/#/view/842986</link>
 		<title><![CDATA[Wide Open Road Episode 3 Car Wars]]></title>
@@ -1381,30 +1849,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627740</guid>
-		<link>http://www.abc.net.au/iview/#/view/627740</link>
-		<title><![CDATA[Life Episode 6 Insects]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Take to the skies with millions of monarch butterflies; see a beetle spray boiling chemicals at its enemies; witness giant bees fight to the death over females; join the marching columns of grass cutter ants; and more.]]></description>
-		<pubDate>Sun, 30 Oct 2011 19:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2935"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r606506_3979872.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/627740"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846104</guid>
-		<link>http://www.abc.net.au/iview/#/view/846104</link>
-		<title><![CDATA[Art Nation Series 2 Episode 36 ]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[With a nod to 80s music, fashion and art, Aviary is a new ballet that compares the movements of birds with those of the flamboyant, human dandy.]]></description>
-		<pubDate>Sun, 30 Oct 2011 18:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715647_5640031.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846104"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846090</guid>
 		<link>http://www.abc.net.au/iview/#/view/846090</link>
 		<title><![CDATA[Art of Germany Episode 3 In The Shadow Of Hitler (Final)]]></title>
@@ -1414,114 +1858,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="3060"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841015_7848548.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/846090"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841897</guid>
-		<link>http://www.abc.net.au/iview/#/view/841897</link>
-		<title><![CDATA[Art of Germany Episode 2 Dream And Machine]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Andrew Graham-Dixon continues his exploration of German art by looking at the tumultuous 19th century and early 20th century, and how artists were at the forefront of Germany's drive to become a single nation.]]></description>
-		<pubDate>Sun, 23 Oct 2011 16:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841015_7848548.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841897"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/806101</guid>
-		<link>http://www.abc.net.au/iview/#/view/806101</link>
-		<title><![CDATA[Message Stick Series 13 Episode 20 In The Frame: Rebecca Richards]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Rebecca Richards is a shy and unassuming Adnyamathanha and Barngarl woman from the Flinders Ranges, SA. But don't be fooled! At just twenty-four years of age, this remarkable woman has already carved her name into history.]]></description>
-		<pubDate>Sun, 30 Oct 2011 14:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r771734_6570875.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/806101"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/802001</guid>
-		<link>http://www.abc.net.au/iview/#/view/802001</link>
-		<title><![CDATA[Message Stick Series 13 Episode 19 In The Frame: Ernie Bridge]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Ernie Bridge was the first Indigenous Australian to be appointed a Cabinet Minister in any Parliament in Australia not only was Ernie a successful politician, he had great achievements in the country music scene.]]></description>
-		<pubDate>Sun, 23 Oct 2011 14:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r771734_6570875.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/802001"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842398</guid>
-		<link>http://www.abc.net.au/iview/#/view/842398</link>
-		<title><![CDATA[Insiders 30/10/11]]></title>
-		<category><![CDATA[abc4]]></category>
-		<description><![CDATA[Insiders, presented by Barrie Cassidy, is a fast-moving treatment of national affairs with interviews, discussion, and analysis. Each week the program brings together the experience and insights of leading political commentators and other contributors representing a wide range of opinions.]]></description>
-		<pubDate>Sun, 30 Oct 2011 14:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r796463_6972746.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842398"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838235</guid>
-		<link>http://www.abc.net.au/iview/#/view/838235</link>
-		<title><![CDATA[Insiders 23/10/11]]></title>
-		<category><![CDATA[abc4]]></category>
-		<description><![CDATA[Insiders, presented by Barrie Cassidy, is a fast-moving treatment of national affairs with interviews, discussion, and analysis. Each week the program brings together the experience and insights of leading political commentators and other contributors representing a wide range of opinions.]]></description>
-		<pubDate>Sun, 23 Oct 2011 14:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r796463_6972746.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/838235"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845743</guid>
-		<link>http://www.abc.net.au/iview/#/view/845743</link>
-		<title><![CDATA[Landline 30/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[On Landline this week the Australian kangaroo industry has renewed hopes that the Russians are coming. We meet one of the pioneers of our home-grown organic movement and we look at cider the fastest growing tipple on the Australian beverage market.]]></description>
-		<pubDate>Sun, 30 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845743"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842831</guid>
-		<link>http://www.abc.net.au/iview/#/view/842831</link>
-		<title><![CDATA[Landline 23/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[On Landline today with the whole future of live exports under consideration we look at the pros and cons of the sheep trade to the Middle East. The public benefit of private conservation, Bush Heritage Australia takes stock on its 20th anniversary and we're in the thick of the action at another titanic trans-Tasman sporting contest.]]></description>
-		<pubDate>Sun, 23 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842831"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/840094</guid>
-		<link>http://www.abc.net.au/iview/#/view/840094</link>
-		<title><![CDATA[Landline 16/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[On Landline this week the world market for rice is in for an upheaval after Thailand decides to double the price of this food staple. We examine the origins of Australia's natural advantage in wool and join Chinese fashion designers in Tasmania as they get up close and personal with some our finest fleece.]]></description>
-		<pubDate>Sun, 16 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="59"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/840094"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/837139</guid>
-		<link>http://www.abc.net.au/iview/#/view/837139</link>
-		<title><![CDATA[Landline 09/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[On Landline this week the grain growers fighting a rearguard action against mice, trying to pick winners among all the crops that have been tried in the Top End and the meat chicken industry is challenged about just how much room its chooks have to roam free.]]></description>
-		<pubDate>Sun, 09 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3540"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402581_1892705.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/837139"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1537,18 +1873,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/831095</guid>
-		<link>http://www.abc.net.au/iview/#/view/831095</link>
-		<title><![CDATA[Offsiders 23/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[A show for anyone who's serious about sport, Offsiders will provide challenging, insightful, humourous debate about the topic that dominates weekends - sport. Each week the program brings together the experience and insights of leading sporting commentators and other contributors representing a wide range of opinions.]]></description>
-		<pubDate>Sun, 23 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r602353_3928947.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/831095"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/831109</guid>
 		<link>http://www.abc.net.au/iview/#/view/831109</link>
 		<title><![CDATA[Inside Business 30/10/11]]></title>
@@ -1558,174 +1882,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r589770_3766994.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/831109"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/831107</guid>
-		<link>http://www.abc.net.au/iview/#/view/831107</link>
-		<title><![CDATA[Inside Business 23/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Alan Kohler with analysis and comment on the events and issues concerning business, investors and entrepreneurs.]]></description>
-		<pubDate>Sun, 23 Oct 2011 12:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201006/r589770_3766994.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/831107"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/596307</guid>
-		<link>http://www.abc.net.au/iview/#/view/596307</link>
-		<title><![CDATA[Trial And Retribution Tracks]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[The body of a young woman is found in a chalk pit, and CCTV evidence points to two local young men. Can DCS Mike Walker and DCI Roisin Connor solve the crime? CAST: David Hayman, Victoria Smurfit]]></description>
-		<pubDate>Sat, 29 Oct 2011 23:45:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5220"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r596319_3850353.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/596307"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/400164</guid>
-		<link>http://www.abc.net.au/iview/#/view/400164</link>
-		<title><![CDATA[Trial And Retribution The Box]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[While on leave back home in Glasgow, DSC Mike Walker delves into the dark bond between two brothers linked to the disappearance of two women who were once married to the same man. CAST: David Hayman, Kerry Fox]]></description>
-		<pubDate>Sat, 22 Oct 2011 23:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5460"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r596319_3850353.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/400164"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844710</guid>
-		<link>http://www.abc.net.au/iview/#/view/844710</link>
-		<title><![CDATA[Penn And Teller: Fool Us Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[World-famous magicians Penn and Teller get to test a British card magician, a burlesque dancer and magician, and two British illusionists. Can any of them trick our famous duo?]]></description>
-		<pubDate>Sat, 29 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2520"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833571_7701831.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844710"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841854</guid>
-		<link>http://www.abc.net.au/iview/#/view/841854</link>
-		<title><![CDATA[Penn And Teller: Fool Us Episode 3 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[The acts performing for Penn and Teller are: Piff The Magic Dragon - British illusionist; Soma - Hungarian close-up magician; Alan Hudson - British close-up magician; and Damien O'Brien - British street magician.]]></description>
-		<pubDate>Sat, 22 Oct 2011 23:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2400"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833571_7701831.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841854"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/660563</guid>
-		<link>http://www.abc.net.au/iview/#/view/660563</link>
-		<title><![CDATA[Poirot Murder In Mesopotamia]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[When Poirot is on holiday in Iraq, the wife of an American archaeologist is murdered. Poirot must do his own digging to find the killer. CAST: David Suchet]]></description>
-		<pubDate>Sat, 29 Oct 2011 21:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5940"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652563_4601108.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/660563"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/656435</guid>
-		<link>http://www.abc.net.au/iview/#/view/656435</link>
-		<title><![CDATA[Poirot Lord Edgware Dies]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[When Lord Edgware is murdered, the police suspect his wife, the famous actress Jane Wilkinson may be responsible. But Jane has a water-tight alibi. Poirot must uncover the truth. CAST: John Castle, Helen Grace, David Suchet]]></description>
-		<pubDate>Sat, 22 Oct 2011 21:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="5940"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652563_4601108.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/656435"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842535</guid>
-		<link>http://www.abc.net.au/iview/#/view/842535</link>
-		<title><![CDATA[Doc Martin Series 5 Episode 3 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Sleepless nights take their toll on Martin and Louise, with their constantly wailing baby. Aunt Ruth has problems with a neighbour stealing hubcaps from her car and the new receptionist gets off to a bad start. CAST: Martin Clunes]]></description>
-		<pubDate>Sat, 29 Oct 2011 20:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2760"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839784_7825721.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842535"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841409</guid>
-		<link>http://www.abc.net.au/iview/#/view/841409</link>
-		<title><![CDATA[Doc Martin Series 5 Episode 2 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[After Dr Dibbs leaves, Dr Ellingham moves back into the surgery until a replacement can be found. He also asks Louisa to move into his house so he can help to raise their child. CAST Martin Clunes, Caroline Catz]]></description>
-		<pubDate>Sat, 22 Oct 2011 20:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2760"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839784_7825721.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841409"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844705</guid>
-		<link>http://www.abc.net.au/iview/#/view/844705</link>
-		<title><![CDATA[Gardening Australia Series 22 Episode 38 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Clarence Slockee visits the Towra Team, a group of indigenous trainees working with NSW Parks to restore, protect and connect with their country; Sophie Thomson explores The Adelaide Botanic Gardens; and more!]]></description>
-		<pubDate>Sat, 29 Oct 2011 19:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r717307_5668537.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844705"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841847</guid>
-		<link>http://www.abc.net.au/iview/#/view/841847</link>
-		<title><![CDATA[Gardening Australia Series 22 Episode 37 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Jane Edmanson visits a hospital garden in Alice Springs that provides Indigenous patients with traditional bush medicines; John Patrick visits a garden designed for a large family who love to play outdoors; and more!]]></description>
-		<pubDate>Sat, 22 Oct 2011 19:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r717307_5668537.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841847"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844871</guid>
-		<link>http://www.abc.net.au/iview/#/view/844871</link>
-		<title><![CDATA[Bowls: Australia v RSA 2011 Bowls: Australia Vs RSA 2011 Women's Triples (1st Test)]]></title>
-		<category><![CDATA[sport]]></category>
-		<description><![CDATA[Coverage of all the action when Australia take on South Africa at the Moonta Bowls Club on South Australia's copper coast.]]></description>
-		<pubDate>Sat, 29 Oct 2011 18:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3600"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r841869_7863370.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844871"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844864</guid>
-		<link>http://www.abc.net.au/iview/#/view/844864</link>
-		<title><![CDATA[Basketball: WNBL 2011 Round 4 : Dandenong Vs Bulleen]]></title>
-		<category><![CDATA[sport]]></category>
-		<description><![CDATA[Catch all the live (AEDT) action from the Women's National Basketball League as the Dandenong Rangers take on the Bulleen Boomers.]]></description>
-		<pubDate>Sat, 29 Oct 2011 14:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="7200"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r655235_4643936.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844864"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843428</guid>
-		<link>http://www.abc.net.au/iview/#/view/843428</link>
-		<title><![CDATA[Basketball: WNBL 2011 Round 3 : Sydney Uni Vs Logan]]></title>
-		<category><![CDATA[sport]]></category>
-		<description><![CDATA[Coverage of the 2010/2011 Women's National Basketball League.]]></description>
-		<pubDate>Sat, 22 Oct 2011 14:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="7200"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r655235_4643936.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/843428"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1765,66 +1921,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/390360</guid>
-		<link>http://www.abc.net.au/iview/#/view/390360</link>
-		<title><![CDATA[Tracey Ullman's State Of The Union Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Written by and starring Emmy Award-winner Tracey Ullman, State of the Union is a collection of irreverent and hilarious skits that range from sardonic parody and social satire to Bollywood musicals.]]></description>
-		<pubDate>Sat, 22 Oct 2011 01:20:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1452"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200906/r384091_1791809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/390360"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/845976</guid>
-		<link>http://www.abc.net.au/iview/#/view/845976</link>
-		<title><![CDATA[The Jonathan Ross Show Episode 8 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Jonathan Ross welcomes comedy writer and actress, Miranda Hart; musician and singer-songwriter, Noel Gallagher; and actor, Michael Sheen.]]></description>
-		<pubDate>Fri, 28 Oct 2011 22:20:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835278_7738001.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/845976"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842873</guid>
-		<link>http://www.abc.net.au/iview/#/view/842873</link>
-		<title><![CDATA[The Jonathan Ross Show Episode 7 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Jonathan Ross welcomes English comedian and actor, David Walliams; Canadian actor, Seth Rogen; singing sensation, Michael Buble; and successful British band, Coldplay.]]></description>
-		<pubDate>Fri, 21 Oct 2011 21:20:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835278_7738001.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842873"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841836</guid>
-		<link>http://www.abc.net.au/iview/#/view/841836</link>
-		<title><![CDATA[My Family Series 10 Episode 4 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[A young Australian backpacker catches Janey's eye, but is Ben's chip just on his shoulder or off the old block? CAST: Zo Wanamaker, Robert Linsay]]></description>
-		<pubDate>Fri, 28 Oct 2011 21:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833543_7701078.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841836"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844698</guid>
-		<link>http://www.abc.net.au/iview/#/view/844698</link>
-		<title><![CDATA[My Family Series 10 Episode 5 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Ben goes clubbing with his recently 'out' son Michael, but soon finds himself more than slightly out of his depth. CAST: Zo Wanamaker, Robert Linsay]]></description>
-		<pubDate>Fri, 28 Oct 2011 21:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833543_7701078.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844698"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842523</guid>
 		<link>http://www.abc.net.au/iview/#/view/842523</link>
 		<title><![CDATA[Scott And Bailey Episode 6 (Final)]]></title>
@@ -1834,66 +1930,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="2760"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827690_7583954.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/842523"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841369</guid>
-		<link>http://www.abc.net.au/iview/#/view/841369</link>
-		<title><![CDATA[Scott And Bailey Episode 5 ]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Rachel discovers Nick had an affair with a juror during a case where his client was acquitted, and Janet comes face to face with the killer of her school friend. CAST: Suranne Jones, Lesley Sharp]]></description>
-		<pubDate>Fri, 21 Oct 2011 21:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3240"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r827690_7583954.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841369"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844692</guid>
-		<link>http://www.abc.net.au/iview/#/view/844692</link>
-		<title><![CDATA[Simon Hopkinson: The Good Cook Episode 3 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[With useful tips and tricks of the trade Simon Hopkinson demonstrates how to make stuffed roasted peppers, the perfect steak and chips, roasted aubergines with feta, a smoked haddock pilaf and a scrumptious rhubarb crumble.]]></description>
-		<pubDate>Fri, 28 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1770"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839272_7813934.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844692"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841792</guid>
-		<link>http://www.abc.net.au/iview/#/view/841792</link>
-		<title><![CDATA[Simon Hopkinson: The Good Cook Episode 2 ]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Simon Hopkinson demonstrates how to make the ultimate 'naked risotto', delicious Parma ham and asparagus pancakes, a quiche Lorraine and a very simple but amazing coffee granita.]]></description>
-		<pubDate>Fri, 21 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839272_7813934.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841792"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844686</guid>
-		<link>http://www.abc.net.au/iview/#/view/844686</link>
-		<title><![CDATA[Choccywoccydoodah Episode 3 I Put a Spell on You]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[It is Halloween and the time when the chocolate geniuses unleash their eccentricity and create wondrous and terrifying masterpieces, including an extravagant gothic horror cake to be delivered to rock god Alice Cooper.]]></description>
-		<pubDate>Fri, 28 Oct 2011 19:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839258_7813886.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844686"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841536</guid>
-		<link>http://www.abc.net.au/iview/#/view/841536</link>
-		<title><![CDATA[Choccywoccydoodah Episode 2 Make Cake And Influence People]]></title>
-		<category><![CDATA[lifestyle]]></category>
-		<description><![CDATA[Chief cake artist Dave and his ambitious assistant Tom go into battle to come up with two new chocolate cakes for tough boss Christine.]]></description>
-		<pubDate>Fri, 21 Oct 2011 19:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839258_7813886.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841536"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1930,30 +1966,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r532600_3039574.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/844357"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842085</guid>
-		<link>http://www.abc.net.au/iview/#/view/842085</link>
-		<title><![CDATA[The Art Of Chopin ]]></title>
-		<category><![CDATA[arts]]></category>
-		<description><![CDATA[A tribute to the art of Chopin (1810-1849), to his unique and inimitable writing, which prepared the ground for 20th century music and the modern piano.]]></description>
-		<pubDate>Sun, 23 Oct 2011 17:05:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r844070_7904077.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/842085"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841922</guid>
-		<link>http://www.abc.net.au/iview/#/view/841922</link>
-		<title><![CDATA[Iron Curtain: Ribbon of Life ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[The Iron Curtain that divided communist Eastern Europe from the capitalist West had created a no-man's-land protected by barbed wire and minefields - a last haven for many rare animals and plants.]]></description>
-		<pubDate>Sun, 23 Oct 2011 16:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r845450_7931552.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841922"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 </channel> 
