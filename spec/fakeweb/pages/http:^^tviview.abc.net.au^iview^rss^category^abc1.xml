@@ -5,13 +5,157 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Tue, 08 Nov 2011 08:19:17 +1100</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 20:51:26 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - abc1]]></title> 
 		<link>http://www.abc.net.au/iview/#/abc1</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850116</guid>
+		<link>http://www.abc.net.au/iview/#/view/850116</link>
+		<title><![CDATA[The Private Life Of Episode 1 Chickens]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[Farmer Jimmy Doherty combines with science to investigate the hidden lives of chickens and how their behaviour and anatomy holds many secrets that humans overlook.]]></description>
+		<pubDate>Tue, 08 Nov 2011 19:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3543"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201111/r851865_8065559.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850116"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/673929</guid>
+		<link>http://www.abc.net.au/iview/#/view/673929</link>
+		<title><![CDATA[Meerkat Manor Series 3 Episode 13 Family At War]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[The Whiskers numbers have reached fifty and group leader Rocket Dog is straining to keep on top of everything. With her competitive sister determined to have it her way could Rocket Dog's leadership be under threat?]]></description>
+		<pubDate>Tue, 08 Nov 2011 13:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1620"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627736_4256742.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/673929"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/666846</guid>
+		<link>http://www.abc.net.au/iview/#/view/666846</link>
+		<title><![CDATA[Meerkat Manor Series 3 Episode 12 The Graduate]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[While young Wilson from the Commandos introduces himself to a particular Whiskers lady, someone else makes a surprise return. And there's hope for lone female Mozart when a dashing young male turns his attentions to her.]]></description>
+		<pubDate>Tue, 01 Nov 2011 15:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627736_4256742.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/666846"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851622</guid>
+		<link>http://www.abc.net.au/iview/#/view/851622</link>
+		<title><![CDATA[Big Ideas Series 4 Episode 77 ]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Daniel Pipes tries to make sense of the upheavals in the Middle East; panel argue the feasibility of human growth; a 'word nerd' panel on how mass media determines how we use modern English; and more.]]></description>
+		<pubDate>Tue, 08 Nov 2011 12:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851622"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848121</guid>
+		<link>http://www.abc.net.au/iview/#/view/848121</link>
+		<title><![CDATA[Big Ideas Series 4 Episode 76 ]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[The amazing monologist and actor, Mike Daisy, argues that 'Collaborating with Corporations Sells out the Human Race' in a special Festival of Dangerous Ideas event.]]></description>
+		<pubDate>Wed, 02 Nov 2011 12:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848121"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844630</guid>
+		<link>http://www.abc.net.au/iview/#/view/844630</link>
+		<title><![CDATA[Big Ideas Series 4 Episode 75 ]]></title>
+		<category><![CDATA[panel]]></category>
+		<description><![CDATA[Slovenian philosopher, Slavoj Zizek, on revamping Communism; a special IQ2 Debate 'The Media Has No Morals'; Mike Daisy argues that 'Collaborating with Corporations Sells out the Human Race'; and more.]]></description>
+		<pubDate>Tue, 01 Nov 2011 12:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="3270"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844630"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850903</guid>
+		<link>http://www.abc.net.au/iview/#/view/850903</link>
+		<title><![CDATA[Behind The News BtN 08/11/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Behind the News is a high-energy fun way for upper primary and secondary students to learn about current issues and events in their world.]]></description>
+		<pubDate>Tue, 08 Nov 2011 11:40:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1560"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402588_1892725.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850903"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/851599</guid>
+		<link>http://www.abc.net.au/iview/#/view/851599</link>
+		<title><![CDATA[Australian Story 07/11/2011 : The Planet They're On]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Comedian Arj Barker guest presents the story of Nazeem Hussain and Aamer Rahman, two of the hottest young comedians on the Australian scene.]]></description>
+		<pubDate>Tue, 08 Nov 2011 10:35:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/851599"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848308</guid>
+		<link>http://www.abc.net.au/iview/#/view/848308</link>
+		<title><![CDATA[Australian Story 31/10/2011 : Something About Me]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Kristina Keneally's dramatic and controversial rise through the ranks of the Labor Party has been well documented. Born and raised in America, she made history by becoming the first female Premier of NSW. Kristina tells her story.]]></description>
+		<pubDate>Tue, 01 Nov 2011 16:29:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/848308"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847770</guid>
+		<link>http://www.abc.net.au/iview/#/view/847770</link>
+		<title><![CDATA[Australian Story 24/10/2011 : Bad Blood: Part 2]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[The baffling case of Jeffrey Gilham continues. He is currently serving a life sentence for the murders of his own parents in Sydney nearly twenty years ago.]]></description>
+		<pubDate>Mon, 31 Oct 2011 17:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/847770"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841388</guid>
+		<link>http://www.abc.net.au/iview/#/view/841388</link>
+		<title><![CDATA[Australian Story 17/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Bad Blood: This week's Australian Story program is the first of a two-parter on the notorious case of Jeffrey Gilham, in jail for life for the murders of his own parents.]]></description>
+		<pubDate>Tue, 18 Oct 2011 00:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841388"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838616</guid>
+		<link>http://www.abc.net.au/iview/#/view/838616</link>
+		<title><![CDATA[Australian Story 10/10/11]]></title>
+		<category><![CDATA[news]]></category>
+		<description><![CDATA[Under Her Spell: This week's program tells the story of the Australian woman at the heart of Steven Spielberg's much anticipated Christmas blockbuster.]]></description>
+		<pubDate>Tue, 11 Oct 2011 00:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/838616"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659942</guid>
 		<link>http://www.abc.net.au/iview/#/view/659942</link>
 		<title><![CDATA[Driver Dan's Story Train Episode 1 I Can Do, You Can Do]]></title>
@@ -1549,30 +1693,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848121</guid>
-		<link>http://www.abc.net.au/iview/#/view/848121</link>
-		<title><![CDATA[Big Ideas Series 4 Episode 76 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[The amazing monologist and actor, Mike Daisy, argues that 'Collaborating with Corporations Sells out the Human Race' in a special Festival of Dangerous Ideas event.]]></description>
-		<pubDate>Wed, 02 Nov 2011 12:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/848121"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844630</guid>
-		<link>http://www.abc.net.au/iview/#/view/844630</link>
-		<title><![CDATA[Big Ideas Series 4 Episode 75 ]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[Slovenian philosopher, Slavoj Zizek, on revamping Communism; a special IQ2 Debate 'The Media Has No Morals'; Mike Daisy argues that 'Collaborating with Corporations Sells out the Human Race'; and more.]]></description>
-		<pubDate>Tue, 01 Nov 2011 12:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3270"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r715002_5628916.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844630"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847453</guid>
 		<link>http://www.abc.net.au/iview/#/view/847453</link>
 		<title><![CDATA[First Tuesday Book Club Series 5 Episode 9 ]]></title>
@@ -1657,102 +1777,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/659959</guid>
-		<link>http://www.abc.net.au/iview/#/view/659959</link>
-		<title><![CDATA[Lost Gardens Episode 7 Chatham]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[By piecing together evidence from the ground, archives and from a detailed model of the Chatham Historical Dockyard dated 1774, the team is able to attempt one of the only accurate Georgian town garden restorations.]]></description>
-		<pubDate>Tue, 25 Oct 2011 19:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3000"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r640385_4428384.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/659959"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848308</guid>
-		<link>http://www.abc.net.au/iview/#/view/848308</link>
-		<title><![CDATA[Australian Story 31/10/2011 : Something About Me]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Kristina Keneally's dramatic and controversial rise through the ranks of the Labor Party has been well documented. Born and raised in America, she made history by becoming the first female Premier of NSW. Kristina tells her story.]]></description>
-		<pubDate>Tue, 01 Nov 2011 16:29:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/848308"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/847770</guid>
-		<link>http://www.abc.net.au/iview/#/view/847770</link>
-		<title><![CDATA[Australian Story 24/10/2011 : Bad Blood: Part 2]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[The baffling case of Jeffrey Gilham continues. He is currently serving a life sentence for the murders of his own parents in Sydney nearly twenty years ago.]]></description>
-		<pubDate>Mon, 31 Oct 2011 17:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/847770"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841388</guid>
-		<link>http://www.abc.net.au/iview/#/view/841388</link>
-		<title><![CDATA[Australian Story 17/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Bad Blood: This week's Australian Story program is the first of a two-parter on the notorious case of Jeffrey Gilham, in jail for life for the murders of his own parents.]]></description>
-		<pubDate>Tue, 18 Oct 2011 00:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841388"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838616</guid>
-		<link>http://www.abc.net.au/iview/#/view/838616</link>
-		<title><![CDATA[Australian Story 10/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Under Her Spell: This week's program tells the story of the Australian woman at the heart of Steven Spielberg's much anticipated Christmas blockbuster.]]></description>
-		<pubDate>Tue, 11 Oct 2011 00:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402602_1892809.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/838616"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/666846</guid>
-		<link>http://www.abc.net.au/iview/#/view/666846</link>
-		<title><![CDATA[Meerkat Manor Series 3 Episode 12 The Graduate]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[While young Wilson from the Commandos introduces himself to a particular Whiskers lady, someone else makes a surprise return. And there's hope for lone female Mozart when a dashing young male turns his attentions to her.]]></description>
-		<pubDate>Tue, 01 Nov 2011 15:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627736_4256742.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/666846"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/663467</guid>
-		<link>http://www.abc.net.au/iview/#/view/663467</link>
-		<title><![CDATA[Meerkat Manor Series 3 Episode 11 Three Degrees Of Separation]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[The wide-eyed Whiskers' pups are taken out on a foraging trip. Meanwhile Mozart, Kinkajou and De la Soul have fallen on hard times. They bravely go in search of a solution, but they end up looking in all the wrong places.]]></description>
-		<pubDate>Tue, 25 Oct 2011 14:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627736_4256742.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/663467"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844102</guid>
-		<link>http://www.abc.net.au/iview/#/view/844102</link>
-		<title><![CDATA[Behind The News BtN 25/10/11]]></title>
-		<category><![CDATA[news]]></category>
-		<description><![CDATA[Behind the News is a high-energy fun way for upper primary and secondary students to learn about current issues and events in their world.]]></description>
-		<pubDate>Tue, 25 Oct 2011 11:39:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1560"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200907/r402588_1892725.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844102"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/619089</guid>
 		<link>http://www.abc.net.au/iview/#/view/619089</link>
 		<title><![CDATA[The Prisoner Episode 6 Check Mate (Final)]]></title>
@@ -1786,18 +1810,6 @@ from Athens University; the Malaysian PM arriving for CHOGM; West Papua's indepe
 		<media:content type="video/x-flv" bitrate="650" duration="3204"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201004/r545975_3201786.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/563122"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/557759</guid>
-		<link>http://www.abc.net.au/iview/#/view/557759</link>
-		<title><![CDATA[Time Team America Episode 4 Range Creek]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Time Team America heads to the picturesque and remote canyons of southern Utah to examine what remains of the Fremont Indians who lived there 1,000 years ago.]]></description>
-		<pubDate>Tue, 25 Oct 2011 13:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3296"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201004/r545975_3201786.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/557759"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>

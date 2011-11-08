@@ -5,13 +5,733 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Tue, 08 Nov 2011 07:54:02 +1100</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 20:52:15 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - abc3]]></title> 
 		<link>http://www.abc.net.au/iview/#/abc3</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850508</guid>
+		<link>http://www.abc.net.au/iview/#/view/850508</link>
+		<title><![CDATA[Pixelface Episode 21 Reset]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Claireparker is fed up with the chaos in the console. But when she discovers the rest button hidden behind a panel in her bedroom, she finds a way to take control of life in the console.]]></description>
+		<pubDate>Mon, 07 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850508"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846635</guid>
+		<link>http://www.abc.net.au/iview/#/view/846635</link>
+		<title><![CDATA[Pixelface Episode 20 Quit Bugging Me]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Fri, 04 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846635"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846633</guid>
+		<link>http://www.abc.net.au/iview/#/view/846633</link>
+		<title><![CDATA[Pixelface Episode 19 Out Of Sight]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Thu, 03 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846633"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846632</guid>
+		<link>http://www.abc.net.au/iview/#/view/846632</link>
+		<title><![CDATA[Pixelface Episode 18 Mrs Dynamo's Son]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Wed, 02 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846632"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846631</guid>
+		<link>http://www.abc.net.au/iview/#/view/846631</link>
+		<title><![CDATA[Pixelface Episode 17 Major Players]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Tue, 01 Nov 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846631"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844308</guid>
+		<link>http://www.abc.net.au/iview/#/view/844308</link>
+		<title><![CDATA[Pixelface Episode 16 High Spirits]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Fri, 28 Oct 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844308"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844307</guid>
+		<link>http://www.abc.net.au/iview/#/view/844307</link>
+		<title><![CDATA[Pixelface Episode 15 Fast And Furious]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Thu, 27 Oct 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844307"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844303</guid>
+		<link>http://www.abc.net.au/iview/#/view/844303</link>
+		<title><![CDATA[Pixelface Episode 14 Body Swap]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
+		<pubDate>Wed, 26 Oct 2011 19:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844303"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807807</guid>
+		<link>http://www.abc.net.au/iview/#/view/807807</link>
+		<title><![CDATA[Big Babies Episode 13 Baby Got Talent (Final)]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The babies go on a play-date to their friend Calais Savoy's house, where they play their own version of their favourite TV show, Britain's Quite Talented.]]></description>
+		<pubDate>Tue, 08 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/807807"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807806</guid>
+		<link>http://www.abc.net.au/iview/#/view/807806</link>
+		<title><![CDATA[Big Babies Episode 12 Sleepover]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Rocco is staying at Brooks' house for a sleepover. While the babies share a madcap dream-filled adventure, Budge has a midnight appointment with the biscuit tin.]]></description>
+		<pubDate>Mon, 07 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/807806"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807805</guid>
+		<link>http://www.abc.net.au/iview/#/view/807805</link>
+		<title><![CDATA[Big Babies Episode 11 Beside The Seaside]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Budge tags along with the bouncing babies to the seaside. A game of Eye Spy keeps the boys amused, but their holiday is cut short when a hungry Budge causes the car to break down.]]></description>
+		<pubDate>Fri, 04 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/807805"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807084</guid>
+		<link>http://www.abc.net.au/iview/#/view/807084</link>
+		<title><![CDATA[Big Babies Episode 10 The Race]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The babies dress up as racing drivers when Gonch challenges them to a race round the park in their buggies. Budge hitches a ride in the babies' buggy, as he can't wait to get his hands on the ice-cream trophy.]]></description>
+		<pubDate>Thu, 03 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/807084"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804714</guid>
+		<link>http://www.abc.net.au/iview/#/view/804714</link>
+		<title><![CDATA[Big Babies Episode 9 Dino Dino Dino Town]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The baby boys are taken to a dinosaur theme park where every visitor gets a chocolate dinosaur egg. Budge, Brooks' toy with a mind of his own, is keen to get his paws on the chocolate and tries to hijack the Time Train.]]></description>
+		<pubDate>Wed, 02 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/804714"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804713</guid>
+		<link>http://www.abc.net.au/iview/#/view/804713</link>
+		<title><![CDATA[Big Babies Episode 8 Arts &amp; Crafts]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[After his picture is shown on TV, Brooks pronounces himself an artist. Carole takes Rocco and Brooks to see Biscuit Henge, a gigantic sculpture made of biscuits. But where there are biscuits, there must be Budge...]]></description>
+		<pubDate>Tue, 01 Nov 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/804713"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804712</guid>
+		<link>http://www.abc.net.au/iview/#/view/804712</link>
+		<title><![CDATA[Big Babies Episode 7 Rainy Day]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The Frankenstein movie Rocco and Brooks are watching gives Budge the idea to make a 'Frankenbudge' which will help him collect biscuits. But once brought to life, 'Frankenbudge' has other plans...]]></description>
+		<pubDate>Fri, 28 Oct 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/804712"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804711</guid>
+		<link>http://www.abc.net.au/iview/#/view/804711</link>
+		<title><![CDATA[Big Babies Episode 6 Birthday]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[It's Brooks' birthday and he announces to Rocco that it's going to be the best birthday ever. What's more, Brooks has invited a girl to his party. Rocco is impressed. But nothing goes quite the way Brooks imagined it would...]]></description>
+		<pubDate>Thu, 27 Oct 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/804711"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/803620</guid>
+		<link>http://www.abc.net.au/iview/#/view/803620</link>
+		<title><![CDATA[Big Babies Episode 5 Pet Shop]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[An outing to the pet shop leads to conflict between the boys - Brooks wants a dog, Rocco wants a hamster. All they can agree on is that their pet should talk.]]></description>
+		<pubDate>Wed, 26 Oct 2011 17:55:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="840"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/803620"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650552</guid>
+		<link>http://www.abc.net.au/iview/#/view/650552</link>
+		<title><![CDATA[Mortified Episode 10 The Cross Country]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor wins her cross-country race, but as she basks in fame and glory she fails to confess that Mystic Marge drove her to the finish line.]]></description>
+		<pubDate>Tue, 08 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/650552"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650551</guid>
+		<link>http://www.abc.net.au/iview/#/view/650551</link>
+		<title><![CDATA[Mortified Episode 9 Return Of The Mothership]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor and Hector spend time with an eccentric elderly couple who believe they will be reclaimed by an alien mothership any day. Will Taylor and Hector become believers themselves?]]></description>
+		<pubDate>Mon, 07 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/650551"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650549</guid>
+		<link>http://www.abc.net.au/iview/#/view/650549</link>
+		<title><![CDATA[Mortified Episode 8 The Big Game]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Witnessing Leon's soccer skill, Taylor is inspired to join the team.]]></description>
+		<pubDate>Fri, 04 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/650549"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650546</guid>
+		<link>http://www.abc.net.au/iview/#/view/650546</link>
+		<title><![CDATA[Mortified Episode 7 Flag Fall]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor becomes image-conscious, and starts to worry about her appearance and dress code. This unfortunately coincides with Hector volunteering for flag duty at school, which registers quite high on the 'dork' scale.]]></description>
+		<pubDate>Thu, 03 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/650546"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647529</guid>
+		<link>http://www.abc.net.au/iview/#/view/647529</link>
+		<title><![CDATA[Mortified Episode 6 The Talk]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor gets a crush on a teenaged martial arts instructor, and signs up for some classes. But her shift from childhood to adolescence is noticed by her parents, who decide it's high time they give her the dreaded 'Talk'.]]></description>
+		<pubDate>Wed, 02 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/647529"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647527</guid>
+		<link>http://www.abc.net.au/iview/#/view/647527</link>
+		<title><![CDATA[Mortified Episode 5 The Chosen One]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor is inspired by the teachings of a Buddhist monk, who shares the concept of a simple life without possessions.]]></description>
+		<pubDate>Tue, 01 Nov 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/647527"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647526</guid>
+		<link>http://www.abc.net.au/iview/#/view/647526</link>
+		<title><![CDATA[Mortified Episode 4 Mother In The Nude]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor is dumbstruck when she arrives home from school to find her mother creating a nude sculpture of herself, for a very public art competition. Worse still, her entire school class is attending the competition!]]></description>
+		<pubDate>Fri, 28 Oct 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1386"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/647526"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647524</guid>
+		<link>http://www.abc.net.au/iview/#/view/647524</link>
+		<title><![CDATA[Mortified Episode 3 Learning To Surf]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[In a plan to prove herself to Leon, Taylor enters a surfing competition. The only problem is she can't surf, so she hires her father to give her some tips.]]></description>
+		<pubDate>Thu, 27 Oct 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1402"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/647524"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647523</guid>
+		<link>http://www.abc.net.au/iview/#/view/647523</link>
+		<title><![CDATA[Mortified Episode 2 Bigger Than Vegas]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor gets nominated for school captain. But things don't quite go to plan, especially when it is revealed that the perfect Brittany Flune is also in the running.]]></description>
+		<pubDate>Wed, 26 Oct 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/647523"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/646625</guid>
+		<link>http://www.abc.net.au/iview/#/view/646625</link>
+		<title><![CDATA[Mortified Episode 1 Taylor's DNA]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Taylor Fry is a lively smart-lipped kid with plenty of attitude, but the truth is she feels as if she doesn't belong. She's an outsider within her own family, with a father known as 'the underpant king', who could blame her?]]></description>
+		<pubDate>Tue, 25 Oct 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1433"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/646625"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850511</guid>
+		<link>http://www.abc.net.au/iview/#/view/850511</link>
+		<title><![CDATA[Ship To Shore Episode 12 Herstory]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The Island school is invited to take part in a pageant of maritime history presented on the mainland. Julie refuses to accept the orthodox historical view of a shipwreck incident off the Coast in the 17th century.]]></description>
+		<pubDate>Tue, 08 Nov 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850511"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850510</guid>
+		<link>http://www.abc.net.au/iview/#/view/850510</link>
+		<title><![CDATA[Ship To Shore Episode 11 Wild One]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The apparent reconciliation between the island base kids takes on a whole new dimension when the rival artistic visions of Julie and Babe result in an intense competition to see who can make the best rock video.]]></description>
+		<pubDate>Mon, 07 Nov 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850510"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846665</guid>
+		<link>http://www.abc.net.au/iview/#/view/846665</link>
+		<title><![CDATA[Ship To Shore Episode 10 Rites Of Salvage]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Ralph's dreams of reviving the Sea Scout troop (and for being accepted by the local kids) are boosted when the kids find a mysterious deserted yacht.]]></description>
+		<pubDate>Tue, 01 Nov 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846665"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846091</guid>
+		<link>http://www.abc.net.au/iview/#/view/846091</link>
+		<title><![CDATA[Ship To Shore Episode 9 Money For Jam Jars]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The good intentions of Circe Island adults to win the 'Tidy Town' award are thwarted when the kids discover there is money to be made from recycling.]]></description>
+		<pubDate>Mon, 31 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846091"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841548</guid>
+		<link>http://www.abc.net.au/iview/#/view/841548</link>
+		<title><![CDATA[Ship To Shore Episode 8 Backwards Messages]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Kelvin 'bugs' Hermes' phone. Hermes discovers the miniature transmitter under his desk and is led to believe that the kids are being brainwashed by a spy ring!]]></description>
+		<pubDate>Tue, 25 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841548"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841547</guid>
+		<link>http://www.abc.net.au/iview/#/view/841547</link>
+		<title><![CDATA[Ship To Shore Episode 7 Missing In Action]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Julie comes down with the measles and can't go to school camp on the mainland. Kelvin fakes illness to avoid going on the camp, planning to spend the week in the pinball parlours and fast food joints on the mainland.]]></description>
+		<pubDate>Mon, 24 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841547"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841546</guid>
+		<link>http://www.abc.net.au/iview/#/view/841546</link>
+		<title><![CDATA[Ship To Shore Episode 6 Good Vibrations]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Ralph and Julie's friendship continues to grow when Ralph agrees to help Julie stop whales beaching themselves on Circe Island.]]></description>
+		<pubDate>Tue, 18 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841546"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841366</guid>
+		<link>http://www.abc.net.au/iview/#/view/841366</link>
+		<title><![CDATA[Ship To Shore Episode 5 Presumed Guilty]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Kevin is accused of stealing money from Ralph and rigging the competition to win a ghetto blaster. His trial finds him and the other kids guilty of various deceits, but the theft itself is a tale of another kind...]]></description>
+		<pubDate>Mon, 17 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841366"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836815</guid>
+		<link>http://www.abc.net.au/iview/#/view/836815</link>
+		<title><![CDATA[Ship To Shore Episode 4 Grate Escape]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The kids use wartime secret tunnels as a means of getting to a concert on the mainland. Julie and Ralph join forces to make a political statement at the concert.]]></description>
+		<pubDate>Tue, 11 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/836815"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836810</guid>
+		<link>http://www.abc.net.au/iview/#/view/836810</link>
+		<title><![CDATA[Ship To Shore Episode 3 Wild Child]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Babe Keogh gets sent to the school on the mainland after a series of misdemeanours. The island kids discover that their own school will be closed due to falling numbers. How will they get Babe to come back?]]></description>
+		<pubDate>Mon, 10 Oct 2011 09:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/836810"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850506</guid>
+		<link>http://www.abc.net.au/iview/#/view/850506</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 137 Control Freak]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Jack and Oggy are fighting over who gets to pick the TV program and so Jack decides to settle the argument with a motorcycle race.]]></description>
+		<pubDate>Tue, 08 Nov 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850506"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850505</guid>
+		<link>http://www.abc.net.au/iview/#/view/850505</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 136 Joey And The Magic Bean]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Joey realizes that he's too small and that really bugs him. He wants to grow up and look like the Jolly Green Giant whose photo he keeps under his pillow. One morning he finds magic beans on his pillow and eats them...]]></description>
+		<pubDate>Mon, 07 Nov 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850505"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846629</guid>
+		<link>http://www.abc.net.au/iview/#/view/846629</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 135 ]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy and Jack are on a safari photo-shoot in Africa. With his super camera, Oggy snaps shots of all the animals like a maniac. This is not necessarily to the liking of the local animals!]]></description>
+		<pubDate>Wed, 02 Nov 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846629"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846628</guid>
+		<link>http://www.abc.net.au/iview/#/view/846628</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 134 Flower Power]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy stumbles on a book that depicts the world of hippies and flower-power. With his bible in hand, Oggy starts wandering through the house reciting mantras about peace and love every time the roaches make his life miserable!]]></description>
+		<pubDate>Tue, 01 Nov 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846628"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846088</guid>
+		<link>http://www.abc.net.au/iview/#/view/846088</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 133 Sitcom]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Joey discovers a can of... canned laughter! Joey lets laughs out of the box every time Oggy makes the slightest gesture. Oggy starts chasing the roaches and at the end of the pursuit Oggy swallows the can!]]></description>
+		<pubDate>Mon, 31 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846088"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844322</guid>
+		<link>http://www.abc.net.au/iview/#/view/844322</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 132 Home Breaker]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[After an explosive practical joke, Bob the dog finds himself homeless. With nowhere else to go he decides to set up camp at Oggy's. Oggy is outraged and tries everything in the books to get rid of his imposing house guest!]]></description>
+		<pubDate>Wed, 26 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844322"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844319</guid>
+		<link>http://www.abc.net.au/iview/#/view/844319</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 131 Magic Carpet Ride]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy buys a Persian rug which turns out to be a flying carpet! With his habitual curiosity, Oggy climbs on for a spin. Of course he doesn't notice the fire-crackers that the little monsters have attached to the end!]]></description>
+		<pubDate>Tue, 25 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844319"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843552</guid>
+		<link>http://www.abc.net.au/iview/#/view/843552</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 130 Pharonuf]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy and Jack are visiting an Egyptian pyramid. While he's chasing the nasty roaches he falls into a deep hole in the middle of the pyramid. Lost in the never-ending labyrinth inside he finally pops out...but it's 2500 BC!]]></description>
+		<pubDate>Mon, 24 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/843552"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841530</guid>
+		<link>http://www.abc.net.au/iview/#/view/841530</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 129 Pharonuf]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy and Jack are visiting an Egyptian pyramid. While he's chasing the nasty roaches he falls into a deep hole in the middle of the pyramid. Lost in the never-ending labyrinth inside he finally pops out...but it's 2500 BC!]]></description>
+		<pubDate>Wed, 19 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841530"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841528</guid>
+		<link>http://www.abc.net.au/iview/#/view/841528</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 128 Going Up]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy builds an elevator in order to catch the nasty little bugs more easily. But the roaches immediately build one of their own...]]></description>
+		<pubDate>Tue, 18 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841528"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841526</guid>
+		<link>http://www.abc.net.au/iview/#/view/841526</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 127 The Pumkin That Pretended To Be A Ferrari]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[On his way home from shopping, Oggy unintentionally steps on a frog. He picks it up and kisses it to ask forgiveness. And bingo! the little frog immediately turns into a fairy!]]></description>
+		<pubDate>Mon, 17 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/841526"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838543</guid>
+		<link>http://www.abc.net.au/iview/#/view/838543</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 126 Oggy's Puzzled]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Oggy is getting ready to put the last piece of his huge, complicated jigsaw puzzle into place when suddenly the roaches steal it from him. With Jack and Oggy on their tail, the roaches wreak havoc as the chase begins!]]></description>
+		<pubDate>Wed, 12 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/838543"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836404</guid>
+		<link>http://www.abc.net.au/iview/#/view/836404</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 125 Penalty Shot]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Jack is glued to a soccer game on TV. Joey takes an interest in the game and with his two partners and a few buddies he forms two teams and organizes a match. But they need a soccer field...]]></description>
+		<pubDate>Tue, 11 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/836404"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836401</guid>
+		<link>http://www.abc.net.au/iview/#/view/836401</link>
+		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 124 Golf Curse]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Jack takes Oggy out to play golf. Despite his complete lack of talent and style, Oggy manages to sink holes-in-one right and left. The roaches decide to move the holes around in order to spice up the game.]]></description>
+		<pubDate>Mon, 10 Oct 2011 09:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="480"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/836401"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850501</guid>
+		<link>http://www.abc.net.au/iview/#/view/850501</link>
+		<title><![CDATA[MAL.COM Episode 8 Holiday]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Jake and Daisy want to go on a holiday but can't agree on where. They decide that whoever wins The Kid's vote gets to choose the holiday of their dreams. Only Holly has ideas of her own... CAST: Luke Ledger, Ruby Hall]]></description>
+		<pubDate>Tue, 08 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850501"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850500</guid>
+		<link>http://www.abc.net.au/iview/#/view/850500</link>
+		<title><![CDATA[MAL.COM Episode 7 Holly Makes Five]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Holly moves in when she loses her job and the kids lose both their freedom and their minds.]]></description>
+		<pubDate>Mon, 07 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850500"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846624</guid>
+		<link>http://www.abc.net.au/iview/#/view/846624</link>
+		<title><![CDATA[MAL.COM Episode 6 Kinder Surprise]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[The Kid has the perfect plan to get out of going to school until Jake and Daisy try to fix things with the teacher.]]></description>
+		<pubDate>Fri, 04 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846624"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846623</guid>
+		<link>http://www.abc.net.au/iview/#/view/846623</link>
+		<title><![CDATA[MAL.COM Episode 5 Give A Goat]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Daisy would do anything to win this year's Charity Queen Award as long as it doesn't involve her having to be truly charitable.]]></description>
+		<pubDate>Thu, 03 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846623"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846621</guid>
+		<link>http://www.abc.net.au/iview/#/view/846621</link>
+		<title><![CDATA[MAL.COM Episode 4 Rat In The Ranks]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Daisy is determined to prove she saved the life of the science lab rat, even if it means she has to kill it...]]></description>
+		<pubDate>Wed, 02 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846621"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846620</guid>
+		<link>http://www.abc.net.au/iview/#/view/846620</link>
+		<title><![CDATA[MAL.COM Episode 3 Free Stuff]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[When Jake learns that Malcom can get things for free just by mentioning them on TV he thinks he has hit the mother load.]]></description>
+		<pubDate>Tue, 01 Nov 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846620"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846087</guid>
+		<link>http://www.abc.net.au/iview/#/view/846087</link>
+		<title><![CDATA[MAL.COM Episode 2 Secrets]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Holly discovers that Daisy has been mocking up raunchy celebrity scandal pictures of Malcom in order to get more attention from the press. CAST: Geoff Paine, Luke Ledger, Ruby Hall, Gwy McKenna, Danielle Carter]]></description>
+		<pubDate>Mon, 31 Oct 2011 08:13:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/846087"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844941</guid>
+		<link>http://www.abc.net.au/iview/#/view/844941</link>
+		<title><![CDATA[MAL.COM Episode 1 Party On]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[Three homeless kids find themselves living the dream when they discover that Malcom Mann, the country's biggest TV star, is secretly a robot and they pretend to be his children. CAST: Geoff Paine, Luke Ledger, Ruby Hall]]></description>
+		<pubDate>Fri, 28 Oct 2011 08:15:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844941"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/810847</guid>
+		<link>http://www.abc.net.au/iview/#/view/810847</link>
+		<title><![CDATA[Gasp! Episode 1 Help A Spider]]></title>
+		<category><![CDATA[abc3]]></category>
+		<description><![CDATA[A fin-twitchingly funny animated series that follows the zany antics of Gasp, a larger-than-life little goldfish, left home alone when Mum, Dad and their two kids, Ginger and Fred, have gone out.]]></description>
+		<pubDate>Tue, 08 Nov 2011 08:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="720"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201108/r811191_7247149.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/810847"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/549192</guid>
 		<link>http://www.abc.net.au/iview/#/view/549192</link>
 		<title><![CDATA[Dead Gorgeous Episode 13 (final) : Old Ghosts]]></title>
@@ -180,330 +900,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850508</guid>
-		<link>http://www.abc.net.au/iview/#/view/850508</link>
-		<title><![CDATA[Pixelface Episode 21 Reset]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Claireparker is fed up with the chaos in the console. But when she discovers the rest button hidden behind a panel in her bedroom, she finds a way to take control of life in the console.]]></description>
-		<pubDate>Mon, 07 Nov 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/850508"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846635</guid>
-		<link>http://www.abc.net.au/iview/#/view/846635</link>
-		<title><![CDATA[Pixelface Episode 20 Quit Bugging Me]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Fri, 04 Nov 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846635"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846633</guid>
-		<link>http://www.abc.net.au/iview/#/view/846633</link>
-		<title><![CDATA[Pixelface Episode 19 Out Of Sight]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Thu, 03 Nov 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846633"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846632</guid>
-		<link>http://www.abc.net.au/iview/#/view/846632</link>
-		<title><![CDATA[Pixelface Episode 18 Mrs Dynamo's Son]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Wed, 02 Nov 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846632"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846631</guid>
-		<link>http://www.abc.net.au/iview/#/view/846631</link>
-		<title><![CDATA[Pixelface Episode 17 Major Players]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Tue, 01 Nov 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846631"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844308</guid>
-		<link>http://www.abc.net.au/iview/#/view/844308</link>
-		<title><![CDATA[Pixelface Episode 16 High Spirits]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Fri, 28 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844308"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844307</guid>
-		<link>http://www.abc.net.au/iview/#/view/844307</link>
-		<title><![CDATA[Pixelface Episode 15 Fast And Furious]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Thu, 27 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844307"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844303</guid>
-		<link>http://www.abc.net.au/iview/#/view/844303</link>
-		<title><![CDATA[Pixelface Episode 14 Body Swap]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Wed, 26 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844303"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844299</guid>
-		<link>http://www.abc.net.au/iview/#/view/844299</link>
-		<title><![CDATA[Pixelface Episode 13 You're History]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[A comedy set within the fictional world of a computer game console, where the stars face their own triumphs, tragedies and funny mishaps.]]></description>
-		<pubDate>Tue, 25 Oct 2011 19:25:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r838855_7806456.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844299"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807806</guid>
-		<link>http://www.abc.net.au/iview/#/view/807806</link>
-		<title><![CDATA[Big Babies Episode 12 Sleepover]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Rocco is staying at Brooks' house for a sleepover. While the babies share a madcap dream-filled adventure, Budge has a midnight appointment with the biscuit tin.]]></description>
-		<pubDate>Mon, 07 Nov 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/807806"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807805</guid>
-		<link>http://www.abc.net.au/iview/#/view/807805</link>
-		<title><![CDATA[Big Babies Episode 11 Beside The Seaside]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Budge tags along with the bouncing babies to the seaside. A game of Eye Spy keeps the boys amused, but their holiday is cut short when a hungry Budge causes the car to break down.]]></description>
-		<pubDate>Fri, 04 Nov 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/807805"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/807084</guid>
-		<link>http://www.abc.net.au/iview/#/view/807084</link>
-		<title><![CDATA[Big Babies Episode 10 The Race]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The babies dress up as racing drivers when Gonch challenges them to a race round the park in their buggies. Budge hitches a ride in the babies' buggy, as he can't wait to get his hands on the ice-cream trophy.]]></description>
-		<pubDate>Thu, 03 Nov 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/807084"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804714</guid>
-		<link>http://www.abc.net.au/iview/#/view/804714</link>
-		<title><![CDATA[Big Babies Episode 9 Dino Dino Dino Town]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The baby boys are taken to a dinosaur theme park where every visitor gets a chocolate dinosaur egg. Budge, Brooks' toy with a mind of his own, is keen to get his paws on the chocolate and tries to hijack the Time Train.]]></description>
-		<pubDate>Wed, 02 Nov 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/804714"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804713</guid>
-		<link>http://www.abc.net.au/iview/#/view/804713</link>
-		<title><![CDATA[Big Babies Episode 8 Arts &amp; Crafts]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[After his picture is shown on TV, Brooks pronounces himself an artist. Carole takes Rocco and Brooks to see Biscuit Henge, a gigantic sculpture made of biscuits. But where there are biscuits, there must be Budge...]]></description>
-		<pubDate>Tue, 01 Nov 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/804713"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804712</guid>
-		<link>http://www.abc.net.au/iview/#/view/804712</link>
-		<title><![CDATA[Big Babies Episode 7 Rainy Day]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The Frankenstein movie Rocco and Brooks are watching gives Budge the idea to make a 'Frankenbudge' which will help him collect biscuits. But once brought to life, 'Frankenbudge' has other plans...]]></description>
-		<pubDate>Fri, 28 Oct 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/804712"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/804711</guid>
-		<link>http://www.abc.net.au/iview/#/view/804711</link>
-		<title><![CDATA[Big Babies Episode 6 Birthday]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[It's Brooks' birthday and he announces to Rocco that it's going to be the best birthday ever. What's more, Brooks has invited a girl to his party. Rocco is impressed. But nothing goes quite the way Brooks imagined it would...]]></description>
-		<pubDate>Thu, 27 Oct 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/804711"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/803620</guid>
-		<link>http://www.abc.net.au/iview/#/view/803620</link>
-		<title><![CDATA[Big Babies Episode 5 Pet Shop]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[An outing to the pet shop leads to conflict between the boys - Brooks wants a dog, Rocco wants a hamster. All they can agree on is that their pet should talk.]]></description>
-		<pubDate>Wed, 26 Oct 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/803620"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/799925</guid>
-		<link>http://www.abc.net.au/iview/#/view/799925</link>
-		<title><![CDATA[Big Babies Episode 4 Market]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Rocco and Brooks get taken to the market and meet the Gonch whose dad runs a stall. He explains to the boys about haggling and they compete for the best bargain.]]></description>
-		<pubDate>Tue, 25 Oct 2011 17:55:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="840"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r802413_7077669.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/799925"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650551</guid>
-		<link>http://www.abc.net.au/iview/#/view/650551</link>
-		<title><![CDATA[Mortified Episode 9 Return Of The Mothership]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor and Hector spend time with an eccentric elderly couple who believe they will be reclaimed by an alien mothership any day. Will Taylor and Hector become believers themselves?]]></description>
-		<pubDate>Mon, 07 Nov 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/650551"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650549</guid>
-		<link>http://www.abc.net.au/iview/#/view/650549</link>
-		<title><![CDATA[Mortified Episode 8 The Big Game]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Witnessing Leon's soccer skill, Taylor is inspired to join the team.]]></description>
-		<pubDate>Fri, 04 Nov 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/650549"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/650546</guid>
-		<link>http://www.abc.net.au/iview/#/view/650546</link>
-		<title><![CDATA[Mortified Episode 7 Flag Fall]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor becomes image-conscious, and starts to worry about her appearance and dress code. This unfortunately coincides with Hector volunteering for flag duty at school, which registers quite high on the 'dork' scale.]]></description>
-		<pubDate>Thu, 03 Nov 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/650546"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647529</guid>
-		<link>http://www.abc.net.au/iview/#/view/647529</link>
-		<title><![CDATA[Mortified Episode 6 The Talk]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor gets a crush on a teenaged martial arts instructor, and signs up for some classes. But her shift from childhood to adolescence is noticed by her parents, who decide it's high time they give her the dreaded 'Talk'.]]></description>
-		<pubDate>Wed, 02 Nov 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/647529"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647527</guid>
-		<link>http://www.abc.net.au/iview/#/view/647527</link>
-		<title><![CDATA[Mortified Episode 5 The Chosen One]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor is inspired by the teachings of a Buddhist monk, who shares the concept of a simple life without possessions.]]></description>
-		<pubDate>Tue, 01 Nov 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/647527"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647526</guid>
-		<link>http://www.abc.net.au/iview/#/view/647526</link>
-		<title><![CDATA[Mortified Episode 4 Mother In The Nude]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor is dumbstruck when she arrives home from school to find her mother creating a nude sculpture of herself, for a very public art competition. Worse still, her entire school class is attending the competition!]]></description>
-		<pubDate>Fri, 28 Oct 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1386"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/647526"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647524</guid>
-		<link>http://www.abc.net.au/iview/#/view/647524</link>
-		<title><![CDATA[Mortified Episode 3 Learning To Surf]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[In a plan to prove herself to Leon, Taylor enters a surfing competition. The only problem is she can't surf, so she hires her father to give her some tips.]]></description>
-		<pubDate>Thu, 27 Oct 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1402"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/647524"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/647523</guid>
-		<link>http://www.abc.net.au/iview/#/view/647523</link>
-		<title><![CDATA[Mortified Episode 2 Bigger Than Vegas]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor gets nominated for school captain. But things don't quite go to plan, especially when it is revealed that the perfect Brittany Flune is also in the running.]]></description>
-		<pubDate>Wed, 26 Oct 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/647523"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/646625</guid>
-		<link>http://www.abc.net.au/iview/#/view/646625</link>
-		<title><![CDATA[Mortified Episode 1 Taylor's DNA]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Taylor Fry is a lively smart-lipped kid with plenty of attitude, but the truth is she feels as if she doesn't belong. She's an outsider within her own family, with a father known as 'the underpant king', who could blame her?]]></description>
-		<pubDate>Tue, 25 Oct 2011 17:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1433"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201009/r646225_4510650.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/646625"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850486</guid>
 		<link>http://www.abc.net.au/iview/#/view/850486</link>
 		<title><![CDATA[Funny Face Episode 18 Up All Night]]></title>
@@ -612,18 +1008,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834793</guid>
-		<link>http://www.abc.net.au/iview/#/view/834793</link>
-		<title><![CDATA[Funny Face Episode 9 The Fruit Olympics]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Eight desperate fruit are bounced from a produce truck on their way to market. If they are able to survive they must learn elaborate dances, spew ridiculous puns and grasp the true meaning of physical humour.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="60"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r826100_7544903.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834793"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850512</guid>
 		<link>http://www.abc.net.au/iview/#/view/850512</link>
 		<title><![CDATA[Street Monsters Episode 18 The Big-For-His-Age Monster In 'Playground']]></title>
@@ -720,18 +1104,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834938</guid>
-		<link>http://www.abc.net.au/iview/#/view/834938</link>
-		<title><![CDATA[Street Monsters Episode 9 The Show Off Monster In 'Skate']]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[It's show time for the show off monster! A skateboard and a few tricky obstacles are all he needs to put on a performance and impress any monsters he hopes are watching him. But a need for speed ends up a risky business!]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r826102_7544938.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834938"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/835804</guid>
 		<link>http://www.abc.net.au/iview/#/view/835804</link>
 		<title><![CDATA[Kaeloo Episode 5 Let's Play Magicians]]></title>
@@ -777,366 +1149,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="420"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835895_7749730.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/846617"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846615</guid>
-		<link>http://www.abc.net.au/iview/#/view/846615</link>
-		<title><![CDATA[Kaeloo Episode 22 Let's Play Spies]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Our buddies have taken on different roles. Quack-Quack is the terrorist, a specialist in explosive yogurts who wants to take over and rule Smileyland. Kaeloo, Stumpy and Mr Cat are secret agents.]]></description>
-		<pubDate>Tue, 01 Nov 2011 14:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="420"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835895_7749730.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846615"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850510</guid>
-		<link>http://www.abc.net.au/iview/#/view/850510</link>
-		<title><![CDATA[Ship To Shore Episode 11 Wild One]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The apparent reconciliation between the island base kids takes on a whole new dimension when the rival artistic visions of Julie and Babe result in an intense competition to see who can make the best rock video.]]></description>
-		<pubDate>Mon, 07 Nov 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/850510"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846665</guid>
-		<link>http://www.abc.net.au/iview/#/view/846665</link>
-		<title><![CDATA[Ship To Shore Episode 10 Rites Of Salvage]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Ralph's dreams of reviving the Sea Scout troop (and for being accepted by the local kids) are boosted when the kids find a mysterious deserted yacht.]]></description>
-		<pubDate>Tue, 01 Nov 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846665"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846091</guid>
-		<link>http://www.abc.net.au/iview/#/view/846091</link>
-		<title><![CDATA[Ship To Shore Episode 9 Money For Jam Jars]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The good intentions of Circe Island adults to win the 'Tidy Town' award are thwarted when the kids discover there is money to be made from recycling.]]></description>
-		<pubDate>Mon, 31 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846091"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841548</guid>
-		<link>http://www.abc.net.au/iview/#/view/841548</link>
-		<title><![CDATA[Ship To Shore Episode 8 Backwards Messages]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Kelvin 'bugs' Hermes' phone. Hermes discovers the miniature transmitter under his desk and is led to believe that the kids are being brainwashed by a spy ring!]]></description>
-		<pubDate>Tue, 25 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841548"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841547</guid>
-		<link>http://www.abc.net.au/iview/#/view/841547</link>
-		<title><![CDATA[Ship To Shore Episode 7 Missing In Action]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Julie comes down with the measles and can't go to school camp on the mainland. Kelvin fakes illness to avoid going on the camp, planning to spend the week in the pinball parlours and fast food joints on the mainland.]]></description>
-		<pubDate>Mon, 24 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841547"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841546</guid>
-		<link>http://www.abc.net.au/iview/#/view/841546</link>
-		<title><![CDATA[Ship To Shore Episode 6 Good Vibrations]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Ralph and Julie's friendship continues to grow when Ralph agrees to help Julie stop whales beaching themselves on Circe Island.]]></description>
-		<pubDate>Tue, 18 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841546"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841366</guid>
-		<link>http://www.abc.net.au/iview/#/view/841366</link>
-		<title><![CDATA[Ship To Shore Episode 5 Presumed Guilty]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Kevin is accused of stealing money from Ralph and rigging the competition to win a ghetto blaster. His trial finds him and the other kids guilty of various deceits, but the theft itself is a tale of another kind...]]></description>
-		<pubDate>Mon, 17 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841366"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836815</guid>
-		<link>http://www.abc.net.au/iview/#/view/836815</link>
-		<title><![CDATA[Ship To Shore Episode 4 Grate Escape]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The kids use wartime secret tunnels as a means of getting to a concert on the mainland. Julie and Ralph join forces to make a political statement at the concert.]]></description>
-		<pubDate>Tue, 11 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836815"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836810</guid>
-		<link>http://www.abc.net.au/iview/#/view/836810</link>
-		<title><![CDATA[Ship To Shore Episode 3 Wild Child]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Babe Keogh gets sent to the school on the mainland after a series of misdemeanours. The island kids discover that their own school will be closed due to falling numbers. How will they get Babe to come back?]]></description>
-		<pubDate>Mon, 10 Oct 2011 09:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835744_7747125.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836810"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850505</guid>
-		<link>http://www.abc.net.au/iview/#/view/850505</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 136 Joey And The Magic Bean]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Joey realizes that he's too small and that really bugs him. He wants to grow up and look like the Jolly Green Giant whose photo he keeps under his pillow. One morning he finds magic beans on his pillow and eats them...]]></description>
-		<pubDate>Mon, 07 Nov 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/850505"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846629</guid>
-		<link>http://www.abc.net.au/iview/#/view/846629</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 135 ]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy and Jack are on a safari photo-shoot in Africa. With his super camera, Oggy snaps shots of all the animals like a maniac. This is not necessarily to the liking of the local animals!]]></description>
-		<pubDate>Wed, 02 Nov 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846629"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846628</guid>
-		<link>http://www.abc.net.au/iview/#/view/846628</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 134 Flower Power]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy stumbles on a book that depicts the world of hippies and flower-power. With his bible in hand, Oggy starts wandering through the house reciting mantras about peace and love every time the roaches make his life miserable!]]></description>
-		<pubDate>Tue, 01 Nov 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846628"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846088</guid>
-		<link>http://www.abc.net.au/iview/#/view/846088</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 133 Sitcom]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Joey discovers a can of... canned laughter! Joey lets laughs out of the box every time Oggy makes the slightest gesture. Oggy starts chasing the roaches and at the end of the pursuit Oggy swallows the can!]]></description>
-		<pubDate>Mon, 31 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846088"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844322</guid>
-		<link>http://www.abc.net.au/iview/#/view/844322</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 132 Home Breaker]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[After an explosive practical joke, Bob the dog finds himself homeless. With nowhere else to go he decides to set up camp at Oggy's. Oggy is outraged and tries everything in the books to get rid of his imposing house guest!]]></description>
-		<pubDate>Wed, 26 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844322"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844319</guid>
-		<link>http://www.abc.net.au/iview/#/view/844319</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 131 Magic Carpet Ride]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy buys a Persian rug which turns out to be a flying carpet! With his habitual curiosity, Oggy climbs on for a spin. Of course he doesn't notice the fire-crackers that the little monsters have attached to the end!]]></description>
-		<pubDate>Tue, 25 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844319"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843552</guid>
-		<link>http://www.abc.net.au/iview/#/view/843552</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 130 Pharonuf]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy and Jack are visiting an Egyptian pyramid. While he's chasing the nasty roaches he falls into a deep hole in the middle of the pyramid. Lost in the never-ending labyrinth inside he finally pops out...but it's 2500 BC!]]></description>
-		<pubDate>Mon, 24 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/843552"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841530</guid>
-		<link>http://www.abc.net.au/iview/#/view/841530</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 129 Pharonuf]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy and Jack are visiting an Egyptian pyramid. While he's chasing the nasty roaches he falls into a deep hole in the middle of the pyramid. Lost in the never-ending labyrinth inside he finally pops out...but it's 2500 BC!]]></description>
-		<pubDate>Wed, 19 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841530"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841528</guid>
-		<link>http://www.abc.net.au/iview/#/view/841528</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 128 Going Up]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy builds an elevator in order to catch the nasty little bugs more easily. But the roaches immediately build one of their own...]]></description>
-		<pubDate>Tue, 18 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841528"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/841526</guid>
-		<link>http://www.abc.net.au/iview/#/view/841526</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 127 The Pumkin That Pretended To Be A Ferrari]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[On his way home from shopping, Oggy unintentionally steps on a frog. He picks it up and kisses it to ask forgiveness. And bingo! the little frog immediately turns into a fairy!]]></description>
-		<pubDate>Mon, 17 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/841526"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/838543</guid>
-		<link>http://www.abc.net.au/iview/#/view/838543</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 126 Oggy's Puzzled]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Oggy is getting ready to put the last piece of his huge, complicated jigsaw puzzle into place when suddenly the roaches steal it from him. With Jack and Oggy on their tail, the roaches wreak havoc as the chase begins!]]></description>
-		<pubDate>Wed, 12 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/838543"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836404</guid>
-		<link>http://www.abc.net.au/iview/#/view/836404</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 125 Penalty Shot]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Jack is glued to a soccer game on TV. Joey takes an interest in the game and with his two partners and a few buddies he forms two teams and organizes a match. But they need a soccer field...]]></description>
-		<pubDate>Tue, 11 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836404"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836401</guid>
-		<link>http://www.abc.net.au/iview/#/view/836401</link>
-		<title><![CDATA[Oggy And The Cockroaches (8' Version) Episode 124 Golf Curse]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Jack takes Oggy out to play golf. Despite his complete lack of talent and style, Oggy manages to sink holes-in-one right and left. The roaches decide to move the holes around in order to spice up the game.]]></description>
-		<pubDate>Mon, 10 Oct 2011 09:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="480"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r747799_6174534.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836401"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850500</guid>
-		<link>http://www.abc.net.au/iview/#/view/850500</link>
-		<title><![CDATA[MAL.COM Episode 7 Holly Makes Five]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Holly moves in when she loses her job and the kids lose both their freedom and their minds.]]></description>
-		<pubDate>Mon, 07 Nov 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/850500"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846624</guid>
-		<link>http://www.abc.net.au/iview/#/view/846624</link>
-		<title><![CDATA[MAL.COM Episode 6 Kinder Surprise]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The Kid has the perfect plan to get out of going to school until Jake and Daisy try to fix things with the teacher.]]></description>
-		<pubDate>Fri, 04 Nov 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846624"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846623</guid>
-		<link>http://www.abc.net.au/iview/#/view/846623</link>
-		<title><![CDATA[MAL.COM Episode 5 Give A Goat]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Daisy would do anything to win this year's Charity Queen Award as long as it doesn't involve her having to be truly charitable.]]></description>
-		<pubDate>Thu, 03 Nov 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846623"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846621</guid>
-		<link>http://www.abc.net.au/iview/#/view/846621</link>
-		<title><![CDATA[MAL.COM Episode 4 Rat In The Ranks]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Daisy is determined to prove she saved the life of the science lab rat, even if it means she has to kill it...]]></description>
-		<pubDate>Wed, 02 Nov 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846621"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846620</guid>
-		<link>http://www.abc.net.au/iview/#/view/846620</link>
-		<title><![CDATA[MAL.COM Episode 3 Free Stuff]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[When Jake learns that Malcom can get things for free just by mentioning them on TV he thinks he has hit the mother load.]]></description>
-		<pubDate>Tue, 01 Nov 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846620"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846087</guid>
-		<link>http://www.abc.net.au/iview/#/view/846087</link>
-		<title><![CDATA[MAL.COM Episode 2 Secrets]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Holly discovers that Daisy has been mocking up raunchy celebrity scandal pictures of Malcom in order to get more attention from the press. CAST: Geoff Paine, Luke Ledger, Ruby Hall, Gwy McKenna, Danielle Carter]]></description>
-		<pubDate>Mon, 31 Oct 2011 08:13:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/846087"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844941</guid>
-		<link>http://www.abc.net.au/iview/#/view/844941</link>
-		<title><![CDATA[MAL.COM Episode 1 Party On]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Three homeless kids find themselves living the dream when they discover that Malcom Mann, the country's biggest TV star, is secretly a robot and they pretend to be his children. CAST: Geoff Paine, Luke Ledger, Ruby Hall]]></description>
-		<pubDate>Fri, 28 Oct 2011 08:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="720"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846489_7952403.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/844941"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1320,18 +1332,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834809</guid>
-		<link>http://www.abc.net.au/iview/#/view/834809</link>
-		<title><![CDATA[Sparkle Friends Episode 4 Teething Trouble]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Charlie is concerned when the rest of the Sparkle Friends don't brush their teeth before bed.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r829534_7623409.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834809"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846055</guid>
 		<link>http://www.abc.net.au/iview/#/view/846055</link>
 		<title><![CDATA[Figaro Pho Episode 8 Hypnophobia: The Fear Of Sleep]]></title>
@@ -1392,18 +1392,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834789</guid>
-		<link>http://www.abc.net.au/iview/#/view/834789</link>
-		<title><![CDATA[Figaro Pho Episode 4 Dermatosiophobia: The Fear Of Skin]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Figaro goes about his usual morning ablutions only to realise that his skin is completely green when he switches on the bathroom light. Every time he switches the light off and on, his skin changes to a different skin pattern!]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r829535_7623410.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834789"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843473</guid>
 		<link>http://www.abc.net.au/iview/#/view/843473</link>
 		<title><![CDATA[Casa De Evil Episode 7 Resort Facilities]]></title>
@@ -1449,18 +1437,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="60"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833248_7695400.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/834421"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834419</guid>
-		<link>http://www.abc.net.au/iview/#/view/834419</link>
-		<title><![CDATA[Casa De Evil Episode 3 Skiing]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The resort run by supervillains for supervillains.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="60"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833248_7695400.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834419"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1548,18 +1524,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834800</guid>
-		<link>http://www.abc.net.au/iview/#/view/834800</link>
-		<title><![CDATA[Kid Vs Kat (Interstitials) Series 2 Episode 2 Itty Bitty Kitty Committee]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[When Coop's spoiled little sister Millie brings home Kat, a stray kitty of mysterious origin, his idyllic life is turned upside-down. With felines like this, who needs enemies?]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r835745_7747126.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834800"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846061</guid>
 		<link>http://www.abc.net.au/iview/#/view/846061</link>
 		<title><![CDATA[Mega Bites (ABC Interstitial) Episode 5 Mega Bites (ABC3 Interstitial) : The Staffordshire Terrier]]></title>
@@ -1605,18 +1569,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="60"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839872_7827431.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/840741"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/837908</guid>
-		<link>http://www.abc.net.au/iview/#/view/837908</link>
-		<title><![CDATA[Mega Bites (ABC Interstitial) Episode 1 Mega Bites]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Presented by a budding biologist Georgie, with the reluctant assistance of her nervous cousin Ned, the bite power or various animals is examined.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="60"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r839872_7827431.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/837908"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -1752,42 +1704,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836860</guid>
-		<link>http://www.abc.net.au/iview/#/view/836860</link>
-		<title><![CDATA[Stay Tuned Episode 23 Part 3 : Auditioning]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Access all areas of the music industry during the hottest new online and on-air interactive music show. Hosts Joel and Nicole do whatever it takes to find the answers to your questions while treating you to some new tunes.]]></description>
-		<pubDate>Sun, 09 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="180"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r769173_6530291.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836860"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836854</guid>
-		<link>http://www.abc.net.au/iview/#/view/836854</link>
-		<title><![CDATA[Stay Tuned Episode 23 Part 2 : Auditioning]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Access all areas of the music industry during the hottest new online and on-air interactive music show. Hosts Joel and Nicole do whatever it takes to find the answers to your questions while treating you to some new tunes.]]></description>
-		<pubDate>Sun, 09 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r769173_6530291.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836854"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/836848</guid>
-		<link>http://www.abc.net.au/iview/#/view/836848</link>
-		<title><![CDATA[Stay Tuned Episode 23 Part 1 : Auditioning]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Joel and Nicole find out what it takes to give a great audition with the help of the cast of hit musical, The Jersey Boys. Also featuring Heroes For Hire and Michael Franti.]]></description>
-		<pubDate>Sun, 09 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="420"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r769173_6530291.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/836848"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/814550</guid>
 		<link>http://www.abc.net.au/iview/#/view/814550</link>
 		<title><![CDATA[Star Wars: The Clone Wars Series 2 Episode 18 The Zillo Beast]]></title>
@@ -1893,18 +1809,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="660"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775348_6630129.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/834416"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834415</guid>
-		<link>http://www.abc.net.au/iview/#/view/834415</link>
-		<title><![CDATA[Almost Naked Animals Episode 20 Fizz Fuzz Bang]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Poodle attacks the Banana Cabana with Cap'N Fizzy's pirate ship - it's up to Howie to stop her.]]></description>
-		<pubDate>Sun, 09 Oct 2011 09:20:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="660"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775348_6630129.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834415"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -2088,18 +1992,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/833867</guid>
-		<link>http://www.abc.net.au/iview/#/view/833867</link>
-		<title><![CDATA[Parallax Episode 15 ]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Betti disguises herself as Veronica and goes to Ben's world, determined to find the mystery male Guardian. But Jeremy, the kids and Mrs Dawes fool her. Ben and Mundi find another Portal in Forest World, along with the Stave.]]></description>
-		<pubDate>Sat, 08 Oct 2011 15:35:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201106/r790586_6877047.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/833867"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/848279</guid>
 		<link>http://www.abc.net.au/iview/#/view/848279</link>
 		<title><![CDATA[Animalia Episode 38 Paradise Found]]></title>
@@ -2253,18 +2145,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r755475_6302246.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/837943"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/833860</guid>
-		<link>http://www.abc.net.au/iview/#/view/833860</link>
-		<title><![CDATA[Deltora Quest Episode 24 Meeting Prin]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[On the way to Dread Mountain, our heroes drink water from the magic Dreaming Spring. Are their nightmares about to turn into reality?]]></description>
-		<pubDate>Sat, 08 Oct 2011 08:10:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1320"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201104/r755475_6302246.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/833860"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -2808,18 +2688,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/624787</guid>
-		<link>http://www.abc.net.au/iview/#/view/624787</link>
-		<title><![CDATA[Total Drama World Tour Episode 25 Planes, Trains, Hot Air Mobiles]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Without a plane, the contestants find themselves in a manic road-trip race - all the way to the shores of Hawaii...]]></description>
-		<pubDate>Tue, 01 Nov 2011 08:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1322"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201007/r603455_3940853.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/624787"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/846516</guid>
 		<link>http://www.abc.net.au/iview/#/view/846516</link>
 		<title><![CDATA[Inside Life Episode 10 Madagascar Lemurs (Final)]]></title>
@@ -3072,18 +2940,6 @@
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/629543</guid>
-		<link>http://www.abc.net.au/iview/#/view/629543</link>
-		<title><![CDATA[The Legend of Dick and Dom Series 2 Episode 15 ]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The inhabitants of Fyredor have been struck down by a terribly irritating, yet non-fatal plague. Their only hope for a cure rests with a young wizard who has scoured the earth for an antidote.]]></description>
-		<pubDate>Sun, 09 Oct 2011 19:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1681"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r629538_4281189.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/629543"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843477</guid>
 		<link>http://www.abc.net.au/iview/#/view/843477</link>
 		<title><![CDATA[Edgar And Ellen (Shorts) Episode 6 Grime Doesn't Pay]]></title>
@@ -3117,18 +2973,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="120"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833016_7690339.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/834426"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834425</guid>
-		<link>http://www.abc.net.au/iview/#/view/834425</link>
-		<title><![CDATA[Edgar And Ellen (Shorts) Episode 3 Operation Blabberfish]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The twins build a talking fish to scare nave townspeople into giving money. When a hungry cat eats their fish and two kids return the money, Edgar and Ellen end up with nothing but some linty candy and a sewer full of sludge.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="120"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r833016_7690339.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834425"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -3477,30 +3321,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r824068_7501421.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/838886"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834447</guid>
-		<link>http://www.abc.net.au/iview/#/view/834447</link>
-		<title><![CDATA[M.I. High Series 5 Episode 10 Tim Brown's Skul Days]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[As the team track down a SKUL agent called Suki. When captured, Suki refuses to tell them anything, but a data card she is carrying reveals the existence of a training school for young SKUL agents known as the 'SKUL Academy'.]]></description>
-		<pubDate>Sun, 09 Oct 2011 15:15:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r824068_7501421.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834447"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/834445</guid>
-		<link>http://www.abc.net.au/iview/#/view/834445</link>
-		<title><![CDATA[M.I. High Series 5 Episode 9 Bully Elliot]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[The team prevent the destruction of a warehouse containing the new invention of billionaire Steve Cobbs - a 'Pearental Guidance' kit that allows parents to force their lazy children to exercise.]]></description>
-		<pubDate>Sun, 09 Oct 2011 14:45:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201109/r824068_7501421.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/834445"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>

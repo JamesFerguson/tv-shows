@@ -5,13 +5,61 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Tue, 08 Nov 2011 07:42:52 +1100</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 19:53:07 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - abc2]]></title> 
 		<link>http://www.abc.net.au/iview/#/abc2</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729949</guid>
+		<link>http://www.abc.net.au/iview/#/view/729949</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 12 The Boat Pond]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Peppa, her family and friends are playing at the pond with their toy boats. Everyone has a boat to play with except Rebecca Rabbit. Daddy Pig makes Rebecca a very special paper boat out of newspaper.]]></description>
+		<pubDate>Tue, 08 Nov 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729949"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729944</guid>
+		<link>http://www.abc.net.au/iview/#/view/729944</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 11 Recycling]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Mummy Pig tells Peppa and George that bottles don't go in the bin, they go into a special green box to be recycled. Old newspapers go in a red box and tins go in a blue box. Peppa and George have fun filling the boxes.]]></description>
+		<pubDate>Mon, 07 Nov 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729944"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729943</guid>
+		<link>http://www.abc.net.au/iview/#/view/729943</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 10 Rock Pools]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Peppa and George are at the seaside. Peppa and George like sandy beaches, but this is a different kind of beach, with lots of rocks and little rock pools to explore.]]></description>
+		<pubDate>Tue, 01 Nov 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729943"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729942</guid>
+		<link>http://www.abc.net.au/iview/#/view/729942</link>
+		<title><![CDATA[Peppa Pig Series 2 Episode 9 The Time Capsule]]></title>
+		<category><![CDATA[pre-school]]></category>
+		<description><![CDATA[Madame Gazelle shows Peppa and her school friends how to make a time capsule. The children discover that their parents made a time capsule with Madame Gazelle many, many years ago. And now it is time to open it up.]]></description>
+		<pubDate>Mon, 31 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="300"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/729942"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
 		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/380327</guid>
 		<link>http://www.abc.net.au/iview/#/view/380327</link>
 		<title><![CDATA[Alex James: The Cocaine Diaries ]]></title>
@@ -117,54 +165,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201010/r652517_4614539.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/660597"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729944</guid>
-		<link>http://www.abc.net.au/iview/#/view/729944</link>
-		<title><![CDATA[Peppa Pig Series 2 Episode 11 Recycling]]></title>
-		<category><![CDATA[pre-school]]></category>
-		<description><![CDATA[Mummy Pig tells Peppa and George that bottles don't go in the bin, they go into a special green box to be recycled. Old newspapers go in a red box and tins go in a blue box. Peppa and George have fun filling the boxes.]]></description>
-		<pubDate>Mon, 07 Nov 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/729944"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729943</guid>
-		<link>http://www.abc.net.au/iview/#/view/729943</link>
-		<title><![CDATA[Peppa Pig Series 2 Episode 10 Rock Pools]]></title>
-		<category><![CDATA[pre-school]]></category>
-		<description><![CDATA[Peppa and George are at the seaside. Peppa and George like sandy beaches, but this is a different kind of beach, with lots of rocks and little rock pools to explore.]]></description>
-		<pubDate>Tue, 01 Nov 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/729943"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/729942</guid>
-		<link>http://www.abc.net.au/iview/#/view/729942</link>
-		<title><![CDATA[Peppa Pig Series 2 Episode 9 The Time Capsule]]></title>
-		<category><![CDATA[pre-school]]></category>
-		<description><![CDATA[Madame Gazelle shows Peppa and her school friends how to make a time capsule. The children discover that their parents made a time capsule with Madame Gazelle many, many years ago. And now it is time to open it up.]]></description>
-		<pubDate>Mon, 31 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/729942"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/728834</guid>
-		<link>http://www.abc.net.au/iview/#/view/728834</link>
-		<title><![CDATA[Peppa Pig Series 2 Episode 8 Windy Autumn Day]]></title>
-		<category><![CDATA[pre-school]]></category>
-		<description><![CDATA[It is a cold &amp; windy day. Peppa, George, Mummy &amp; Daddy wear their hats, scarves and coats. At the park, it is so windy that Peppa's ball blows into the pond and George's hat blows into a tree.]]></description>
-		<pubDate>Tue, 25 Oct 2011 13:00:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201102/r724926_5791402.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/728834"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
@@ -717,18 +717,6 @@
 		<media:content type="video/x-flv" bitrate="650" duration="2858"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/200909/r441494_2131298.jpg"/>
 		<media:player url="http://www.abc.net.au/iview/#/view/456197"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/451931</guid>
-		<link>http://www.abc.net.au/iview/#/view/451931</link>
-		<title><![CDATA[Dangerous Jobs For Girls Episode 3 Fishing]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Three high-flying British career women travel to South Australia, where they are challenged to take on one of the world's most treacherous occupations - working on a trawler hundreds of miles out into the Southern Ocean.]]></description>
-		<pubDate>Tue, 25 Oct 2011 13:30:00 +1100</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2806"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200909/r441494_2131298.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/451931"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
