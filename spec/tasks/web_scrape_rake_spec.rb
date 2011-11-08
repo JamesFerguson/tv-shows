@@ -23,13 +23,9 @@ describe "rake web:scrape_*" do
         show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
         show_urls.each do |url|
-          if (first_scrapes & [source.scraper, source.name]).any?
-            `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
-          end
+          download_page_if_new(source, url)
 
-          source.scraper_class.should_receive(:read_url).with(url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
-          )
+          fake_page(source.scraper_class, url)
         end
       end
     end
@@ -61,14 +57,10 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
 
       TvShow.all.each do |show|
-        url = show.source.scraper_class == AbcScraper ? show.source.url : show.data_url
+        url = show.data_url
 
-        if first_scrape?(show.source)
-          `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
-        end
-        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
-        )
+        download_page_if_new(show.source, url)
+        fake_page(show.source.scraper_class, url)
       end
 
       @rake["web:scrape_episodes"].invoke
