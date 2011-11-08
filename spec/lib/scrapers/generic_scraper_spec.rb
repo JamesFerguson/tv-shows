@@ -63,7 +63,7 @@ describe "each scraper" do
           show.data_url = show.data_url.sub(/token=[^&]+&/, "token=#{token}&")
         end
 
-        puts show.name
+        puts show.name if ENV['DEBUG']
         url = show.data_url
         ext = "#{url == source.url ? '.ep' : ''}.json"
 

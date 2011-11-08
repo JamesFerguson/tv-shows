@@ -1,9 +1,11 @@
 module FakewebHelper
   def download_page_if_new(source, url)
     if first_scrape?(source)
-      puts "First Scrape: #{url}"
+      puts "First Scrape: #{url}" if ENV['DEBUG']
 
       download_page(url)
+    else
+      puts "Not first scrape: #{source.name}" if ENV['DEBUG']
     end
   end
 
@@ -18,9 +20,11 @@ module FakewebHelper
 
   def prefill_results_if_new(source, url, results, ext = '.json')
     if first_results?(source)
-      puts "First Results: #{url}"
+      puts "First Results: #{url}" if ENV['DEBUG']
 
       prefill_results(source, url, results, ext)
+    else
+      puts "Not first results: #{source.name}" if ENV['DEBUG']
     end
   end
 
