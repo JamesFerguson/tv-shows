@@ -34,16 +34,16 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 71,
+        "Yahoo Plus7" => 63,
         "NineMSN Fixplay" => 33,
-        "ABC 1" => 67,
-        "ABC 2" => 35,
-        "ABC 3" => 41,
-        "iView Originals" => 7,
-        "SMH.tv" => 174,
-        "Ten" => 23,
-        "OneHd" => 36,
-        "Eleven" => 17,
+        "ABC 1" => 74,
+        "ABC 2" => 32,
+        "ABC 3" => 54,
+        "iView Originals" => 9,
+        "SMH.tv" => 288,
+        "Ten" => 35,
+        "OneHd" => 20,
+        "Eleven" => 14,
         "Neighbours" => 1
       }
 
@@ -66,17 +66,17 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 521,
-        "NineMSN Fixplay" => 227,
-        "ABC 1" => 147,
-        "ABC 2" => 66,
-        "ABC 3" => 271,
-        "iView Originals" => 25,
-        "SMH.tv" => 655,
-        "Ten" => 227,
-        "OneHd" => 584,
-        "Eleven" => 198,
-        "Neighbours" => 5
+        "Yahoo Plus7" => 628,
+        "NineMSN Fixplay" => 305,
+        "ABC 1" => 154,
+        "ABC 2" => 64,
+        "ABC 3" => 283,
+        "iView Originals" => 17,
+        "SMH.tv" => 931,
+        "Ten" => 301,
+        "OneHd" => 197,
+        "Eleven" => 197,
+        "Neighbours" => 10
       }
 
       Source.all.reduce({}) { |results, source| results[source.name] = source.episodes.active.count; results }.should == expectations
