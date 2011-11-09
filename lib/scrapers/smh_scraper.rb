@@ -1,10 +1,14 @@
 require Rails.root + 'lib/scrapers/base_scraper'
 
 class SmhScraper < BaseScraper
-  def self.extract_show_urls(source_url)
+  def self.extract_all_source_urls(source_url)
     page = Nokogiri::HTML(read_url(source_url))
 
     show_urls = page.css("li.page a").map { |node| node.attributes['href'].value }.unshift(source_url)
+    interval = show_urls[1].scan(/offset=(\d+)$/)[0][0].to_i
+    last_num = show_urls[-1].scan(/offset=(\d+)$/)[0][0].to_i
+
+    ([20] * ((last_num / interval) + 1)).map.with_index { |offset, index| show_urls[1].sub(/=\d+$/, "=#{offset * index}") }
   end
 
   def self.extract_shows(source_url)
@@ -31,15 +35,21 @@ class SmhScraper < BaseScraper
     )
 
     episodes = page.css("ul.cN-listStoryTV").first.css('li').reverse.map.with_index do |node, index|
-      link = node.css('h5 a').first
-      duration_match = node.css('p').first.text.try(:match, /\((?<mins>\d+):(?<secs>\d+)\)/)
+      begin
+        link = node.css('h5 a').first
+        duration_match = node.css('p').first.text.try(:match, /\((?<mins>\d+):(?<secs>\d+)\)/)
 
-      {
-        :name => "#{node.css('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
-        :url => show_url.merge(link['href']).to_s,
-        :duration => duration_match.nil? ? nil : (duration_match[:mins].to_i * 60) + duration_match[:secs].to_i,
-        :ordering => index + 1
-      }
+        {
+          :name => "#{node.css('p').first.text.gsub(/\s+/, ' ').strip}: #{link.text}",
+          :url => show_url.merge(link['href']).to_s,
+          :duration => duration_match.nil? ? nil : (duration_match[:mins].to_i * 60) + duration_match[:secs].to_i,
+          :ordering => index + 1
+        }
+      rescue NoMethodError => e
+        puts "Exception extracting '#{show.name}: #{link.text}' from '#{show.data_url}':\n#{e.inspect}"
+      end
     end
+
+    episodes.compact
   end
 end

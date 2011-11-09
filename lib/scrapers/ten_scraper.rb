@@ -4,7 +4,7 @@ require Rails.root.join 'lib/scrapers/ten_xml_parser'
 class TenScraper < BaseScraper
   PLAYLIST_IDS = {
     "Network10" => "41398",
-    "OneHd" => "44571",
+    "OneHd" => "45290",
     "Eleven" => "43712",
     "Neighbours" => "41267",
     "Stargate" => "43967",
@@ -16,10 +16,11 @@ class TenScraper < BaseScraper
     "The Renovators" => "44821",
     "The Project TV" => "?"
   }
-  def self.extract_show_urls(source_url)
+  def self.extract_all_source_urls(source_url)
     @@token = read_url(source_url).sub(/.*<token>(.*)<\/token>.*/m, '\1')
 
     playlist_id = PLAYLIST_IDS[source_url.scan(/key(?:=|%3D)movideo([^&%]+)/).flatten.first]
+        # http://api.movideo.com/rest/playlist/45290?omitFields=lastModifiedDate%2Ccopyright%2CcuePointsExist%2CisAdvertisement%2Cratio%2Ccreator%2CtagProfileId%2CimageFilename%2CmediaFileExists%2Csyndicated%2CmediaSchedules%2CdisplayStatus%2CsyndicatedPartners%2Clength%2CpodcastSupported%2CtagProfile%2Cfilename%2Cstatus%2CdefaultImage&omitFields=ratio%2Ccreator%2CtagProfileId%2CmediaFileExists%2Csyndicated%2CmediaSchedules%2CdisplayStatus%2CsyndicatedPartners%2CencodingProfiles%2Cclient%2Cfilename%2Cstatus%2CdefaultImage&orderBy=creationdate&orderDesc=true&includeMedia=true&mediaLimit=1&token=d2aa8fed-3ee9-4915-9038-be312448cc5a&output=json&callback=_jqjsp&_1320611687898=
     ["http://api.v2.movideo.com/rest/playlist/#{playlist_id}?depth=4&token=#{@@token}&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath"]
   end
 

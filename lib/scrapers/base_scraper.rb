@@ -1,7 +1,7 @@
 require 'shellwords'
 
 class BaseScraper
-  def self.extract_show_urls(source_url)
+  def self.extract_all_source_urls(source_url)
     [source_url]
   end
 

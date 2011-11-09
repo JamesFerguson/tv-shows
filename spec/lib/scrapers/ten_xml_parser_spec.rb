@@ -14,7 +14,7 @@ describe TenXmlParser do
   end
 
   it "finds external links" do
-    @playlist.external_links.size.should == 19
+    @playlist.external_links.size.should == 23
     @playlist.external_links.select { |link| link =~ /one.com.au|eleven.com.au/ }.should be_any
   end
 end

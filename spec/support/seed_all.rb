@@ -2,8 +2,8 @@ def seed_tv_shows
   tv_shows = [
     {
       :source => "NineMSN Fixplay",
-      :name => "AFP",
-      :data_url => "http://fixplay.ninemsn.com.au/afp"
+      :name => "The Farmer Wants a Wife",
+      :data_url => "http://fixplay.ninemsn.com.au/thefarmerwantsawife"
     },
     {
       :source => "Yahoo Plus7",
@@ -20,27 +20,27 @@ def seed_tv_shows
     },
     {
       :source => "ABC 2",
-      :name => "The Catherine Tate Show",
+      :name => "Good Game",
       :data_url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/659856",
-      :image => "http://www.abc.net.au/reslib/201007/r600879_3911401.jpg",
-      :genre => "Comedy"
+      :homepage_url => "http://www.abc.net.au/iview/#/view/846379",
+      :image => "http://www.abc.net.au/reslib/201104/r749673_6204464.jpg",
+      :genre => "Lifestyle"
     },
     {
       :source => "ABC 3",
-      :name => "Pat And Stan",
+      :name => "The Legend of Dick and Dom",
       :data_url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/788445",
-      :image => "http://www.abc.net.au/reslib/200907/r392871_1838133.jpg",
+      :homepage_url => "http://www.abc.net.au/iview/#/view/630135",
+      :image => "http://www.abc.net.au/reslib/201008/r629538_4281189.jpg",
       :genre => "Abc3"
     },
     {
       :source => "iView Originals",
-      :name => "Doctor Who: Adventures In The Human Race ",
+      :name => "Rage Highlights",
       :data_url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/784107",
-      :image => "http://www.abc.net.au/reslib/201105/r776210_6644927.jpg",
-      :genre => "Drama"
+      :homepage_url => "http://www.abc.net.au/iview/#/view/844703",
+      :image => "http://www.abc.net.au/reslib/201107/r806055_7149136.jpg",
+      :genre => "Arts"
     },
     {
       :source => "SMH.tv",
@@ -55,14 +55,14 @@ def seed_tv_shows
     },
     {
       :source => "OneHd",
-      :name => "America's Port",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/45405?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => "Documentary"
+      :name => "RPM | Full Episodes",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/44315?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :genre => "Sports Shows"
     },
     {
       :source => "Eleven",
-      :name => "Being Human | Full Episodes",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/45050?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      :name => "CouchTime | Full Episodes",
+      :data_url => "http://api.v2.movideo.com/rest/playlist/44060?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
       :genre => ''
     },
     {
@@ -94,12 +94,12 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "Comedy", 
     "image" => "http://l.yimg.com/ao/i/tv/portal/promos/autv-plus7-jeeves-and-wooster.jpg"
   },
-  "AFP" => {
-    "name" => "AFP",
-    "description" => "More than 6500 men and women - across thirty countries and in forty cities - on guard against crime in Australia and around the world. \nAFP will take you behind the scenes with the men and women of the Australian Federal Police. Never before has an Australian audience been given such unprecedented access to the work of Australia's national and international policing agency. \n\n",
+  "The Farmer Wants a Wife" => {
+    "name" => "The Farmer Wants a Wife",
+    "description" => "City meets country in this fun-filled Australian series. Follow six lonely farmers on the road to romance as they choose between hundreds of prospective partners. Prepare for tears, joy and jealousy, all in a heart-warming journey to find a wife. Hosted by Natalie Gruzlewski.\r\n\r\nAlso, watch the farmers on Millionaire Hot Seat",
     "classification" => nil,
     "genre" => "Reality",
-    "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/afp.jpg"
+    "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/FWAW7.jpg"
   },
   "Lateline" => {
     "name" => "Lateline",
@@ -108,26 +108,26 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "News",
     "image"=>"http://www.abc.net.au/reslib/201006/r581475_3661101.jpg"
   },
-  "The Catherine Tate Show" => {
-    "name" => "The Catherine Tate Show",
+  "Good Game" => {
+    "name" => "Good Game",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Comedy",
-    "image" => "http://www.abc.net.au/reslib/201007/r600879_3911401.jpg"
+    "genre" => "Lifestyle",
+    "image" => "http://www.abc.net.au/reslib/201104/r749673_6204464.jpg"
   },
-  "Pat And Stan" => {
-    "name" => "Pat And Stan",
+  "The Legend of Dick and Dom" => {
+    "name" => "The Legend of Dick and Dom",
     "description" => nil,
     "classification" => nil,
     "genre" => "Abc3",
-    "image" => "http://www.abc.net.au/reslib/200907/r392871_1838133.jpg"
+    "image" => "http://www.abc.net.au/reslib/201008/r629538_4281189.jpg"
   },
-  "Doctor Who: Adventures In The Human Race " => {
-    "name" => "Doctor Who: Adventures In The Human Race ",
+  "Rage Highlights" => {
+    "name" => "Rage Highlights",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Drama",
-    "image" => "http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"
+    "genre" => "Arts",
+    "image" => "http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"
   },
   "Baby Baby" => {
     "name" => "Baby Baby",
@@ -143,19 +143,19 @@ SEEDED_SHOW_ATTRS = {
     "genre" => "Children's TV",
     "image" => "http://media.movideo.com/images/53/playlist/41457/96x128.png"
   },
-  "America's Port" => {
-    "name" => "America's Port",
+  "RPM | Full Episodes" => {
+    "name" => "RPM | Full Episodes",
     "description" => nil,
     "classification" => nil,
-    "genre" => "Documentary",
-    "image" => "http://media.movideo.com/images/246/playlist/45405/96x128.png"
+    "genre" => "Sports Shows",
+    "image" => "http://media.movideo.com/images/161/playlist/44315/96x128.png"
   },
-  "Being Human | Full Episodes" => {
-    "name" => "Being Human | Full Episodes",
+  "CouchTime | Full Episodes" => {
+    "name" => "CouchTime | Full Episodes",
     "description" => nil,
     "classification" => nil,
     "genre" => '',
-    "image" => "http://media.movideo.com/images/220/playlist/45050/96x128.png"
+    "image" => "http://media.movideo.com/images/147/playlist/44060/96x128.png"
   },
   "Neighbours" => {
     "name" => "Neighbours",

@@ -14,31 +14,18 @@ describe "rake web:scrape_*" do
   after(:all) do
     Source.destroy_all
   end
-  
+
   context "after faking pages for all source urls" do
     before(:each) do
-      # Some scrapers call read_url for extract_show_urls
-      Source.where("sources.scraper IN ('SmhScraper', 'TenScraper', 'TenMicroSiteScraper')").each do |source|
-        if (first_scrapes & [source.scraper, source.name]).any?
-          `curl --silent -L #{Shellwords.shellescape(source.url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}").to_s)}`
-        end
-
-        source.scraper.constantize.should_receive(:read_url).with(source.url).exactly(2).times.and_return(
-          File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(source.url)}")
-        )
-      end
+      fake_extract_all_source_urls_pages(2)
 
       Source.all.each do |source|
-        show_urls = source.scraper_class.extract_show_urls(source.url)
+        show_urls = source.scraper_class.extract_all_source_urls(source.url)
 
         show_urls.each do |url|
-          if (first_scrapes & [source.scraper, source.name]).any?
-            `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}").to_s)}`
-          end
+          download_page_if_new(source, url)
 
-          source.scraper_class.should_receive(:read_url).with(url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/#{fakewebize(url)}")
-          )
+          fake_page(source.scraper_class, url)
         end
       end
     end
@@ -47,16 +34,16 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 71,
+        "Yahoo Plus7" => 63,
         "NineMSN Fixplay" => 33,
-        "ABC 1" => 67,
-        "ABC 2" => 35,
-        "ABC 3" => 41,
-        "iView Originals" => 7,
-        "SMH.tv" => 174,
-        "Ten" => 23,
-        "OneHd" => 36,
-        "Eleven" => 17,
+        "ABC 1" => 74,
+        "ABC 2" => 32,
+        "ABC 3" => 54,
+        "iView Originals" => 9,
+        "SMH.tv" => 288,
+        "Ten" => 35,
+        "OneHd" => 20,
+        "Eleven" => 14,
         "Neighbours" => 1
       }
 
@@ -70,30 +57,26 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].execute # runs even if already run before, won't do dependencies
 
       TvShow.all.each do |show|
-        url = show.source.scraper_class == AbcScraper ? show.source.url : show.data_url
+        url = show.data_url
 
-        if (first_scrapes & [show.source.scraper, show.source.name]).any?
-          `curl --silent -L #{Shellwords.shellescape(url)} >#{Shellwords.shellescape((Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}").to_s)}`
-        end
-        show.source.scraper_class.should_receive(:read_url).with(url).and_return(
-            File.read(Rails.root + "spec/fakeweb/pages/web_scrape_rake_spec_pages/#{fakewebize(url)}")
-        )
+        download_page_if_new(show.source, url)
+        fake_page(show.source.scraper_class, url)
       end
 
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 521,
-        "NineMSN Fixplay" => 227,
-        "ABC 1" => 147,
-        "ABC 2" => 66,
-        "ABC 3" => 271,
-        "iView Originals" => 25,
-        "SMH.tv" => 655,
-        "Ten" => 227,
-        "OneHd" => 584,
-        "Eleven" => 198,
-        "Neighbours" => 5
+        "Yahoo Plus7" => 628,
+        "NineMSN Fixplay" => 305,
+        "ABC 1" => 154,
+        "ABC 2" => 64,
+        "ABC 3" => 283,
+        "iView Originals" => 17,
+        "SMH.tv" => 931,
+        "Ten" => 301,
+        "OneHd" => 197,
+        "Eleven" => 197,
+        "Neighbours" => 10
       }
 
       Source.all.reduce({}) { |results, source| results[source.name] = source.episodes.active.count; results }.should == expectations
@@ -102,8 +85,4 @@ describe "rake web:scrape_*" do
       Source.count.should == expectations.count
     end
   end
-end
-
-def first_scrapes
-  (ENV['FIRST_SCRAPE'] || '').split(',')
 end

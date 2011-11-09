@@ -5,334 +5,214 @@
 	<description><![CDATA[ABC iview Programs]]></description> 
 	<copyright>2011 Australian Broadcasting Corporation</copyright> 
 	<language>en-au</language> 
-	<pubDate>Mon, 27 Jun 2011 07:02:08 +1000</pubDate> 
+	<pubDate>Tue, 08 Nov 2011 19:58:45 +1100</pubDate> 
 	<image> 
 		<url>http://www.abc.net.au/iview/images/logo_iview.gif</url> 
 		<title><![CDATA[ABC iView Programs - original]]></title> 
 		<link>http://www.abc.net.au/iview/#/original</link> 
 	</image>  
 	<ttl>60</ttl>	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786528</guid>
-		<link>http://www.abc.net.au/iview/#/view/786528</link>
-		<title><![CDATA[Shaolin Wuzang Episode 2 ]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Three teenagers are admitted in the most prestigious kung fu school: the Temple of Shaolin. Unknown to them, they are the reincarnation of three Shaolin monks who must destroy the worst demon with Kung Fu.]]></description>
-		<pubDate>Thu, 23 Jun 2011 13:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200905/r367626_1704161.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786528"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786525</guid>
-		<link>http://www.abc.net.au/iview/#/view/786525</link>
-		<title><![CDATA[Shaolin Wuzang Episode 1 ]]></title>
-		<category><![CDATA[abc3]]></category>
-		<description><![CDATA[Three teenagers are admitted in the most prestigious kung fu school: the Temple of Shaolin. Unknown to them, they are the reincarnation of three Shaolin monks who must destroy the worst demon with Kung Fu.]]></description>
-		<pubDate>Wed, 22 Jun 2011 13:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1380"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/200905/r367626_1704161.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786525"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784107</guid>
-		<link>http://www.abc.net.au/iview/#/view/784107</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 8 Father's Day]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Rose travels back in time to meet her long-dead father, but the Tyler family finds itself battling the monstrous Reapers. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 22 Jun 2011 07:01:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784107"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/784105</guid>
-		<link>http://www.abc.net.au/iview/#/view/784105</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 7 The Long Game]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Adam joins the Doctor and Rose on their travels, but being the Time Lord's companion isn't as easy as it looks. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 22 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2640"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/784105"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780611</guid>
-		<link>http://www.abc.net.au/iview/#/view/780611</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 6 Dalek]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[The Doctor encounters his oldest enemy, the Dalek. It's a fight to the death with Rose caught in the middle. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 15 Jun 2011 07:01:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780611"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/780608</guid>
-		<link>http://www.abc.net.au/iview/#/view/780608</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 5 World War Three]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[With the Doctor, Rose and Harriet Jones trapped inside 10 Downing Street, the world edges towards mankind's first interplanetary war. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 15 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/780608"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/779079</guid>
-		<link>http://www.abc.net.au/iview/#/view/779079</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 4 Aliens Of London]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Rose returns home, but when a spaceship crash-lands in the Thames, she discovers an alien invasion right on her doorstep. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 08 Jun 2011 07:01:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/779079"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/779078</guid>
-		<link>http://www.abc.net.au/iview/#/view/779078</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 3 The Unquiet Dead]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[Charles Dickens proves an unlikely ally for The Doctor and Rose when the dead start walking and creatures made of gas are on the loose in Cardiff in 1869. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 08 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/779078"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/774709</guid>
-		<link>http://www.abc.net.au/iview/#/view/774709</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 2 The End Of The World]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[The Doctor takes Rose to the year Five Billion where alien races have gathered on Platform One to watch the end of the world. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 01 Jun 2011 07:05:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/774709"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/774708</guid>
-		<link>http://www.abc.net.au/iview/#/view/774708</link>
-		<title><![CDATA[Doctor Who: Adventures In The Human Race Episode 1 Rose]]></title>
-		<category><![CDATA[drama]]></category>
-		<description><![CDATA[The Time Lord enters a new age... When Rose Tyler meets a mysterious stranger called The Doctor, her life changes forever. CAST: Billie Piper, Christopher Eccleston]]></description>
-		<pubDate>Wed, 01 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="2700"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r776210_6644927.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/774708"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/623427</guid>
-		<link>http://www.abc.net.au/iview/#/view/623427</link>
-		<title><![CDATA[Spaced Episode 2 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Tim and Daisy, faced with the prospect of having to do some work, decide to have a house-warming party. What follows is an explosive mixture of sex, guns, fist fighting, tin foil and celery. CAST: Simon Pegg, Nick Frost]]></description>
-		<pubDate>Tue, 21 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r625187_4223599.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/623427"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/623423</guid>
-		<link>http://www.abc.net.au/iview/#/view/623423</link>
-		<title><![CDATA[Spaced Episode 1 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Arriving home from the mystic east, Daisy, homesick for London, finds a lot has changed since she was last around. In her absence, Tim has let Mike move into her room. CAST: Jessica Stevenson, Simon Pegg, Nick Frost]]></description>
-		<pubDate>Tue, 14 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r625187_4223599.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/623423"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786882</guid>
-		<link>http://www.abc.net.au/iview/#/view/786882</link>
-		<title><![CDATA[Enough Rope With Andrew Denton Jerry Seinfeld]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[He's Australia's most provocative interviewer. It's Australia's most watched interview show. Using his unique combination of wit and warmth, Denton allows his guests to open up in ways that not even they expected.]]></description>
-		<pubDate>Tue, 21 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r764051_6447483.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786882"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/783333</guid>
-		<link>http://www.abc.net.au/iview/#/view/783333</link>
-		<title><![CDATA[Enough Rope With Andrew Denton Helen Mirren]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[He's Australia's most provocative interviewer. It's Australia's most watched interview show. Using his unique combination of wit and warmth, Denton allows his guests to open up in ways that not even they expected.]]></description>
-		<pubDate>Tue, 14 Jun 2011 11:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1200"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r764051_6447483.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/783333"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/779357</guid>
-		<link>http://www.abc.net.au/iview/#/view/779357</link>
-		<title><![CDATA[Enough Rope With Andrew Denton Ewan McGregor And Charley Borman]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[He's Australia's most provocative interviewer. It's Australia's most watched interview show. Using his unique combination of wit and warmth, Denton allows his guests to open up in ways that not even they expected.]]></description>
-		<pubDate>Tue, 07 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r764051_6447483.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/779357"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/775634</guid>
-		<link>http://www.abc.net.au/iview/#/view/775634</link>
-		<title><![CDATA[Enough Rope With Andrew Denton Richard E Grant]]></title>
-		<category><![CDATA[panel]]></category>
-		<description><![CDATA[He's Australia's most provocative interviewer. It's Australia's most watched interview show. Using his unique combination of wit and warmth, Denton allows his guests to open up in ways that not even they expected.]]></description>
-		<pubDate>Tue, 31 May 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r764051_6447483.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/775634"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786622</guid>
-		<link>http://www.abc.net.au/iview/#/view/786622</link>
-		<title><![CDATA[Foreign Correspondent Postcards Episode 7 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Irish Monks, Relaxation- Tokyo style and USA Slab City]]></description>
-		<pubDate>Tue, 21 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r768269_6516355.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786622"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/781236</guid>
-		<link>http://www.abc.net.au/iview/#/view/781236</link>
-		<title><![CDATA[Foreign Correspondent Postcards Episode 6 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Japans Pets , Turkey - Carpet sellers, South Africa - Black baywatch and Postcard from Southern California]]></description>
-		<pubDate>Tue, 14 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r768269_6516355.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/781236"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/779088</guid>
-		<link>http://www.abc.net.au/iview/#/view/779088</link>
-		<title><![CDATA[Foreign Correspondent Postcards Episode 5 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Japan - Dr Nakamatsu, New York dogs and Italys Paparazzi King]]></description>
-		<pubDate>Tue, 07 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r768269_6516355.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/779088"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/773456</guid>
-		<link>http://www.abc.net.au/iview/#/view/773456</link>
-		<title><![CDATA[Foreign Correspondent Postcards Episode 4 ]]></title>
-		<category><![CDATA[docs]]></category>
-		<description><![CDATA[China - Kung Fu monks, Sri Lankan Hill Club and USA - the Spying game]]></description>
-		<pubDate>Tue, 31 May 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r768269_6516355.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/773456"/>
-		<media:restriction relationship="allow" type="country">au</media:restriction>
-	</item>
-	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786609</guid>
-		<link>http://www.abc.net.au/iview/#/view/786609</link>
-		<title><![CDATA[triple j Like A Version 2011 Episode 20 Stonefield]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/849924</guid>
+		<link>http://www.abc.net.au/iview/#/view/849924</link>
+		<title><![CDATA[Rage Highlights Episode 15 ]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Unearthed High 2010 winners Stonefield swing by the studio to play their brand new track 'Black Water Rising' and cover Steppenwolf's classic 'Magic Carpet Ride'.]]></description>
-		<pubDate>Mon, 20 Jun 2011 12:30:00 +1000</pubDate>
+		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
+		<pubDate>Sun, 06 Nov 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/849924"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/844703</guid>
+		<link>http://www.abc.net.au/iview/#/view/844703</link>
+		<title><![CDATA[Rage Highlights Episode 14 ]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[A selection of the best new clips from all independent bands and artists from the weekend.]]></description>
+		<pubDate>Sat, 29 Oct 2011 01:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1800"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201107/r806055_7149136.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/844703"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850140</guid>
+		<link>http://www.abc.net.au/iview/#/view/850140</link>
+		<title><![CDATA[triple j Like A Version 2011 Lykke Li]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Swedish starlet Lykke Li and her band drop by the play 'Wounded Rhymes' tune 'I Follow Rivers' and a stunning, spine-tingling cover of 'Unchained Melody'.]]></description>
+		<pubDate>Sat, 05 Nov 2011 17:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="480"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r533216_3481611.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786609"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850140"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786612</guid>
-		<link>http://www.abc.net.au/iview/#/view/786612</link>
-		<title><![CDATA[triple j Like A Version 2011 Episode 21 Owl Eyes]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/850146</guid>
+		<link>http://www.abc.net.au/iview/#/view/850146</link>
+		<title><![CDATA[triple j Like A Version 2011 Cosmo Jarvis]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Owl Eyes and her band take us through her newest tune, 'Raider', before covering Foster The People's huge single, 'Pumped Up Kicks'.]]></description>
-		<pubDate>Mon, 20 Jun 2011 12:30:00 +1000</pubDate>
+		<description><![CDATA[Cosmo Jarvis stopped by to play a stripped back version of 'Gay Pirates' while in the country to play some shows (with two Harry's no less), as well as an amazing rendition of Kylie Minogue's 'Spinning Around'.]]></description>
+		<pubDate>Fri, 04 Nov 2011 17:00:00 +1100</pubDate>
 		<media:content type="video/x-flv" bitrate="650" duration="480"/>
 		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r533216_3481611.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786612"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/850146"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/786613</guid>
-		<link>http://www.abc.net.au/iview/#/view/786613</link>
-		<title><![CDATA[triple j Like A Version 2011 Episode 22 Gypsy And The Cat]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627180</guid>
+		<link>http://www.abc.net.au/iview/#/view/627180</link>
+		<title><![CDATA[The Vice Guide To Film Russia]]></title>
 		<category><![CDATA[arts]]></category>
-		<description><![CDATA[Gypsy And The Cat swing by the studio to perform 'The Piper's Song', and do their thing to Queen's space opera classic, 'Flash'.]]></description>
-		<pubDate>Mon, 20 Jun 2011 12:30:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="600"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201003/r533216_3481611.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/786613"/>
+		<description><![CDATA[The Parallel Cinema movement that emerged in the 1980s was a fascinating mixture of old Soviet avant-garde agitprop film-making and something called Necro-realism that was a comment on the impending fall of the Soviet system. Shane finds the surviving members of this movement and documents a new Parallel film in production.]]></description>
+		<pubDate>Fri, 04 Nov 2011 00:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1450"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627156_4249233.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/627180"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/623419</guid>
-		<link>http://www.abc.net.au/iview/#/view/623419</link>
-		<title><![CDATA[Spaced Episode 7 (Final)]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[Daisy and Tim's domestic bliss is threatened by the spectre of Tim's ex-girlfriend. Is it the end for Tim and Daisy? CAST: Simon Pegg]]></description>
-		<pubDate>Tue, 07 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1500"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r612036_4050269.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/623419"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627187</guid>
+		<link>http://www.abc.net.au/iview/#/view/627187</link>
+		<title><![CDATA[The Vice Guide To Film Mexico]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Shane Smith goes to Mexico City to hang out with Mario Almada and other actors, directors and producers who play key roles in what is called the 'Video-Home' industry. He visits some sets both in Mexico City and Sinaloa, northern Mexico, where the drug trade is both very real and reaches mythological proportions.]]></description>
+		<pubDate>Fri, 28 Oct 2011 00:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1433"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627156_4249233.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/627187"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/620837</guid>
-		<link>http://www.abc.net.au/iview/#/view/620837</link>
-		<title><![CDATA[Spaced Episode 6 ]]></title>
-		<category><![CDATA[comedy]]></category>
-		<description><![CDATA[A wired cycle-courier friend of Tim takes everyone out for a night of hedonism and persistent, repetitive beats. CAST: Simon Pegg]]></description>
-		<pubDate>Tue, 31 May 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="1590"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r612036_4050269.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/620837"/>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/627162</guid>
+		<link>http://www.abc.net.au/iview/#/view/627162</link>
+		<title><![CDATA[The Vice Guide To Film North Korea]]></title>
+		<category><![CDATA[arts]]></category>
+		<description><![CDATA[Shane Smith visits North Korea to try and penetrate the Korean Feature Film Studio. Posing as a fan of Arirang  the famous North Korean mass gymnastic games and national pastime  Shane is going to try and get into North Korea and get himself invited to the Pyongyang production studio.]]></description>
+		<pubDate>Fri, 21 Oct 2011 00:25:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201008/r627156_4249233.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/627162"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/779095</guid>
-		<link>http://www.abc.net.au/iview/#/view/779095</link>
-		<title><![CDATA[Bombora: The Story Of Australian Surfing Episode 2 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/831796</guid>
+		<link>http://www.abc.net.au/iview/#/view/831796</link>
+		<title><![CDATA[Prostitutes of God ]]></title>
 		<category><![CDATA[docs]]></category>
-		<description><![CDATA[Looks at the later years of Australian surf history from 1967 to the present. Using archival footage and interviews, it charts the rise of the surf and drug culture and covers the cultural change that occurred in the 1980s.]]></description>
-		<pubDate>Tue, 07 Jun 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775725_6636874.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/779095"/>
+		<description><![CDATA[In Prostitutes of God, VBS travels to the Indian city of Sangli to meet a group of sex workers selling their bodies in the name of the Hindu Goddess Yellamma. Local sex worker Anitha invites us for lunch in her brothel; shows us her homemade sex rooms, and tells us what its like to be a religious prostitute in modern India.]]></description>
+		<pubDate>Mon, 31 Oct 2011 13:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r846115_7944437.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/831796"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 	<item>
-		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/775574</guid>
-		<link>http://www.abc.net.au/iview/#/view/775574</link>
-		<title><![CDATA[Bombora: The Story Of Australian Surfing Episode 1 ]]></title>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/842857</guid>
+		<link>http://www.abc.net.au/iview/#/view/842857</link>
+		<title><![CDATA[The Vice Guide To Travel Wodka Wars]]></title>
 		<category><![CDATA[docs]]></category>
-		<description><![CDATA[A definitive history of surfing in Australia as told by our surfing champions, writers, pioneers, entrepreneurs, mavericks, legends, drop-outs and drop-ins - featuring remarkable archival footage and classic Australian music.]]></description>
-		<pubDate>Tue, 31 May 2011 07:00:00 +1000</pubDate>
-		<media:content type="video/x-flv" bitrate="650" duration="3300"/>
-		<media:thumbnail url="http://www.abc.net.au/reslib/201105/r775725_6636874.jpg"/>
-		<media:player url="http://www.abc.net.au/iview/#/view/775574"/>
+		<description><![CDATA[In the VICE GUIDE TO TRAVEL, correspondents from Vice magazine are dispatched around the world to visit the planet's most dangerous and weird destinations.]]></description>
+		<pubDate>Tue, 25 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1440"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r844717_7916697.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/842857"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/843320</guid>
+		<link>http://www.abc.net.au/iview/#/view/843320</link>
+		<title><![CDATA[The Queen In Australia ]]></title>
+		<category><![CDATA[docs]]></category>
+		<description><![CDATA[A record of the visit to Australia by Her Majesty Queen Elizabeth II and HRH the Duke of Edinburgh in 1954. The Queen in Australia is a landmark in Australian history. It not only records the first visit by a reigning monarch to Australia, it was also the first colour, feature-length documentary made in this country.]]></description>
+		<pubDate>Fri, 21 Oct 2011 17:30:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="4200"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201110/r843438_7894455.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/843320"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/691298</guid>
+		<link>http://www.abc.net.au/iview/#/view/691298</link>
+		<title><![CDATA[The Catherine Tate Show Series 2 Episode 5 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Elaine finds new love via an Internet chatroom and Madonna is the latest famous customer Neville missed at Irene and Vern's caf. CAST: Catherine Tate.]]></description>
+		<pubDate>Mon, 17 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r692270_5226722.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/691298"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/691300</guid>
+		<link>http://www.abc.net.au/iview/#/view/691300</link>
+		<title><![CDATA[The Catherine Tate Show Series 2 Episode 6 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Allie mistakes a couple for a mother and son, then she thinks a deaf man's sign language is a charades mime. Paul pretends he doesn't find Sam funny any more. CAST: Catherine Tate.]]></description>
+		<pubDate>Mon, 17 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r692270_5226722.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/691300"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/691297</guid>
+		<link>http://www.abc.net.au/iview/#/view/691297</link>
+		<title><![CDATA[The Catherine Tate Show Series 2 Episode 4 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Nan meets Jason's girlfriend Cheryl, and Lauren has Ryan's name and face tattooed on her arms, but she ain't 'bovvered' when he dumps her. CAST: Catherine Tate.]]></description>
+		<pubDate>Mon, 10 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r692270_5226722.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/691297"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/692056</guid>
+		<link>http://www.abc.net.au/iview/#/view/692056</link>
+		<title><![CDATA[Fawlty Towers Series 2 Episode 5 The Anniversary]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[More classic Basil moments in Torquay. Basil forces Polly to impersonate his wife Sybil when she goes off in a huff just before Basil's surprise anniversary party for her.]]></description>
+		<pubDate>Mon, 17 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1740"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r692272_5226758.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/692056"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/692057</guid>
+		<link>http://www.abc.net.au/iview/#/view/692057</link>
+		<title><![CDATA[Fawlty Towers Series 2 Episode 6 Basil The Rat]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[More classic moments in Torquay when a spick-and-span hotel awaits the Health Inspector. Then Manuel's pet rat escapes and the Inspector arrives. The fact that the rodent's name is Basil only adds to the confusion]]></description>
+		<pubDate>Mon, 17 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="2040"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201012/r692272_5226758.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/692057"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/697388</guid>
+		<link>http://www.abc.net.au/iview/#/view/697388</link>
+		<title><![CDATA[Little Britain Series 2 Episode 6 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Love struck aide, Sebastian, finally plucks up the courage to make a move on Prime Minister Michael. Vicky Pollard shows off her new boyfriend. And Harvey and Jane's wedding day arrives.]]></description>
+		<pubDate>Mon, 10 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1560"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r697477_5312215.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/697388"/>
+		<media:restriction relationship="allow" type="country">au</media:restriction>
+	</item>
+	<item>
+		<guid isPermaLink="true">http://www.abc.net.au/iview/#/view/697387</guid>
+		<link>http://www.abc.net.au/iview/#/view/697387</link>
+		<title><![CDATA[Little Britain Series 2 Episode 5 ]]></title>
+		<category><![CDATA[comedy]]></category>
+		<description><![CDATA[Emily and Florence decide to play a game of tennis, a very lady-like game. Kenny Craig has got himself a girlfriend and uses his powers to ensure their dinner date runs smoothly.]]></description>
+		<pubDate>Mon, 10 Oct 2011 07:00:00 +1100</pubDate>
+		<media:content type="video/x-flv" bitrate="650" duration="1680"/>
+		<media:thumbnail url="http://www.abc.net.au/reslib/201101/r697477_5312215.jpg"/>
+		<media:player url="http://www.abc.net.au/iview/#/view/697387"/>
 		<media:restriction relationship="allow" type="country">au</media:restriction>
 	</item>
 </channel> 
