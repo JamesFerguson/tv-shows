@@ -96,7 +96,7 @@ SEEDED_SHOW_ATTRS = {
   },
   "The Farmer Wants a Wife" => {
     "name" => "The Farmer Wants a Wife",
-    "description" => "City meets country in this fun-filled Australian series. Follow six lonely farmers on the road to romance as they choose between hundreds of prospective partners. Prepare for tears, joy and jealousy, all in a heart-warming journey to find a wife. Hosted by Natalie Gruzlewski.\r\n\r\nAlso, watch the farmers on Millionaire Hot Seat",
+    "description" => "City meets country in this fun-filled Australian series. Follow six lonely farmers on the road to romance as they choose between hundreds of prospective partners. Prepare for tears, joy and jealousy, all in a heart-warming journey to find a wife. Hosted by Natalie Gruzlewski.\n\nAlso, watch the farmers on Millionaire Hot Seat",
     "classification" => nil,
     "genre" => "Reality",
     "image" => "http://fixplay.ninemsn.com.au/img/all_Show_section/FWAW7.jpg"
