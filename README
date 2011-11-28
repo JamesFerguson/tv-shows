@@ -1,6 +1,15 @@
-# seven
-# ninmsn
-# smh.com.au/tv
-# sbs.com.au
-# ten
-  -> requires js munging
+This is a small app that scrapes Australian TV station websites and provides feeds of TV shows with episodes available online.
+
+## Installation
+
+1. Clone this repository
+2. Create a Heroku account
+3. > heroku apps:create [NAME]
+4. > git push heroku master # for updates
+5. > heroku rake cron # does a first scrape
+6. > whenever -w # to get scheduled scrapes triggered from your machine and run on heroku, edit in config/schedule.rb
+7. Subscribe to http://[APP NAME].heroku.com/tv-shows.atom
+
+## Known Issues & Feature Requests
+
+See TODO for things I'm aware of or plan to add.

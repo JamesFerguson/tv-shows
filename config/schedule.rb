@@ -15,9 +15,15 @@
 
 # Learn more: http://github.com/javan/whenever
 
-set :output, "~/log/cron_log.log"
+env 'MAILTO', "jim"
+
+set :output, "~/Coding/tv-shows/log/cron_log.log"
 
 every :day, :at => ['9am', '12pm', '3:30pm', '8pm'] do
-  command "/usr/local/bin/heroku rake cron"
+  command "cd ~/Coding/tv-shows && heroku rake cron --trace"
+end
+
+every :day, :at => ['10am', '2:30pm'] do
+  command "cd ~/Coding/tv-shows && RAILS_ENV=development bundle exec rake cron --trace"
 end
 
