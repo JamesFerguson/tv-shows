@@ -44,12 +44,22 @@ class Source < ActiveRecord::Base
 
   def scrape_show_data
     scraper_class.extract_all_source_urls(self.url).each do |url|
-      scraper_class.extract_shows(url).each do |show_data|
-        Source.find_or_create(tv_shows, :name, show_data)
-      end
+      scrape_shows_url(url)
     end
 
+  rescue Exception => e
+    puts "Exception extracting source_urls for source '#{self.name}' using url '#{self.url}': #{e.inspect}"
+  ensure
     save!
+  end
+
+  def scrape_shows_url(url)
+    scraper_class.extract_shows(url).each do |show_data|
+      Source.find_or_create(tv_shows, :name, show_data)
+    end
+
+  rescue Exception => e
+    puts "Exception extracting shows for source '#{self.name}' from url '#{url}': #{e.inspect}"
   end
 
   def scrape_episode_data
@@ -63,6 +73,9 @@ class Source < ActiveRecord::Base
       Source.find_or_create(show.episodes, :name, ep_data)
     end
 
+  rescue Exception => e
+    puts "Exception extracting episodes from '#{show.name}' from url '#{show.data_url}': #{e.inspect}"
+  ensure
     show.save!
   end
 
