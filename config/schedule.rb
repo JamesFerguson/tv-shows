@@ -17,7 +17,7 @@
 
 env 'MAILTO', "jim"
 
-set :output, "~/Coding/tv-shows/log/cron_log.log"
+set :output, "~/Coding/tv-shows/log/cron.log"
 
 every :day, :at => ['9am', '12pm', '3:30pm', '8pm'] do
   command "cd ~/Coding/tv-shows && heroku rake cron --trace"
