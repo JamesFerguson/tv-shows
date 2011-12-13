@@ -1,9 +1,9 @@
 namespace :web do
-  
+
   desc "Scrape all shows and episodes from all sources."
   task :scrape => :environment do
-    puts "Scraping teh interwebs."
-    
+    puts "Scraping teh interwebs. At #{Time.now.strftime('%Y/%m/%d %r')}..."
+
     Rake::Task['web:scrape_shows'].invoke
     Rake::Task['web:scrape_episodes'].invoke
 
