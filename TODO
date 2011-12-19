@@ -1,4 +1,5 @@
 - fix nine for redesign
+- faster abc/ten scraping (load page once)
 - ten scraper
   - implement all satellites
   - cleaner tunnel - check urls against heroku
@@ -8,7 +9,7 @@
 - per genre feeds of shows
 - capture all seasons, not just the newest
   - Nine
-  - ABC
+  - ABC: getting all already, but could group seasons' episodes under one TvShow instance
   - check others
 - rename seed_all spec_seeds
 - homepage
