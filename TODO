@@ -1,4 +1,3 @@
-- fix nine for redesign
 - faster abc/ten scraping (load page once)
 - ten scraper
   - implement all satellites
