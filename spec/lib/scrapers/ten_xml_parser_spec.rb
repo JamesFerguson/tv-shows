@@ -2,7 +2,7 @@ require 'spec_helper'
 require Rails.root.join 'lib/scrapers/ten_xml_parser'
 
 describe TenXmlParser do
-  include FakewebHelper
+  include ScraperHelper
 
   before(:each) do
     FakeWeb.allow_net_connect = false

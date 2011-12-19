@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "each scraper" do
-  include FakewebHelper
+  include ScraperHelper
 
   before(:all) do
     FakeWeb.allow_net_connect = false
@@ -20,65 +20,96 @@ describe "each scraper" do
     end
   end
 
-  it "excludes slideshow, poll, etc when parsing channel nine" do
-    source = Source.where(:name => "NineMSN Fixplay").first
-    fake_page(NineScraper, source.url)
 
-    NineScraper.extract_shows(NineScraper.extract_all_source_urls(source.url).first).
-      map do |show_data|
-        URI.parse(show_data[:data_url]).host
-      end.
-        uniq.should == ["fixplay.ninemsn.com.au"]
+  # Shows
+  it "scrapes 7 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'Yahoo Plus7').all)
   end
 
-  context "after faking scrapers' source urls" do
-    before(:each) do
-      fake_extract_all_source_urls_pages
-    end
+  it "scrapes 9 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'NineMSN Fixplay').all)
+  end
 
-    it "scrapes the index for each source ok" do
-      Source.all.each do |source|
-        show_urls = source.scraper_class.extract_all_source_urls(source.url)
+  it "scrapes ABC1 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'ABC 1').all)
+  end
 
-        shows = show_urls.map do |url|
-          download_page_if_new(source, url)
-          fake_page(source.scraper_class, url)
+  it "scrapes ABC2 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'ABC 2').all)
+  end
 
-          source.scraper_class.extract_shows(url).map(&:stringify_keys)
-        end.flatten
+  it "scrapes ABC3 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'ABC 3').all)
+  end
 
-        prefill_results_if_new(source, source.url, shows)
+  it "scrapes iView ok" do
+    scrape_shows_index_spec(*Source.where(name: 'iView Originals').all)
+  end
 
-        shows.should == JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
-      end
-    end
+  it "scrapes SMH ok" do
+    scrape_shows_index_spec(*Source.where(name: 'SMH.tv').all)
+  end
 
-    it "scrapes the episodes for each show ok" do
-      Source.all.each do |source|
-        source.scraper_class.extract_all_source_urls(source.url) # sets up values for some scrapers (e.g. token for Ten)
+  it "scrapes 10 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'Ten').all)
+  end
 
-        show = source.tv_shows.first
-        if Source.where(scraper: ['TenScraper', 'TenMicroSiteScraper']).include? source
-          token = source.scraper_class.class_variable_get(:@@token)
-          show.data_url = show.data_url.sub(/token=[^&]+&/, "token=#{token}&")
-        end
+  it "scrapes 1 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'OneHd').all)
+  end
 
-        puts show.name if ENV['DEBUG']
-        url = show.data_url
-        ext = "#{url == source.url ? '.ep' : ''}.json"
+  it "scrapes 11 ok" do
+    scrape_shows_index_spec(*Source.where(name: 'Eleven').all)
+  end
 
-        download_page_if_new(source, url)
-        fake_page(show.source.scraper_class, url)
+  it "scrapes Neighbours ok" do
+    scrape_shows_index_spec(*Source.where(name: 'Neighbours').all)
+  end
 
-        results = show.source.scraper_class.extract_episodes(show)
 
-        prefill_results_if_new(source, url, results, ext)
+  # Episodes
+  it "scrapes 7 ok" do
+    scrape_show_episodes(*Source.where(name: 'Yahoo Plus7').all)
+  end
 
-        results.map(&:stringify_keys).should == JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(url)}#{ext}"))
-        show.attributes.slice(*%w{name description classification genre image}).should == SEEDED_SHOW_ATTRS[show.name]
-      end
-    end
+  it "scrapes 9 ok" do
+    scrape_show_episodes(*Source.where(name: 'NineMSN Fixplay').all)
+  end
+
+  it "scrapes ABC1 ok" do
+    scrape_show_episodes(*Source.where(name: 'ABC 1').all)
+  end
+
+  it "scrapes ABC2 ok" do
+    scrape_show_episodes(*Source.where(name: 'ABC 2').all)
+  end
+
+  it "scrapes ABC3 ok" do
+    scrape_show_episodes(*Source.where(name: 'ABC 3').all)
+  end
+
+  it "scrapes iView ok" do
+    scrape_show_episodes(*Source.where(name: 'iView Originals').all)
+  end
+
+  it "scrapes SMH ok" do
+    scrape_show_episodes(*Source.where(name: 'SMH.tv').all)
+  end
+
+  it "scrapes 10 ok" do
+    scrape_show_episodes(*Source.where(name: 'Ten').all)
+  end
+
+  it "scrapes 1 ok" do
+    scrape_show_episodes(*Source.where(name: 'OneHd').all)
+  end
+
+  it "scrapes 11 ok" do
+    scrape_show_episodes(*Source.where(name: 'Eleven').all)
+  end
+
+  it "scrapes Neighbours ok" do
+    scrape_show_episodes(*Source.where(name: 'Neighbours').all)
   end
 end
-
 

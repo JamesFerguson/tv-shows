@@ -17,13 +17,15 @@
 
 env 'MAILTO', "jim"
 
-set :output, "~/Coding/tv-shows/log/cron.log"
+set :output, "~/Coding/tv-shows/log/cron.heroku.log"
 
 every :day, :at => ['9am', '12pm', '3:30pm', '8pm'] do
-  command "cd ~/Coding/tv-shows && heroku rake cron --trace"
+  command "cd ~/Coding/tv-shows && heroku rake web:scrape --trace"
 end
 
+set :output, "~/Coding/tv-shows/log/cron.localhost.log"
+
 every :day, :at => ['10am', '2:30pm'] do
-  command "cd ~/Coding/tv-shows && RAILS_ENV=development bundle exec rake cron --trace"
+  command "cd ~/Coding/tv-shows && RAILS_ENV=development bundle exec rake web:scrape --trace"
 end
 
