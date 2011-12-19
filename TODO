@@ -3,6 +3,7 @@
   - implement all satellites
   - cleaner tunnel - check urls against heroku
 - sbs scraper
+- manage discontinued shows better
 - feed for one episode shows (exclude shows that have had more than one in the past)
 - per genre feeds of shows
 - capture all seasons, not just the newest
