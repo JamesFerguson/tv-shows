@@ -1,19 +1,25 @@
 module ScraperHelper
   def scrape_shows_index_spec(source)
-    fake_extract_all_source_urls_pages(source)
+    show_urls = fake_extract_shows_pages(source)
 
-    show_urls = source.scraper_class.extract_all_source_urls(source.url)
-
-    shows = show_urls.map do |url|
-      download_page_if_new(source, url)
-      fake_page(source.scraper_class, url)
-
-      source.scraper_class.extract_shows(url).map(&:stringify_keys)
-    end.flatten
+    shows = show_urls.map { |url| source.scraper_class.extract_shows(url).map(&:stringify_keys) }.flatten
 
     prefill_results_if_new(source, source.url, shows)
 
     shows.should == JSON.parse(File.read("spec/fakeweb/results/#{fakewebize(source.url)}.json"))
+  end
+
+  def fake_extract_shows_pages(source, instances = 1)
+    fake_extract_all_source_urls_pages(source, instances)
+
+    show_urls = source.scraper_class.extract_all_source_urls(source.url)
+
+    show_urls.each do |url|
+      download_page_if_new(source, url)
+      fake_page(source.scraper_class, url)
+    end
+
+    show_urls
   end
 
   def scrape_show_episodes(source)

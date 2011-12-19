@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "rake web:scrape_*" do
-  include FakewebHelper
+  include ScraperHelper
 
   before(:all) do
     FakeWeb.allow_net_connect = false
@@ -17,16 +17,8 @@ describe "rake web:scrape_*" do
 
   context "after faking pages for all source urls" do
     before(:each) do
-      fake_extract_all_source_urls_pages(2)
-
       Source.all.each do |source|
-        show_urls = source.scraper_class.extract_all_source_urls(source.url)
-
-        show_urls.each do |url|
-          download_page_if_new(source, url)
-
-          fake_page(source.scraper_class, url)
-        end
+        fake_extract_shows_pages(source, 2)
       end
     end
 
@@ -35,7 +27,7 @@ describe "rake web:scrape_*" do
 
       expectations = {
         "Yahoo Plus7" => 63,
-        "NineMSN Fixplay" => 33,
+        "NineMSN Fixplay" => 19,
         "ABC 1" => 74,
         "ABC 2" => 32,
         "ABC 3" => 54,
@@ -67,7 +59,7 @@ describe "rake web:scrape_*" do
 
       expectations = {
         "Yahoo Plus7" => 628,
-        "NineMSN Fixplay" => 305,
+        "NineMSN Fixplay" => 215,
         "ABC 1" => 154,
         "ABC 2" => 64,
         "ABC 3" => 283,
