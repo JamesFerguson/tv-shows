@@ -1,14 +1,14 @@
-- homepage
-  - screencast
+- fix nine for redesign
 - ten scraper
   - implement all satellites
   - cleaner tunnel - check urls against heroku
 - sbs scraper
-- split up generic spec, push logic into helper
 - feed for one episode shows (exclude shows that have had more than one in the past)
-- per source feeds of shows
 - per genre feeds of shows
-  - per source per genre
-- NineScraper: capture all seasons, not just the newest
+- capture all seasons, not just the newest
+  - Nine
+  - ABC
+  - check others
 - rename seed_all spec_seeds
-- rename FakeWeb Helper, or subdivide
+- homepage
+  - screencast
