@@ -2,12 +2,15 @@ namespace :web do
 
   desc "Scrape all shows and episodes from all sources."
   task :scrape => :environment do
+    start_time = Time.now
     puts "Scraping teh interwebs. At #{Time.now.strftime('%Y/%m/%d %r')}..."
 
     Rake::Task['web:scrape_shows'].invoke
     Rake::Task['web:scrape_episodes'].invoke
 
-    puts "Interwebs scraped."
+    require 'action_view'
+    include ActionView::Helpers::DateHelper
+    puts "Interwebs scraped. Time taken: #{time_ago_in_words(start_time)}"
   end
 
   desc "Scrape show from all sources"

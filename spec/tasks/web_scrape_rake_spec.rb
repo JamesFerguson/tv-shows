@@ -51,8 +51,10 @@ describe "rake web:scrape_*" do
       TvShow.all.each do |show|
         url = show.data_url
 
-        download_page_if_new(show.source, url)
-        fake_page(show.source.scraper_class, url)
+        unless show.source.scraper == 'AbcScraper'
+          download_page_if_new(show.source, url)
+          fake_page(show.source.scraper_class, url)
+        end
       end
 
       @rake["web:scrape_episodes"].invoke

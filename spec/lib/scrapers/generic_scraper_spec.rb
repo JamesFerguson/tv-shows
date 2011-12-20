@@ -21,95 +21,105 @@ describe "each scraper" do
   end
 
 
-  # Shows
-  it "scrapes 7 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'Yahoo Plus7').all)
+  context 'scraping shows from indexes' do
+    it "scrapes 7 ok" do
+      scrape_shows_index_spec(*Source.where(name: 'Yahoo Plus7').all)
+    end
+
+    it "scrapes 9 ok" do
+      scrape_shows_index_spec(*Source.where(name: 'NineMSN Fixplay').all)
+    end
+
+    context 'ABCScraper' do
+      it "scrapes ABC1 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'ABC 1').all)
+      end
+
+      it "scrapes ABC2 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'ABC 2').all)
+      end
+
+      it "scrapes ABC3 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'ABC 3').all)
+      end
+
+      it "scrapes iView ok" do
+        scrape_shows_index_spec(*Source.where(name: 'iView Originals').all)
+      end
+    end
+
+    it "scrapes SMH ok" do
+      scrape_shows_index_spec(*Source.where(name: 'SMH.tv').all)
+    end
+
+    context 'TenScraper' do
+      it "scrapes 10 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'Ten').all)
+      end
+
+      it "scrapes 1 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'OneHd').all)
+      end
+
+      it "scrapes 11 ok" do
+        scrape_shows_index_spec(*Source.where(name: 'Eleven').all)
+      end
+
+      it "scrapes Neighbours ok" do
+        scrape_shows_index_spec(*Source.where(name: 'Neighbours').all)
+      end
+    end
   end
 
-  it "scrapes 9 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'NineMSN Fixplay').all)
-  end
 
-  it "scrapes ABC1 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'ABC 1').all)
-  end
+  context 'scraping episodes' do
+    it "scrapes 7 ok" do
+      scrape_show_episodes(*Source.where(name: 'Yahoo Plus7').all)
+    end
 
-  it "scrapes ABC2 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'ABC 2').all)
-  end
+    it "scrapes 9 ok" do
+      scrape_show_episodes(*Source.where(name: 'NineMSN Fixplay').all)
+    end
 
-  it "scrapes ABC3 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'ABC 3').all)
-  end
+    context 'ABCScraper' do
+      it "scrapes ABC1 ok" do
+        scrape_show_episodes(*Source.where(name: 'ABC 1').all)
+      end
 
-  it "scrapes iView ok" do
-    scrape_shows_index_spec(*Source.where(name: 'iView Originals').all)
-  end
+      it "scrapes ABC2 ok" do
+        scrape_show_episodes(*Source.where(name: 'ABC 2').all)
+      end
 
-  it "scrapes SMH ok" do
-    scrape_shows_index_spec(*Source.where(name: 'SMH.tv').all)
-  end
+      it "scrapes ABC3 ok" do
+        scrape_show_episodes(*Source.where(name: 'ABC 3').all)
+      end
 
-  it "scrapes 10 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'Ten').all)
-  end
+      it "scrapes iView ok" do
+        scrape_show_episodes(*Source.where(name: 'iView Originals').all)
+      end
+    end
 
-  it "scrapes 1 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'OneHd').all)
-  end
+    it "scrapes SMH ok" do
+      scrape_show_episodes(*Source.where(name: 'SMH.tv').all)
+    end
 
-  it "scrapes 11 ok" do
-    scrape_shows_index_spec(*Source.where(name: 'Eleven').all)
-  end
+    context 'TenScraper' do
+      it "scrapes 10 ok" do
+        scrape_show_episodes(*Source.where(name: 'Ten').all)
+      end
 
-  it "scrapes Neighbours ok" do
-    scrape_shows_index_spec(*Source.where(name: 'Neighbours').all)
-  end
+      it "scrapes 1 ok" do
+        scrape_show_episodes(*Source.where(name: 'OneHd').all)
+      end
 
+      it "scrapes 11 ok" do
+        scrape_show_episodes(*Source.where(name: 'Eleven').all)
+      end
 
-  # Episodes
-  it "scrapes 7 ok" do
-    scrape_show_episodes(*Source.where(name: 'Yahoo Plus7').all)
-  end
-
-  it "scrapes 9 ok" do
-    scrape_show_episodes(*Source.where(name: 'NineMSN Fixplay').all)
-  end
-
-  it "scrapes ABC1 ok" do
-    scrape_show_episodes(*Source.where(name: 'ABC 1').all)
-  end
-
-  it "scrapes ABC2 ok" do
-    scrape_show_episodes(*Source.where(name: 'ABC 2').all)
-  end
-
-  it "scrapes ABC3 ok" do
-    scrape_show_episodes(*Source.where(name: 'ABC 3').all)
-  end
-
-  it "scrapes iView ok" do
-    scrape_show_episodes(*Source.where(name: 'iView Originals').all)
-  end
-
-  it "scrapes SMH ok" do
-    scrape_show_episodes(*Source.where(name: 'SMH.tv').all)
-  end
-
-  it "scrapes 10 ok" do
-    scrape_show_episodes(*Source.where(name: 'Ten').all)
-  end
-
-  it "scrapes 1 ok" do
-    scrape_show_episodes(*Source.where(name: 'OneHd').all)
-  end
-
-  it "scrapes 11 ok" do
-    scrape_show_episodes(*Source.where(name: 'Eleven').all)
-  end
-
-  it "scrapes Neighbours ok" do
-    scrape_show_episodes(*Source.where(name: 'Neighbours').all)
+      it "scrapes Neighbours ok" do
+        scrape_show_episodes(*Source.where(name: 'Neighbours').all)
+      end
+    end
   end
 end
 
