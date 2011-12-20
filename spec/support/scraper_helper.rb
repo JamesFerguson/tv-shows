@@ -37,8 +37,10 @@ module ScraperHelper
     url = show.data_url
     ext = "#{url == source.url ? '.ep' : ''}.json"
 
-    download_page_if_new(source, url)
-    fake_page(show.source.scraper_class, url)
+    unless source.scraper == 'AbcScraper'
+      download_page_if_new(source, url)
+      fake_page(show.source.scraper_class, url)
+    end
 
     results = show.source.scraper_class.extract_episodes(show)
 
