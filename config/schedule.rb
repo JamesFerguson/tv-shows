@@ -19,7 +19,7 @@ env 'MAILTO', "jim"
 
 set :output, "~/Coding/tv-shows/log/cron.heroku.log"
 
-every :day, :at => ['9am', '12pm', '3:30pm', '8pm'] do
+every :day, :at => ['12pm', '3:30pm'] do
   command "cd ~/Coding/tv-shows && heroku rake web:scrape --trace"
 end
 
