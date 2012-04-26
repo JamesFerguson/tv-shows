@@ -19,21 +19,21 @@ class SevenScraper < BaseScraper
     show_url = URI.parse(show.data_url)
     page = Nokogiri::HTML(read_url(show.data_url))
 
-    show_deets = page.css("div.mod.tv-plus7-info p")
+    show_deets = page.css(".tv-plus7-info")
     show.update_attributes!(
-      :description => show_deets[1].text,
-      :image => show_deets.css('img').first['src'],
+      :description => show_deets.css('.summary').text,
+      :image => show_deets.css('.tv-plus7-links .site-logo img').first['src'],
       :classification => show_deets.css('strong').first.text,
       :genre => show_deets.css('strong').last.text,
     )
 
-    episodes = page.css("ul#related-episodes .itemdetails").reverse.map.with_index do |node, index|
-      title = node.css('h3 a').first
+    episodes = page.css("#related-episodes li").reverse.map.with_index do |node, index|
       {
-        :name => title.children[3].text.squish,
-        :url => show_url.merge(title.attributes['href'].value).to_s,
-        :description => node.css('p').first.text,
-        :ordering => index + 1
+        name: node.css('.subtitle').first.text.squish,
+        url: show_url.merge(node.css('a.vidimg').first.attributes['href'].value).to_s,
+        image: node.css('img.listimg').first['src'],
+        description: node.css('.itemdetails p').text.squish,
+        ordering: index + 1
       }
     end
   end
