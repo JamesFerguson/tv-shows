@@ -1,7 +1,7 @@
 atom_feed do |feed|
   feed.title("TV Shows")
   feed.updated(
-    @tv_shows.first.try(:updated_at) ||
+    @tv_shows.active.first.try(:updated_at) ||
     Date.today
   )
 
