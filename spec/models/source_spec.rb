@@ -54,9 +54,9 @@ describe Source do
 
     it "removes shows/episodes not in the feed and of a certain age" do
       @b = @source.tv_shows.make
-      @b.update_attributes!(:deactivated_at => DateTime.now - 4.months - 1.day)
+      @b.update_attributes!(:deactivated_at => DateTime.now - 6.months - 1.day)
       @b1 = @b.episodes.make
-      @b1.update_attributes!(:deactivated_at => DateTime.now - 4.months - 1.day)
+      @b1.update_attributes!(:deactivated_at => DateTime.now - 6.months - 1.day)
       @source.scraper_class.stub(:extract_shows).and_return([])
 
       @source.scrape
