@@ -2,7 +2,9 @@ require 'spec_helper'
 
 describe "TvShowController#show, :format => :atom" do
 
-  before do
+  before(:all) do
+    Source.destroy_all
+
     @source = Source.create!(
       :name => "Channel Twenty Seven",
       :url => "Source URL goes here"
