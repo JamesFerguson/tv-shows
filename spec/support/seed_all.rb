@@ -1,82 +1,82 @@
 def seed_tv_shows
   tv_shows = [
     {
-      :source => "NineMSN Fixplay",
-      :name => "The Farmer Wants a Wife",
-      :data_url => "http://fixplay.ninemsn.com.au/thefarmerwantsawife"
+      source: "NineMSN Fixplay",
+      name: "The Farmer Wants a Wife",
+      data_url: "http://fixplay.ninemsn.com.au/thefarmerwantsawife"
     },
     {
-      :source => "Yahoo Plus7",
-      :name => "Jeeves and Wooster",
-      :data_url => "http://au.tv.yahoo.com/plus7/jeeves-and-wooster/"
+      source: "Yahoo Plus7",
+      name: "Home and Away",
+      data_url: "http://au.tv.yahoo.com/plus7/home-and-away/"
     },
     {
-      :source => "ABC 1",
-      :name => "Lateline",
-      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/829820",
-      :image => "http://www.abc.net.au/reslib/201006/r581475_3661101.jpg",
-      :genre => "News"
+      source: "ABC 1",
+      name: "Lateline",
+      data_url: "http://tviview.abc.net.au/iview/rss/category/abc1.xml",
+      homepage_url: "http://www.abc.net.au/iview/#/view/829820",
+      image: "http://www.abc.net.au/reslib/201006/r581475_3661101.jpg",
+      genre: "News"
     },
     {
-      :source => "ABC 2",
-      :name => "Good Game",
-      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/846379",
-      :image => "http://www.abc.net.au/reslib/201104/r749673_6204464.jpg",
-      :genre => "Lifestyle"
+      source: "ABC 2",
+      name: "Good Game",
+      data_url: "http://tviview.abc.net.au/iview/rss/category/abc2.xml",
+      homepage_url: "http://www.abc.net.au/iview/#/view/846379",
+      image: "http://www.abc.net.au/reslib/201104/r749673_6204464.jpg",
+      genre: "Lifestyle"
     },
     {
-      :source => "ABC 3",
-      :name => "The Legend of Dick and Dom",
-      :data_url => "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/630135",
-      :image => "http://www.abc.net.au/reslib/201008/r629538_4281189.jpg",
-      :genre => "Abc3"
+      source: "ABC 3",
+      name: "The Legend of Dick and Dom",
+      data_url: "http://tviview.abc.net.au/iview/rss/category/abc3.xml",
+      homepage_url: "http://www.abc.net.au/iview/#/view/630135",
+      image: "http://www.abc.net.au/reslib/201008/r629538_4281189.jpg",
+      genre: "Abc3"
     },
     {
-      :source => "iView Originals",
-      :name => "Rage Highlights",
-      :data_url => "http://tviview.abc.net.au/iview/rss/category/original.xml",
-      :homepage_url => "http://www.abc.net.au/iview/#/view/844703",
-      :image => "http://www.abc.net.au/reslib/201107/r806055_7149136.jpg",
-      :genre => "Arts"
+      source: "iView Originals",
+      name: "Rage Highlights",
+      data_url: "http://tviview.abc.net.au/iview/rss/category/original.xml",
+      homepage_url: "http://www.abc.net.au/iview/#/view/844703",
+      image: "http://www.abc.net.au/reslib/201107/r806055_7149136.jpg",
+      genre: "Arts"
     },
     {
-      :source => "SMH.tv",
-      :name => "Baby Baby",
-      :data_url => "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
+      source: "SMH.tv",
+      name: "Baby Baby",
+      data_url: "http://www.smh.com.au/tv/show/baby-baby-20110308-1bm6s.html"
     },
     {
-      :source => "Ten",
-      :name => "Totally Wild",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => "Children's TV"
+      source: "Ten",
+      name: "Totally Wild",
+      data_url: "http://api.v2.movideo.com/rest/playlist/41457?depth=1&token=23789ee7-a6ee-48f0-9931-4fa85965baf3&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      genre: "Children's TV"
     },
     {
-      :source => "OneHd",
-      :name => "RPM | Full Episodes",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/44315?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => "Sports Shows"
+      source: "OneHd",
+      name: "RPM | Full Episodes",
+      data_url: "http://api.v2.movideo.com/rest/playlist/44315?depth=1&token=1d43e9b0-1352-4b34-9c65-2cc57c112171&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      genre: "Sports Shows"
     },
     {
-      :source => "Eleven",
-      :name => "CouchTime | Full Episodes",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/44060?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => ''
+      source: "Eleven",
+      name: "CouchTime | Full Episodes",
+      data_url: "http://api.v2.movideo.com/rest/playlist/44060?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      genre: ''
     },
     {
-      :source => "Neighbours",
-      :name => "Neighbours",
-      :data_url => "http://api.v2.movideo.com/rest/playlist/41267?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
-      :genre => "Drama"
+      source: "Neighbours",
+      name: "Neighbours",
+      data_url: "http://api.v2.movideo.com/rest/playlist/41267?depth=1&token=5c8d7056-1d4e-44de-967d-13731df0d3d8&mediaLimit=50&includeEmptyPlaylists=false&omitFields=client,copyright,mediaSchedules,cuePointsExist,encodingProfiles,filename,imageFilename,mediaFileExists,mediaType,ratio,status,syndicated,tagProfileId,advertisingConfig,tagOptions,podcastSupported,syndicatedPartners,creationDate,lastModifiedDate,isAdvertisement,imagePath",
+      genre: "Drama"
     }
   ]
 
   tv_shows.each do |show_data|
     source_name = show_data.delete(:source)
 
-    collection = Source.where(:name => source_name).first.tv_shows
+    collection = Source.where(name: source_name).first.tv_shows
 
     Source.find_or_create(collection, :name, show_data)
   end
@@ -87,12 +87,12 @@ def seed_sources
 end
 
 SEEDED_SHOW_ATTRS = {
-  "Jeeves and Wooster" => {
-    "name"=>"Jeeves and Wooster",
-    "description" => "Comedy drama series following the insane shenanigans of Bertram Wooster (Hugh Laurie) and his faithful butler Jeeves (Stephen Fry). Each episode sees Wooster unwittingly caught up in some kind of scrape, and each time it's down to his trusty aide Jeeves to come up with a cunning masterplan to get him off the hook.", 
-    "classification" => "PG", 
-    "genre" => "Comedy", 
-    "image" => "http://l.yimg.com/ao/i/tv/portal/promos/autv-plus7-jeeves-and-wooster.jpg"
+  "Home and Away" => {
+    "name" => "Home and Away",
+    "description" => "Following the lives and loves of the residents of Summer Bay in this long-running Australian drama series. Stars Ray Meagher as Alf Stewart, Lynne McGranger as Irene Roberts and Steve Peacocke as Daryl Braxton",
+    "classification"=>"5K\n                ",
+    "genre"=>"Soap Opera",
+    "image"=>"http://l.yimg.com/ao/i/tv/portal/promos/h&a_p7_thumbnail_aw.jpg"
   },
   "The Farmer Wants a Wife" => {
     "name" => "The Farmer Wants a Wife",
