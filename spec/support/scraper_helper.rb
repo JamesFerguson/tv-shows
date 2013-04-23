@@ -84,7 +84,7 @@ module ScraperHelper
   end
 
   def prefill_results(source, url, results, ext = '.json')
-    puts "Writing the following json to spec/fakeweb/results/#{fakewebize(url)}#{ext} for #{source.name}:"
+    puts "\nWriting the following json to spec/fakeweb/results/#{fakewebize(url)}#{ext} for #{source.name}:"
     ap results
     File.open(Rails.root.join("spec/fakeweb/results/#{fakewebize(url)}#{ext}"), 'w') { |f| f.puts results.to_json }
   end

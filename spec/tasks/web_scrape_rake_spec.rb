@@ -26,7 +26,7 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_shows"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 63,
+        "Yahoo Plus7" => 55,
         "NineMSN Fixplay" => 19,
         "ABC 1" => 74,
         "ABC 2" => 32,
@@ -60,7 +60,7 @@ describe "rake web:scrape_*" do
       @rake["web:scrape_episodes"].invoke
 
       expectations = {
-        "Yahoo Plus7" => 628,
+        "Yahoo Plus7" => 247,
         "NineMSN Fixplay" => 215,
         "ABC 1" => 154,
         "ABC 2" => 64,

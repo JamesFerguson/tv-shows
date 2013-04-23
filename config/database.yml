@@ -16,6 +16,7 @@ development:
 test:
   database: tv_shows_test
   <<: *DEFAULTS
+  adapter: sqlite3
 
 production:
   database: tv_shows_production
