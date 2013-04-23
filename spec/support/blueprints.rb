@@ -1,23 +1,17 @@
 require 'machinist/active_record'
-require 'sham'
 require 'forgery'
 
-Sham.name { Forgery::Name.full_name }
-
-Sham.source_name { |index| "Channel #{index}" }
 Source.blueprint do
-  name  { Sham.source_name }
+  name  { "Channel #{sn}" }
 end
 
 TvShow.blueprint do
-  name  { Sham.name }
-  data_url   { "http://#{name.parameterize}" }
+  name  { Forgery::Name.full_name }
+  data_url   { "http://#{object.name.parameterize}" }
 end
 
-Sham.episode_name { |index| "Episode #{index}" }
-Sham.ordering { |index| index }
 Episode.blueprint do
-  name      { Sham.episode_name }
-  url       { "http://#{name.parameterize}" }
-  ordering  { Sham.ordering }
+  name      { "Episode #{sn}" }
+  url       { "http://#{object.name.parameterize}" }
+  ordering  { object.tv_show.episodes.count + 1 }
 end
