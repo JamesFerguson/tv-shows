@@ -15,7 +15,7 @@ gem 'nokogiri-happymapper',
   :git => "git://github.com/JamesFerguson/happymapper.git",
   :branch => 'master',
   :require => 'happymapper'
-gem 'scrapi'
+#gem 'scrapi'
 gem 'heroku'
 gem 'taps'
 gem 'friendly_id'
