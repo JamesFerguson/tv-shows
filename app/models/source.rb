@@ -12,7 +12,7 @@ class Source < ActiveRecord::Base
   def scrape_shows
     mark_all(tv_shows)
     scrape_show_data
-    cleanup(tv_shows, DateTime.now - 4.months)
+    cleanup(tv_shows, DateTime.now - 6.months) # delete shows not seen for 6 months
     self.reload
   end
 
@@ -22,7 +22,7 @@ class Source < ActiveRecord::Base
 
     scrape_episode_data
 
-    cleanup(episodes, DateTime.now - 2.weeks)
+    cleanup(episodes, DateTime.now - 2.weeks) # delete episodes not seen for two weeks (attempt to avoid episodes showing as new after a bad scrape or two)
   end
 
   def scraper_class

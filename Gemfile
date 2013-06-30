@@ -1,9 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git' # edge rails
 # gem 'mysql2', '~> 0.2.1'
 gem 'pg'
+gem 'sqlite3'
 gem 'bundler'
 
 # Deploy with Capistrano
@@ -14,7 +15,6 @@ gem 'nokogiri-happymapper',
   :git => "git://github.com/JamesFerguson/happymapper.git",
   :branch => 'master',
   :require => 'happymapper'
-gem 'scrapi'
 gem 'heroku'
 gem 'taps'
 gem 'friendly_id'

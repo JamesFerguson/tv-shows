@@ -1,9 +1,10 @@
-- faster abc/ten scraping (load page once)
+- fix smh scraper, implement in wombat
+- sbs scraper
 - ten scraper
   - implement all satellites
   - cleaner tunnel - check urls against heroku
-- sbs scraper
 - manage discontinued shows better
+- faster abc/ten scraping (load page once)
 - feed for one episode shows (exclude shows that have had more than one in the past)
 - per genre feeds of shows
 - capture all seasons, not just the newest
@@ -13,3 +14,7 @@
 - rename seed_all spec_seeds
 - homepage
   - screencast
+
+- scrape shows in cron and new shows' episodes and scrape episodes on show feed hit (w 1hr cache)
+  - some mechanism to ensure episode lists in All Shows feed aren't ancient
+- md5 wombat output and skip if same as last
